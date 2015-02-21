@@ -1,0 +1,66 @@
+.row.full-width {
+  width: 100%;
+  max-width: 100%; 
+}
+
+/*header*/
+
+.header {
+	display: inline-block;
+	background-color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 19px 19px 19px 19px;
+	margin: 12px 12px 12px 0px;
+	border-radius: 3px;
+}
+
+
+.headertitle {
+	color: #808080;
+	font-weight: 200;
+}
+
+
+.headerimage {
+	background-image: url("../img/box.jpg");
+	background-repeat:no-repeat;
+   height:400px;
+}
+
+
+/************************************************************************/
+.whitewrapper {
+	background-color: white;
+	margin-top: 30px;
+}
+.center {
+	text-align: center;
+}
+
+.title {
+	font-size: 1.6rem;
+}
+
+h1 {
+	color: #555553;
+}
+
+.nav-bar a {
+	display: inline-block;
+	text-align: center;
+	color: #555553;
+	font-size: 1em;
+	margin: 0 15px;
+	text-decoration: none;
+}
+
+.nav-bar a:hover {
+	opacity:.70;
+	filter:alpha(opacity=70);
+}
+
+.no-margin {
+	margin: 0;
+	padding: 0;
+}
