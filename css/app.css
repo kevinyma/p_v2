@@ -64,3 +64,14 @@ h1 {
 	margin: 0;
 	padding: 0;
 }
+p {
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+}
+
+.projectimg {
+	padding-left: 40px;
+}
+
+.entry {
+}
