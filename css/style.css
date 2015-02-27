@@ -1,4 +1,14 @@
-/* Global */
+/* Global
+color 1: #4CAF50;         green
+color 2: #00bcd4;       blue
+
+
+#00BCD4   cyan
+#4CAF50   orange
+ */
+
+
+
 
 body {
 	font-family: 'Source Sans Pro','Open Sans', Helvetica Neue, sans-serif;
@@ -12,7 +22,7 @@ img {
 }
 
 #title a {
-	color: #009688;
+	color: #4CAF50;
 }
 
 #title a:hover {
@@ -23,7 +33,7 @@ img {
 	text-decoration: underline;
 }
 
-#slide1 a {
+.introduction a {
 	color: #00bcd4;
 }
 
@@ -42,7 +52,9 @@ a:hover {
 	text-decoration: underline;
 }
 
-
+li a {
+	color: black;
+}
 
 
 h3 a {
@@ -55,6 +67,11 @@ h3 a {
 	padding:0 30px 0 20px;
 }
 
+.what {
+	float: left;
+	padding:0 30px 0 20px;
+	color: black;
+}
 /************************ Navigation ***************************/
 
 #logo p {
@@ -96,7 +113,7 @@ nav {
 
 /*.navigation .active{
 	cursor:pointer;
-	color: #009688;
+	color: #4CAF50;
 	font-weight:bold;
 }*/
 
@@ -113,8 +130,19 @@ nav {
 }
 
 #slide1 {
-	margin-top: 17%;
+	margin-top: 15%;
 	margin-bottom: 22%;
+}
+
+#readthefullstory {
+	text-align: center;
+	margin-top: 35px;
+	font-weight: 200;
+	font-size: 1.2rem;
+}
+
+#readthefullstory a {
+	color: #4CAF50;
 }
 
 
@@ -141,7 +169,7 @@ nav {
 .category {
 	font-size: 1rem;
 	font-weight: 300;
-	color: #009688;
+	color: #4CAF50;
 	padding-bottom: 14px;
 }
 .description {
@@ -165,7 +193,7 @@ nav {
 
 /********************************SOCIAL MEDAYA STUFF****************************/
 
-#slide4 {
+#slide3 {
 	margin-top: 5%;
 	margin-bottom: 4%;
 }
@@ -237,7 +265,7 @@ footer {
 #slide3{
 	background-color:#ffffff;
 }
-#slide3 h1 {
+/*#slide3 h1 {
 	font-size: 2em;
 	letter-spacing: -3px;
 	line-height: 0px;
@@ -259,7 +287,7 @@ footer {
 	font-weight: 400;
 }
 
-
+*/
 
 
 /* Slide 4 */
