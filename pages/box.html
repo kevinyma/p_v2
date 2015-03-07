@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
 	<title>Kevin Ma</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,600,700,400italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="../css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="../css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen">
@@ -23,7 +24,7 @@
 		<nav class="container clearfix" id="nav-container">
 
 			<div id="logo" class="grid_3">
-				<p id="title"><a href="../index.html">KEVIN MA</a></p>
+				<p id="title"><a href="../index.html">Kevin Ma</a></p>
 			</div>
 
 			<div id="nav" class="grid_9 omega">
@@ -37,52 +38,53 @@
 		</nav>
 	</div>
 
-	<div class="bannerimg">
+<!-- 	<div class="bannerimg">
 		<div class="container clearfix" id="bannerimg">
 			<div id="content" class="grid_12">
-				<img src="../img/boxbanner2.png">
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="slide boxslide" id="projectslide" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
+
 			<div id="content" class="grid_12">
-				<p class="introduction">BOX!</p>
-				<div class="columns">
+				<h2>BOX!</h2>
+				<p><strong>Programming:</strong> Jeremy Cytryn, <a href="http://renchusong.github.io/portfolio/">Renchu Song</a>, Sam Chen and Will Peck</p>
+						<p><strong>User Experience Design and Art:</strong> <a href="http://nndiebold.tumblr.com/">Natalie Diebold</a> and me</a></p>
+						<p><strong>Music:</strong> Brigid Choi</p><br>
+						
+						
+				<img src="../img/pixelbg.jpg">
+				<div class="grid_10">
+					<p class="bigtext">We wanted to build a puzzle game that would challenge the player to think in a different way than they
+							were accustomed to in typical platformers. <br><br>In the brainstorming phase, one of our programmers demonstrated how a 2D shape could “traverse” across the edges of a cube, and end up on the face it started on in a completely different orientation. <br><br>
+							From that moment we were hooked.</p>
+				</div>
+			</div>
+
+
+			<div id="content" class="grid_12">
+				<h3>Goals</h3>
+
+				<p>The task was to create an original flash game in the course of a semester. The flash game format allowed us to leverage an existing "deployment circuit" of flash game sites to release prototypes and iterate on them based on collected player analytics and user feedback.</p><br>
+				<p>
+				We identified a target audience of players aged 18-40, who play flash games for leisure. These players are "casual" gamers who will stop playing when the game stops being fun. Keeping this in mind, we established that our design goals would be to:
+					<ul>
+						<li>Teach the player the core game mechanics through a well calibrated learning curve and clever level design</li>
+						<li>Provide increasingly difficult challenges for the player's spatial/lateral thinking abilities</li>
+					</ul>
+				</p>
 
 						<!-- UX is the research, hypothesis, testing and the construction of a logical argument as to why the design is good. This is because in UX design, it's often not what you do but how you do it that counts. -->
 					
-						<br><p>Programming: Jeremy Cytryn, <a href="http://renchusong.github.io/portfolio/">Renchu Song</a>, Sam Chen and Will Peck</p>
-						<p>User Experience Design and Art: <a href="http://nndiebold.tumblr.com/">Natalie Diebold</a> and me</a></p>
-						<p>Music: Brigid Choi</p><br>
-						
-						<p>The task was to create an original flash game in the course of a semester. The flash game format allowed us to leverage an existing "deployment circuit" of flash game sites to release prototypes and iterate on them based on collected player analytics and user feedback.</p><br>
 
-						<p>Our team wanted to build a puzzle game that would challenge the player to think in a different way than they
-							were accustomed to in typical platformers. In the brainstorming phase, one of our programmers demonstrated how a 2D shape could “traverse” across the edges of a cube, and end up on the face it started on in a completely different orientation. </p><br>
 
-							<img src="http://placehold.it/200x200&text=Like+So">
-
-						<p>Mind bending spatial orientation puzzles? We were hooked.</p><br>
-				</div>
 			</div>
 			
 			<div id="content" class="grid_12">
-				<img src="../img/boxstoryboards.jpg" alt="storyboards">
-				<p class="introduction">Prototyping </p>
-				<div class="columns">
+				<h3>Prototyping </h3>
 			
-						<p>
-						We established a target audience of players ages 18-40 who play flash games for enjoyment. These players are "casual" gamers who will stop playing when the game stops being fun. With this in mind, we established that our design goals would be to:
-						<ol>
-							
-							<li>Teach the player the core game mechanics through a well calibrated learning curve and clever level design</li>
-							<li>Provide increasingly difficult challenges for the player's spatial/lateral thinking abilities</li>
-						</ol>
-						</p>
-
-						<p> </p>
 						<p>Our initial ideas came together in the form of a paper prototype. A grid made the most sense to us, as our levels were square in shape and thus and could be subdivided into a grid of smaller squares.  
 
 							We created a grid of 14 by 14 squares on each side of a cube, and levels which involved the use of at least 3 sides. We explained the player mechanics and rules from the onset, and avoided giving the users hints of any kind. Players were encouraged to "think out loud" as they played through our prototype, and vocalize any strategy or plan for getting to the next face. </p>
@@ -90,45 +92,35 @@
 							An issue with the paper prototype was that players found it too easy to navigate through the level. In response, we cut the size of a side down to a 7*7 grid. 
 						</p>
 			</div>
-			</div>
 
 
 			<div id="content" class="grid_12">
-				<img src="../img/leveldesign.jpg" alt="storyboards">
-				<p class="introduction">Level design</p>
-				<div class="columns">
-						<p>
-							The next phase, the creation of a technical prototype was centered on level design. Every team member designed a set of levels intending to introduce the player to the game, and we came together and combined elements of everyone's levels, looking for things that would intuitively teach the player how thespatial orientation aspect of the game worked. Natalie Diebold spearheaded the level design phase.
-
-							The levels were implemented in a technical prototype, which we tested by watching players in real time.
-
-						</p>
-						
-							
-						
-
-					</div>
-
-				</div>
+				
+				<h3>Level design</h3>
+				<img src="../img/leveldesign.jpg" alt="storyboards" width="500">
+					<p>
+						The next phase, the creation of a technical prototype was centered on level design. Every team member designed a set of levels intending to introduce the player to the game, and we came together and combined elements of everyone's levels, looking for things that would intuitively teach the player how thespatial orientation aspect of the game worked. 
+						The levels were implemented in a technical prototype, which we tested by watching players in real time.
+					</p>
+			</div>
 
 				<div id="content" class="grid_12">
-				<p class="introduction">Stumbling Blocks</p>
-				<div class="columns">
+				<h3>Stumbling Blocks</h3>
+
 					
 						<p>
-							Mecahnics are taught through reinforcement. But what is the best way to teach a game mechanic-say, building a block, in the first place? We quickly found that <span class="bold">users do not read text in games</span> unless the text is part of the story. Even in that case, users tend to fast forward, to get to the gameplay. This meant that listing our game mechanics was uneffective. We had to seamlessly incorporate them into the gameplay. I came up with the idea of a series of text bubbles that would appear when a player was confronted with a challenge for the first time, or they took too long completing a challenge.
+							Mechanics are taught through reinforcement. But what is the best way to teach a game mechanic-say, building a block, in the first place? We quickly found that <span class="bold">users do not read text in games</span> unless the text is part of the story. Even in that case, users tend to fast forward, to get to the gameplay. This meant that listing our game mechanics was uneffective. We had to seamlessly incorporate them into the gameplay. I came up with the idea of a series of text bubbles that would appear when a player was confronted with a challenge for the first time, or they took too long completing a challenge.
 
 							Data collected from A/B testing revealed less time spent on each level, and a smaller player fall off rate per level, when the thought bubbles took the place of the instructional text we had at the top of the screen. 
 						</p>
 				</div>
-				</div>
 				
 				<div id="content" class="grid_12">
-				<p class="introduction">Takeaways</p>
-				<div class="columns">
-						<p>Looking back on the semester, a lot could have been done differently. In the meantime, enjoy <i>BOX!</i> on <a href="http://www.kongregate.com/games/Casiogre/box">Kongregate!</a></p>
+				<h3></h3>
+
+						<p><i>BOX!</i> can be played on <a href="http://www.kongregate.com/games/Casiogre/box">Kongregate</a>.</p>
 						</p>
-				</div>
+
 				</div>
 
 
@@ -149,7 +141,11 @@
 				<div class="grid_3"><a href="http://pearlcourses.com"><img src="../img/pearl.png" alt="boximg" class="projectimage"></a></div> 
 				<div class="grid_3"><a href="box.html"><img src="../img/box.png" alt="boximg" class="projectimage"></a></div> 
 				<div class="grid_3"><a href="fitshare.html"><img src="../img/fitshare.png" alt="boximg" class="projectimage"></a></div> 
-				<div class="grid_3 omega"><a href="computeranimation.html"><img src="../img/computeranimation.png" alt="boximg" class="projectimage"></a></div> 
+				<div class="grid_3 omega"><a href="bodyarmor.html"><img src="../img/bodyarmor.png" alt="boximg" class="projectimage"></a></div> 
+				<br>
+				<div class="grid_3"><a href="computeranimation.html"><img src="../img/computeranimation.png" alt="boximg" class="projectimage"></a></div> 
+				<div class="grid_3"><a href="freehand.html"><img src="../img/freehand.png" alt="boximg" class="projectimage"></a></div> 
+
 
 			</div>
 		</div>
@@ -164,23 +160,24 @@
 		</div>
 	</div> -->
 
-	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
-				<p class="introduction">drop me an <a href="mailto:kym5@cornell.edu">email</a>, follow me on <a href="http://twitter.com/messybin">Twitter</a>, 
-					check out my <a href="http://behance.com/kevinyma">Behance</a>, or 
+				<div class="grid_9">
+				<p class="bigtext">drop me an <a href="mailto:kym5@cornell.edu">email</a>, follow me on <a href="http://twitter.com/messybin">Twitter</a>, 
+					 or 
 					connect with me on <a href="http://www.linkedin.com/in/kevinyma">LinkedIn</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<footer><p>© Kevin Ma 2015</p></footer>
-
+	<div class="container clearfix"><div id="content" class="grid_12"><footer><p>© Kevin Ma 2015</p></footer></div></div>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
-	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+
 </body>
 </html>
