@@ -121,12 +121,16 @@ nav {
 
 
 .introduction {
-	width: 79%;
+	width: 87%;
 	margin: 0 auto;
 	font-size: 2rem;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
+}
+
+.thinner {
+	width: 79%;
 }
 
 #slide1 {
@@ -147,6 +151,8 @@ nav {
 
 
 
+
+
 /********************************PROJECTS****************************/
 
 .projectstitle {
@@ -156,7 +162,7 @@ nav {
 }
 
 .project {
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
 
 .project h3{
@@ -172,6 +178,18 @@ nav {
 	color: #4CAF50;
 	padding-bottom: 14px;
 }
+
+.viewlink {
+	font-size: 0.9rem;
+	font-weight: 300;
+	padding-top: 14px;
+}
+
+.viewlink a {
+
+	color: #4CAF50;
+}
+
 .description {
 	text-align: left;
 	font-size: 1rem;
@@ -186,8 +204,12 @@ nav {
 }
 
 .projectimage:hover {
-	box-shadow: 2px 2px 2px 1px #ccc;
 	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.unclickableprojectimage {
+	float: left;
+	box-shadow: 2px 2px 2px 1px #ccc;
 }
 
 
@@ -204,6 +226,47 @@ nav {
 footer {
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+/**********************************************box page general**************************************************/
+
+box-slide {
+	width: 79%;
+
+}
+
+
+/*******************************stuff that appears on every project page hohoho*****************************************/
+
+#bannerimg {
+	max-width: 100%;
+	width: 100%;
+}
+
+
+.baloney {
+	padding: 30px;
+}
+
+
+#projectslide {
+	margin top: 4%;
+	margin bottom: 3%;
+}
+
+
+.columns {
+/*    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+
+
+    -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;*/
+	
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 

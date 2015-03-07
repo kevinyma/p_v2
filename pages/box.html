@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="../css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="../css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen">
-	<link rel="icon" type="image/png" href="img/icon.png">
+	<link rel="icon" type="image/png" href="../img/icon.png">
 	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -37,14 +37,102 @@
 		</nav>
 	</div>
 
+	<div class="bannerimg">
+		<div class="container clearfix" id="bannerimg">
+			<div id="content" class="grid_12">
+				<img src="../img/boxbanner2.png">
+			</div>
+		</div>
+	</div>
 
-	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+	<div class="slide boxslide" id="projectslide" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
-
 			<div id="content" class="grid_12">
 				<p class="introduction">BOX!</p>
+				<div class="columns">
 
+						<!-- UX is the research, hypothesis, testing and the construction of a logical argument as to why the design is good. This is because in UX design, it's often not what you do but how you do it that counts. -->
+					
+						<br><p>Programming: Jeremy Cytryn, <a href="http://renchusong.github.io/portfolio/">Renchu Song</a>, Sam Chen and Will Peck</p>
+						<p>User Experience Design and Art: <a href="http://nndiebold.tumblr.com/">Natalie Diebold</a> and me</a></p>
+						<p>Music: Brigid Choi</p><br>
+						
+						<p>The task was to create an original flash game in the course of a semester. The flash game format allowed us to leverage an existing "deployment circuit" of flash game sites to release prototypes and iterate on them based on collected player analytics and user feedback.</p><br>
+
+						<p>Our team wanted to build a puzzle game that would challenge the player to think in a different way than they
+							were accustomed to in typical platformers. In the brainstorming phase, one of our programmers demonstrated how a 2D shape could “traverse” across the edges of a cube, and end up on the face it started on in a completely different orientation. </p><br>
+
+							<img src="http://placehold.it/200x200&text=Like+So">
+
+						<p>Mind bending spatial orientation puzzles? We were hooked.</p><br>
+				</div>
 			</div>
+			
+			<div id="content" class="grid_12">
+				<img src="../img/boxstoryboards.jpg" alt="storyboards">
+				<p class="introduction">Prototyping </p>
+				<div class="columns">
+			
+						<p>
+						We established a target audience of players ages 18-40 who play flash games for enjoyment. These players are "casual" gamers who will stop playing when the game stops being fun. With this in mind, we established that our design goals would be to:
+						<ol>
+							
+							<li>Teach the player the core game mechanics through a well calibrated learning curve and clever level design</li>
+							<li>Provide increasingly difficult challenges for the player's spatial/lateral thinking abilities</li>
+						</ol>
+						</p>
+
+						<p> </p>
+						<p>Our initial ideas came together in the form of a paper prototype. A grid made the most sense to us, as our levels were square in shape and thus and could be subdivided into a grid of smaller squares.  
+
+							We created a grid of 14 by 14 squares on each side of a cube, and levels which involved the use of at least 3 sides. We explained the player mechanics and rules from the onset, and avoided giving the users hints of any kind. Players were encouraged to "think out loud" as they played through our prototype, and vocalize any strategy or plan for getting to the next face. </p>
+						<p>
+							An issue with the paper prototype was that players found it too easy to navigate through the level. In response, we cut the size of a side down to a 7*7 grid. 
+						</p>
+			</div>
+			</div>
+
+
+			<div id="content" class="grid_12">
+				<img src="../img/leveldesign.jpg" alt="storyboards">
+				<p class="introduction">Level design</p>
+				<div class="columns">
+						<p>
+							The next phase, the creation of a technical prototype was centered on level design. Every team member designed a set of levels intending to introduce the player to the game, and we came together and combined elements of everyone's levels, looking for things that would intuitively teach the player how thespatial orientation aspect of the game worked. Natalie Diebold spearheaded the level design phase.
+
+							The levels were implemented in a technical prototype, which we tested by watching players in real time.
+
+						</p>
+						
+							
+						
+
+					</div>
+
+				</div>
+
+				<div id="content" class="grid_12">
+				<p class="introduction">Stumbling Blocks</p>
+				<div class="columns">
+					
+						<p>
+							Mecahnics are taught through reinforcement. But what is the best way to teach a game mechanic-say, building a block, in the first place? We quickly found that <span class="bold">users do not read text in games</span> unless the text is part of the story. Even in that case, users tend to fast forward, to get to the gameplay. This meant that listing our game mechanics was uneffective. We had to seamlessly incorporate them into the gameplay. I came up with the idea of a series of text bubbles that would appear when a player was confronted with a challenge for the first time, or they took too long completing a challenge.
+
+							Data collected from A/B testing revealed less time spent on each level, and a smaller player fall off rate per level, when the thought bubbles took the place of the instructional text we had at the top of the screen. 
+						</p>
+				</div>
+				</div>
+				
+				<div id="content" class="grid_12">
+				<p class="introduction">Takeaways</p>
+				<div class="columns">
+						<p>Looking back on the semester, a lot could have been done differently. In the meantime, enjoy <i>BOX!</i> on <a href="http://www.kongregate.com/games/Casiogre/box">Kongregate!</a></p>
+						</p>
+				</div>
+				</div>
+
+
+
 
 
 		</div>
@@ -54,33 +142,19 @@
 
 	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
-			<div id="content" class="grid_12">
+<!-- 			<div id="content" class="grid_12">
 				<h1 class="projectstitle">PROJECTS</h1>
-			</div>
+			</div> -->
 			<div id="content" class="project grid_12">
-				<div class="grid_6"><a href="box.html"><img src="img/box.png" alt="boximg" class="projectimage"></a></div> 
-				<div class="grid_6 omega"><h3><a href="box.html">BOX!</a></h3><p class="category">User Experience Design</p><p class="description">In a team of six, we built a puzzle platformer game over the course of a semester. We iterated over several one month development cycles, eventually releasing the final game on Kongregate and Newgrounds. BOX! has since been played by over 80,000 people. </p></div>
+				<div class="grid_3"><a href="http://pearlcourses.com"><img src="../img/pearl.png" alt="boximg" class="projectimage"></a></div> 
+				<div class="grid_3"><a href="box.html"><img src="../img/box.png" alt="boximg" class="projectimage"></a></div> 
+				<div class="grid_3"><a href="fitshare.html"><img src="../img/fitshare.png" alt="boximg" class="projectimage"></a></div> 
+				<div class="grid_3 omega"><a href="computeranimation.html"><img src="../img/computeranimation.png" alt="boximg" class="projectimage"></a></div> 
+
 			</div>
-
-<!-- 			<article id="content" class="project grid_12">
-				<div class="grid_6"><a href="applefest.html"><img src="img/applefest.png" alt="boximg" class="projectimage"></a></div> 
-				<div class="grid_6 omega"><h3><a href="applefest.html">Applefest 2015</a></h3><p class="category">Web Design</p><p class="description">The Ithaca Apple Harvest Festival is the premeir event of its kind.  </p></div>
-			</article> -->
-
-			<article id="content" class="project grid_12">
-				<div class="grid_6"><a href="fitshare.html"><img src="img/fitshare.png" alt="boximg" class="projectimage"></a></div> 
-				<div class="grid_6 omega"><h3><a href="fitshare.html">Fitshare</a></h3><p class="category">User Experience Design</p><p class="description">Fitshare is a web interface prototype created during the duration of the class Human Computer Interaction.   </p></div>
-			</article>
-
-			<article id="content" class="project grid_12">
-				<div class="grid_6"><a href="computeranimation.html"><img src="img/computeranimation.png" alt="boximg" class="projectimage"></a></div> 
-				<div class="grid_6 omega"><h3><a href="computeranimation.html">Cornell Computer Animation</a></h3><p class="category">Web Development</p><p class="description">I helped rethink and redesign the look of the Cornell Computer Animation Club's web presence.   </p></div>
-			</article>
 		</div>
 
 	</div>
-
-
 
 <!-- 	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
@@ -89,8 +163,6 @@
 
 		</div>
 	</div> -->
-
-
 
 	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
