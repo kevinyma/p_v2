@@ -1,9 +1,9 @@
 /* Global
 color 1: #4CAF50;         green
-color 2: #00bcd4;       blue
+color 2: #FB8C00;       blue
 
 
-#00BCD4   cyan
+#FB8C00   cyan
 #4CAF50   orange
  */
 
@@ -34,14 +34,14 @@ img {
 }
 
 .bigtext a {
-	color: #00bcd4;
+	color: #FB8C00;
 }
 
 #slide1 a:hover {
 }
 
 #slide4 a {
-	color: #00bcd4;
+	color: #FB8C00;
 }
 
 a {
@@ -98,7 +98,7 @@ nav {
 	top:0px;
 	width:100%; 
 	height:auto; 
-	background-color: #00bcd4;
+	background-color: #FB8C00;
 	z-index:100;
 }
 
@@ -136,7 +136,7 @@ nav {
 }
 
 a {
-	color: #00bcd4;
+	color: #FB8C00;
 }
 
 #slide1 h2 {
@@ -165,7 +165,7 @@ a {
 
 
 .category {
-	color: #00bcd4;
+	color: #FB8C00;
 	padding-bottom: 14px;
 }
 
@@ -255,14 +255,14 @@ box-slide {
 
 /*Big title*/
 h2 {
- color: #00bcd4;
+ color: #FB8C00;
  font-size: 4rem;
  font-weight: 400;
 }
 
 /*small title*/
 h3 {
-		color: #00bcd4;
+		color: #FB8C00;
 	 	 font-size: 1.4rem;
  	font-weight: 400;
 }
