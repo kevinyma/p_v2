@@ -1,10 +1,10 @@
 /* Global
-color 1: #4CAF50;         green
-color 2: #FB8C00;       blue
+color 1: #2196F3;         green
+color 2: #2196F3;       blue
 
 
-#FB8C00   cyan
-#4CAF50   orange
+#2196F3   cyan
+#2196F3   orange
  */
 
 
@@ -34,14 +34,14 @@ img {
 }
 
 .bigtext a {
-	color: #FB8C00;
+	color: #2196F3;
 }
 
 #slide1 a:hover {
 }
 
 #slide4 a {
-	color: #FB8C00;
+	color: #2196F3;
 }
 
 a {
@@ -66,22 +66,22 @@ h3 a {
 .navigation li{
 	color: white;
 	float: left;
-	padding:0 30px 0 20px;
+	padding-right: 50px;
 }
 
-.what {
+.resumelink {
 	float: left;
-	padding:0 30px 0 20px;
+	padding-right: 50px;
 	color: black;
 }
 /************************ Navigation ***************************/
 
 #logo p {
 	text-align: left;
-	padding-left: 5%;
+	padding-left: 50px;
 	font-size: 1.5rem;
 	font-weight: 300;
-	margin: 21px 0;
+	margin: 24px 0;
 	}
 
 #nav-container {
@@ -98,13 +98,13 @@ nav {
 	top:0px;
 	width:100%; 
 	height:auto; 
-	background-color: #FB8C00;
+	background-color: #2196F3;
 	z-index:100;
 }
 
 #nav {
 	text-align: right;
-	margin: 24px 0;
+	margin: 26px 0;
 }
 .navigation{
 	float: right;
@@ -115,14 +115,13 @@ nav {
 
 /*.navigation .active{
 	cursor:pointer;
-	color: #4CAF50;
+	color: #2196F3;
 	font-weight:bold;
 }*/
 
 /*****************************ABOUT*****************************/
 
 .introduction {
-	width: 87%;
 	margin: 0 auto;
 	font-size: 2rem;
 	text-align: center;
@@ -131,12 +130,12 @@ nav {
 }
 
 #slide1 {
-	margin-top: 13%;
-	margin-bottom: 15%;
+	margin-top: 10%;
+	margin-bottom: 14%;
 }
 
 a {
-	color: #FB8C00;
+	color: #2196F3;
 }
 
 #slide1 h2 {
@@ -163,23 +162,10 @@ a {
 	margin-bottom: 40px;
 }
 
-
 .category {
-	color: #FB8C00;
+	color: #2196F3;
 	padding-bottom: 14px;
 }
-
-
-
-
-
-/*.description {
-	text-align: left;
-	font-size: 1rem;
-	font-weight: 300;
-	color: black;
-
-}*/
 
 .projectimage {
 	float: left;
@@ -201,15 +187,15 @@ a {
 /********************************SOCIAL MEDAYA STUFF****************************/
 
 #slide3 {
-	margin-top: 5%;
-	margin-bottom: 4%;
+	margin-top: 6%;
+	margin-bottom: 6%;
 }
 
 
 /********************************FOOTAH****************************/
 
 footer {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 /**********************************************box page general**************************************************/
@@ -239,33 +225,41 @@ box-slide {
 }
 
 
-.columns {
-/*    -webkit-column-count: 2; 
-    -moz-column-count: 2; 
-    column-count: 2;
-
-
-    -webkit-column-gap: 40px; 
-    -moz-column-gap: 40px; 
-    column-gap: 40px;*/
-	
-	padding-left: 30px;
-	padding-right: 30px;
+/*Big title*/
+h1 {
+ color: #2196F3;
+ font-size: 3.5rem;
+ font-weight: 400;
+ margin-top: 50px;
+ margin-bottom: 30px;
 }
+
+
 
 /*Big title*/
 h2 {
- color: #FB8C00;
- font-size: 4rem;
+
+ color: #2196F3;
+ font-size: 2.5rem;
  font-weight: 400;
+ margin-top: 50px;
+ margin-bottom: 30px;
+
 }
 
 /*small title*/
 h3 {
-		color: #FB8C00;
-	 	 font-size: 1.4rem;
+	color: #2196F3;
+	 	font-size: 1.4rem;
  	font-weight: 400;
+
+ 	margin-bottom: 30px;
 }
+
+.margintop {
+	margin-top:110px;
+}
+
 
 .project h3 {
 	color: black;
@@ -285,14 +279,21 @@ h4 a {
 
 
 .bigtext {
-	 font-size: 1.4rem;
+	 font-size: 1.3rem;
  	font-weight: 400;
- 	line-height: 2.5rem;
+ 	line-height: 2.2rem;
  	color: #212121;
 }
 
 p {
-	font-size: 1rem;
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+
+}
+
+#content li {
+	font-size: 0.9rem;
 	line-height: 1.5rem;
 	font-weight: 400;
 
@@ -310,7 +311,9 @@ p {
 
 
 
-
+.bumpdown {
+	margin-bottom: 20px;
+}
 
 
 
@@ -397,8 +400,11 @@ p {
 	font-weight: 400;
 }
 */
-
-
+@media screen and (max-width: 650px) {
+	#nav {
+		display: none;
+	}
+}
 
 
 /* Tablet */
