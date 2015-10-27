@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Infection Yelp</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+    <script src='http://d3js.org/d3.v3.min.js'></script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+
+      <script>
+
+      var csvData;
+      d3.csv("hospital-acquired-infections-beginning-2012.csv", function(d) {
+            return {
+              location: d.loc,
+              weight: +d.total, 
+             };
+           }, function(error, rows) {
+            //console.log(typeof(rows));
+            csvData = rows;
+      
+
+      var heatMapData = [
+        {location: new google.maps.LatLng(40.86, -73.89), weight: 100},
+
+      ];
+
+      //JSON to heatMapData
+      for (var i = 1; i < csvData.length; i++) {
+
+        var input = csvData[i].location.substring(1, csvData[i].location.length-1);
+        var latlngStr = input.split(",",2);
+        var lat = parseFloat(latlngStr[0]);
+        var lng = parseFloat(latlngStr[1]);
+        var location = new google.maps.LatLng(lat, lng)
+
+      heatMapData.push({location: location, weight: csvData[i].weight});
+
+      }
+
+      console.log(heatMapData);
+
+      
+
+      var sanFrancisco = new google.maps.LatLng(40.86, -73.89);
+
+      map = new google.maps.Map(document.getElementById('map-canvas'), {
+        center: sanFrancisco,
+        zoom: 11,
+        mapTypeId: google.maps.MapTypeId.MAP
+      });
+
+      var heatmap = new google.maps.visualization.HeatmapLayer({
+        data: heatMapData,
+        radius: 100,
+        dissipating: true,
+
+      });
+      heatmap.setMap(map);
+
+
+
+      });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
