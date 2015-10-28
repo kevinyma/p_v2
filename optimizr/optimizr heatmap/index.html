@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yealth</title>
+      <link rel="stylesheet" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+    <script src='http://d3js.org/d3.v3.min.js'></script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+    <div id="text"><h1>Yealth</h1>
+
+    <form id="controlForm" class="controls" action="index.html" method="post" onsubmit="return false;">
+<input type="radio" name="year" value="2012" id="2012" /><label for="2012">2012</label> <br />
+<input type="radio" name="year" value="2013" id="2013" /><label for="2013">2013</label> <br />
+<input type="radio" name="year" value="2014" id="2014" /><label for="2014">2014</label> <br />
+</form>
+</div>
+
+      <script>
+
+$(document).ready(function(){
+
+      var filename="hospital-acquired-infections-beginning-2012.csv";
+      var csvData;
+
+      
+
+      d3.csv(filename, function(d) {
+            return {
+              location: d.loc,
+              weight: +d.total, 
+             };
+           }, function(error, rows) {
+            //console.log(typeof(rows));
+            csvData = rows;
+      
+
+      var heatMapData = [
+
+      ];
+
+      //JSON to heatMapData
+      for (var i = 1; i < csvData.length; i++) {
+
+        var input = csvData[i].location.substring(1, csvData[i].location.length-1);
+        var latlngStr = input.split(",",2);
+        var lat = parseFloat(latlngStr[0]);
+        var lng = parseFloat(latlngStr[1]);
+        var location = new google.maps.LatLng(lat, lng)
+
+      heatMapData.push({location: location, weight: csvData[i].weight});
+      }
+      //create MVC array, which updates the map automatically
+      heatMapArray = new google.maps.MVCArray(heatMapData);
+
+      var location = new google.maps.LatLng(40.86, -73.89);
+
+      map = new google.maps.Map(document.getElementById('map-canvas'), {
+        center: location,
+        zoom: 11,
+        mapTypeId: google.maps.MapTypeId.MAP
+      });
+
+      var heatmap = new google.maps.visualization.HeatmapLayer({
+        data: heatMapArray,
+        radius: 80,
+        dissipating: true,
+        gradient: ["rgba(255, 0, 0, 0)", "#ADFF2F", "#00FFFF","#008080", "#BA55D3", "#DC143C"]
+
+      });
+      heatmap.setMap(map);
+
+
+
+$('#2012').click(function() {       
+
+      $('#text').css('color','red');
+      var filename="";
+     });
+
+
+    });
+  });
+  
+    </script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
