@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>voyage</title>
+    <title>voyager</title>
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/paper-full.js"></script>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -27,7 +27,7 @@
         var colors = ['black','cyan','yellow','magenta'];
         var height = view.size.width;
         var width = view.size.height;
-        var circle = new Path.Circle(new Point(0, 0), 5);
+        var circle = new Path.Circle(new Point(0, 0), 2);
             circle.fillColor = colors[1];
             for (var i = 0; i < height/20; i++) {
             for (var j = 0; j < width/20; j++) {
@@ -53,8 +53,7 @@
 <body>
     <canvas id="canvas" resize hidpi="off" style="background:white"></canvas>
     <div class="intro">
-        <p>welcome to the wonder land</p>
-    
+        <p>Nothing to see here, please keep going!</p>
     </div>
     <a href="messybin.tumblr.com"><div class="draw">
         <p>dumb drawings</p>
