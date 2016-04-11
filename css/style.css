@@ -1,0 +1,62 @@
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    font-family: Monospace;
+}
+
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+  position: absolute;
+  top: 10%;
+  left: 100px;
+  color: black;
+  border: 3px solid black;
+  background-color: white;
+  padding: 10px;
+}
+
+.draw {
+  position: absolute;
+  top: 30%;
+  left: 100px;
+  color: black;
+  border: 3px solid black;
+  background-color: white;
+  padding: 10px;
+}
+
+.threedee {
+  position: absolute;
+  top: 20%;
+  left: 500px;
+  color: black;
+  border: 3px solid black;
+  background-color: white;
+  padding: 10px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+h1:hover {
+ 	text-decoration: underline;
+ 	text-decoration-color: black;
+
+ }
+
+h2 {
+  padding: none;
+  font-size: 2rem;
+  color: black;
+
+}
+
