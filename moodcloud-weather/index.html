@@ -1,50 +1,228 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html>
 <head>
-  <meta charset="UTF-8">
-  <title>Moodcloud Data Visualization</title>
-    <link rel="stylesheet" href="css/jquery-ui.css">
-        <link rel="stylesheet" href="css/style.css">
-
-
-    <link rel="stylesheet" id="themeCSS" href="css/classic.css"> 
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
-    <script src='http://codepen.io/assets/libs/fullpage/angular.js'></script>
-    <script src='http://d3js.org/d3.v3.min.js'></script>
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:500,600,400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	   <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
-    <script src='http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js'></script>
-    <script src="js/moment.js"></script>
-    <script src="script.js"></script>
-    <script src="js/jQAllRangeSliders-min.js"></script>
-    <script src="js/jQAllRangeSliders-withRuler-min.js"></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript' > ></script>
+    <link rel="stylesheet" href='weather-viz.css'>
+	</script>
+   <!--  //<script src='weather.js'></script> -->
+
+
+    <style>
+   
+    </style>
 </head>
+
 <body>
-  <div class="left">
-    <div class="grid"></div>
-    <p><span class="bold">Entries: </span><span id="total"></span></p>
-    <p><span class="bold">Percent of total entries: </span><span id="percent"></span></p>
 
-  </div>
+<div class="container">
+<h1>Ithaca temperature over time, overlayed with emotion data</h1>
+</div>
+<div class="button-group-1">
+	<div class="button-row">
+				<p id="valence" class="button leftSet active">Valence Distribution</p>
+				<p id="valence_positive" class="button leftSet">Positive emotions</p>
+				<p id="valence_negative" class="button leftSet">Negative emotions</p>
+	</div>
+</div>
+<div class="button-group-2">
+	<div class="button-row">
+				<p id="arousal" class="button rightSet active">Arousal Distribution</p>
+				<p id="arousal_calm" class="button rightSet">Calm  <br>    emotions</p>
+				<p id="arousal_excited" class="button rightSet">Excited emotions</p>
+	</div>
+</div>
 
+<div class="button-group-3">
+	
+	
+		
+	<div class="button-row">
+				<p id="afraid" class="button middleSet">Afriad</p>
+				<p id="tense" class="button middleSet">Tense</p>
+				<p id="excited" class="button middleSet">Excited</p>
+				<p id="delighted" class="button middleSet">Delighted</p>
+	</div>
+	<div class="button-row">
+				<p id="frustrated" class="button middleSet">Frustrated</p>
+				<p id="angry" class="button middleSet">Angry</p>
+				<p id="happy" class="button middleSet">Happy</p>
+				<p id="glad" class="button middleSet">Glad</p>
+	</div>
+	<div class="button-row">
+				<p id="miserable" class="button middleSet">Miserable</p>
+				<p id="sad" class="button middleSet">Sad</p>
+				<p id="calm" class="button middleSet">Calm</p>
+				<p id="satisfied" class="button middleSet">Satisfied</p>
+	</div>
+	<div class="button-row">
+				<p id="gloomy" class="button active middleSet">Gloomy</p>
+				<p id="tired" class="button middleSet">Tired</p>
+				<p id="sleep" class="button middleSet">Sleepy</p>
+				<p id="serene" class="button middleSet">Serene</p>
+	</div>
+</div>
+<script>
+var moodData;
 
-  <div class="left">
-    <p class="bold">Adjust date range:</p><br>
-    <div id="slider">  </div>
-    <p class="bold">Adjust hour range:</p><br>
-    <div id="slider2"></div>
-    <span id="time"></span>
-    <p class="bold">Day of week:</p>
-    <div id="dayofweek">
-    <form action="">
-      <input type="checkbox" name="day" value="Sunday">Sunday<br>
-      <input type="checkbox" name="day" value="Monday">Monday<br>
-      <input type="checkbox" name="day" value="Tuesday">Tuesday<br>
-      <input type="checkbox" name="day" value="Wednesday">Wednesday<br>
-      <input type="checkbox" name="day" value="Thursday">Thursday<br>
-      <input type="checkbox" name="day" value="Friday">Friday<br>
-      <input type="checkbox" name="day" value="Saturday">Saturday<br>
-    </form>
-  </div>
+d3.json("ithacadata.json", function(error,data){
+	var margin = {top: 30, right: 100, bottom: 30, left: 100},
+		 width = 800,
+		height = 700;
+
+	var svg = d3.select("div")
+		.append("svg")
+		.attr("class","svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var minTemp = d3.min(data, function (d) {return +d.tempAvg});
+	var maxTemp = d3.max(data, function (d) {return +d.tempAvg});
+	var minPrecip = d3.min(data, function (d) {return +d.precip});
+	var maxPrecip = d3.max(data, function (d) {return +d.precip});
+	var minSnow = d3.min(data, function (d) {return +d.snowfall});
+	var maxSnow = d3.max(data, function (d) {return +d.snowfall});
+	var minDay = new Date(d3.min(data, function (d) {return d.timestamp}));
+	var maxDay = new Date(d3.max(data, function (d) {return d.timestamp}));
+	
+	var precipScale = d3.scale.linear().domain([minPrecip, maxPrecip]).range([0,100]);
+	var snowfallScale = d3.scale.linear().domain([minSnow, maxSnow]).range([0,100]);
+	var tempScale = d3.scale.linear().domain([minTemp, maxTemp]).range([margin.left,width-margin.right]);
+	var timeScale = d3.time.scale().domain([minDay, maxDay]).nice().range([margin.top, height-margin.bottom]);
+	
+	var yAxis = d3.svg.axis()
+	    .scale(timeScale)
+	    .orient("left")
+		;
+	svg.append("g")
+	    .attr("class", "y axis")
+	    .attr("transform", "translate("+margin.left+",0)")
+	    .call(yAxis);
+
+	svg
+		.selectAll(".tempAvg")
+		.data(data)
+		.enter()
+		.append("rect")
+		.attr("width",function(d){
+			return tempScale(d.tempAvg)-margin.left;})
+		.attr("height",3)
+		.attr("x",margin.left)
+		.attr("y",function(d){return timeScale(new Date(d.timestamp))-1.5;})
+		.style("fill","turquoise");
+
+	// svg
+	// 	.selectAll(".precip")
+	// 	.data(data)
+	// 	.enter()
+	// 	.append("rect")
+	// 	.attr("width",function(d){
+	// 		return precipScale(d.precip);})
+	// 	.attr("height",2)
+	// 	.attr("x",margin.left)
+	// 	.attr("y",function(d){return timeScale(new Date(d.timestamp))-1.5;})
+	// 	.style("fill","purple");
+
+var leftSet;
+var middleSet;
+var rightSet;
+
+var filename = "moodcloud-data-processed.json";
+
+d3.json(filename, function (error, rows) {
+	moodData = rows;
+	var emotionArray = 
+					[["gloomy", "tired", "sleep", "serene"],
+					["miserable", "sad", "calm", "satisfied"],
+					["frustrated", "angry", "happy", "glad"],
+					["afraid", "tense", "excited", "delighted"]];
+
+	leftSet = drawViz(generateData("valence"), "blue", 0, 0);
+	middleSet = drawViz(generateData("gloomy"), "purple", 300, (-1/2));
+	rightSet = drawViz(generateData("arousal"), "red", 600, -1);
+
+	$('.button').click( function() {
+		if (!$(this).hasClass('active')){
+			
+			$(this).siblings().removeClass('active');
+			if ($(this).hasClass('middleSet')){
+				$('.middleSet').removeClass('active');
+			}
+	    	$(this).addClass('active');
+
+	    	var id = $(this).attr("id");
+	    	var set = $(this).attr('class').split(' ')[1];
+
+	    	updateViz(id, set);
+		}
+	});
+
+	function drawViz(dataSet, color, position, alignment){
+
+		var minEmotion = d3.min(dataSet, function (d) {return d.emotion});
+		var maxEmotion = d3.max(dataSet, function (d) {return d.emotion});
+		var emotionScale = d3.scale.linear().domain([minEmotion,maxEmotion]).range([0,150]);
+
+		return svg.selectAll(".emotion")
+		.data(dataSet)
+		.enter()
+		.append("rect")
+
+		.attr("width",function(d){
+			return emotionScale(d.emotion);})
+		.attr("height",3)
+		.attr("x",function(d){
+				return margin.left+position+alignment*emotionScale(d.emotion);})
+		.attr("y",function(d){return timeScale(new Date(d.timestamp))-1.5;})
+		.style("fill",color)
+		.style("fill-opacity","0.5");
+	}
+
+	function updateViz(emotion, whichSet){
+		var newData = generateData(emotion);
+		var minEmotion = d3.min(newData, function (d) {return d.emotion});
+		var maxEmotion = d3.max(newData, function (d) {return d.emotion});
+		var emotionScale = d3.scale.linear().domain([minEmotion,maxEmotion]).range([0,150]);
+
+		if (whichSet == 'leftSet'){
+        leftSet.data(newData).transition()
+            .duration(400)
+            .attr("width",function(d){
+			return emotionScale(d.emotion);})
+			.attr("x",function(d){
+				return margin.left;});
+		}
+		if (whichSet == 'middleSet'){
+        middleSet.data(newData).transition()
+            .duration(400)
+            .attr("width",function(d){
+			return emotionScale(d.emotion);})
+			.attr("x",function(d){
+				return margin.left+300-emotionScale(d.emotion)/2;});
+		}
+		if (whichSet == 'rightSet'){
+        rightSet.data(newData).transition()
+            .duration(400)
+            .attr("width",function(d){
+			return emotionScale(d.emotion);})
+			.attr("x",function(d){
+				return margin.left+600-emotionScale(d.emotion);});
+		}
+	}
+});
+
+});
+
+//generates a new dataset with only the specified emotion
+function generateData(specifiedEmotion){
+	var generatedData = [];
+	moodData.forEach(function(d){
+		generatedData.push({timestamp: d.timestamp, emotion: d[specifiedEmotion]})
+	})
+	return generatedData;
+}	
+</script>
+
 </body>
 </html>
