@@ -1,0 +1,1317 @@
+[{
+	"timestamp": "2014-09-03T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 62.8,
+	"tempAvg": 70.5,
+	"tempMax": 79.9
+}, {
+	"timestamp": "2014-09-04T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 59.7,
+	"tempAvg": 71.5,
+	"tempMax": 86.1
+}, {
+	"timestamp": "2014-09-05T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 66.3,
+	"tempAvg": 77.4,
+	"tempMax": 89.9
+}, {
+	"timestamp": "2014-09-06T00:00:00-04:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 61.8,
+	"tempAvg": 69.8,
+	"tempMax": 77.8
+}, {
+	"timestamp": "2014-09-07T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 53,
+	"tempAvg": 63.8,
+	"tempMax": 73.9
+}, {
+	"timestamp": "2014-09-08T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 47.6,
+	"tempAvg": 62.4,
+	"tempMax": 77.8
+}, {
+	"timestamp": "2014-09-09T00:00:00-04:00",
+	"precip": 0.05,
+	"snowfall": 0,
+	"tempMin": 54.3,
+	"tempAvg": 65.2,
+	"tempMax": 73.6
+}, {
+	"timestamp": "2014-09-10T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 59,
+	"tempAvg": 67.8,
+	"tempMax": 76
+}, {
+	"timestamp": "2014-09-11T00:00:00-04:00",
+	"precip": 0.08,
+	"snowfall": 0,
+	"tempMin": 59.7,
+	"tempAvg": 68.4,
+	"tempMax": 75.3
+}, {
+	"timestamp": "2014-09-12T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 48.6,
+	"tempAvg": 55.4,
+	"tempMax": 59
+}, {
+	"timestamp": "2014-09-13T00:00:00-04:00",
+	"precip": 0.1,
+	"snowfall": 0,
+	"tempMin": 43.1,
+	"tempAvg": 52.6,
+	"tempMax": 65.9
+}, {
+	"timestamp": "2014-09-14T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 49.2,
+	"tempAvg": 54.8,
+	"tempMax": 62.7
+}, {
+	"timestamp": "2014-09-15T00:00:00-04:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 48.4,
+	"tempAvg": 59,
+	"tempMax": 70.3
+}, {
+	"timestamp": "2014-09-16T00:00:00-04:00",
+	"precip": 0.18,
+	"snowfall": 0,
+	"tempMin": 48,
+	"tempAvg": 57.9,
+	"tempMax": 64.7
+}, {
+	"timestamp": "2014-09-17T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 44.9,
+	"tempAvg": 55.5,
+	"tempMax": 68.6
+}, {
+	"timestamp": "2014-09-18T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 45.9,
+	"tempAvg": 54.8,
+	"tempMax": 66.7
+}, {
+	"timestamp": "2014-09-19T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 38.6,
+	"tempAvg": 51.3,
+	"tempMax": 65.2
+}, {
+	"timestamp": "2014-09-20T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 54.3,
+	"tempAvg": 64.9,
+	"tempMax": 73.2
+}, {
+	"timestamp": "2014-09-21T00:00:00-04:00",
+	"precip": 0.3,
+	"snowfall": 0,
+	"tempMin": 59,
+	"tempAvg": 67.4,
+	"tempMax": 79.1
+}, {
+	"timestamp": "2014-09-22T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 48.6,
+	"tempAvg": 54.2,
+	"tempMax": 57.9
+}, {
+	"timestamp": "2014-09-23T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 40.2,
+	"tempAvg": 54.9,
+	"tempMax": 70.7
+}, {
+	"timestamp": "2014-09-24T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 46.5,
+	"tempAvg": 60.1,
+	"tempMax": 75
+}, {
+	"timestamp": "2014-09-25T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 48.4,
+	"tempAvg": 59.6,
+	"tempMax": 71.1
+}, {
+	"timestamp": "2014-09-26T00:00:00-04:00",
+	"precip": 0.02,
+	"snowfall": 0,
+	"tempMin": 45.4,
+	"tempAvg": 59.1,
+	"tempMax": 74.7
+}, {
+	"timestamp": "2014-09-27T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 47.6,
+	"tempAvg": 61.4,
+	"tempMax": 78.9
+}, {
+	"timestamp": "2014-09-28T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 50.8,
+	"tempAvg": 63.6,
+	"tempMax": 80.2
+}, {
+	"timestamp": "2014-09-29T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 55.5,
+	"tempAvg": 65.2,
+	"tempMax": 78.6
+}, {
+	"timestamp": "2014-09-30T00:00:00-04:00",
+	"precip": 0.35,
+	"snowfall": 0,
+	"tempMin": 54,
+	"tempAvg": 64.3,
+	"tempMax": 77.7
+}, {
+	"timestamp": "2014-10-01T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 57,
+	"tempAvg": 63.2,
+	"tempMax": 72
+}, {
+	"timestamp": "2014-10-02T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 51.4,
+	"tempAvg": 61.9,
+	"tempMax": 72.6
+}, {
+	"timestamp": "2014-10-03T00:00:00-04:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 54.4,
+	"tempAvg": 63.6,
+	"tempMax": 73.2
+}, {
+	"timestamp": "2014-10-04T00:00:00-04:00",
+	"precip": 0.18,
+	"snowfall": 0,
+	"tempMin": 47.1,
+	"tempAvg": 58.2,
+	"tempMax": 64.8
+}, {
+	"timestamp": "2014-10-05T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 34.7,
+	"tempAvg": 46.1,
+	"tempMax": 55.7
+}, {
+	"timestamp": "2014-10-06T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 40.9,
+	"tempAvg": 54.8,
+	"tempMax": 68
+}, {
+	"timestamp": "2014-10-07T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 58,
+	"tempAvg": 63.3,
+	"tempMax": 69.5
+}, {
+	"timestamp": "2014-10-08T00:00:00-04:00",
+	"precip": 0.13,
+	"snowfall": 0,
+	"tempMin": 51.8,
+	"tempAvg": 58.7,
+	"tempMax": 64.4
+}, {
+	"timestamp": "2014-10-09T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 42.1,
+	"tempAvg": 52.4,
+	"tempMax": 64.2
+}, {
+	"timestamp": "2014-10-10T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 34.9,
+	"tempAvg": 47.7,
+	"tempMax": 60.8
+}, {
+	"timestamp": "2014-10-11T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 37.5,
+	"tempAvg": 48.2,
+	"tempMax": 58.7
+}, {
+	"timestamp": "2014-10-12T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 33.2,
+	"tempAvg": 45.9,
+	"tempMax": 62.3
+}, {
+	"timestamp": "2014-10-13T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 44.1,
+	"tempAvg": 58.7,
+	"tempMax": 66.3
+}, {
+	"timestamp": "2014-10-14T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 62.5,
+	"tempAvg": 70.9,
+	"tempMax": 80.3
+}, {
+	"timestamp": "2014-10-15T00:00:00-04:00",
+	"precip": 0.5,
+	"snowfall": 0,
+	"tempMin": 63,
+	"tempAvg": 68.5,
+	"tempMax": 72.7
+}, {
+	"timestamp": "2014-10-16T00:00:00-04:00",
+	"precip": 0.37,
+	"snowfall": 0,
+	"tempMin": 54.9,
+	"tempAvg": 64.2,
+	"tempMax": 70.9
+}, {
+	"timestamp": "2014-10-17T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 51,
+	"tempAvg": 58.7,
+	"tempMax": 67.1
+}, {
+	"timestamp": "2014-10-18T00:00:00-04:00",
+	"precip": 0.18,
+	"snowfall": 0,
+	"tempMin": 46.6,
+	"tempAvg": 55,
+	"tempMax": 60.2
+}, {
+	"timestamp": "2014-10-19T00:00:00-04:00",
+	"precip": 0.08,
+	"snowfall": 0,
+	"tempMin": 35.4,
+	"tempAvg": 41.8,
+	"tempMax": 46
+}, {
+	"timestamp": "2014-10-20T00:00:00-04:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 33.3,
+	"tempAvg": 44.3,
+	"tempMax": 55.1
+}, {
+	"timestamp": "2014-10-21T00:00:00-04:00",
+	"precip": 0.04,
+	"snowfall": 0,
+	"tempMin": 47.2,
+	"tempAvg": 52,
+	"tempMax": 57.5
+}, {
+	"timestamp": "2014-10-22T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 47.5,
+	"tempAvg": 49.9,
+	"tempMax": 51.8
+}, {
+	"timestamp": "2014-10-23T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 44.5,
+	"tempAvg": 49.1,
+	"tempMax": 53.2
+}, {
+	"timestamp": "2014-10-24T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 42,
+	"tempAvg": 51.8,
+	"tempMax": 63.4
+}, {
+	"timestamp": "2014-10-25T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 41.1,
+	"tempAvg": 53.5,
+	"tempMax": 68.8
+}, {
+	"timestamp": "2014-10-26T00:00:00-04:00",
+	"precip": 0.07,
+	"snowfall": 0,
+	"tempMin": 45.5,
+	"tempAvg": 50.2,
+	"tempMax": 52.7
+}, {
+	"timestamp": "2014-10-27T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 40.6,
+	"tempAvg": 49.4,
+	"tempMax": 60
+}, {
+	"timestamp": "2014-10-28T00:00:00-04:00",
+	"precip": 0.02,
+	"snowfall": 0,
+	"tempMin": 51.6,
+	"tempAvg": 62.1,
+	"tempMax": 78.5
+}, {
+	"timestamp": "2014-10-29T00:00:00-04:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 48.9,
+	"tempAvg": 55.2,
+	"tempMax": 63.1
+}, {
+	"timestamp": "2014-10-30T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 36.3,
+	"tempAvg": 45.6,
+	"tempMax": 49.1
+}, {
+	"timestamp": "2014-10-31T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 33.5,
+	"tempAvg": 43.6,
+	"tempMax": 52.7
+}, {
+	"timestamp": "2014-11-01T00:00:00-04:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 39.2,
+	"tempAvg": 41.9,
+	"tempMax": 44
+}, {
+	"timestamp": "2014-11-02T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 34.4,
+	"tempAvg": 38.4,
+	"tempMax": 42.8
+}, {
+	"timestamp": "2014-11-03T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 34.5,
+	"tempAvg": 48.6,
+	"tempMax": 60.8
+}, {
+	"timestamp": "2014-11-04T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 50.4,
+	"tempAvg": 57.8,
+	"tempMax": 67.9
+}, {
+	"timestamp": "2014-11-05T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 37.7,
+	"tempAvg": 53,
+	"tempMax": 61
+}, {
+	"timestamp": "2014-11-06T00:00:00-05:00",
+	"precip": 0.35,
+	"snowfall": 0,
+	"tempMin": 38.8,
+	"tempAvg": 43.7,
+	"tempMax": 51.3
+}, {
+	"timestamp": "2014-11-07T00:00:00-05:00",
+	"precip": 0.18,
+	"snowfall": 0,
+	"tempMin": 35.4,
+	"tempAvg": 39,
+	"tempMax": 42.8
+}, {
+	"timestamp": "2014-11-08T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 32.7,
+	"tempAvg": 40.1,
+	"tempMax": 45.3
+}, {
+	"timestamp": "2014-11-09T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 37.7,
+	"tempAvg": 43.5,
+	"tempMax": 48.8
+}, {
+	"timestamp": "2014-11-10T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 38.3,
+	"tempAvg": 48.9,
+	"tempMax": 61.3
+}, {
+	"timestamp": "2014-11-11T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 44.9,
+	"tempAvg": 54.2,
+	"tempMax": 65.6
+}, {
+	"timestamp": "2014-11-12T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 38.5,
+	"tempAvg": 48.1,
+	"tempMax": 55.6
+}, {
+	"timestamp": "2014-11-13T00:00:00-05:00",
+	"precip": 0.07,
+	"snowfall": 0,
+	"tempMin": 31.5,
+	"tempAvg": 36.2,
+	"tempMax": 39.9
+}, {
+	"timestamp": "2014-11-14T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 21.1,
+	"tempAvg": 30.5,
+	"tempMax": 38.2
+}, {
+	"timestamp": "2014-11-15T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 27.1,
+	"tempAvg": 32.4,
+	"tempMax": 39.1
+}, {
+	"timestamp": "2014-11-16T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 27,
+	"tempAvg": 34.7,
+	"tempMax": 40.3
+}, {
+	"timestamp": "2014-11-17T00:00:00-05:00",
+	"precip": 0.34,
+	"snowfall": 0,
+	"tempMin": 33,
+	"tempAvg": 36.4,
+	"tempMax": 39
+}, {
+	"timestamp": "2014-11-18T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 18.3,
+	"tempAvg": 24.8,
+	"tempMax": 34.5
+}, {
+	"timestamp": "2014-11-19T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0.1,
+	"tempMin": 10.5,
+	"tempAvg": 22.2,
+	"tempMax": 28.8
+}, {
+	"timestamp": "2014-11-20T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 24.5,
+	"tempAvg": 30.1,
+	"tempMax": 34
+}, {
+	"timestamp": "2014-11-21T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 15.6,
+	"tempAvg": 21.9,
+	"tempMax": 30.2
+}, {
+	"timestamp": "2014-11-22T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 16.9,
+	"tempAvg": 31.4,
+	"tempMax": 43
+}, {
+	"timestamp": "2014-11-23T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 41.2,
+	"tempAvg": 46.2,
+	"tempMax": 54
+}, {
+	"timestamp": "2014-11-24T00:00:00-05:00",
+	"precip": 0.21,
+	"snowfall": 0,
+	"tempMin": 49.9,
+	"tempAvg": 60.6,
+	"tempMax": 69.6
+}, {
+	"timestamp": "2014-11-25T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 38.1,
+	"tempAvg": 46.2,
+	"tempMax": 54.6
+}, {
+	"timestamp": "2014-11-26T00:00:00-05:00",
+	"precip": 0.14,
+	"snowfall": 0,
+	"tempMin": 31,
+	"tempAvg": 34.8,
+	"tempMax": 37.1
+}, {
+	"timestamp": "2014-11-27T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0.1,
+	"tempMin": 23.4,
+	"tempAvg": 29.4,
+	"tempMax": 32.8
+}, {
+	"timestamp": "2014-11-28T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 18,
+	"tempAvg": 25.6,
+	"tempMax": 29.5
+}, {
+	"timestamp": "2014-11-29T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 17.3,
+	"tempAvg": 26.6,
+	"tempMax": 33.7
+}, {
+	"timestamp": "2014-11-30T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 35.2,
+	"tempAvg": 42.6,
+	"tempMax": 49.9
+}, {
+	"timestamp": "2014-12-01T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 31.8,
+	"tempAvg": 41.5,
+	"tempMax": 51.3
+}, {
+	"timestamp": "2014-12-02T00:00:00-05:00",
+	"precip": 0.05,
+	"snowfall": 0,
+	"tempMin": 23.5,
+	"tempAvg": 32.1,
+	"tempMax": 38.4
+}, {
+	"timestamp": "2014-12-03T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 32.4,
+	"tempAvg": 39.9,
+	"tempMax": 44.3
+}, {
+	"timestamp": "2014-12-04T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 22.8,
+	"tempAvg": 30.6,
+	"tempMax": 36.3
+}, {
+	"timestamp": "2014-12-05T00:00:00-05:00",
+	"precip": 0.13,
+	"snowfall": 0,
+	"tempMin": 20.6,
+	"tempAvg": 31.9,
+	"tempMax": 40.3
+}, {
+	"timestamp": "2014-12-06T00:00:00-05:00",
+	"precip": 0.49,
+	"snowfall": 0,
+	"tempMin": 35,
+	"tempAvg": 37.6,
+	"tempMax": 39.5
+}, {
+	"timestamp": "2014-12-07T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 21.4,
+	"tempAvg": 29.5,
+	"tempMax": 34.4
+}, {
+	"timestamp": "2014-12-08T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 19.8,
+	"tempAvg": 27.3,
+	"tempMax": 33.4
+}, {
+	"timestamp": "2014-12-09T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 32.4,
+	"tempAvg": 35.6,
+	"tempMax": 38.9
+}, {
+	"timestamp": "2014-12-10T00:00:00-05:00",
+	"precip": 0.06,
+	"snowfall": 0.4,
+	"tempMin": 29.5,
+	"tempAvg": 32.1,
+	"tempMax": 35.9
+}, {
+	"timestamp": "2014-12-11T00:00:00-05:00",
+	"precip": 0.02,
+	"snowfall": 0.2,
+	"tempMin": 25.6,
+	"tempAvg": 27.9,
+	"tempMax": 29.9
+}, {
+	"timestamp": "2014-12-12T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 24.8,
+	"tempAvg": 29.4,
+	"tempMax": 32.9
+}, {
+	"timestamp": "2014-12-13T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 30.6,
+	"tempAvg": 33.9,
+	"tempMax": 35.6
+}, {
+	"timestamp": "2014-12-14T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 33.6,
+	"tempAvg": 36,
+	"tempMax": 38.8
+}, {
+	"timestamp": "2014-12-15T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 34.8,
+	"tempAvg": 36.6,
+	"tempMax": 38.6
+}, {
+	"timestamp": "2014-12-16T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0,
+	"tempMin": 33.9,
+	"tempAvg": 40.3,
+	"tempMax": 45.1
+}, {
+	"timestamp": "2014-12-17T00:00:00-05:00",
+	"precip": 0.06,
+	"snowfall": 0,
+	"tempMin": 35.1,
+	"tempAvg": 39.6,
+	"tempMax": 42.9
+}, {
+	"timestamp": "2014-12-18T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 32.6,
+	"tempAvg": 33.6,
+	"tempMax": 34.5
+}, {
+	"timestamp": "2014-12-19T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 27.9,
+	"tempAvg": 29.7,
+	"tempMax": 32.2
+}, {
+	"timestamp": "2014-12-20T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 30.3,
+	"tempAvg": 31,
+	"tempMax": 32.1
+}, {
+	"timestamp": "2014-12-21T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 28.5,
+	"tempAvg": 32.3,
+	"tempMax": 35.4
+}, {
+	"timestamp": "2014-12-22T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 31.7,
+	"tempAvg": 35.2,
+	"tempMax": 39.5
+}, {
+	"timestamp": "2014-12-23T00:00:00-05:00",
+	"precip": 0.05,
+	"snowfall": 0,
+	"tempMin": 36.9,
+	"tempAvg": 42.7,
+	"tempMax": 46.5
+}, {
+	"timestamp": "2014-12-24T00:00:00-05:00",
+	"precip": 0.09,
+	"snowfall": 0,
+	"tempMin": 46.7,
+	"tempAvg": 50.1,
+	"tempMax": 56.1
+}, {
+	"timestamp": "2014-12-25T00:00:00-05:00",
+	"precip": 0.02,
+	"snowfall": 0,
+	"tempMin": 40.6,
+	"tempAvg": 46,
+	"tempMax": 58.2
+}, {
+	"timestamp": "2014-12-26T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 33.8,
+	"tempAvg": 40,
+	"tempMax": 47
+}, {
+	"timestamp": "2014-12-27T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 32.7,
+	"tempAvg": 43.1,
+	"tempMax": 54.3
+}, {
+	"timestamp": "2014-12-28T00:00:00-05:00",
+	"precip": 0.14,
+	"snowfall": 0,
+	"tempMin": 33,
+	"tempAvg": 41,
+	"tempMax": 48.2
+}, {
+	"timestamp": "2014-12-29T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 26,
+	"tempAvg": 30.4,
+	"tempMax": 34.5
+}, {
+	"timestamp": "2014-12-30T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 22.4,
+	"tempAvg": 24.3,
+	"tempMax": 26.5
+}, {
+	"timestamp": "2014-12-31T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 15.9,
+	"tempAvg": 21.4,
+	"tempMax": 25.1
+}, {
+	"timestamp": "2015-01-01T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 20.7,
+	"tempAvg": 27.7,
+	"tempMax": 34.3
+}, {
+	"timestamp": "2015-01-02T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 26.4,
+	"tempAvg": 31.5,
+	"tempMax": 33.6
+}, {
+	"timestamp": "2015-01-03T00:00:00-05:00",
+	"precip": 0.25,
+	"snowfall": 0.4,
+	"tempMin": 22.2,
+	"tempAvg": 30.2,
+	"tempMax": 39.4
+}, {
+	"timestamp": "2015-01-04T00:00:00-05:00",
+	"precip": 0.04,
+	"snowfall": 0,
+	"tempMin": 40.3,
+	"tempAvg": 45.7,
+	"tempMax": 54.3
+}, {
+	"timestamp": "2015-01-05T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 14,
+	"tempAvg": 23.4,
+	"tempMax": 39.7
+}, {
+	"timestamp": "2015-01-06T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 10.1,
+	"tempAvg": 15.7,
+	"tempMax": 20.4
+}, {
+	"timestamp": "2015-01-07T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 4.9,
+	"tempAvg": 11,
+	"tempMax": 16.3
+}, {
+	"timestamp": "2015-01-08T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 1.7,
+	"tempAvg": 11.5,
+	"tempMax": 20.3
+}, {
+	"timestamp": "2015-01-09T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 14.5,
+	"tempAvg": 20.2,
+	"tempMax": 26.7
+}, {
+	"timestamp": "2015-01-10T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 6.4,
+	"tempAvg": 12.5,
+	"tempMax": 20.3
+}, {
+	"timestamp": "2015-01-11T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 9,
+	"tempAvg": 23.3,
+	"tempMax": 32.4
+}, {
+	"timestamp": "2015-01-12T00:00:00-05:00",
+	"precip": 0.08,
+	"snowfall": 0.4,
+	"tempMin": 24.1,
+	"tempAvg": 31.7,
+	"tempMax": 34.9
+}, {
+	"timestamp": "2015-01-13T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -5.8,
+	"tempAvg": 6.7,
+	"tempMax": 22.2
+}, {
+	"timestamp": "2015-01-14T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -6.7,
+	"tempAvg": 8.4,
+	"tempMax": 28.5
+}, {
+	"timestamp": "2015-01-15T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 4.6,
+	"tempAvg": 17.3,
+	"tempMax": 30
+}, {
+	"timestamp": "2015-01-16T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 9.2,
+	"tempAvg": 22.2,
+	"tempMax": 31
+}, {
+	"timestamp": "2015-01-17T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 0.8,
+	"tempAvg": 16.1,
+	"tempMax": 27.7
+}, {
+	"timestamp": "2015-01-18T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 27.3,
+	"tempAvg": 33.2,
+	"tempMax": 39.9
+}, {
+	"timestamp": "2015-01-19T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 28.4,
+	"tempAvg": 32.7,
+	"tempMax": 35.1
+}, {
+	"timestamp": "2015-01-20T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 11.8,
+	"tempAvg": 23.5,
+	"tempMax": 27.8
+}, {
+	"timestamp": "2015-01-21T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 6,
+	"tempAvg": 17.4,
+	"tempMax": 28.5
+}, {
+	"timestamp": "2015-01-22T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 17,
+	"tempAvg": 25,
+	"tempMax": 30.7
+}, {
+	"timestamp": "2015-01-23T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 16.7,
+	"tempAvg": 25.3,
+	"tempMax": 36.7
+}, {
+	"timestamp": "2015-01-24T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 28.5,
+	"tempAvg": 31.8,
+	"tempMax": 37.1
+}, {
+	"timestamp": "2015-01-25T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 13.1,
+	"tempAvg": 24.4,
+	"tempMax": 34.6
+}, {
+	"timestamp": "2015-01-26T00:00:00-05:00",
+	"precip": 0.03,
+	"snowfall": 0.5,
+	"tempMin": 11.4,
+	"tempAvg": 16.3,
+	"tempMax": 20.4
+}, {
+	"timestamp": "2015-01-27T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 10.9,
+	"tempAvg": 15.7,
+	"tempMax": 19.8
+}, {
+	"timestamp": "2015-01-28T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 5.6,
+	"tempAvg": 14.5,
+	"tempMax": 26.3
+}, {
+	"timestamp": "2015-01-29T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 4.5,
+	"tempAvg": 19.8,
+	"tempMax": 32.7
+}, {
+	"timestamp": "2015-01-30T00:00:00-05:00",
+	"precip": 0.02,
+	"snowfall": 0.2,
+	"tempMin": 13.5,
+	"tempAvg": 23.5,
+	"tempMax": 30.9
+}, {
+	"timestamp": "2015-01-31T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 8.3,
+	"tempAvg": 12.8,
+	"tempMax": 20
+}, {
+	"timestamp": "2015-02-01T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0.1,
+	"tempMin": 13.9,
+	"tempAvg": 22.1,
+	"tempMax": 26.8
+}, {
+	"timestamp": "2015-02-02T00:00:00-05:00",
+	"precip": 0.1,
+	"snowfall": 1.4,
+	"tempMin": 10.2,
+	"tempAvg": 18.9,
+	"tempMax": 26.1
+}, {
+	"timestamp": "2015-02-03T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 2,
+	"tempAvg": 13,
+	"tempMax": 26.7
+}, {
+	"timestamp": "2015-02-04T00:00:00-05:00",
+	"precip": 0.05,
+	"snowfall": 0.5,
+	"tempMin": 16.1,
+	"tempAvg": 27.1,
+	"tempMax": 34.9
+}, {
+	"timestamp": "2015-02-05T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 2.2,
+	"tempAvg": 15.9,
+	"tempMax": 27.2
+}, {
+	"timestamp": "2015-02-06T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -3.2,
+	"tempAvg": 11.3,
+	"tempMax": 25.8
+}, {
+	"timestamp": "2015-02-07T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 14,
+	"tempAvg": 24,
+	"tempMax": 30
+}, {
+	"timestamp": "2015-02-08T00:00:00-05:00",
+	"precip": 0.03,
+	"snowfall": 0.5,
+	"tempMin": 18.5,
+	"tempAvg": 29.5,
+	"tempMax": 34.1
+}, {
+	"timestamp": "2015-02-09T00:00:00-05:00",
+	"precip": 0.11,
+	"snowfall": 2,
+	"tempMin": 15.3,
+	"tempAvg": 19.2,
+	"tempMax": 24.5
+}, {
+	"timestamp": "2015-02-10T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0.2,
+	"tempMin": 18.7,
+	"tempAvg": 20.6,
+	"tempMax": 23.3
+}, {
+	"timestamp": "2015-02-11T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 10.4,
+	"tempAvg": 24.2,
+	"tempMax": 34.7
+}, {
+	"timestamp": "2015-02-12T00:00:00-05:00",
+	"precip": 0.01,
+	"snowfall": 0.1,
+	"tempMin": 5.3,
+	"tempAvg": 22.9,
+	"tempMax": 32.1
+}, {
+	"timestamp": "2015-02-13T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -1.8,
+	"tempAvg": 5.4,
+	"tempMax": 11.7
+}, {
+	"timestamp": "2015-02-14T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 7.4,
+	"tempAvg": 18.2,
+	"tempMax": 27.6
+}, {
+	"timestamp": "2015-02-15T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -3.4,
+	"tempAvg": 3.1,
+	"tempMax": 9.6
+}, {
+	"timestamp": "2015-02-16T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -4,
+	"tempAvg": 2.7,
+	"tempMax": 9.7
+}, {
+	"timestamp": "2015-02-17T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -5,
+	"tempAvg": 8.3,
+	"tempMax": 22.3
+}, {
+	"timestamp": "2015-02-18T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -0.4,
+	"tempAvg": 14.2,
+	"tempMax": 27.4
+}, {
+	"timestamp": "2015-02-19T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -3.9,
+	"tempAvg": 8.9,
+	"tempMax": 15
+}, {
+	"timestamp": "2015-02-20T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -8.1,
+	"tempAvg": -0.3,
+	"tempMax": 12.4
+}, {
+	"timestamp": "2015-02-21T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -3.5,
+	"tempAvg": 15.6,
+	"tempMax": 23.8
+}, {
+	"timestamp": "2015-02-22T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 20.9,
+	"tempAvg": 26.1,
+	"tempMax": 32.3
+}, {
+	"timestamp": "2015-02-23T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -10.6,
+	"tempAvg": 6.5,
+	"tempMax": 20.8
+}, {
+	"timestamp": "2015-02-24T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -13.8,
+	"tempAvg": 6.5,
+	"tempMax": 23.4
+}, {
+	"timestamp": "2015-02-25T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 6.2,
+	"tempAvg": 17.1,
+	"tempMax": 26.6
+}, {
+	"timestamp": "2015-02-26T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 4.9,
+	"tempAvg": 13.3,
+	"tempMax": 20.3
+}, {
+	"timestamp": "2015-02-27T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 0.8,
+	"tempAvg": 9.4,
+	"tempMax": 18.3
+}, {
+	"timestamp": "2015-02-28T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -8.9,
+	"tempAvg": 8.7,
+	"tempMax": 25.2
+}, {
+	"timestamp": "2015-03-01T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 7.1,
+	"tempAvg": 21.1,
+	"tempMax": 28.1
+}, {
+	"timestamp": "2015-03-02T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 20,
+	"tempAvg": 26.6,
+	"tempMax": 30.8
+}, {
+	"timestamp": "2015-03-03T00:00:00-05:00",
+	"precip": 0.09,
+	"snowfall": 1.4,
+	"tempMin": 9.3,
+	"tempAvg": 21.4,
+	"tempMax": 31.6
+}, {
+	"timestamp": "2015-03-04T00:00:00-05:00",
+	"precip": 0.04,
+	"snowfall": 0,
+	"tempMin": 32.5,
+	"tempAvg": 35.5,
+	"tempMax": 39.6
+}, {
+	"timestamp": "2015-03-05T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 2.5,
+	"tempAvg": 17.3,
+	"tempMax": 32.3
+}, {
+	"timestamp": "2015-03-06T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": -2.2,
+	"tempAvg": 12.1,
+	"tempMax": 26.3
+}, {
+	"timestamp": "2015-03-07T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 9.7,
+	"tempAvg": 23.3,
+	"tempMax": 32.1
+}, {
+	"timestamp": "2015-03-08T00:00:00-05:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 22.9,
+	"tempAvg": 32.2,
+	"tempMax": 39.4
+}, {
+	"timestamp": "2015-03-09T00:00:00-04:00",
+	"precip": 0,
+	"snowfall": 0,
+	"tempMin": 20.4,
+	"tempAvg": 32.9,
+	"tempMax": 43.4
+}]

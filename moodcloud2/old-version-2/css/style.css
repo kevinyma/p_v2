@@ -1,40 +1,29 @@
-body {
-font-family: 'Source Sans Pro', sans-serif;
-font-weight: 400;
-}
-.bold {
-  font-weight: 500;
-}
-  .grid {
-    font-size: 14px;
-    font-weight: 300;
+.grid {
+    font: 12px 'arial';
     fill: none;
-    stroke: white;
+    stroke: black;
     shape-rendering: crispEdges;
 }
 .caption {
   
+    font-size: 10px;
 }
 .comoCell {
     height: 59px;
     width: 59px;
 }
 .cell {
-    stroke-width: 3px;
+    border: 1px solid #dddddd;
     padding: 1px;
 }
 
 rect.cell:hover {
-    stroke-width: 3px; 
+    stroke: 2px rgb(200,5,5);    
+}
 }
 
 #legend {
-    padding: 3em 0 0 3em;
-}
-
-text {
-  fill: rgb(41,41,41);
-    stroke: rgb(41,41,41);
+    padding: 1.5em 0 0 1.5em;
 }
 
 li.key {
@@ -48,12 +37,11 @@ li.key {
 
 .d3-tip {
   line-height: 1;
-  font-size: 12px;
+  font-weight: bold;
   padding: 12px;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  border-radius: 6px;
-  pointer-events: none;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
 }
 
 /* Creates a small triangle extender for the tooltip */
@@ -75,21 +63,3 @@ li.key {
   top: 100%;
   left: 0;
 }
-
-
-#slider{
-    width: 500px;
-}
-
-.ui-widget.ui-widget-content {
-  width: 500px;
-}
-
-.ui-widget-header {
-  background: rgba(100,200,255, 0.5);
-}
-
-.right {
-  float: left;
-}
-

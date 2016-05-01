@@ -1,0 +1,186 @@
+<html>
+<head>
+	    <script src='http://d3js.org/d3.v3.min.js'></script>
+	       <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<table>
+	<tr><td>Text to Save:</td></tr>
+	<tr>
+		<td colspan="3">
+			<p id="inputTextToSave" style="width:512px;height:256px"></p>
+		</td>
+	</tr>
+	<tr>
+		<td>Filename to Save As:</td>
+		<td><input id="inputFileNameToSaveAs"></input></td>
+		<td><button onclick="saveTextAsFile()">Save Text to File</button></td>
+	</tr>
+	<tr>
+		<td>Select a File to Load:</td>
+		<td><input type="file" id="fileToLoad"></td>
+		<td><button onclick="loadFileAsText()">Load Selected File</button><td>
+	</tr>
+</table>
+
+<script type='text/javascript'>
+
+
+var filename = "mood-cloud-log.csv";
+var csvData;
+var dataArray = [];
+
+d3.csv(filename, function (d) {
+    return {
+        uniqueID: +d.uniqueID,
+        imageID: +d.imageID,
+        cellID: +d.cellID,
+        pam_pa: +d.pam_pa,
+        pam_na: +d.pam_na,
+        arousal: parseInt(+d.arousal),
+        valence: parseInt(+d.valence),
+        time: new Date(d.easterntime)
+    };
+
+}, function (error, rows) {
+
+csvData = rows;
+var dayOfYear = d3.time.format("%Y-%j"); //format used to compare if data occurs on the same day
+var currentDay = dayOfYear(csvData[0].time); //start on day 1
+
+var grid = [];
+var counter = 0;
+for (var m = 0; m < 4; m++) {
+    grid.push([]);
+    for (var n = 0; n < 4; n++) {
+        grid[m].push({
+            entries: 0
+        });
+    }
+}
+var emotionArray = 
+					[["gloomy", "tired", "sleep", "serene"],
+					["miserable", "sad", "calm", "satisfied"],
+					["frustrated", "angry", "happy", "glad"],
+					["afraid", "tense", "excited", "delighted"]];
+
+//cycle through data. for every row, combine data if it is on the same day, and append result to dataArray
+dataArray = [];
+csvData.forEach(function (v){
+	if (dayOfYear(v.time) == currentDay){
+	    grid[v.arousal - 1][v.valence - 1].entries += 1;
+	} 
+	else {
+		dayData = {};
+		var lastDay = dayOfYear.parse(currentDay.slice(0,5) + (parseInt(currentDay.slice(5)) - 1));
+
+		//average of valence score distribution for a particular day
+		//
+	    var valence_score_grid = [0,0,0,0];
+	    for (var m = 0; m < 4; m++){
+	        for (var n = 0; n < 4; n++) {
+	            var entries = grid[n][m].entries;
+	            valence_score_grid[m] += entries;
+	        }
+	    }
+	    var valence_negative = 0;
+	    var valence_positive = 0;
+	    var valence_score_sum = 0;
+	    
+	    for (var i = 0; i < 4; i++){
+	    	if (i<2 ){
+	    		valence_negative+=valence_score_grid[i];
+	    	} else {
+	    		valence_positive+=valence_score_grid[i];
+	    	}
+	    	valence_score_sum+=valence_score_grid[i];
+	    }
+
+	    valence_negative = valence_negative/valence_score_sum;
+	  	valence_positive = valence_positive/valence_score_sum;
+
+	    var valence_score_processed = 0;
+
+	    for (var i = 0; i < 4; i++){
+	    	valence_score_processed+=(valence_score_grid[i]/valence_score_sum)*((i+1));
+	    }
+
+	    //average of arousal score distribution for a particular day
+	    var arousal_score_grid = [0,0,0,0];
+	    for (var m = 0; m < 4; m++){
+	        for (var n = 0; n < 4; n++) {
+	            var entries = grid[m][n].entries;
+	            arousal_score_grid[m] += entries;
+	        }
+	    }
+	    var arousal_calm = 0;
+	    var arousal_excited = 0;
+	    var arousal_score_sum = 0;
+	    
+	    for (var i = 0; i < 4; i++){
+	    	if (i<2 ){
+	    		arousal_calm+=arousal_score_grid[i];
+	    	} else {
+	    		arousal_excited+=arousal_score_grid[i];
+	    	}
+	    	arousal_score_sum+=arousal_score_grid[i];
+	    }
+	    arousal_calm = arousal_calm/arousal_score_sum;
+	   	arousal_excited = arousal_excited/arousal_score_sum;
+
+	    var arousal_score_processed = 0;
+	    for (var i = 0; i < 4; i++){
+	    	arousal_score_processed+=(arousal_score_grid[i]/arousal_score_sum)*(i+1);
+	    }
+
+	    //var lastDay = dayOfYear.parse(currentDay.slice(0,5) + (parseInt(currentDay.slice(5)) - 1));
+		dayData["timestamp"]= dayOfYear.parse(currentDay);
+		dayData["valence"] = valence_score_processed;
+		dayData["arousal"] = arousal_score_processed;
+		dayData["arousal_calm"] = arousal_calm;
+		dayData["arousal_excited"] = arousal_excited;
+		dayData["valence_positive"] = valence_positive;
+		dayData["valence_negative"] = valence_negative;
+
+	    //proportion of all emotions on a particular day
+	    for (var i = 0; i < 4; i++){
+	    	for (var j = 0; j < 4; j++){
+	    		var emotionName = emotionArray[i][j];
+	    		var emotionProportion = grid[i][j].entries / valence_score_sum ;
+	    		dayData[emotionName] = emotionProportion;
+		    }
+		}	
+
+		dataArray.push(dayData);
+		//set current day as this day
+		currentDay = dayOfYear(v.time);
+
+		//new grid for storing information		
+		grid = [];
+		for (var m = 0; m < 4; m++) {
+	    	grid.push([]);
+
+	    	for (var n = 0; n < 4; n++) {
+	        	grid[m].push({
+	            	entries: 1
+	        	});
+	    	}
+		}
+	}	
+});
+
+var data = JSON.stringify(dataArray);
+console.log(data);
+var url = 'data:text/json;charset=utf8,' + encodeURIComponent(data);
+window.open(url, '_blank');
+			window.focus(); 
+
+});
+
+
+</script>
+
+</body>
+</html>

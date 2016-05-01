@@ -76,20 +76,25 @@ li.key {
   left: 0;
 }
 
+.grid {
+}
 
-#slider{
+#slider {
     width: 500px;
 }
 
 .ui-widget.ui-widget-content {
-  width: 500px;
+  width: 100%;
 }
 
 .ui-widget-header {
   background: rgba(100,200,255, 0.5);
 }
 
-.right {
-  float: left;
+.left {
+float:left;
 }
 
+.bold {
+  font-weight: 600;
+}
