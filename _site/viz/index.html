@@ -1,0 +1,1344 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ 	<title>
+		CS3300 - Project 2
+	</title>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:500,600,400,300,300italic,400italic,700,700italic,900,900italic'  rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:500,600,400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type="text/css" href="css/bootstrap.css">
+
+	<link rel='stylesheet' type="text/css" href="css/style.css">
+
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/countUp.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="introduction">
+		<h2>Gender of Dialogue in Film</h2>
+		<p class="textbox">We compiled the number of words spoken by male and female characters across IMDB's top films of the past 15 years. We then compared the films by the genders of their creators. Here's what we found.</p>
+		</div>
+
+		<div class="page-filter-group pages-filter">
+			<p id="piChart" class="filter page-filter leftmost active">Male vs. Female Dialogue</p>
+			<p id="histogram" class="filter page-filter">Dialogue Breakdown by Percentage</p>
+			<p id="scatterplot" class="filter page-filter ">Impact on Gross Revenue</p>
+		</div>
+
+
+		<div class="roles-filters">
+			<div class="filter-group filter-title">
+				<h3>When a film's...</h3>
+			</div>
+			<div class="filter-group director-filter">
+				<p class="filter-label">Director</p>
+				<p id="d-all" class="border filter front-curve active">View All</p>
+				<p id="d-m" class="border filter">Is Male</p>
+				<p id="d-f" class="border filter back-curve">Is Female</p>
+			</div>
+
+			<div class="filter-group producer-filter">
+				<p class="filter-label">Producer</p>
+				<p id="p-all" class="border filter front-curve active">View All</p>
+				<p id="p-m" class="border filter">Is Male</p>
+				<p id="p-f" class="border filter back-curve">Is Female</p>
+			</div>
+
+			<div class="filter-group writer-filter">
+				<p class="filter-label">Writer</p>
+				<p id="w-all" class="border filter front-curve active">View All</p>
+				<p id="w-m" class="border filter">Is Male</p>
+				<p id="w-f" class="border filter back-curve">Is Female</p>
+			</div>
+
+			<div class="filter-group year-filter">
+				<p class="filter-label">Year</p>
+				<button class="dropbtn" id="button" type="button" data-toggle="dropdown">All
+				<span class="caret" id="caret"></span></button>
+				  <ul class="dropdown-menu">
+				    <a class="filter active" id = "All" href="#all">All</a>
+				    <a class = "filter" id = "2000" href="#zero">2000</a>
+				    <a class = "filter" id = "2001" href="#one">2001</a>
+				    <a class = "filter" id = "2002" href="#two">2002</a>
+				    <a class = "filter" id = "2003" href="#three">2003</a>
+				    <a class = "filter" id = "2004" href="#four">2004</a>
+				    <a class = "filter" id = "2005" href="#five">2005</a>
+				    <a class = "filter" id = "2006" href="#six">2006</a>
+				    <a class = "filter" id = "2007" href="#seven">2007</a>
+				    <a class = "filter" id = "2008" href="#eight">2008</a>
+				    <a class = "filter" id = "2009" href="#nine">2009</a>
+				    <a class = "filter" id = "2010" href="#ten">2010</a>
+				    <a class = "filter" id = "2011" href="#eleven">2011</a>
+				    <a class = "filter" id = "2012" href="#twelve">2012</a>
+				    <a class = "filter" id = "2013" href="#thirteen">2013</a>
+				    <a class = "filter" id = "2014" href="#fourteen">2014</a>
+				    <a class = "filter" id = "2015" href="#fifteen">2015</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="restore-button-group">
+			<div class="filter-group">
+				<p id="restore" class="border restore-button front-curve back-curve">Restore to all movies</p>
+			</div>
+		</div>
+
+		<div class="legend">
+			<h3>Every circle is a movie:</h3>
+			<div class="legend-box legend-box-women">
+				<div class="legend-circle red"></div>
+				<div class="label">= Women speak more</div>
+			</div>
+			<div class="legend-box">
+				<div class="legend-circle blue"></div>
+				<div class="label">= Men speak more</div>
+			</div>
+		</div>
+		<div class="statistics">
+			<div class="statistics-women-box"><span class="statistics-women"></span>
+			<p> of specified films are female dominated.</p></div>
+			<div class="statistics-men-box"><span class="statistics-men"></span>
+			<p> of specified films are male dominated.</p></div>
+			<div class="cover"></div>
+		</div>
+
+		<div class="description description-pie">
+			<h3>Male Dialogue Dominates</h3>
+			<p class="smalltext">There is a clear preference within Hollywood for male-dialogue dominated films. Filtering by the gender of the key creative roles shows how few films have female crews. Changing the years shows this statistic has not improved over the last 15 years. </p>
+		</div>
+
+		<div class="description description-histogram">
+			<h3>Percentages</h3>
+			<p>Expanding on the last binary division, this histogram shows that the distribution of dialogue is far from symmetric: in fact, it is centered around films with 80-90% male dialogue.</p>
+		</div>
+
+		<div class="description description-revenue">
+			<h3>Male Dominated Films have Higher Gross Revenue</h3>
+			<p>Hollywood may be skewed towards male dominated films, but this is only to maximize their revenue. 
+				Films with heavier male dialogue appear to perform better and gross higher.</p>
+		</div>
+		
+		<div id="plot">
+		<div id="points">
+		</div>
+		</div>
+		<div class="revenue">
+			<div class="revenue-box"><span class="revenue-women">$<span class="revenue-women-number"></span> MILLION</span>
+			<p> average revenue when women speak more</p></div>
+			<div class="revenue-box"><span class="revenue-men">$<span class="revenue-men-number"></span> MILLION</span>
+			<p> average revenue when men speak more</p></div>
+		</div>
+	</div>
+	<script>
+	$(".statistics").hide();
+
+	$(".revenue").hide();
+
+	d3.selection.prototype.moveToBack = function() {  
+        return this.each(function() { 
+            var firstChild = this.parentNode.firstChild; 
+            if (firstChild) { 
+                this.parentNode.insertBefore(this, firstChild); 
+            } 
+        });
+    };
+
+	d3.selection.prototype.moveToFront = function() {
+		return this.each(function(){
+			this.parentNode.appendChild(this);
+		});
+	};
+
+    function setYear(){
+		document.getElementById("button").innerText = $('.year-filter').find('.active').attr('id');
+	}
+
+	var width = 970;
+	var height = 600;
+	var graphPadding = 50;
+	var svg = d3.select("#plot").append("svg").attr("height", height).attr("width", width);
+	women = [];
+	men = [];
+	activeWomen = [];
+	activeMen = [];
+	var filteredMen = [];
+	var filteredWomen = [];
+	var unfiltered = [];
+	var filtered = [];
+	// var unfilteredMen = [];
+	// var unfilteredWomen = [];
+	var directorGender = 'all',
+		producerGender = 'all',
+		writerGender = 'all'
+		year = 'All';
+	var page = "piChart";
+	var circleColor = 'rgba(0,0,0,0)';
+
+	var circles;
+
+	
+	//Popup variable declarations
+	var popupBox = d3.select("body")
+		.append("div")   
+    	.attr("class", "tooltip")
+    	.style("left",0)
+    	.style("top",0)
+    	.style("opacity", 0);
+	var dataBarScale = d3.scale.linear().domain([0,1]).range([0,50]);
+	var dialogueArray = [0.5,0.6];
+	var popupPoster = popupBox.append("img")
+		.attr("class","poster");
+	var popupName = popupBox.append("p")
+	    .attr("class","nameLabel")
+	    .text(function(){return "";});
+	var popupYear = popupBox.append("p")
+	    .attr("class","dataLabel")
+	    .text(function(d){return 1;
+	    });
+	var popupGross = popupBox.append("p")
+	    .attr("class","dataLabel")
+	    .text(function(d){return 1;
+	    });
+	var popupData = popupBox
+	    .append("div")
+	    .attr("class","dataBox") 
+	    .selectAll("div")
+	    .data(dialogueArray,function(d){
+	      	return d;
+	    	})
+	    .enter()
+	    .append("div")
+	    .attr("class","dataRow");
+	var popupDialogueDataLabel = popupData.append("p")
+	    .attr("class","dialogueLabel")
+	    .text(function(d,i){
+	      if(i==0){
+	        return "Female Dialogue:";
+	      }
+	      return "Male Dialogue:";
+	    });
+	var popupDataBar = popupData.append("div")
+	    .attr("class","dataBar")
+	    .style("width",function(d){
+	        return dataBarScale(d) + "px";
+	        })
+	    .style("background-color",function(d,i){
+	        if (i==0){
+	          return "red";
+	        }
+	          return "blue";
+	        });
+	var percentFormat = d3.format(".0%");
+	var revenueFormat = d3.format("$0M");
+	var popupPercent = popupData.append("p")
+	    .attr("class","dataPercent")
+	    .text(function(d){
+	      return percentFormat(d);
+	    });
+	var crewArray = ["f","f","f"];
+	var popupCrew = popupBox
+	    .append("div")
+	    .attr("class","dataBox") 
+	    .selectAll("div")
+	    .data(crewArray,function(d){
+	      	return d;
+	    	})
+	    .enter()
+	    .append("div")
+	    .attr("class","dataRow");
+
+	var popupDirectorLabel = popupCrew.append("p")
+        .attr("class","crewLabel")
+        .text("Director: ");
+	var popupDirector = popupCrew.append("p")
+        .attr("class","dataCrewGender")
+        .text("");
+	var popupProducerLabel = popupCrew.append("p")
+        .attr("class","crewLabel")
+        .text("Producer: ");
+	var popupProducer = popupCrew.append("p")
+        .attr("class","dataCrewGender")
+        .text("");
+    var popupWriterLabel = popupCrew.append("p")
+        .attr("class","crewLabel")
+        .text("Writer: ");
+	var popupWriter = popupCrew.append("p")
+        .attr("class","dataCrewGender")
+        .text("");
+
+
+    var xAxisStable = svg.append("g");
+
+		xAxisStable.attr("transform", "translate(0,0)")
+			.attr("class", "axis");
+
+
+	var yAxisStable = svg.append("g");
+
+		yAxisStable.attr("transform", "translate(0,0)")
+		.attr("class", "axis");
+
+	var label1 = svg.append("text").text("100% Female Dialogue")
+			.style("opacity", 0);
+
+		var label2 = svg.append("text").text("75%")
+			.style("opacity", 0);
+		var label3 = svg.append("text").text("50% Male, 50% Female")
+			.style("opacity", 0);
+		var label4 = svg.append("text").text("75%")
+			.style("opacity", 0);
+		var label5 = svg.append("text").text("100% Male Dialogue")
+			.style("opacity", 0);
+
+	function outputUpdate(value) {
+		document.getElementById("enable").innerHTML = value;
+	}
+	d3.csv("moviesfinal.csv", function(error, rows) {
+		data = d3.map(rows, function(row) {
+			return row.script_id;
+		});
+		rows.forEach(function (line) {
+			if (line.percentage_male >0.5){
+				men.push(line.script_id);
+			}
+			else{
+				women.push(line.script_id);
+			}
+
+
+		});
+		circles = svg.selectAll("circle").data(rows); //.attr("class", "points")
+		circles.enter()
+			.append("circle")
+			.attr("class", "icons")
+			.attr("cx", width/2)
+		  	.attr("cy", height/2)
+		  	.attr("r", 6 )
+		  	.style("opacity", .6)
+		  	.style("cursor", "pointer")
+		  	.style("fill", function(d) {
+		    	var returnColor = "blue";
+		    	if (d.percentage_male > .5) { returnColor = "blue";}
+		    	else  { returnColor = "red"; }
+		    	return returnColor;})
+		  	.on("mouseover", function(d) {
+		  		if(d3.select(this).attr("r") != 250){
+		  			d3.select(this).style("stroke","black").style("stroke-width", 2);
+		  		}
+	            tooltipMouseover(d);})             
+		  	.on("mouseout", function(d) {  
+		  		d3.select(this).style("stroke",null);     
+		    	popupBox.transition().duration(200).style("opacity", 0);})
+		  	.on("click", function(d){
+
+		  		if ($(".revenue").is(":visible")){
+		  			$(".revenue").hide();
+		  		} else 
+		  		{$("revenue").show();}
+
+		  		if(d3.select(this).attr("r") == 250){
+		  			applyFilters();
+		  		}
+		  		else{
+		  			d3.select(this).moveToFront();
+			  		d3.select(this).transition().duration(1000)
+						.attr("cx", width/2)
+						.attr("cy", height/2)
+						.attr("r", 250)
+						.style("opacity", 1)
+						.style("fill", "rgb(240,240,240)");
+					
+			  		byCharacter(d);
+		  		}
+		  	});
+
+
+		filtered = men.concat(women); 
+		plotPiChart(men, women, unfiltered);
+		$('.statistics').hide();
+
+		function filterYear(year,array){
+			activeArray =[];
+			array.forEach(function(id) {
+				if (data._[id].year==year){
+					activeArray.push(id);
+				}
+			});
+			return activeArray;
+		}
+		function filterRoleByGender(role,gender,array){
+			activeArray=[];
+			array.forEach(function (id) {
+				if (data._[id][role]==gender){
+					activeArray.push(id);
+				}
+			})
+			return activeArray;
+		}
+		//applys all filters and changes array values
+		function applyFilters(){
+			filteredMen = men;
+			filteredWomen = women;
+			unfilteredMen=[];
+			unfilteredWomen=[];
+			unfiltered = [];
+			filtered = [];
+			if (directorGender!="all"){
+				filteredMen = filterRoleByGender("director", directorGender, filteredMen);
+				filteredWomen = filterRoleByGender("director", directorGender, filteredWomen);
+			}
+			if (producerGender!="all"){
+				filteredMen = filterRoleByGender("producer", producerGender, filteredMen);
+				filteredWomen = filterRoleByGender("producer", producerGender, filteredWomen);
+			}
+			if (writerGender!="all"){
+				filteredMen = filterRoleByGender("writer", writerGender, filteredMen);
+				filteredWomen = filterRoleByGender("writer", writerGender, filteredWomen);
+			}
+			if(year!="All"){
+				filteredMen = filterYear(year,filteredMen);
+				filteredWomen = filterYear(year, filteredWomen);
+			}
+			for (var i = 0; i <men.length; i++) {
+				var inMFiltered = 0;
+				for (var j = 0; j<filteredMen.length; j++) {
+					if(filteredMen[j] == men[i]){
+						inMFiltered = 1;
+					}
+				};
+				if(inMFiltered == 0){
+					unfiltered.push(men[i]);
+				}
+			};
+			for (var i = 0; i <women.length; i++) {
+				var inWFiltered = 0;
+				
+				for (var j = 0; j<filteredWomen.length; j++) {
+					if(filteredWomen[j] == women[i]){
+						inWFiltered = 1;
+					}
+				};
+				if(inWFiltered == 0){
+					unfiltered.push(women[i]);
+				}
+			};
+			d3.selectAll("line").remove();
+
+			filtered = filteredMen.concat(filteredWomen);
+
+			//sets the stats to show on the page
+			if (filtered.length == 0) {
+				var percentMen = '0%';
+				var percentWomen = '0%';
+			} else {
+			var percentMen = Math.round((filteredMen.length/filtered.length)*100) + "%";
+			var percentWomen = Math.round((filteredWomen.length/filtered.length)*100) + "%";
+			}
+			
+			$('.statistics-men').hide().html(percentMen).fadeIn(800);
+			$('.statistics-women').hide().html(percentWomen).fadeIn(800);
+
+			
+
+			if(page == "piChart") {
+				plotPiChart(filteredMen,filteredWomen, unfiltered);
+				$('.revenue').fadeOut(200);
+				$('.description-histogram').fadeOut(200);	
+				$('.description-revenue').fadeOut(200);	
+				$('.statistics').delay(400).fadeIn(200);
+				$('.description-pie').delay(400).fadeIn(200);
+				$('.legend').delay(400).fadeIn(200);
+
+			}
+			else if (page == "histogram") {
+				byPercentageHistogram(filtered, unfiltered);
+				$('.statistics').fadeOut(200);
+				$('.revenue').fadeOut(200);
+				$('.description-pie').fadeOut(200);	
+				$('.description-revenue').fadeOut(200);	
+				$('.description-histogram').delay(400).fadeIn(200);
+				$('.legend').delay(400).fadeIn(200);
+			}
+			else {
+				byRevenueScatterPlot(filtered, unfiltered);
+				$('.statistics').fadeOut(200);
+				$('.description-pie').fadeOut(200);	
+				$('.description-histogram').fadeOut(200);	
+				$('.revenue').delay(400).fadeIn(200);
+				$('.description-revenue').delay(400).fadeIn(200);
+				$('.legend').fadeOut(200);	
+			}
+		}
+
+		$('.filter').click( function() {
+			if (!$(this).hasClass('active')){
+				//add style to active button, remove from
+				$(this).siblings().removeClass('active');
+		    	$(this).addClass('active');
+		    	//assign active buttons to variables
+		  
+		    	directorGender = $('.director-filter').find('.active').attr('id').substring(2);
+		    	producerGender = $('.producer-filter').find('.active').attr('id').substring(2);
+		    	writerGender = $('.writer-filter').find('.active').attr('id').substring(2);
+		    	
+		    	page = $('.pages-filter').find('.active').attr('id');
+
+		    	year = document.getElementById($('.year-filter').find('.active').attr("id")).innerHTML;
+		    	document.getElementById("button").innerText = $('.year-filter').find('.active').attr('id');
+		    	$("#button").append("<span class=\"caret\" id=\"caret\"></span>");
+
+		    	applyFilters();
+		    }
+		});
+
+		$('.restore-button').click(function() {
+
+			page = $('.pages-filter').find('.active').attr('id');
+
+			$('.filter-group').children().removeClass('active');
+			$('#w-all').addClass('active');
+			$('#d-all').addClass('active');
+			$('#p-all').addClass('active');
+
+			$('.dropdown-menu').children().removeClass('active');
+			$('#All').addClass('active');
+			document.getElementById("button").innerText = $('.year-filter').find('.active').attr('id');
+			$("#button").append("<span class=\"caret\" id=\"caret\"></span>");
+
+			directorGender = 'all';
+			producerGender = 'all';
+			writerGender = 'all';
+			year = 'All';
+
+			applyFilters();
+
+		});
+
+
+
+		
+
+		//men is an array of each object where men speak the most, and women is an array of each object where women speak the most
+		function plotPiChart(men, women, unfiltered){
+
+			d3.selectAll(".axis").style("opacity", 0);
+			d3.selectAll(".histogramAxis").remove();
+			d3.selectAll(".nameAxis").remove();
+			d3.selectAll("rect").remove();
+			svg.select(".outerCircle").remove();
+			svg.select(".innerCircle").remove();
+			svg.selectAll("line").style("stroke", null);
+
+
+
+			xAxisStable.attr("transform", "translate(0,-20)")
+				.transition().delay(800)
+				.style("opacity", 0);
+
+			yAxisStable.attr("transform", "translate(0,-20)")
+				.transition().delay(800)
+				.style("opacity", 0);	
+
+			label1.transition().delay(800).style("opacity",0);
+			label2.transition().delay(800).style("opacity",0);
+			label3.transition().delay(800).style("opacity",0);
+			label4.transition().delay(800).style("opacity",0);
+			label5.transition().delay(800).style("opacity",0);
+			$('.histogramAxis').attr('stroke','white');
+
+
+			var Theta = (women.length/(men.length+women.length))*2*Math.PI; 
+			var Radius = Math.sqrt(((men.length+women.length)/Math.PI+Math.sqrt(men.length+women.length)))*12 +Math.cos(Theta)*Math.cos(Theta)*10; //size of Pi Chart
+			if (men.length+women.length==0){
+				Radius = 0;
+				Theta = 0;
+			}
+			svg.append("circle").attr("class", "innerCircle")
+				.attr("r", Radius).attr("cx",width/2).attr("cy",height/2)
+				.style("fill", "white").style("stroke", circleColor).moveToBack();
+
+			svg.append("line").attr("x1", width/2+Radius).attr("y1",height/2).attr("x2",width/2).attr("y2", height/2).style("stroke", circleColor).transition().delay(800).style("stroke-width", 1.5);
+
+			// line dependent on Theta
+			svg.append("line").attr("x1",width/2).attr("y1",height/2).attr("x2", width/2+Radius*Math.cos(Theta)).attr("y2", (height/2)-Radius*Math.sin(Theta)).style("stroke", circleColor).transition().delay(800).style("stroke-width", 1.5);
+
+			//outside circle
+			var bigTheta = (153/(763))*2*Math.PI; 
+			var bigRadius = Math.sqrt(((763)/Math.PI+Math.sqrt(763)))*12 +Math.cos(bigTheta)*Math.cos(bigTheta)*10;
+			svg.append("circle")
+				.attr("class", "outerCircle")
+				.attr("r", bigRadius)
+				.attr("cx",width/2)
+				.attr("cy",height/2)
+				.style("fill", "rgba(0,0,0,.10)")
+				.style("stroke", circleColor)
+				.moveToBack();
+			var wfill = false;
+			var padding = 1;
+			var r = 5;
+			var wx = r+padding;
+			var wy = r+padding;
+			var wcount = women.length;
+
+			//plots all points where women have more speaking parts
+			while (wcount>0){
+				var d = r+padding;
+				if (Theta<Math.PI){
+					wx=(1/Math.tan(Theta))*(wy)+(1/Math.sin(Theta))*(r+padding);
+					if (wy+r+padding<Radius && (wx+r)*(wx+r)+(wy+r)*(wy+r)>Radius*Radius){
+						wx = r+padding;
+						wfill = true;
+					}
+					while((wx+r)*(wx+r)+(wy+r)*(wy+r)<Radius*Radius){
+						if (wcount==0){
+							break;
+						}
+						if (wfill){
+							if(women[wcount]>0){
+							wcount-=1;
+							data._[women[wcount]].cx = (width)/2-wx;
+							data._[women[wcount]].cy = height/2 -wy; };
+							
+						}
+						wcount-=1;
+						if(women[wcount]>0){
+
+							data._[women[wcount]].cx = (width)/2+wx;
+							data._[women[wcount]].cy = height/2 -wy;
+						}
+						
+						wx+=(r+padding)*2;
+					}
+						wy+=(r+padding)*2;
+					}
+				else{
+					wx2 = (1/Math.tan(Theta))*(wy)-(1/Math.sin(Theta))*(r+padding);
+					while((wx2+r)*(wx2+r)+(wy+r)*(wy+r)<Radius*Radius && wy>Math.sin(Theta)*Radius){
+						if (wcount==0){
+							break;
+						}
+						wcount-=1;
+						if(women[wcount]>0){
+						
+							data._[women[wcount]].cx = (width)/2-wx2;
+							data._[women[wcount]].cy = height/2 +wy;};
+						
+						wx2+=(r+padding)*2;
+					}
+					wx2=r+padding;				
+					wx=r+padding;
+					while((wx+r)*(wx+r)+(wy+r)*(wy+r)<Radius*Radius){
+						if (wcount==0){
+							break;
+						}
+						wcount-=2;
+						if(women[wcount]>0){
+						
+							data._[women[wcount]].cy = height/2 -wy;};
+						if(women[wcount+1]>0){
+							data._[women[wcount+1]].cx = (width)/2-wx;
+							data._[women[wcount+1]].cy = height/2 -wy;};
+						
+					
+						wx+=(r+padding)*2;
+					}
+					wy+=(r+padding)*2;
+					wx=r+padding;
+				}
+			}
+			var mfill = false;
+			var mx = r+padding;
+			var my = r+padding;
+			var mcount = men.length;
+			var Theta2 = Math.PI*2-Theta;
+			// plots all points where men have more speaking parts
+			while (mcount>0){
+				if (Theta2<Math.PI){
+					mx=(1/Math.tan(Theta2))*(my)+(1/Math.sin(Theta2))*(r+padding);
+					if (my+r+padding<Radius && (mx+r)*(mx+r)+(my+r)*(my+r)>Radius*Radius){
+						mx = r+padding;
+						mfill = true;
+					}
+					while((mx+r)*(mx+r)+(my+r)*(my+r)<Radius*Radius){
+						if (mcount==0){
+							break;
+						}
+						if (mfill){
+							mcount-=1;
+							data._[men[mcount]].cx = (width)/2-mx;
+							data._[men[mcount]].cy = height/2 +my;							
+						}
+						mcount-=1;
+			
+						data._[men[mcount]].cx = (width)/2+mx;
+						data._[men[mcount]].cy = height/2 +my;
+						
+						mx+=(r+padding)*2;
+					}
+						my+=(r+padding)*2;
+					}
+				else{
+					mx2 = (1/Math.tan(Theta2))*(my)-(1/Math.sin(Theta2))*(r+padding);
+					while((mx2+r)*(mx2+r)+(my+r)*(my+r)<Radius*Radius && my<Math.sin(Theta)*Radius){
+						if (mcount==0){
+							break;
+						}
+						mcount-=1;
+				
+						data._[men[mcount]].cx = (width)/2-mx2;
+						data._[men[mcount]].cy = height/2 -my;
+						
+						mx2+=(r+padding)*2;
+					}
+					mx2=r+padding;				
+					mx=r+padding;
+					while((mx+r)*(mx+r)+(my+r)*(my+r)<Radius*Radius){
+						if (mcount==0){
+							break;
+						}
+						mcount-=2;
+						if(men[mcount]>=0){
+			
+						data._[men[mcount]].cx = (width)/2+mx;
+						data._[men[mcount]].cy = height/2 +my;};
+	
+						if(men[mcount+1]>=0){
+						data._[men[mcount+1]].cx = (width)/2-mx;
+						data._[men[mcount+1]].cy = height/2 +my;};
+						
+						mx+=(r+padding)*2;
+					}
+					my+=(r+padding)*2;
+					mx=r+padding;
+				}
+			}
+			for (var i = 0; i < unfiltered.length; i++) {
+				if(data._[unfiltered[i]].cx >= width/2){
+					data._[unfiltered[i]].cx = width+10;
+				} 
+				else{ data._[unfiltered[i]].cx = -10;
+				}
+			};
+
+			circles.transition().duration(1250)
+			.attr("cx", function(d) { return d.cx; })
+			.attr("cy", function(d) { return d.cy; })
+			.attr("r", 5)
+			.style("opacity", .6)
+			.style("fill", function(d) {
+		    	var returnColor = "blue";
+		    	if (d.percentage_male > .5) { returnColor = "blue";}
+		    	else  { returnColor = "red"; }
+		    	return returnColor;});	
+		}
+			
+		
+		function tooltipMouseover (d)
+		{	
+			popupName.text(d.title);
+			popupYear.text(d.year);
+			popupGross.text("$" + d.gross + "M Revenue");
+		   	popupData.data([1-d.percentage_male,d.percentage_male]).enter();
+		   	popupData.select(".dataPercent")
+		        .text(function(d){
+		          return percentFormat(d);
+		        });
+			
+			popupData.select(".dataBar")
+		        .transition()
+		        .duration(200)
+		        .style("width",function(d){
+		          return dataBarScale(d) + "px";
+		        });
+		    popupWriter.text(d.writer)
+		    	.style("text-transform", "uppercase")
+		    	.style("color", function (){
+		    		if(d.writer == "m") {return "blue";}
+		    		return "red";
+		    	});
+		    popupDirector.text(d.director)
+		    	.style("text-transform", "uppercase")
+		    	.style("color", function(){
+		    		if(d.director == "m") {return "blue";}
+		    		return "red";
+		    	});
+			popupProducer.text(d.producer)
+				.style("text-transform", "uppercase")
+		    	.style("color", function(){
+		    		if(d.producer == "m") {return "blue";}
+		    		return "red";
+		    	});
+		    popupPoster.attr("src", function(){ 
+		    	return d.poster_url
+		    })
+
+			popupBox.transition()
+		        .duration(100)
+		        .style("opacity", .95);
+		    popupBox.style("left", (d3.event.pageX +10) + "px")
+		            .style("top", (d3.event.pageY - 250)+ "px");
+		}
+
+
+		$(".histogram").click(function() {
+			applyFilters();
+			byPercentageHistogram(filtered, unfiltered);
+		});
+		$(".piChart").click(function() {
+			applyFilters();
+			plotPiChart(filteredMen, filteredWomen, unfiltered);
+		});
+
+		//Set up charts elements to be hidden when changing graphs
+		var margin = {top: height/4, right: width/8, bottom: height/4, left: 3*width/8};
+
+		
+		var yAxisLabel = svg.append("text").text("Number of Films")
+			.style("opacity", 0);
+
+		function byPercentageHistogram(filtered, unfiltered)
+		{
+			//hide axis
+			d3.selectAll(".axis").style("opacity", 0);
+
+			d3.selectAll(".histogramAxis").remove();
+			d3.selectAll(".nameAxis").remove();
+			d3.selectAll("rect").remove();
+			svg.select(".outerCircle").remove();
+			svg.select(".innerCircle").remove();
+			svg.selectAll("line").style("stroke", null);
+			
+			var percentageData = [];
+			for (var i = 0; i < filtered.length; i++) 
+			{
+				percentageData.push(100*data._[filtered[i]].percentage_male);
+			};
+			var binCounter = d3.layout.histogram().bins(20).range([d3.min(percentageData), d3.max(percentageData)]);
+			var bins = binCounter(percentageData);
+			var xScale = d3.scale.linear()
+				.domain([0, 100])
+				.range([0+margin.left, width-margin.right]);
+			var yScale = d3.scale.linear()
+				.domain([0,
+					d3.max(bins, function (bin) {
+						 return bin.y;
+					 }) +5])
+				.range([height-margin.bottom, graphPadding]);
+
+
+
+			var xAxis = d3.svg.axis().scale(xScale).orient("bottom").ticks(3).tickFormat("");
+			var yAxis = d3.svg.axis().scale(yScale).orient("left").ticks(5);
+
+			xAxisStable.attr("transform", "translate(0," + (height - margin.bottom) + ")")
+				.call(xAxis)
+				.transition().delay(800)
+				.style("opacity", 1)
+				;
+
+				label1.attr("x", margin.left+(width-margin.left-margin.right)*0)
+				.attr("y", height-margin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "red")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);
+
+				label2.attr("x", margin.left+(width-margin.left-margin.right)*(1/4))
+				.attr("y", height-margin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "red")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);
+
+				label3.attr("x", margin.left+(width-margin.left-margin.right)*(2/4))
+				.attr("y", height-margin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);	
+
+				label4.attr("x", margin.left+(width-margin.left-margin.right)*(3/4))
+				.attr("y", height-margin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "blue")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);
+
+				label5.attr("x", margin.left+(width-margin.left-margin.right)*1)
+				.attr("y", height-margin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "blue")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);	
+				
+			yAxisStable.attr("transform", "translate(" + margin.left + ",0)")
+				.call(yAxis)
+				.transition().delay(800)
+				.style("opacity", 1)
+				;	
+
+
+			yAxisLabel
+				// translates to a point (x,y) and rotates about that point
+				.attr("transform","translate(" + (margin.left - 50) + "," + (margin.bottom+(height-margin.bottom-margin.top)/2 -30) + ")rotate(-90)")
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("font-weight", "bold")
+				
+				.transition().delay(800)
+				.style("opacity", 1);	
+
+
+			var yHeights = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+			for (var i = 0; i < filtered.length; i++) 
+			{
+				yHeights[Math.floor(data._[filtered[i]].percentage_male*100/5)] = yHeights[Math.floor(data._[filtered[i]].percentage_male*100/5)] + 1;
+			};
+
+			for (var i = 0; i < filtered.length; i++) 
+			{
+				data._[filtered[i]].cx = xScale(Math.floor(data._[filtered[i]].percentage_male*100/5)*5);
+				data._[filtered[i]].cy = yScale(yHeights[Math.floor(data._[filtered[i]].percentage_male*100/5)]);
+				yHeights[Math.floor(data._[filtered[i]].percentage_male*100/5)] = yHeights[Math.floor(data._[filtered[i]].percentage_male*100/5)] - 1;
+			};
+
+			for (var i = 0; i < unfiltered.length; i++) {
+				if(data._[unfiltered[i]].cx >= width/2){
+					data._[unfiltered[i]].cx = width+10;
+				} 
+				else{data._[unfiltered[i]].cx = -10;
+				}
+			};
+			circles.transition().duration(1000)
+			.attr("cx", function(d) { return d.cx; })
+			.attr("cy", function(d) { return d.cy; })
+			.attr("r", 5)
+			.style("opacity", .6)
+			.style("fill", function(d) {
+		    	var returnColor = "blue";
+		    	if (d.percentage_male > .5) { returnColor = "blue";}
+		    	else  { returnColor = "red"; }
+		    	return returnColor;});
+
+			svg.selectAll("circle").style("stroke", null);
+			svg.selectAll("line").style("stroke", null);
+		}
+		$(".scatterplot").click(function() {
+			byRevenueScatterPlot(filtered, unfiltered);
+		});
+
+		var oldWomen;
+		function byRevenueScatterPlot(filtered, unfiltered)
+		{
+			d3.selectAll(".axis").style("opacity", 0);
+
+			var scatterMargin = {top: 180, right: 60, bottom: 60, left: 30};
+
+			d3.selectAll(".histogramAxis").remove();
+			d3.selectAll(".nameAxis").remove();
+			d3.selectAll("rect").remove();
+			svg.select(".outerCircle").remove();
+			svg.select(".innerCircle").remove();
+			svg.selectAll("line").style("stroke", null);
+			
+			var percentageData = [];
+			var revenueData = [];
+			var menRevenueAverage = 0;
+			var womenRevenueAverage = 0;
+			var menCount = 0;
+			var womenCount = 0;
+			var menRevenueSum = 0;
+
+			for (var i = 0; i < filtered.length; i++) 
+			{
+
+				percentageData.push(100*data._[filtered[i]].percentage_male);
+				revenueData.push(data._[filtered[i]].gross);
+
+				if(data._[filtered[i]].percentage_male > .5){
+					menRevenueSum = menRevenueSum+parseInt(data._[filtered[i]].gross);
+					menCount = menCount+1;
+				}
+				else{
+					womenRevenueAverage = womenRevenueAverage+parseInt(data._[filtered[i]].gross);
+					womenCount++;
+				}
+			};
+
+			menRevenueAverage = menRevenueSum/menCount;
+			womenRevenueAverage = womenRevenueAverage/womenCount;
+
+			var xScale = d3.scale.linear()
+				.domain([0, 100])
+				.range([0+scatterMargin.left, width-scatterMargin.right]);
+
+			var yScale = d3.scale.linear()
+				.domain([0, Math.max.apply(null, revenueData)])
+				.range([height-scatterMargin.bottom, scatterMargin.top]);
+			var xAxis = d3.svg.axis().scale(xScale).orient("bottom").ticks(3).tickFormat("");
+			var yAxis = d3.svg.axis().scale(yScale).orient("left").ticks(5);
+
+			
+			xAxisStable.attr("transform", "translate(0," + (height-scatterMargin.bottom) + ")")
+				.call(xAxis)
+				.transition().delay(800)
+				.style("opacity", 1);
+
+			//Put back in if we want a y axis	
+			yAxisStable.attr("transform", "translate(" + -5+ ",0)")
+				.call(yAxis)
+				.transition().delay(800)
+				.style("opacity", 0);
+
+			yAxisLabel.attr("x", 0).attr("y", 0).transition().delay(800).style("opacity", 0);	
+
+				label1.attr("x", scatterMargin.left+(width-scatterMargin.left-scatterMargin.right)*0)
+				.attr("y", height-scatterMargin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "red")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);
+
+				label2.attr("x", scatterMargin.left+(width-scatterMargin.left-scatterMargin.right)*(1/4))
+				.attr("y", height-scatterMargin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "red")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);
+
+				label3.attr("x", scatterMargin.left+(width-scatterMargin.left-scatterMargin.right)*(2/4))
+				.attr("y", height-scatterMargin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);	
+
+				label4.attr("x", scatterMargin.left+(width-scatterMargin.left-scatterMargin.right)*(3/4))
+				.attr("y", height-scatterMargin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "blue")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);
+
+				label5.attr("x", scatterMargin.left+(width-scatterMargin.left-scatterMargin.right)*1)
+				.attr("y", height-scatterMargin.bottom+25)
+				.attr("text-anchor","middle")
+				.attr("class", "axis")
+				.style("font-size", "12px")
+				.style("fill", "blue")
+				.style("font-weight", "bold")
+				.transition().delay(800)
+				.style("opacity", 1);	
+			
+			if (Math.max.apply(null, revenueData)>0) {
+			
+				svg.append("line")
+					.attr("x1", xScale(0))
+					.attr("x2", xScale(100))
+					.attr("y1", yScale(Math.max.apply(null, revenueData)/4))
+					.attr("y2", yScale(Math.max.apply(null, revenueData)/4))
+					.transition().delay(800)
+					.attr("stroke", "black")
+					.attr("opacity", 0.5)
+					.attr("stroke-width", 1)
+					.attr("stroke-dasharray","4,4")
+					.attr("class", "histogramAxis");
+	
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(Math.max.apply(null, revenueData)/4)-5)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")
+					.text("$"+Math.round(Math.max.apply(null, revenueData)/4))
+					
+					.attr("class", "histogramAxis");
+	
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(Math.max.apply(null, revenueData)/4)+10)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")
+					.text("Million")
+					.attr("class", "histogramAxis");
+	
+				svg.append("line")
+					.attr("x1", xScale(0))
+					.attr("x2", xScale(100))
+					.attr("y1", yScale(Math.max.apply(null, revenueData)/2))
+					.attr("y2", yScale(Math.max.apply(null, revenueData)/2))
+					.transition().delay(800)
+					.attr("stroke", "black")
+					.attr("stroke-width", 1)
+					.attr("stroke-dasharray","4,4")
+					.attr("class", "histogramAxis")
+					.attr("opacity", 0.5);
+
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(Math.max.apply(null, revenueData)/2)-5)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")
+					.text("$"+Math.round(Math.max.apply(null, revenueData)/2))
+					.attr("class", "histogramAxis");
+
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(Math.max.apply(null, revenueData)/2)+10)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")
+					.text("Million")
+					.attr("class", "histogramAxis");
+	
+				svg.append("line")
+					.attr("x1", xScale(0))
+					.attr("x2", xScale(100))
+					.attr("y1", yScale(3*Math.max.apply(null, revenueData)/4))
+					.attr("y2", yScale(3*Math.max.apply(null, revenueData)/4))
+					.transition().delay(800)
+					.attr("stroke", "black")
+					.attr("opacity", 0.5)
+					.attr("stroke-width", 1)
+					.attr("stroke-dasharray","4,4")
+					.attr("class", "histogramAxis");
+	
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(3*Math.max.apply(null, revenueData)/4)-5)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")					
+					.text("$"+Math.round(3*Math.max.apply(null, revenueData)/4))
+					.attr("class", "histogramAxis");
+	
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(3*Math.max.apply(null, revenueData)/4)+10)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")
+					.text("Million")
+					.attr("class", "histogramAxis");
+	
+				svg.append("line")
+					.attr("x1", xScale(2))
+					.attr("x2", xScale(100))
+					.attr("y1", yScale(Math.max.apply(null, revenueData)))
+					.attr("y2", yScale(Math.max.apply(null, revenueData)))
+					.transition().delay(800)
+					.attr("stroke", "black")
+					.attr("opacity", 0.5)
+					.attr("stroke-width", 1)
+					.attr("stroke-dasharray","4,4")
+					.attr("class", "histogramAxis");
+	
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(Math.max.apply(null, revenueData))-5)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")
+					.text("$"+Math.max.apply(null, revenueData))
+					.attr("class", "histogramAxis");
+	
+				svg.append("text")
+					.attr("x", width-margin.right+70)
+					.attr("y", yScale(Math.max.apply(null, revenueData))+10)
+					.style("font-size","1.2rem")
+					.transition().delay(800)
+					.style("fill", "black")
+					.text("Million")
+					.attr("class", "histogramAxis");
+
+			}
+
+            var womenRevenueAverageRounded = Math.round(womenRevenueAverage);
+            var menRevenueAverageRounded =  Math.round(menRevenueAverage);
+
+            //////cool scrolling number animations, might be a bit flashy
+			// var options = {
+			// 	useEasing: false,
+			// 	useGrouping: true, 
+			// 	separator: '',
+			// 	decimal: '',
+			// 	prefix: '',
+			// 	suffix: ''
+			// };
+			// 	var animationWomen = new CountUp($(".revenue-women-number")[0], 0, 0, 0, 1, options);
+			// 	var animationMen = new CountUp($(".revenue-men-number")[0], 0, 0, 0, 1, options)
+
+			// animationWomen.update(womenRevenueAverage);
+			// animationMen.update(menRevenueAverage);
+
+            $('.revenue-women-number').hide().html(womenRevenueAverageRounded).fadeIn(800);
+			$('.revenue-men-number').hide().html(menRevenueAverageRounded).fadeIn(800);
+
+
+			for (var i = 0; i <filtered.length; i++) {
+				data._[filtered[i]].cy = yScale(data._[filtered[i]].gross);
+				data._[filtered[i]].cx = xScale(100*data._[filtered[i]].percentage_male);
+			};
+			for (var i = 0; i < unfiltered.length; i++) {
+				if(data._[unfiltered[i]].cx >= width/2){
+					data._[unfiltered[i]].cx = width+10;
+				} 
+				else{
+					data._[unfiltered[i]].cx = -10;
+				}
+			};
+
+			var radiusScale = d3.scale.sqrt().domain([0,Math.max.apply(null, revenueData)]).range([0,30]);
+			circles.transition().duration(1000)
+			.attr("cx", function(d) { return d.cx; })
+			.attr("cy", function(d) { return d.cy; })
+			.style("opacity", .4)
+			.style("fill", function(d) {
+		    	var returnColor = "blue";
+		    	if (d.percentage_male > .5) { returnColor = "blue";}
+		    	else  { returnColor = "red"; }
+		    	return returnColor;})
+			.attr("r", function(d)
+			{
+				if(d.cx != -10 && d.cx != width+10)
+				{
+					var newRadius =  radiusScale(d.gross);
+					return newRadius;
+				};
+			});		
+			
+		}
+	});
+
+	function byCharacter(d)
+	{	
+
+		d3.selectAll(".histogramAxis").remove();
+
+		d3.selectAll(".axis").style("opacity", 0);
+
+		d3.csv("characterlist.csv", function(error, rows) {
+			
+			var characterArray = [];
+
+			var maxWords = 0;
+
+			rows.forEach(function (line) {
+				if (line.script_id == d.script_id){
+					characterArray.push({
+						name: line.imdb_character_name,
+						words: line.words,
+						gender: line.gender
+					});
+
+				}
+			});
+
+			characterArray.sort(function(a,b){
+				return parseFloat(a.words) - parseFloat(b.words);
+			});
+
+			maxWords = characterArray[characterArray.length-1].words;
+
+			var xScale = d3.scale.ordinal()
+				.domain(characterArray.map(function(d){
+					return d.name;
+				}))
+				.rangeRoundBands([width/4+70, 3*width/4 - 60], .1);
+			var yScale = d3.scale.linear()
+				.domain([0, maxWords])
+				.range([3*height/4-30, graphPadding + 50]);
+
+			var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+			var yAxis = d3.svg.axis().scale(yScale).orient("left").ticks(5);
+
+			svg.append("g")
+				.attr("transform", "translate(0," + (3*height/4 - 30) + ")")
+				.transition().delay(800)
+				.attr("class", "xAxis nameAxis")
+				.call(xAxis);
+
+			svg.append("g")
+				.attr("transform", "translate(" + (width/4 + 70) + ",0)")
+				.transition().delay(800)
+				.attr("class", "axis")
+				.call(yAxis);
+				
+			svg.append("text")
+				.attr("x", width/2 -30)
+				.attr("y", 520)
+				.style("font-size", "12px")
+				.style("fill", "black")
+				.transition().delay(800)
+				.text("Characters")
+				.style("font-weight", "bold")
+				.attr("class", "axis")
+
+			svg.append("text")
+				.attr("transform", "translate(270," + (3*height/4 - 110) + "), rotate(270)")
+				.style("font-size", "12px")
+				.style("fill", "black")
+				.transition().delay(800)
+
+				.text("Total Words Spoken")
+				.style("font-weight", "bold")
+				.attr("class", "axis")
+
+
+
+            for (var i = 0; i <characterArray.length; i++) {
+
+            	var rectangle = svg.append("rect");
+
+            	rectangle.attr("fill", function(){
+	               		if(characterArray[i].gender == "m"){
+	               			return "blue";
+	               		}
+	               		return "red";})
+            		.transition().delay(800)
+	               .attr("x", xScale(characterArray[i].name))
+	               .attr("y", yScale(characterArray[i].words))
+	               .attr("width", xScale.rangeBand())
+	               .attr("height", 3*height/4 - 30 - yScale(characterArray[i].words));
+
+	           };
+	             
+		});
+		
+	}
+
+	</script>
+
+</body>
+
+</html>

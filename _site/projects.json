@@ -1,0 +1,42 @@
+[{
+    "name":"BOX!",
+    "imageName":"box.png",
+    "linkTo":"/box",
+    "description":"Stick a 2D man in a 3D world. A boggling brain bananza ensues! Reviewed by Jayisgames and played by a bunch of people."
+},
+{
+    "name":"Snake3D",
+    "imageName":"snake3d.png",
+    "description":"The classic Nokia game, now with one added dimension."
+},
+{
+    "name":"CornellMake",
+    "imageName":"cornellmake.png",
+    "description":"CornellMake a web application that connects people who want to collaborate."
+},
+{
+    "name":"Gender in Film",
+    "imageName":"genderinfilm.png",
+    "description":"We looked at IMDB's top films over the past 15 years, breaking them down by the gendered-ness of their spoken dialogue."
+},
+{
+    "name":"Fitshare",
+    "imageName":"fitshare.png",
+    "description":"Prototype for a shopping platform that's a bit more social."
+},
+{
+    "name":"A3WR",
+    "imageName":"a3wr.png",
+    "description":"Branding and publicity for a celebration."
+},
+{
+    "name":"House with Three Courts",
+    "imageName":"threecourts.png",
+    "description":"Architecture-an examination into xxx."
+},
+{
+    "name":"[BODY]/[ARMOR]",
+    "imageName":"bodyarmor.png",
+    "description":"Metaphors abound in this architectural examination of an everyday object."
+}
+    ]

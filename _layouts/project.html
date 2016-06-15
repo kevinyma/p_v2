@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="post">
+    <h1 >{{ page.title }}</h1>
+
+  <div class="content">
+    {{ content }}
+  </div>
+ <!-- <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y" }}</time></p> -->
+
+<div class="prevnext">
+ {% if page.next.url %}
+    <a class="prev" href="{{page.next.url}}">&laquo; previous: {{page.next.title}}</a>
+ {% endif %}
+ {% if page.previous.url %}
+    <a class="next" href="{{page.previous.url}}">next: {{page.previous.title}} &raquo;</a>
+  {% endif %}
+  
+</div>
+</article>
+
+<aside>
+	 <h1>Very Fun Facts</h1>
+	<ul>
+		<li>Year: {{ page.date | date: "%Y" }}</li>
+		<li>{% if page.collaborators %}Collaborators: {{ page.collaborators }}{% endif %}</li>
+		<li>{% if page.role %}Role: {{ page.role }}{% endif %}</li>
+		<li>{% if page.technologies %}Technologies: {{page.technologies}}{% endif %}</li>
+	</ul>
+</aside>
+	
+
+
+
+

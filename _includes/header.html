@@ -1,0 +1,27 @@
+<nav>
+  <h1>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </h1>
+  <ul>
+    {% for page in site.pages %}{% if page.title %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}{% endfor %}
+
+    <li class="spacer"></li>
+    <li><a href="http://messybin.tumblr.com">Sketchbook</a></li>
+
+    <li class="spacer"></li>
+    {% if site.email %}
+    {% endif %}
+    <li><a href="mailto:{{ site.email }}">Email</a>
+    {% if site.github_username %}
+    <li><a href="http://github.com/{{ site.github_username }}">Github</a>
+    </li>
+    {% endif %}
+    
+    {% if site.twitter_username %}
+    <li><a href="http://twitter.com/{{ site.twitter_username }}">Twitter</a>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
