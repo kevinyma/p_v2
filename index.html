@@ -21,7 +21,7 @@ function generate(){
     if (activeConfig==1){
         numHor = 20;
         numVert = 10;
-        to = [60, 0];
+        to = [65, 0];
 
     }
     //unused states
@@ -40,7 +40,7 @@ function generate(){
     count = numHor * numVert;
     var line = new Path.Line(from, to);
 
-    line.style = {strokeColor : '#009dec', strokeWidth : 6, strokeCap : 'round'};
+    line.style = {strokeColor : '#009dec', strokeWidth : 5, strokeCap : 'butt'};
     var symbol = new Symbol(line);
     for (var i = 0; i< numHor; i++){
         for (var j = 0; j< numVert; j++){

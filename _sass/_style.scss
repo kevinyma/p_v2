@@ -98,6 +98,8 @@ $thumbnail-resource-height: 210px;
 $gap: 30px;
 $nav-width: 210;
 $title-size: 1.8em;
+$pink: #EB005A;
+$blue: #009dec;
 
 canvas {
     width: 100%;
@@ -132,7 +134,7 @@ nav {
     z-index: 1;
     position: fixed;
     height: 100%;
-    border-right: 6px solid #EB005A;
+    border-right: 5px solid $pink;
 }
 
 .prevnext {
@@ -207,13 +209,13 @@ nav {
         list-style: none;
         margin: 0;
         padding: 0;
-        background: #EB005A;
+        background: $pink;
     }
     li.spacer {
         margin-top: 10px;
     }
     a {
-        background: #EB005A;
+        background: $pink;
         color: white;
         text-decoration: none;
     }
@@ -228,15 +230,15 @@ nav {
    ========================================================================== */
 aside {
     h1 {
-    color: rgb(235,0,90);
+    color: $blue;
     }
     ul, li{
     list-style: none;
     margin: 0;
     padding: 0;
-    color: rgb(235,0,90);
+    color: $blue;
     }
-    width: 300px;
+    width: 250px;
     margin-left: 20px;
 }
 
