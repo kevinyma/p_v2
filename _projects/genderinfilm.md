@@ -22,7 +22,7 @@ We were mainly interested in:
 1. The gender skew of movies over time.
 2. Whether or not the films' key creative roles had an effect on the gender of the movie.
 
-The final visualization can be viewed <a href="/viz/">here</a>.
+The final visualization can be viewed <a href="/cs3300-p2/">here</a>.
 
 
 
