@@ -2,33 +2,56 @@
 layout: default
 ---
 
-<canvas id="myCanvas"></canvas>
+<canvas resize="true" id="myCanvas"></canvas>
 
 <script type="text/javascript" src="js/paper-full.js"></script>
 <script type="text/paperscript" canvas="myCanvas">
 
+var activeConfig = 1;
+var totalConfigs = 2;
+
+var numHor;
+var numVert;
 var from = new Point(0,0);
-var to = new Point(20,20);
-var line = new Path.Line(from, to);
+var count;
 
-line.style = {
-    strokeColor : 'black'};
-// Create a symbol from the point:
-var symbol = new Symbol(line);
+generate();
 
-var numHor = 20;
-var numVert = 10;
-var count = numHor * numVert;
+function generate(){
+    if (activeConfig==1){
+        numHor = 20;
+        numVert = 10;
+        to = [60, 0];
 
-for (var i = 0; i< numHor; i++){
-    for (var j = 0; j< numVert; j++){
-       var instance = symbol.place();
-         instance.position.x = view.size.width/numHor * i + 30 ;
-         instance.position.y = view.size.height/numVert * j + 30;
+    }
+    //unused states
+    // else if (activeConfig==2){
+    //     numHor = 40;
+    //     numVert = 20;
+    //     to = (10, 10);
+    // }
+    
+    // else if (activeConfig==3){
+    //     numHor = 20;
+    //     numVert = 10;
+    //     to = (20, 20);
+    // }
+
+    count = numHor * numVert;
+    var line = new Path.Line(from, to);
+
+    line.style = {strokeColor : '#009dec', strokeWidth : 6, strokeCap : 'round'};
+    var symbol = new Symbol(line);
+    for (var i = 0; i< numHor; i++){
+        for (var j = 0; j< numVert; j++){
+           var instance = symbol.place();
+             instance.position.x = view.size.width/numHor * i + view.size.width/40 ;
+             instance.position.y = view.size.height/numVert * j + view.size.height/20;
+        }
     }
 }
 
- function onMouseMove(event){
+function onMouseMove(event){
     for (var i = 0; i < count; i++) {
         var item = project.activeLayer.children[i];
         var vector = event.point - item.position;
@@ -36,4 +59,28 @@ for (var i = 0; i< numHor; i++){
         item.rotate(vector.angle-prevVector.angle, item.position);
     }
 }
+
+//kinda cool but not what I want
+// function onResize(){
+//     for (var i = 0; i < count; i++) {
+//         var item = project.activeLayer.children[i];
+//         item.position.y = view.size.width/numVert * i/numHor + 30
+//     }
+// }
+
+function onMouseDown(event) {
+    activeConfig++;
+    if (activeConfig>totalConfigs){
+        activeConfig = 1;
+    }
+    project.activeLayer.removeChildren();
+    generate();
+}
+
+function onResize(event){
+   project.activeLayer.removeChildren();
+   generate();
+}
+
+
 </script> 
