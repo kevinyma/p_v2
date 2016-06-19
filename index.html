@@ -10,42 +10,43 @@ layout: default
 var activeConfig = 1;
 var totalConfigs = 2;
 
+var nav = 210;
 var numHor;
 var numVert;
 var from = new Point(0,0);
+var to;
 var count;
-
+var thickness = 1;
 generate();
 
 function generate(){
     if (activeConfig==1){
         numHor = 20;
         numVert = 10;
-        to = [65, 0];
+        to = [20, 20];
 
     }
+    else if (activeConfig==2){
+        numHor = 1;
+        numVert = 140;
+        to = (0, 2000);
+    }
     //unused states
-    // else if (activeConfig==2){
-    //     numHor = 40;
-    //     numVert = 20;
-    //     to = (10, 10);
-    // }
-    
     // else if (activeConfig==3){
-    //     numHor = 20;
-    //     numVert = 10;
-    //     to = (20, 20);
+    //     numHor = 50;
+    //     numVert = 4;
+    //     to = [400, 0];
     // }
 
     count = numHor * numVert;
     var line = new Path.Line(from, to);
 
-    line.style = {strokeColor : '#009dec', strokeWidth : 5, strokeCap : 'butt'};
+    line.style = {strokeColor : '#009dec', strokeWidth : thickness, strokeCap : 'butt'};
     var symbol = new Symbol(line);
     for (var i = 0; i< numHor; i++){
         for (var j = 0; j< numVert; j++){
            var instance = symbol.place();
-             instance.position.x = view.size.width/numHor * i + view.size.width/40 ;
+             instance.position.x = (view.size.width-nav)/numHor * i + view.size.width/40 +nav;
              instance.position.y = view.size.height/numVert * j + view.size.height/20;
         }
     }
@@ -73,6 +74,7 @@ function onMouseDown(event) {
     if (activeConfig>totalConfigs){
         activeConfig = 1;
     }
+    // thickness+=10;
     project.activeLayer.removeChildren();
     generate();
 }

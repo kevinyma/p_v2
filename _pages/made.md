@@ -6,6 +6,7 @@ class: "wide"
 ---
 
 {% for project in site.projects reversed%}
+{% if project.title %}
   <div class="thumbnail">
   	<div class="resource">
   		<a href="{{ project.url | prepend: site.baseurl }}">
@@ -13,7 +14,8 @@ class: "wide"
   	 	</a>
   	</div>
     <div class="caption">
-    	<p>{{project.title}}</p>
+    	<h3>{{project.title}}</h3>
 	<p class="small">{{project.description}}</p></div>
 </div>
+{% endif %}
 {% endfor %}

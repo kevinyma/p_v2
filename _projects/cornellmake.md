@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "CornellMake"
 imgName: "cornellmake.png"
+title: "CornellMake"
 description: "CornellMake a web application that connects people who want to collaborate."
 date:   2015-10-14 09:37:43 +0800
 technologies: Django

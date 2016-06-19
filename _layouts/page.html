@@ -2,20 +2,18 @@
 layout: default
 ---
 <article class="{{ page.class }}">
-    <h1>{{ page.title }}</h1>
+    <h2>{{ page.title }}</h2>
     <div class="{% if page.contentClass %}{{ page.contentClass }}{% endif %}">
     {{ content }}
 	</div>
 </article>
 
 {% if page.contentClass %}
-<aside>
+<!-- <aside>
  <h1>Very Fun Facts</h1>
 	<ul>
-		<!-- <li>Fonts: <span class="courier">Courier</span> and <span class="georgia">Georgia</span>. 
-		</li> -->
 		<li>There are no fun facts about me!! </li>
 		<li></li>
 	</ul>
-</aside>
+</aside> -->
 {% endif %}

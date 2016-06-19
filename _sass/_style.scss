@@ -96,7 +96,7 @@ $thumbnail-width: 280px;
 $thumbnail-height: 410px;
 $thumbnail-resource-height: 210px;
 $gap: 30px;
-$nav-width: 210;
+$nav-width: 180px;
 $title-size: 1.8em;
 $pink: #EB005A;
 $blue: #009dec;
@@ -106,35 +106,24 @@ canvas {
     height: 100%;
 }
 
-.courier {
-    font-weight: 700;
+.canvas-container {
+    height: 100%;
+    margin-left: $nav-width;
 }
 
-.georgia {
-    font-family: Georgia;
-    font-weight: 700;
-}
-
-h2 {
-    font-family: Courier;
-    font-size: 1.4em;
-    padding-top: 90px;
-}
-html {
-    font-family: Georgia;
-}
 
 nav,article,aside {
     float: left;
 }
 
 nav {
-    margin-left: $gap;
+    padding-left: $gap;
     width: $nav-width;
     z-index: 1;
     position: fixed;
     height: 100%;
-    border-right: 5px solid $pink;
+    background: white;
+    //border-right: 5px solid $pink;
 }
 
 .prevnext {
@@ -151,7 +140,8 @@ article {
 }
 
 .content {
-    font-family: Georgia;
+    font-family: Merriweather;
+
 }
 
 .wide {
@@ -168,6 +158,15 @@ h1 {
     padding-bottom: 20px;
     font-size: $title-size;
     margin: 0;
+}
+
+h2 {
+    padding-top: $gap;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+}
+h3 {
+    font-size: 1.2em;
 }
 
 .small {
@@ -209,18 +208,18 @@ nav {
         list-style: none;
         margin: 0;
         padding: 0;
-        background: $pink;
+        background: none;
     }
     li.spacer {
         margin-top: 10px;
     }
     a {
-        background: $pink;
-        color: white;
+        background: none;
+        color: $pink;
         text-decoration: none;
     }
     a:visited {
-        color: white;
+        color: $pink;
     }
 }
 
