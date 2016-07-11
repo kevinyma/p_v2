@@ -1,7 +1,8 @@
 ---
 layout: project
 title:  "BOX!"
-imgName: "box.png"
+imgName: "box1.png"
+imgName2: "box2.png"
 imgPath: "box/"
 description: 'Stick a 2D man in a 3D world. A bonanza of boggling brain-teasers. Reviewed by <a href="http://jayisgames.com/games/box">Jayisgames</a> and played by a bunch of people.'
 date:   2014-11-14 09:37:43 +0800
@@ -9,6 +10,7 @@ role: UX designer, artist
 technologies: Actionscript 3.0
 category: game
 collaborators: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, Will Peck
+size: 2-2
 ---
 
 ![Alt](/img/box/intro.jpg)

@@ -92,14 +92,28 @@ html, body {
    Author's custom styles
    ========================================================================== */
 $column-width: 280px;
-$thumbnail-width: 280px;
-$thumbnail-height: 410px;
-$thumbnail-resource-height: 210px;
+$thumbnail-width: 25%;
+$thumbnail-height: 25vw;
 $gap: 30px;
 $nav-width: 180px;
 $title-size: 1.8em;
 $pink: #EB005A;
 $blue: #009dec;
+
+// @for $i from 0 to 4 {
+//     @for $j from 0 to 4 {
+//         .size-#{$i}-#{$j} {
+//             width: $thumbnail-width*$i;
+//             height: $thumbnail-height*$j;
+//         }
+//     }
+// }
+.size-1-1 {
+    width: $thumbnail-width;
+    position: relative;
+}
+
+
 
 canvas {
     width: 100%;
@@ -112,7 +126,7 @@ canvas {
 }
 
 
-nav,article,aside {
+nav,aside {
     float: left;
 }
 
@@ -122,8 +136,9 @@ nav {
     z-index: 1;
     position: fixed;
     height: 100%;
-    background: white;
-    //border-right: 5px solid $pink;
+    background: none;
+    color: $pink;
+    height: $nav-width;
 }
 
 .prevnext {
@@ -131,7 +146,6 @@ nav {
 }
 
 article {
-    position: relative;
     margin: 0 $gap 100px $nav-width+$gap;
     z-index: 0;
     p {
@@ -145,7 +159,8 @@ article {
 }
 
 .wide {
-    max-width: 3*$column-width + 2*$gap;
+    max-width: 1000px;
+    margin:0 auto;
 }
 
 .post {
@@ -179,19 +194,42 @@ a {
     }
 
 a:hover {
-    background-color: $grey-color-light;
+
 }
 
 .thumbnail {
     float: left;
-    width: $thumbnail-width;
-    height: $thumbnail-height;
-    margin: 0 20px 20px 0;
-
     .resource {
-    height: $thumbnail-resource-height;
-    overflow: hidden;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
     }
+    .caption {
+        display: none;
+    }
+    img {
+        height: 100%;
+        width: auto;
+    }
+    .title {
+    font-size: 0.7em;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-25%);
+    }
+    a:hover .title{
+        background: yellow;
+    }
+}
+
+
+.thumbnail:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+
 }
 
 .next {
@@ -205,7 +243,7 @@ a:hover {
    ========================================================================== */
 nav { 
     ul, li{
-        list-style: none;
+        color: $pink;
         margin: 0;
         padding: 0;
         background: none;
@@ -215,11 +253,13 @@ nav {
     }
     a {
         background: none;
-        color: $pink;
-        text-decoration: none;
+        text-decoration: underline;
     }
     a:visited {
-        color: $pink;
+    }
+    a:hover {
+        background-color: black;
+        color: white;
     }
 }
 
@@ -395,9 +435,7 @@ aside {
         page-break-inside: avoid;
     }
 
-    img {
-        max-width: 100% !important;
-    }
+    
 
     p,
     h2,

@@ -1,7 +1,8 @@
 ---
 layout: project
-imgName: "cornellmake.png"
-title: "CornellMake"
+imgName: "ibm1.jpg"
+imgName2: "ibm2.jpg"
+title: "MAKE"
 description: "CornellMake a web application that connects people who want to collaborate."
 date:   2015-10-14 09:37:43 +0800
 technologies: Django
@@ -9,6 +10,7 @@ category: web
 role: UX designer, developer
 tags: web development, interaction design
 collaborators: Justin Selig
+size: 2-1
 ---
 The problem: Cornell University houses a huge number disciplines within its 7 undergraduate colleges. I've met talented, driven folks from every background imaginable. Despite this, I hear this question far too often:
 

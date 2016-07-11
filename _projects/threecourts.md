@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "A House with Three Courts"
-imgName: "threecourts2.png"
+imgName: "ibm1.jpg"
+imgName2: "ibm2.jpg"
 description: "Looking at one of Mies van der Rohe's, never built but supremely interesting."
 date: 2013-4-14 09:37:43 +0800
 technologies: Rhino

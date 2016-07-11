@@ -1,7 +1,9 @@
 ---
 layout: project
-imgName: "fitshare.png"
-title: "Fitshare"
+imgName: "ibm1.jpg"
+imgName2: "ibm2.jpg"
+title: "FITSHARE"
+show: no
 description: "Web app prototyping that bridges the gap between real and online shopping."
 date:   2014-4-14 09:37:43 +0800
 technologies: InVision 

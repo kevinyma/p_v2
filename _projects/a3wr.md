@@ -1,13 +1,15 @@
 ---
 layout: project
 title:  "A3WR"
-imgName: "a3wr.png"
+imgName: "ibm1.jpg"
+imgName2: "ibm2.jpg"
 description: "Branding and publicity for a celebration."
 date:   2015-7-14 09:37:43 +0800
 technologies: 
 role: graphic designer
 category: print
 tags: poster
+size: 3-2
 ---
 
 A3WR, the Asian and Asian American Welcome Reception is an annual event that brings campus groups together to welcome incoming freshman and celebrate new beginnings. 

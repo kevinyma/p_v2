@@ -1,7 +1,8 @@
 ---
 layout: project
 title:  "[BODY]/[ARMOR]"
-imgName: "bodyarmor.png"
+imgName: "bodyarmor1.png"
+imgName2: "bodyarmor2.png"
 description: "Metaphors abound in this architectural re-interpretation of an everyday object."
 date:   2012-11-14 09:37:43 +0800
 technologies: Rhino

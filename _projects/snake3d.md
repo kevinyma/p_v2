@@ -1,7 +1,8 @@
 ---
 layout: project
-title:  "Snake3d"
-imgName: "snake.png"
+title:  "SNAKE 3D"
+imgName: "snake1.png"
+imgName2: "snake2.png"
 description: "The classic Nokia game, now with one added dimension."
 date:   2016-5-14 12:00:00 +0800
 technologies: Photon, Particle Dev, Node.js
@@ -9,6 +10,7 @@ category: game
 tags: physical computing
 role: developer, solder monkey
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li
+size: 0-0
 ---
 
 Orson Scott Card's science fiction novel Ender's Game has a scene where the titular character is interacting with a space battle simulator:
