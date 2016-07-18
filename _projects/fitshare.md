@@ -5,12 +5,13 @@ imgName2: "ibm2.jpg"
 title: "FITSHARE"
 show: no
 description: "Web app prototyping that bridges the gap between real and online shopping."
-date:   2014-4-14 09:37:43 +0800
+date:   1999-4-14 09:37:43 +0800
 technologies: InVision 
 category: web
 role: UX designer
 collaborators: Boris Chan and Gabby Zhang
 tags: web development, interaction design
+ignore: "yes"
 ---
 
 Shopping online can be difficult. Sometimes we get all we ever hoped for and more. Other times we're sorely disspointed. 

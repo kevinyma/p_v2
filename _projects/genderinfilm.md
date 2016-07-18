@@ -1,8 +1,8 @@
 ---
 layout: project
 title:  "GENDER IN FILM"
-imgName: "gender1.jpg"
-imgName2: "gender2.jpg"
+imgName: "gender1.png"
+imgName2: "gender2.png"
 description: "We looked at IMDB's top films over the past 15 years, breaking them down by the gendered-ness of their spoken dialogue."
 date:   2016-4-14 09:37:43 +0800
 technologies: D3.js, jQuery, Beautiful Soup
@@ -15,7 +15,7 @@ size: 2-1
 
 <a href="/viz/">![Alt](/img/gender/viz.jpg)</a>
 
-Hollywood is known for rampant sexism and racism in its movies. Without data however, it's all rhetoric. We wanted to get an objective picture of what the gender gap really looks like.
+Hollywood is pretty much known for rampant sexism and racism in its movies. Without data however, it's all rhetoric. We wanted to get an objective picture of what the gender gap really looked like.
 
 We chose words of dialogue spoken by either gender as a metric of a film's gender learnings (inspired largely by the <a href="http://bechdeltest.com/">Bechdel test</a>). Data was collected on 1000 of IMDB's top movies of the past 10 years with Python's Beautiful Soup library.
 

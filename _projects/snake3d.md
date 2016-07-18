@@ -13,16 +13,15 @@ collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li
 size: 0-0
 ---
 
-Orson Scott Card's science fiction novel Ender's Game has a scene where the titular character is interacting with a space battle simulator:
+In Ender's Game this a scene where Ender tries out the space battle simulator for the first time:
 
 >The game was a holographic display, and his fighter was represented only by a tiny light. The enemy was
 another light of a different color, and they danced and spun and maneuvered through a cube of space that
 must have been ten meters to a side.
 
-It's a fantastic scene. Interestingly, despite the recent resurgence in 3D devices and renewed interest in VR, we have few examples of 3D media <b>that actually occupy three dimensions</b>.
+A 3D display that actually occupies three dimensions. Woah. How would people respond to and explore a 3D display?
 
-We wanted to create an interactive 3D display that would provide an immersive experience. Ultimately, we chose to use the display to play the game Snake, as the original game's grid display would translated well over to three dimensions. 
-
+We explored this question by creating a 3D version of the game Snake. Given people's existing knowledge of the game, we were curious to what would happen when exploring in 3 dimensions.
 
 Construction
 ----------

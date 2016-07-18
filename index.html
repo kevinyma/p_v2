@@ -2,35 +2,58 @@
 layout: default
 ---
 
-<canvas resize="true" id="myCanvas"></canvas>
+<canvas resize="true" id="myCanvas" style="background:#FFFF00"></canvas>
 
 <script type="text/javascript" src="js/paper-full.js"></script>
 <script type="text/paperscript" canvas="myCanvas">
 
 var activeConfig = 1;
-var totalConfigs = 2;
+var totalConfigs = 3;
 
-var nav = 210;
+var nav = 0;
 var numHor;
 var numVert;
 var from = new Point(0,0);
 var to;
 var count;
-var thickness = 1;
+var thickness = 40;
+var pink = '#EB005A'
+var blue = '#009dec'
+var yellow = '#FFFF00'
+var color = pink;
 generate();
 
 function generate(){
     if (activeConfig==1){
+        thickness = 4;
         numHor = 20;
         numVert = 10;
         to = [20, 20];
+        color = blue;
 
     }
     else if (activeConfig==2){
-        numHor = 1;
-        numVert = 140;
-        to = (0, 2000);
+        thickness = 1;
+        numHor = 10;
+        numVert = 10;
+        to = (0, 3000);
+        color = blue;
     }
+    else if (activeConfig==3){
+        thickness = 120;
+        numHor = 6;
+        numVert = 4;
+        to = (60, 60);
+        color = blue;
+    }
+
+    // if (activeConfig==1){
+    //     numHor = 20;
+    //     numVert = 10;
+    //     to = [20, 20];
+    //     color = pink;
+
+    // }
     //unused states
     // else if (activeConfig==3){
     //     numHor = 50;
@@ -38,10 +61,11 @@ function generate(){
     //     to = [400, 0];
     // }
 
+
     count = numHor * numVert;
     var line = new Path.Line(from, to);
 
-    line.style = {strokeColor : '#009dec', strokeWidth : thickness, strokeCap : 'butt'};
+    line.style = {strokeColor : color, strokeWidth : thickness, strokeCap : 'round'};
     var symbol = new Symbol(line);
     for (var i = 0; i< numHor; i++){
         for (var j = 0; j< numVert; j++){
@@ -74,7 +98,6 @@ function onMouseDown(event) {
     if (activeConfig>totalConfigs){
         activeConfig = 1;
     }
-    // thickness+=10;
     project.activeLayer.removeChildren();
     generate();
 }

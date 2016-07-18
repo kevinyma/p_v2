@@ -1,8 +1,8 @@
 ---
 layout: project
 title:  "A3WR"
-imgName: "ibm1.jpg"
-imgName2: "ibm2.jpg"
+imgName: "a3wr1.png"
+imgName2: "a3wr2.png"
 description: "Branding and publicity for a celebration."
 date:   2015-7-14 09:37:43 +0800
 technologies: 
