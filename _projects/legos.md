@@ -11,5 +11,6 @@ tags: web
 role: developer, designer
 collaborators: Matt Shifrin
 size: 1-1
+ignore: "yes"
 ---
 This project is actually not finished yet. My apologies for stuffing it in your face, really. I thought the little lego icon was too cute to pass this opportunity up.
