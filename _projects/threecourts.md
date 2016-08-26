@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "A House with Three Courts"
+title: "THREE COURTS"
 imgName: "threecourts1.png"
 imgName2: "threecourts2.png"
 description: "Looking at one of Mies van der Rohe's, never built but supremely interesting."

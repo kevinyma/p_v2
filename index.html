@@ -8,7 +8,7 @@ layout: default
 <script type="text/paperscript" canvas="myCanvas">
 
 var activeConfig = 1;
-var totalConfigs = 3;
+var totalConfigs = 4;
 
 var nav = 0;
 var numHor;
@@ -40,10 +40,26 @@ function generate(){
         color = blue;
     }
     else if (activeConfig==3){
-        thickness = 120;
-        numHor = 6;
-        numVert = 4;
-        to = (60, 60);
+        thickness = 25;
+        numHor = 20;
+        numVert = 10;
+        to = (50, 50);
+        color = blue;
+    }
+    else if (activeConfig==4){
+        thickness = 1;
+        numHor = 20;
+        numVert = 10;
+        to = (20, 600);
+        color = pink;
+    }
+    else if (activeConfig==5){
+        thickness = Math.floor((Math.random() * 30) + 1)
+        numHor = Math.floor((Math.random() * 10) + 10);
+        numVert = Math.floor((Math.random() * 12) + 5);
+        var x = Math.floor((Math.random() * 80) + 20);
+        var y = Math.floor((Math.random() * 40) + 20);
+        to = (x, y);
         color = blue;
     }
 
