@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "IllUSTRATION"
+title:  "Illustration"
 imgName: "illustrations1.png"
 imgName2: "illustrations2.png"
 description: "Illustrations."
@@ -15,4 +15,6 @@ tags:
 ![Alt](/img/illustrations/illo2.png)
 
 ![Alt](/img/illustrations/illo3.jpg)
+
+![Alt](/img/illustrations/illo4.png)
 

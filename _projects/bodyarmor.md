@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "[BODY]/[ARMOR]"
+title:  "[body]/[armor]"
 imgName: "bodyarmor1.png"
 imgName2: "bodyarmor2.png"
 description: ""

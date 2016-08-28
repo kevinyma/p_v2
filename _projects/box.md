@@ -17,8 +17,8 @@ size: 2-2
 
 This was a semester long project for Cornell University's Analytics Driven Game Design, taught by Erik Andersen. We used flash game websites as a "deployment circuit" to test prototypes and iterate based on player analytics and user feedback.
 
-The Story
---------
+### The Story
+
 
 BOX! tells the age-old story of a boy who gets stuck in a floating cube in the sky. Never mind how, it's it's job to get him out.
 
@@ -28,8 +28,7 @@ Imagine a 2D shape, traveling across the edges of a cube. When it returns to the
 
 What began as a humble sketch became the foundation of our game. We were initially drawn to the idea of of mind-twisting puzzle that challenged players' spatial and logical thinking. It turned out to be a very rewarding project to work on and I'm happy with what we've created.
 
-The Prototypes
---------
+### The Prototypes
 
 Initially, we knew it was necessary to test some of our more non-conventional ideas--especially the spatial re-orientation aspect of our game-to-be. We created a series of paper prototypes that playtesters held in their hands as they asked us questions and gave feedback.
 
@@ -43,8 +42,7 @@ We went with a grid for level design because it allowed for easy subdivision of 
 
 Thinking about two-dimensional level design in three dimensions is hard! We would revisit our levels time and again, splitting, combining, erasing levels entirely as we learned more about how our players were learning to play the game. 
 
-The Assets
-----------
+### The Assets
 
 The next challenge was to create a visual style that complemented the gameplay. At the start, I opted for a pixel art look that I felt would make it easy for the player to distinguish box squares. The look of the game ended up evolving every prototype.
 
@@ -53,13 +51,12 @@ The next challenge was to create a visual style that complemented the gameplay. 
 The main character was a lot of fun to animate:
 
 
-![Alt](/img/box/walking.gif)![Alt](/img/box/looking.gif)![Alt](/img/box/makingnbreaking.gif)
+![Alt](/img/box/walking.gif){:id: .box-gif}![Alt](/img/box/looking.gif){:id: .box-gif}![Alt](/img/box/makingnbreaking.gif){:id: .box-gif}
 
 
 I wanted to give our unnamed protagonist quirky, memorable mannerisms, while keeping his appearance simple.
 
-The Data
-----------
+### The Data
 
 Every prototype, we collected and analyzed player data to gauge where and why players were quitting the game. This allowed us to make changes in the next prototype. Average time per level graph in the first prototype came out like this:
 

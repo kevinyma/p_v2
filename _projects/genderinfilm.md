@@ -3,6 +3,7 @@ layout: project
 title:  "GENDER IN FILM"
 imgName: "gender1.png"
 imgName2: "gender2.png"
+altlink: ../vizualises
 description: "We looked at IMDB's top films over the past 15 years, breaking them down by the gendered-ness of their spoken dialogue."
 date:   2016-4-14 09:37:43 +0800
 technologies: D3.js, jQuery, Beautiful Soup
@@ -25,9 +26,6 @@ We were mainly interested in:
 2. Whether or not the films' key creative roles had an effect on the gender of the movie.
 
 The final visualization can be viewed <a href="/cs3300-p2/">here</a>.
-
-
-
 
 
 

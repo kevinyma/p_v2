@@ -1,0 +1,764 @@
+script_id,title,year,gross,writer,producer,director,total female words,total male words,percentage female,percentage_male,cx,cy,poster_url
+633,A Serious Man,2009,10,m,m,m,3763,8163,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMjAwODUxMjA0M15BMl5BanBnXkFtZTcwNjIyMzY3Mg@@._V1_SX300.jpg
+653,Ali,2001,89,m,m,m,857,8144,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTUzMTM0NTQ4Nl5BMl5BanBnXkFtZTYwNDc2MTY5._V1_SX300.jpg
+678,Analyze This,2002,48,m,m,m,759,12083,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0OTYwMzQ5OF5BMl5BanBnXkFtZTYwMzQyMDg5._V1_SX300.jpg
+714,Bamboozled,2000,3,m,m,m,1835,9632,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2ODIzMjUyMV5BMl5BanBnXkFtZTYwNzEyMzY3._V1_SX300.jpg
+726,The Beach,2000,64,m,m,m,1605,9204,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTM3MDE0MzQwMF5BMl5BanBnXkFtZTYwNjk4Mjk5._V1_SX300.jpg
+740,Big Fish,2003,95,m,m,m,2173,6953,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTYyMzM3MzgyNV5BMl5BanBnXkFtZTcwMTI4MzUyMQ@@._V1_SX300.jpg
+745,The Black Dahlia,2006,29,m,m,m,3167,8247,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTg0MDc1OTQ5NF5BMl5BanBnXkFtZTcwNzE1ODUzMQ@@._V1_SX300.jpg
+781,Bruce Almighty,2003,350,m,m,m,3425,9584,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTYwMTUyNzAxMF5BMl5BanBnXkFtZTYwMDYwOTY3._V1_SX300.jpg
+785,Burn After Reading,2008,73,m,m,m,2471,5827,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMTczNjQxODE0N15BMl5BanBnXkFtZTcwMzIxMjc3MQ@@._V1_SX300.jpg
+789,Cast Away,2000,377,m,f,m,867,4956,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2MDY0ODEwNF5BMl5BanBnXkFtZTYwMDI2NTk4._V1_SX300.jpg
+793,Cellular,2004,44,m,m,m,2063,7578,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BNzY3OTcyODgzOV5BMl5BanBnXkFtZTYwMzY1Mjc2._V1_SX300.jpg
+795,Changeling,2008,43,m,f,m,4177,8895,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BOTA1Mzg3NjIxNV5BMl5BanBnXkFtZTcwNzU2NTc5MQ@@._V1_SX300.jpg
+814,Confessions of a Dangerous Mind,2002,16,m,m,m,1869,5453,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTQyOTMxNjc5NF5BMl5BanBnXkFtZTYwMDk5OTg2._V1_SX300.jpg
+815,Collateral Damage,2002,59,m,m,m,470,4222,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTM2MTQ3MTAxMV5BMl5BanBnXkFtZTcwNDYxOTQxMQ@@._V1_SX300.jpg
+818,Constantine,2005,102,m,m,m,2930,6784,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMTE5NDk5NTUyN15BMl5BanBnXkFtZTYwNzUyMDA3._V1_SX300.jpg
+822,Cradle 2 the Grave,2003,49,m,m,m,1003,7197,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0NTE1MDgwMl5BMl5BanBnXkFtZTYwNjQ0MDg5._V1_SX300.jpg
+850,Death to Smoochy,2002,12,m,f,m,1810,7375,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTMxOTAyMTczMV5BMl5BanBnXkFtZTcwOTg5MzkxMQ@@._V1_SX300.jpg
+851,Deception,2008,5,m,m,m,972,7565,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BNjAzODA2NjM5Ml5BMl5BanBnXkFtZTcwNDgwNDQ2MQ@@._V1_SX300.jpg
+855,Defiance,2008,34,m,m,m,1521,9428,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMjAzODIzMTE3Ml5BMl5BanBnXkFtZTcwNDU1MjQzMg@@._V1_SX300.jpg
+863,Disturbia,2007,101,m,f,m,1937,4410,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTMyNTIxOTQ3M15BMl5BanBnXkFtZTcwMjU2NzAzMw@@._V1_SX300.jpg
+879,Eagle Eye,2008,122,m,m,m,4113,4972,0.45,0.55,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5MTMzMDMzNl5BMl5BanBnXkFtZTcwMzUwNDUzMw@@._V1_SX300.jpg
+885,Elizabeth: The Golden Age,2007,20,m,m,m,3848,3468,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMTgzODIwNzcyMF5BMl5BanBnXkFtZTcwMTg0MTQ1MQ@@._V1_SX300.jpg
+915,Final Destination,2000,86,m,m,m,908,1971,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4OTI4OTI4OF5BMl5BanBnXkFtZTgwMDA1MzkyMTE@._V1_SX300.jpg
+935,G.I. Joe: The Rise of Cobra,2009,174,m,m,m,3173,10868,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMTQzMTU1NzQwNl5BMl5BanBnXkFtZTcwNDg4NzMzMw@@._V1_SX300.jpg
+939,Gamer,2009,23,m,m,m,565,1657,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTkzMDU0NTg3MF5BMl5BanBnXkFtZTcwNzU1MjU1Mg@@._V1_SX300.jpg
+942,Gangs of New York,2002,116,m,f,m,1419,10005,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTI4NTM0Mzg2NV5BMl5BanBnXkFtZTcwNjQxMDAwMQ@@._V1_SX300.jpg
+953,Ginger Snaps,2000,3,f,f,m,7287,1640,0.82,0.18,0,0,http://ia.media-imdb.com/images/M/MV5BYmU1NzhlNTEtY2ZmZi00YzllLTk1ZjYtOGM1NTNiZjUyYTY4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+962,Gothika,2003,85,m,m,m,8680,5568,0.61,0.39,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxNDA4OTAxNF5BMl5BanBnXkFtZTcwMTI5NjQzMw@@._V1_SX300.jpg
+988,Harold & Kumar Go to White Castle,2004,25,m,m,m,868,10055,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BNDQyMTg3Mzk4MV5BMl5BanBnXkFtZTcwMDM4NzUyMQ@@._V1_SX300.jpg
+989,Harry Potter and the Chamber of Secrets,2002,392,f,m,m,2440,14445,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1_SX300.jpg
+991,Harry Potter and the Sorcerer's Stone,2001,488,f,m,m,1582,6466,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTYwNTM5NDkzNV5BMl5BanBnXkFtZTYwODQ4MzY5._V1_SX300.jpg
+992,Harry Potter and the Prisoner of Azkaban,2004,348,f,m,m,3213,12268,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg
+1001,Heist,2001,24,m,m,m,927,5664,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTI5ODMxMjQ0Ml5BMl5BanBnXkFtZTcwOTc2NTA0Mg@@._V1_SX300.jpg
+1002,Hellboy II: The Golden Army,2008,91,m,m,m,1999,8230,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5NzgyMjc2Nl5BMl5BanBnXkFtZTcwOTU3MDI3MQ@@._V1_SX300.jpg
+1028,The Incredibles,2004,365,m,m,m,2749,3110,0.47,0.53,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg
+1041,Intolerable Cruelty,2003,50,m,m,m,3668,5092,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2OTc5Mjc0N15BMl5BanBnXkFtZTYwMDYyMjg3._V1_SX300.jpg
+1044,The Invention of Lying,2009,21,m,f,m,2038,6369,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2OTQzOTc1Nl5BMl5BanBnXkFtZTcwNDM5MDE4Mg@@._V1_SX300.jpg
+1046,The Italian Job,2003,152,m,m,m,686,3694,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4Mjc4NDAwN15BMl5BanBnXkFtZTgwMjgzMzk5MDE@._V1_SX300.jpg
+1062,Jurassic Park III,2001,278,m,m,m,824,3307,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMjA2NzAyMDgyM15BMl5BanBnXkFtZTYwOTQ5Mjg5._V1_SX300.jpg
+1091,Law Abiding Citizen,2009,85,m,m,m,1101,7994,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTMyODY1NTg1N15BMl5BanBnXkFtZTcwMTUyODI4Mg@@._V1_SX300.jpg
+1093,Legally Blonde,2001,146,f,m,m,7134,2754,0.72,0.28,0,0,http://ia.media-imdb.com/images/M/MV5BNTEyNjUwMTkxMV5BMl5BanBnXkFtZTcwNjk0NDk0NA@@._V1_SX300.jpg
+1094,Legion,2010,44,m,m,m,3302,7482,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTMzNDg4NjYxOV5BMl5BanBnXkFtZTcwODQyNDg3Mg@@._V1_SX300.jpg
+1114,The Lord of the Rings: The Return of the King,2003,543,m,m,m,145,3888,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX300.jpg
+1115,The Lord of the Rings: The Fellowship of the Ring,2001,482,m,m,m,1212,7483,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1_SX300.jpg
+1116,The Lord of the Rings: The Two Towers,2002,509,m,m,m,206,5260,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1_SX300.jpg
+1143,The Matrix Reloaded,2003,405,m,m,m,518,2533,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMjA0NDM5MDY2OF5BMl5BanBnXkFtZTcwNzg5OTEzMw@@._V1_SX300.jpg
+1146,Max Payne,2008,49,m,m,m,319,3007,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BOTc3NjE4MTE1OF5BMl5BanBnXkFtZTcwNjIyOTk3MQ@@._V1_SX300.jpg
+1153,Milk,2008,38,m,m,m,357,10769,0.03,0.97,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2OTM5NjUzMV5BMl5BanBnXkFtZTcwMzY1MTM5MQ@@._V1_SX300.jpg
+1165,Mission to Mars,2000,98,m,m,m,1062,7302,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTIyODE4NjI2Nl5BMl5BanBnXkFtZTcwODg4MjMyMQ@@._V1_SX300.jpg
+1166,Monkeybone,2001,8,m,m,m,1667,4418,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMTI5ODUyNzU5NV5BMl5BanBnXkFtZTYwMTY5Mjg5._V1_SX300.jpg
+1186,New York Minute,2004,19,f,f,f,4557,2050,0.69,0.31,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2Mjc0OTc0MV5BMl5BanBnXkFtZTcwMjM4MzUyMQ@@._V1_SX300.jpg
+1190,Next,2007,22,m,m,m,2425,2931,0.45,0.55,0,0,http://ia.media-imdb.com/images/M/MV5BMTg3MjgyNjE1Nl5BMl5BanBnXkFtZTcwNTY1NDU0MQ@@._V1_SX300.jpg
+1211,Orphan,2009,48,m,m,m,7734,3285,0.7,0.3,0,0,http://ia.media-imdb.com/images/M/MV5BMTU0NjQzNjg2Nl5BMl5BanBnXkFtZTcwNzc3NzA0Mg@@._V1_SX300.jpg
+1212,The Other Boleyn Girl,2008,32,m,m,m,3541,3538,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMTY2NzkyMzY1OF5BMl5BanBnXkFtZTcwMjk1MDU1MQ@@._V1_SX300.jpg
+1213,Kate & Leopold,2001,72,m,m,m,841,4676,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BODU1MzU0OTUwOF5BMl5BanBnXkFtZTYwNjA5NTA5._V1_SX300.jpg
+1215,Panic Room,2002,142,m,f,m,1617,2773,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMTczMDc5NDE3M15BMl5BanBnXkFtZTYwNTQwNDg4._V1_SX300.jpg
+1216,The Pacifier,2005,153,m,m,m,1858,4341,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2MTYxNzM3M15BMl5BanBnXkFtZTcwNTEzNTgyMQ@@._V1_SX300.jpg
+1218,The Patriot,2000,182,m,m,m,275,6568,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMTkzMjE4ODU0MV5BMl5BanBnXkFtZTYwNTI2OTk2._V1_SX300.jpg
+1219,Pearl Harbor,2001,305,m,m,m,1259,4988,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3MDc0MDc1NF5BMl5BanBnXkFtZTYwODI1ODY2._V1_SX300.jpg
+1250,The Proposal,2009,190,m,f,f,7377,6460,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1MzY1ODIyNV5BMl5BanBnXkFtZTcwNDU4NTE3Mg@@._V1_SX300.jpg
+1253,Punch-Drunk Love,2002,26,m,m,m,2853,4650,0.38,0.62,0,0,http://ia.media-imdb.com/images/M/MV5BOTcwMDMxMjg2NF5BMl5BanBnXkFtZTYwNzg0MDc3._V1_SX300.jpg
+1258,The Queen,2006,74,m,m,m,2461,3096,0.44,0.56,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3NTMxODg1Ml5BMl5BanBnXkFtZTcwMjEyMjczMQ@@._V1_SX300.jpg
+1269,Red Planet,2000,28,m,m,m,2168,12584,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTY2MzE0MjAwOF5BMl5BanBnXkFtZTYwNDM4Mzg2._V1_SX300.jpg
+1285,RocknRolla,2008,6,m,m,m,585,8530,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ0NTk5Mzk2OV5BMl5BanBnXkFtZTcwMDE3NTE4MQ@@._V1_SX300.jpg
+1286,Romeo & Juliet,2013,1,m,m,m,2245,4269,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTA3MjQwOTg4MTheQTJeQWpwZ15BbWU3MDM3NDE0OTk@._V1_SX300.jpg
+1295,Save the Last Dance,2001,139,m,f,m,4047,4318,0.48,0.52,0,0,http://ia.media-imdb.com/images/M/MV5BMjM1NTUzMzU5NF5BMl5BanBnXkFtZTgwNDAxNzQxMTE@._V1_SX300.jpg
+1325,Signs,2002,341,m,f,m,1070,4359,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BNDUwMDUyMDAyNF5BMl5BanBnXkFtZTYwMDQ3NzM3._V1_SX300.jpg
+1339,Snatch.,2000,48,m,m,m,249,13373,0.02,0.98,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5NzE0MDQyNl5BMl5BanBnXkFtZTcwNzk4Mjk3OA@@._V1_SX300.jpg
+1340,Smokin' Aces,2006,47,m,m,m,2051,8038,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTI3NzQwNDEyN15BMl5BanBnXkFtZTcwMDY4ODQ0MQ@@._V1_SX300.jpg
+1349,Spanglish,2004,58,m,f,m,10720,4585,0.7,0.3,0,0,http://ia.media-imdb.com/images/M/MV5BMTg2MjkwOTExMV5BMl5BanBnXkFtZTcwNTc4MzcyMQ@@._V1_SX300.jpg
+1351,Speed Racer,2008,53,m,f,m,1720,13103,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTA5MjgxMDE4OTVeQTJeQWpwZ15BbWU3MDgyNjc4NjE@._V1_SX300.jpg
+1360,Star Wars: Episode II - Attack of the Clones,2002,465,m,m,m,1273,6242,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5MjI5NTIwNl5BMl5BanBnXkFtZTYwMTM1Njg2._V1_SX300.jpg
+1361,Star Trek,2009,299,m,m,m,682,6582,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_SX300.jpg
+1389,TMNT,2007,68,m,m,m,1226,8248,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMjE1MzcwNTE5OV5BMl5BanBnXkFtZTcwMTIxNzQ0MQ@@._V1_SX300.jpg
+1391,Taking Lives,2004,45,m,m,m,6515,3368,0.66,0.34,0,0,http://ia.media-imdb.com/images/M/MV5BMTA3NDMyNzI5NTdeQTJeQWpwZ15BbWU3MDQxNDEyMzM@._V1_SX300.jpg
+1401,Thirteen Days,2000,55,m,m,m,136,12417,0.01,0.99,0,0,http://ia.media-imdb.com/images/M/MV5BMTkwMTkxNTYyM15BMl5BanBnXkFtZTYwOTc5NTk2._V1_SX300.jpg
+1428,Tropic Thunder,2008,133,m,m,m,295,10296,0.03,0.97,0,0,http://ia.media-imdb.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_SX300.jpg
+1438,Unbreakable,2000,153,m,m,m,1206,4101,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ5MzkyMjk2Nl5BMl5BanBnXkFtZTYwOTAxOTE3._V1_SX300.jpg
+1444,V for Vendetta,2005,95,m,m,m,3717,5081,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg
+1447,Vanilla Sky,2001,155,m,m,m,2613,7786,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2OTQ4NDAzMV5BMl5BanBnXkFtZTcwNjYxNDI4OA@@._V1_SX300.jpg
+1455,A Walk to Remember,2002,61,m,f,m,1710,3902,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMTM1MTYzNjA3M15BMl5BanBnXkFtZTcwMjk2NTE4Mg@@._V1_SX300.jpg
+1458,Wanted,2008,163,m,m,m,4100,6353,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTQwNDM2MTMwMl5BMl5BanBnXkFtZTgwMjE4NjQxMTE@._V1_SX300.jpg
+1459,War of the Worlds,2005,317,m,m,m,589,1446,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BNDUyODAzNDI1Nl5BMl5BanBnXkFtZTcwMDA2NDAzMw@@._V1_SX300.jpg
+1461,Watchmen,2009,125,m,m,m,3055,8747,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0NjI2OTYxMF5BMl5BanBnXkFtZTcwMTcxMjkyMg@@._V1_SX300.jpg
+1465,We Own the Night,2007,36,m,m,m,623,7284,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0MTQ5OTcyNF5BMl5BanBnXkFtZTcwMDE0NzUzMw@@._V1_SX300.jpg
+1467,While She Was Out,2008,0,m,m,f,792,2342,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5OTUwMzk1Ml5BMl5BanBnXkFtZTcwNDIyMjMzMg@@._V1_SX300.jpg
+1471,Whiteout,2009,11,m,m,m,1889,2232,0.46,0.54,0,0,http://ia.media-imdb.com/images/M/MV5BNTEyMDgwNzU1NF5BMl5BanBnXkFtZTcwMDkxMzI4Mg@@._V1_SX300.jpg
+1488,X-Men Origins: Wolverine,2009,208,m,m,m,2016,6798,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2MTgyNjExM15BMl5BanBnXkFtZTcwNzU4MjkyMg@@._V1_SX300.jpg
+1497,xXx,2002,211,m,m,m,998,7287,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTIyOTM5MzkzMF5BMl5BanBnXkFtZTYwOTk5OTc5._V1_SX300.jpg
+1509,2012,2009,192,m,m,m,2560,11574,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0MjEyODQzMF5BMl5BanBnXkFtZTcwMTczMjQ4Mg@@._V1_SX300.jpg
+1517,12 Years a Slave,2013,60,m,f,m,3452,16176,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_SX300.jpg
+1520,127 Hours,2010,20,m,m,m,809,4336,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTc2NjMzOTE3Ml5BMl5BanBnXkFtZTcwMDE0OTc5Mw@@._V1_SX300.jpg
+1525,17 Again,2009,74,m,m,m,3806,12832,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMjA2NTI1Mzg3N15BMl5BanBnXkFtZTcwMjYwNjAzMg@@._V1_SX300.jpg
+1530,30 Minutes or Less,2011,40,m,m,m,704,14278,0.05,0.95,0,0,http://ia.media-imdb.com/images/M/MV5BMTM5NjM0ODY1NF5BMl5BanBnXkFtZTcwMjk5NjI0Ng@@._V1_SX300.jpg
+1534,(500) Days of Summer,2009,37,m,m,m,5738,12762,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5MjM4OTU1OV5BMl5BanBnXkFtZTcwODkzNDIzMw@@._V1_SX300.jpg
+1556,The Adjustment Bureau,2011,68,m,m,m,3222,12258,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMTU3ODg3MDAxMl5BMl5BanBnXkFtZTcwMjc0MDMzNA@@._V1_SX300.jpg
+1603,All About Steve,2009,39,f,f,m,8644,6901,0.56,0.44,0,0,http://ia.media-imdb.com/images/M/MV5BMTA5MTQxOTE2OTReQTJeQWpwZ15BbWU3MDY5NzI4NzI@._V1_SX300.jpg
+1606,Almost Famous,2000,52,m,m,m,6766,16484,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BMTI0MDc0MzIyM15BMl5BanBnXkFtZTYwMzc4NzA5._V1_SX300.jpg
+1613,Amelia,2009,16,f,m,f,17014,13622,0.56,0.44,0,0,http://ia.media-imdb.com/images/M/MV5BMTI5NTI3MjA4M15BMl5BanBnXkFtZTcwMTM3Mzc3Mg@@._V1_SX300.jpg
+1628,American Hustle,2013,160,m,m,m,5507,16441,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BNjkxMTc0MDc4N15BMl5BanBnXkFtZTgwODUyNTI1MDE@._V1_SX300.jpg
+1634,American Outlaws,2001,20,m,m,m,911,10438,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMTIwMTYxODAzMV5BMl5BanBnXkFtZTYwNTM3Nzc5._V1_SX300.jpg
+1639,American Psycho,2000,24,m,m,f,3212,13962,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMjIyMTYwMTI0N15BMl5BanBnXkFtZTgwNTU2NTYxMTE@._V1_SX300.jpg
+1647,The Amityville Asylum,2013,0,m,m,m,5009,5769,0.46,0.54,0,0,http://ia.media-imdb.com/images/M/MV5BNDE2MzM0Mzc3Ml5BMl5BanBnXkFtZTcwNjY0MzIwOQ@@._V1_SX300.jpg
+1650,An Education,2009,14,f,f,f,14330,6292,0.69,0.31,0,0,http://ia.media-imdb.com/images/M/MV5BMTg4NjgzOTc0MF5BMl5BanBnXkFtZTcwOTc2OTE3Mg@@._V1_SX300.jpg
+1657,Angels & Demons,2009,154,m,m,m,2848,15272,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMjEzNzM2MjgxMF5BMl5BanBnXkFtZTcwNTQ1MTM0Mg@@._V1_SX300.jpg
+1659,Anna Karenina,2012,13,m,m,m,4819,6147,0.44,0.56,0,0,http://ia.media-imdb.com/images/M/MV5BMTU0NDgxNDg0NV5BMl5BanBnXkFtZTcwMjE4MzkwOA@@._V1_SX300.jpg
+1669,Antitrust,2001,16,m,m,m,3686,15668,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTk4NzE4MzQ1MF5BMl5BanBnXkFtZTcwMzkxNjUyMQ@@._V1_SX300.jpg
+1684,Arbitrage,2012,8,m,m,m,2198,9737,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BODU5ODYyNzM1MF5BMl5BanBnXkFtZTcwNDEwNTQwOA@@._V1_SX300.jpg
+1691,Argo,2012,148,m,m,m,345,8919,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMTc3MjI0MjM0NF5BMl5BanBnXkFtZTcwMTYxMTQ1OA@@._V1_SX300.jpg
+1718,Avatar,2009,882,m,f,m,5962,11470,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg
+1723,The Avengers,2012,680,m,f,m,1723,11207,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SX300.jpg
+1727,Babel,2006,45,m,m,m,4118,11836,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMjEzMzg4NTIyOF5BMl5BanBnXkFtZTcwNjM3MzgzMQ@@._V1_SX300.jpg
+1734,The Back-up Plan,2010,41,f,m,m,8090,4246,0.66,0.34,0,0,http://ia.media-imdb.com/images/M/MV5BNjAzODM4NTc1OF5BMl5BanBnXkFtZTcwNDU2ODUzMw@@._V1_SX300.jpg
+1746,Bad Teacher,2011,109,m,m,m,10782,4489,0.71,0.29,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ5NDI4MDM0Nl5BMl5BanBnXkFtZTcwNDYwODU2NA@@._V1_SX300.jpg
+1759,Basic,2003,38,m,m,m,2078,12456,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTkyMjE1MzY4MV5BMl5BanBnXkFtZTYwNTU2NDg5._V1_SX300.jpg
+1773,Batman Begins,2005,278,m,m,m,2096,10274,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1_SX300.jpg
+1792,Beasts of the Southern Wild,2012,13,f,m,m,2325,1706,0.58,0.42,0,0,http://ia.media-imdb.com/images/M/MV5BMTgxNDM5MDM1Ml5BMl5BanBnXkFtZTcwOTYwNzQ3Nw@@._V1_SX300.jpg
+1796,Beginners,2010,6,m,f,m,2502,8861,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyNDcxNTk3NV5BMl5BanBnXkFtZTcwMjk4MDU2NA@@._V1_SX300.jpg
+1810,The Best Exotic Marigold Hotel,2011,50,m,m,m,7094,9259,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMjIwNjkwMDI2NV5BMl5BanBnXkFtZTcwNDc1ODIyNw@@._V1_SX300.jpg
+1841,Black Swan,2010,117,m,m,m,2444,1947,0.56,0.44,0,0,http://ia.media-imdb.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg
+1846,Blade II,2002,122,m,m,m,2064,9512,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMjE0NzIwNzY0M15BMl5BanBnXkFtZTYwNTAyMDg5._V1_SX300.jpg
+1855,The Blind Side,2009,296,m,m,m,7890,7144,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_SX300.jpg
+1856,The Bling Ring,2013,6,f,m,f,4193,1582,0.73,0.27,0,0,http://ia.media-imdb.com/images/M/MV5BMTQzMTgwMzQxN15BMl5BanBnXkFtZTcwOTcwNTY0OQ@@._V1_SX300.jpg
+1863,Blow,2001,81,m,m,m,3342,21740,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ5ODQwNzIxNV5BMl5BanBnXkFtZTYwNzAyMDE3._V1_SX300.jpg
+1886,The Book of Eli,2010,104,m,f,m,4598,14518,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BNTE1OWI1YzgtZjEyMy00MjQ4LWE0NWMtYTNhYjc0ZDQ3ZGRkXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg
+1902,The Bourne Identity,2002,181,m,m,m,1397,5041,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3MDA4MDIyN15BMl5BanBnXkFtZTYwOTg0Njk4._V1_SX300.jpg
+1904,The Bourne Supremacy,2004,246,m,m,m,4048,6284,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTAxODk0MjEyMjZeQTJeQWpwZ15BbWU2MDgzMzExNw@@._V1_SX300.jpg
+1907,The Bourne Ultimatum,2007,287,m,m,m,1996,8494,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTgzNjMwOTM3N15BMl5BanBnXkFtZTcwMzA5MDY0MQ@@._V1_SX300.jpg
+1909,The Box,2009,17,m,f,m,5008,8965,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTI4MDA5NjIwM15BMl5BanBnXkFtZTcwNTA2MjY0Mg@@._V1_SX300.jpg
+1922,Brick,2005,2,m,m,m,3234,16510,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTk4MjQzMzA2N15BMl5BanBnXkFtZTcwMTU2MzIzMQ@@._V1_SX300.jpg
+1925,Bridesmaids,2011,185,f,m,m,9010,2014,0.82,0.18,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyOTMyMzUxNl5BMl5BanBnXkFtZTcwODI4MzE0NA@@._V1_SX300.jpg
+1933,Broken Embraces,2009,5,m,m,m,6200,8804,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BMzA1ODU3MzI2NF5BMl5BanBnXkFtZTcwMzc3MzA3Mg@@._V1_SX300.jpg
+1943,Buried,2010,1,m,m,m,869,13700,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTg5MzU3OTIwOV5BMl5BanBnXkFtZTcwMzU3NzY3Mw@@._V1_SX300.jpg
+1945,Burlesque,2010,43,m,f,m,10788,7068,0.6,0.4,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4MzEyODI0Ml5BMl5BanBnXkFtZTcwNjIyNDQ4Mw@@._V1_SX300.jpg
+1949,The Butterfly Effect,2004,58,m,m,m,5396,14040,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTI1ODkxNzg2N15BMl5BanBnXkFtZTYwMzQ2MTg2._V1_SX300.jpg
+1955,Capote,2005,38,m,f,m,3472,19022,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTczMzU0MjM1MV5BMl5BanBnXkFtZTcwMjczNzgyNA@@._V1_SX300.jpg
+1957,Cars 2,2011,209,m,f,m,1511,11135,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTUzNTc3MTU3M15BMl5BanBnXkFtZTcwMzIxNTc3NA@@._V1_SX300.jpg
+1962,Case 39,2009,15,m,f,m,5244,2926,0.64,0.36,0,0,http://ia.media-imdb.com/images/M/MV5BNTA4NDUyOTE5NV5BMl5BanBnXkFtZTcwOTQ3NzY3Mw@@._V1_SX300.jpg
+1968,Catch Me If You Can,2002,245,m,m,m,1688,8913,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg
+1973,Cecil B. DeMented,2000,2,m,m,m,2009,5758,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ5MzczNTQzMl5BMl5BanBnXkFtZTYwOTA3Mzk4._V1_SX300.jpg
+1974,Cedar Rapids,2011,7,m,m,m,1819,11418,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BNDUwMjQ3MzQwM15BMl5BanBnXkFtZTcwMDAzNjUyNA@@._V1_SX300.jpg
+1975,Celeste & Jesse Forever,2012,3,f,m,m,8350,5056,0.62,0.38,0,0,http://ia.media-imdb.com/images/M/MV5BMTM0Mzk3MTY1N15BMl5BanBnXkFtZTcwNDcwNTg5Nw@@._V1_SX300.jpg
+1976,The Cell,2000,98,m,m,m,4532,6556,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3MzM4Mzc1NV5BMl5BanBnXkFtZTgwMjIxNzQxMTE@._V1_SX300.jpg
+1981,The Change-Up,2011,40,m,m,m,2761,16287,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTk3NTM4NDg3OF5BMl5BanBnXkFtZTcwNDk3MzEwNQ@@._V1_SX300.jpg
+1989,Charlie's Angels,2000,201,m,f,m,6964,3608,0.66,0.34,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4ODI1MzM5M15BMl5BanBnXkFtZTcwMTI2NDU2MQ@@._V1_SX300.jpg
+1995,Cherry Falls,2000,0,m,f,m,5392,4250,0.56,0.44,0,0,http://ia.media-imdb.com/images/M/MV5BMTk2NDMxMzU4MV5BMl5BanBnXkFtZTcwODc0MDIyMQ@@._V1_SX300.jpg
+2003,Chronicle,2012,70,m,m,m,542,6943,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMjEzMjYzMDQ0MV5BMl5BanBnXkFtZTcwNzE1OTM5Ng@@._V1_SX300.jpg
+2019,Clash of the Titans,2010,179,m,m,m,5206,9864,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxNjg4MzU5OV5BMl5BanBnXkFtZTcwOTA3NTUwMw@@._V1_SX300.jpg
+2033,Cold Mountain,2003,137,m,m,m,12274,11568,0.51,0.49,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3NTc5NzcyOF5BMl5BanBnXkFtZTcwMDM0NjQyMQ@@._V1_SX300.jpg
+2035,Collateral,2004,140,m,m,m,1616,9768,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMjE3NjM5OTMxMV5BMl5BanBnXkFtZTcwOTIzMTQyMw@@._V1_SX300.jpg
+2041,Colombiana,2011,40,m,m,m,1417,6248,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTM0NDI2NjgxNl5BMl5BanBnXkFtZTcwMTYyNjA3NQ@@._V1_SX300.jpg
+2046,Conan the Barbarian,2011,23,m,m,m,2009,6568,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1NDUyODk5NF5BMl5BanBnXkFtZTcwODk0MjIwNg@@._V1_SX300.jpg
+2059,Coriolanus,2011,0,m,m,m,2623,9192,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMTcyMjAwMjA2N15BMl5BanBnXkFtZTcwOTI0MjA0Ng@@._V1_SX300.jpg
+2063,Cowboys & Aliens,2011,109,m,m,m,2763,11660,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTM1MzkyNzQ3OV5BMl5BanBnXkFtZTcwMDk1NTg2NQ@@._V1_SX300.jpg
+2066,Crank,2006,36,m,m,m,613,4578,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMjg0NjAxNDY4MV5BMl5BanBnXkFtZTcwODA5MjMzMw@@._V1_SX300.jpg
+2073,"Crazy, Stupid, Love.",2011,92,m,f,m,4260,8177,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_SX300.jpg
+2106,The Dark Knight,2008,645,m,m,m,3246,30290,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg
+2112,Date Night,2010,108,m,m,m,5690,9940,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BODgwMjM2ODE4M15BMl5BanBnXkFtZTcwMTU2MDcyMw@@._V1_SX300.jpg
+2130,Death at a Funeral,2010,47,m,m,m,3745,14995,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzMDQxODE0NF5BMl5BanBnXkFtZTcwODE0MDk0Mw@@._V1_SX300.jpg
+2133,The Debt,2010,34,m,f,m,2072,3934,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMjY0Mzk5MjIwNl5BMl5BanBnXkFtZTcwNzg5MDYyNQ@@._V1_SX300.jpg
+2144,The Departed,2006,175,m,m,m,2030,24518,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg
+2146,The Descendants,2011,90,m,m,m,4601,10291,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyNTA1MTcyN15BMl5BanBnXkFtZTcwNjEyODczNQ@@._V1_SX300.jpg
+2148,Despicable Me 2,2013,393,m,f,m,2271,3907,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SX300.jpg
+2177,Donnie Darko,2001,1,m,m,m,2982,3877,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMTczMzE4Nzk3N15BMl5BanBnXkFtZTcwNDg5Mjc4NA@@._V1_SX300.jpg
+2182,Drag Me to Hell,2009,48,m,m,m,17236,7852,0.69,0.31,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzOTc2NDIwMF5BMl5BanBnXkFtZTcwNzAxMTM2Mg@@._V1_SX300.jpg
+2184,Drive,2011,38,m,m,m,832,4443,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BOTM1ODQ0Nzc4NF5BMl5BanBnXkFtZTcwMTM0MjQyNg@@._V1_SX300.jpg
+2201,Eastern Promises,2007,21,m,m,m,1812,4033,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTcwMzU0OTY3NF5BMl5BanBnXkFtZTYwNzkwNjg2._V1_SX300.jpg
+2202,Easy A,2010,64,m,f,m,10289,1296,0.89,0.11,0,0,http://ia.media-imdb.com/images/M/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1_SX300.jpg
+2232,Equilibrium,2002,1,m,f,m,354,2868,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTkzMzA1OTI3N15BMl5BanBnXkFtZTYwMzUyMDg5._V1_SX300.jpg
+2240,Eternal Sunshine of the Spotless Mind,2004,47,m,m,m,12312,10952,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX300.jpg
+2254,Extract,2009,12,m,m,m,2162,12887,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTgzNzU3OTQ4NV5BMl5BanBnXkFtZTcwOTY3MzA4Mg@@._V1_SX300.jpg
+2265,Fantastic Four,2005,210,m,m,m,3600,14088,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTM1NTIwNjM4M15BMl5BanBnXkFtZTcwNDc2NjgyMQ@@._V1_SX300.jpg
+2266,Fantastic Mr. Fox,2009,24,m,f,m,864,12442,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTcwODE2NTI3Nl5BMl5BanBnXkFtZTcwMjUwOTY5Mg@@._V1_SX300.jpg
+2275,The Fault in Our Stars,2014,133,m,m,m,10031,8434,0.54,0.46,0,0,http://ia.media-imdb.com/images/M/MV5BMjA4NzkxNzc5Ml5BMl5BanBnXkFtZTgwNzQ3OTMxMTE@._V1_SX300.jpg
+2289,The Fighter,2010,103,m,m,m,3744,10261,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMTM0ODk3MjM1MV5BMl5BanBnXkFtZTcwNzc1MDIwNA@@._V1_SX300.jpg
+2294,Final Destination 2,2003,67,m,m,m,4968,2841,0.64,0.36,0,0,http://ia.media-imdb.com/images/M/MV5BMjEwMDc5MDg1NV5BMl5BanBnXkFtZTYwNzIzMTg5._V1_SX300.jpg
+2296,Finding Nemo,2003,549,m,m,m,4704,14258,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTY1MTg1NDAxOV5BMl5BanBnXkFtZTcwMjg1MDI5Nw@@._V1_SX300.jpg
+2313,Foxcatcher,2014,12,m,m,m,0,8057,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2MjQxNjYxOV5BMl5BanBnXkFtZTgwMzIwODUxMzE@._V1_SX300.jpg
+2314,Fracture,2007,49,m,m,m,3612,20676,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMzIzNjQyMzkwM15BMl5BanBnXkFtZTcwOTg5ODQ0MQ@@._V1_SX300.jpg
+2337,Fright Night,2011,20,f,m,m,3092,13916,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2MDc0NDY0M15BMl5BanBnXkFtZTcwOTgzMTYyNQ@@._V1_SX300.jpg
+2343,Frozen,2013,429,f,m,m,2922,3875,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg
+2344,Frozen River,2008,3,f,m,f,9884,4134,0.71,0.29,0,0,http://ia.media-imdb.com/images/M/MV5BMTk2NjMwMDgzNF5BMl5BanBnXkFtZTcwMDY0NDY3MQ@@._V1_SX300.jpg
+2346,Fruitvale Station,2013,17,m,f,m,2955,4226,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ0OTU1MDkxMF5BMl5BanBnXkFtZTcwNjI5OTA3OQ@@._V1_SX300.jpg
+2352,Funny People,2009,60,m,m,m,7596,36278,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTMxNDQ5MTA5MF5BMl5BanBnXkFtZTcwMzUyMDUwMg@@._V1_SX300.jpg
+2374,Garden State,2004,37,m,f,m,4784,13390,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMjc5MDE0NjkxOF5BMl5BanBnXkFtZTcwNzA0NTkyMw@@._V1_SX300.jpg
+2382,Get Low,2009,10,m,m,m,2008,11588,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3MjUxNDUwNl5BMl5BanBnXkFtZTcwNzk1NDk1Mw@@._V1_SX300.jpg
+2399,Ghost World,2001,9,m,f,m,18692,9122,0.67,0.33,0,0,http://ia.media-imdb.com/images/M/MV5BNjkyNTgyNzUxOF5BMl5BanBnXkFtZTYwNjQ5Mjg5._V1_SX300.jpg
+2408,Gladiator,2000,303,m,m,m,2778,15594,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1_SX300.jpg
+2426,The Good Girl,2002,20,m,f,m,8864,6936,0.56,0.44,0,0,http://ia.media-imdb.com/images/M/MV5BMTcyODIzMDk2OV5BMl5BanBnXkFtZTYwNjE1MTg5._V1_SX300.jpg
+2436,Gran Torino,2008,179,m,m,m,4000,29092,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTQyMTczMTAxMl5BMl5BanBnXkFtZTcwOTc1ODE0Mg@@._V1_SX300.jpg
+2445,Gravity,2013,293,m,m,m,2580,3089,0.46,0.54,0,0,http://ia.media-imdb.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SX300.jpg
+2460,The Grudge,2004,154,m,m,m,3532,2878,0.55,0.45,0,0,http://ia.media-imdb.com/images/M/MV5BMjIxODg1Nzc3NF5BMl5BanBnXkFtZTcwMjM0MjEzMw@@._V1_SX300.jpg
+2465,Hall Pass,2011,49,m,m,m,6302,15848,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4MzIxNTYwNl5BMl5BanBnXkFtZTcwNzE4MjE0NA@@._V1_SX300.jpg
+2469,The Hangover,2009,321,m,m,m,3236,26538,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1MDA1MTYwMF5BMl5BanBnXkFtZTcwMDcxMzA1Mg@@._V1_SX300.jpg
+2470,Hanna,2011,44,m,m,m,5722,4759,0.55,0.45,0,0,http://ia.media-imdb.com/images/M/MV5BNTAzMTg1NjY0NF5BMl5BanBnXkFtZTcwODc3MTgzNA@@._V1_SX300.jpg
+2492,Harry Potter and the Goblet of Fire,2005,393,m,m,m,3472,16212,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_SX300.jpg
+2498,He's Just Not That Into You,2009,109,f,f,m,15708,11042,0.59,0.41,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5MTUyNDgwMF5BMl5BanBnXkFtZTcwNzYzMDQyMg@@._V1_SX300.jpg
+2530,The Help,2011,186,m,m,m,21540,1951,0.92,0.08,0,0,http://ia.media-imdb.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_SX300.jpg
+2535,Hesher,2010,0,m,m,m,3462,6109,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTUzMjU1NzY4NV5BMl5BanBnXkFtZTcwODg0ODU4NA@@._V1_SX300.jpg
+2536,High Fidelity,2000,44,m,m,m,10270,31114,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTgxMTI1ODYyOV5BMl5BanBnXkFtZTYwNjQyOTI3._V1_SX300.jpg
+2547,The Hitchhiker's Guide to the Galaxy,2005,69,m,m,m,2768,19252,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMjEwOTk4NjU2MF5BMl5BanBnXkFtZTYwMDA3NzI3._V1_SX300.jpg
+2548,Hollow Man,2000,118,m,f,m,6032,10502,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTE5OTQ3MTI2M15BMl5BanBnXkFtZTYwMTM0Mjc3._V1_SX300.jpg
+2551,Horrible Bosses,2011,129,m,m,m,1125,11150,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BNzYxNDI5Njc5NF5BMl5BanBnXkFtZTcwMDUxODE1NQ@@._V1_SX300.jpg
+2558,Hot Tub Time Machine,2010,55,m,m,m,1169,12196,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTQwMjExODA4Ml5BMl5BanBnXkFtZTcwNTYwMDYxMw@@._V1_SX300.jpg
+2566,How to Train Your Dragon,2010,239,m,f,m,1947,14848,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg
+2567,How to Train Your Dragon 2,2014,188,m,f,m,1887,6638,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMzMwMTAwODczN15BMl5BanBnXkFtZTgwMDk2NDA4MTE@._V1_SX300.jpg
+2576,Human Nature,2001,1,m,m,m,8896,10308,0.46,0.54,0,0,http://ia.media-imdb.com/images/M/MV5BMTQyODUwNDI2NV5BMl5BanBnXkFtZTcwNzEyMjcyMQ@@._V1_SX300.jpg
+2579,I Am Number Four,2011,60,m,m,m,2926,10237,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMjI0NDI1MTMyM15BMl5BanBnXkFtZTcwMDMzMTcyNA@@._V1_SX300.jpg
+2580,I Am Sam,2001,61,f,m,f,10596,5480,0.66,0.34,0,0,http://ia.media-imdb.com/images/M/MV5BMTg4Nzg0MDg4N15BMl5BanBnXkFtZTYwNTAxMzU5._V1_SX300.jpg
+2582,I Love You Phillip Morris,2009,2,m,m,m,881,8417,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BNDkzMjkwNjc5NV5BMl5BanBnXkFtZTcwNzEyOTk5Mw@@._V1_SX300.jpg
+2594,The Imaginarium of Doctor Parnassus,2009,8,m,f,m,2724,12290,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTY4Njg4NTA3Nl5BMl5BanBnXkFtZTcwNzYxMzg5Mg@@._V1_SX300.jpg
+2597,In the Loop,2009,2,m,m,m,7050,22050,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2NzQxNzA1OF5BMl5BanBnXkFtZTcwNzQ0NDk0Mg@@._V1_SX300.jpg
+2598,Inception,2010,323,m,m,m,2678,12406,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg
+2618,Insidious,2010,59,m,m,m,4351,3879,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_SX300.jpg
+2619,Insomnia,2002,100,f,m,m,3606,10978,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTM5Nzk2NDY3MF5BMl5BanBnXkFtZTgwMzI5MDgxMTE@._V1_SX300.jpg
+2625,Into the Wild,2007,23,m,m,m,6718,12204,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTAwNDEyODU1MjheQTJeQWpwZ15BbWU2MDc3NDQwNw@@._V1_SX300.jpg
+2632,Invictus,2009,43,m,m,m,713,6534,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyMzExMDM1N15BMl5BanBnXkFtZTcwNTcyMTQ5Mg@@._V1_SX300.jpg
+2634,The Iron Lady,2011,32,f,m,f,4895,2075,0.7,0.3,0,0,http://ia.media-imdb.com/images/M/MV5BODEzNDUyMDE3NF5BMl5BanBnXkFtZTcwMTgzOTg3Ng@@._V1_SX300.jpg
+2644,It's Complicated,2009,131,f,f,f,5765,5203,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMjQ0NjM2NTI4N15BMl5BanBnXkFtZTcwNjQ2MDc5Mg@@._V1_SX300.jpg
+2651,The Jacket,2005,8,m,m,m,3013,7408,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BMTUyMjEwNjE4M15BMl5BanBnXkFtZTcwNzQ5MDgyMQ@@._V1_SX300.jpg
+2660,Jane Eyre,2011,12,f,m,m,8849,7696,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BNjU0Mjc0NzU3NF5BMl5BanBnXkFtZTcwMTU4OTkwNA@@._V1_SX300.jpg
+2664,Jason X,2001,19,m,m,m,3235,5130,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3NjA5NjcyNl5BMl5BanBnXkFtZTYwMzg5NjQ5._V1_SX300.jpg
+2673,Jay and Silent Bob Strike Back,2001,46,m,m,m,4838,19270,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTIwNTMxMjA2Ml5BMl5BanBnXkFtZTcwNTIyNTEzMQ@@._V1_SX300.jpg
+2688,Juno,2007,180,f,m,m,17534,5138,0.77,0.23,0,0,http://ia.media-imdb.com/images/M/MV5BMTgxMjgyMTcyNF5BMl5BanBnXkFtZTcwMDg1MTU1MQ@@._V1_SX300.jpg
+2704,King Kong,2005,295,f,f,m,1394,9752,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTgzODQwNjAwOV5BMl5BanBnXkFtZTcwMDA4MDA0MQ@@._V1_SX300.jpg
+2708,The King's Speech,2010,153,m,m,m,1574,13746,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SX300.jpg
+2714,Knocked Up,2007,188,m,m,m,9169,15607,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1Njk0ODEwOF5BMl5BanBnXkFtZTYwMzA3ODc2._V1_SX300.jpg
+2719,Kung Fu Panda,2008,260,m,m,m,1058,10262,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTIxOTY1NjUyN15BMl5BanBnXkFtZTcwMjMxMDk1MQ@@._V1_SX300.jpg
+2736,Last Chance Harvey,2008,18,m,m,m,4380,6880,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1MDM5OTMwM15BMl5BanBnXkFtZTcwMTAzOTAwMg@@._V1_SX300.jpg
+2739,The Last Samurai,2003,160,m,m,m,240,16556,0.01,0.99,0,0,http://ia.media-imdb.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg
+2742,The Last Station,2009,7,m,f,m,7144,11926,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMTA4MTAzNTQzMDNeQTJeQWpwZ15BbWU3MDgzNTg2MDM@._V1_SX300.jpg
+2754,Les MisŠrables,2012,162,m,m,m,3079,10977,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4NDI3NDg4M15BMl5BanBnXkFtZTcwMjY5OTI1OA@@._V1_SX300.jpg
+2769,Life of Pi,2012,136,m,m,m,289,6914,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_SX300.jpg
+2775,Limitless,2011,86,f,m,m,1858,9012,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3NjczNzc5Nl5BMl5BanBnXkFtZTcwMzA2MzQyNA@@._V1_SX300.jpg
+2777,Lincoln,2012,198,m,f,m,1716,12134,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTQzNzczMDUyNV5BMl5BanBnXkFtZTcwNjM2ODEzOA@@._V1_SX300.jpg
+2779,The Lincoln Lawyer,2011,63,m,m,m,3303,16138,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4NDE4NTY5MV5BMl5BanBnXkFtZTcwODQyMTkxNA@@._V1_SX300.jpg
+2785,Little Nicky,2000,63,m,m,m,2418,14414,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4MTk3Mzk5NV5BMl5BanBnXkFtZTYwMTQ3NzI3._V1_SX300.jpg
+2804,Lord of War,2005,32,m,m,m,1530,18110,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMjEzNDM2OTgzN15BMl5BanBnXkFtZTcwMzU3MTIzMQ@@._V1_SX300.jpg
+2805,The Losers,2010,25,m,f,m,914,7537,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMjU3MTU0NDI4Nl5BMl5BanBnXkFtZTcwMTE0NDMyMw@@._V1_SX300.jpg
+2812,Lost in Translation,2003,64,f,m,f,2220,1865,0.54,0.46,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_SX300.jpg
+2814,Love & Basketball,2000,44,f,m,f,5638,4260,0.57,0.43,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4NjY4NTI5MF5BMl5BanBnXkFtZTYwNjQ4OTc3._V1_SX300.jpg
+2815,Machete,2010,29,m,m,m,1939,3965,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BMTUwNzIwMDY0OF5BMl5BanBnXkFtZTcwMzM3Njg2Mw@@._V1_SX300.jpg
+2852,Margin Call,2011,5,m,m,m,1107,11181,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMjE5NzkyNDI2Nl5BMl5BanBnXkFtZTcwMTYzNDc2Ng@@._V1_SX300.jpg
+2854,Margot at the Wedding,2007,2,m,f,m,10594,5120,0.67,0.33,0,0,http://ia.media-imdb.com/images/M/MV5BMTI4MTU2OTk3OF5BMl5BanBnXkFtZTYwMjE2MjY2._V1_SX300.jpg
+2857,Marley & Me,2008,173,m,m,m,6367,11120,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BNTU1OTg1MTc3OV5BMl5BanBnXkFtZTcwMjI0OTc5MQ@@._V1_SX300.jpg
+2858,Martha Marcy May Marlene,2011,3,m,m,m,4657,2073,0.69,0.31,0,0,http://ia.media-imdb.com/images/M/MV5BMTc1MTYwMzg1N15BMl5BanBnXkFtZTcwNzM0MDY4Ng@@._V1_SX300.jpg
+2865,Master and Commander: The Far Side of the World,2003,135,m,m,m,0,8524,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5NjYyMDM5NV5BMl5BanBnXkFtZTYwOTU5MDY2._V1_SX300.jpg
+2866,The Master,2012,17,m,m,m,1028,13654,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2NjQ5MzMwMF5BMl5BanBnXkFtZTcwMjczNTAzOA@@._V1_SX300.jpg
+2880,The Mechanic,2011,31,m,m,m,1164,7430,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMjEyMjk1NjI1M15BMl5BanBnXkFtZTcwODcyNjAxNA@@._V1_SX300.jpg
+2887,Memento,2000,41,m,m,m,3646,16450,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4MjUxNDAwN15BMl5BanBnXkFtZTcwMDMwNDg3OA@@._V1_SX300.jpg
+2894,Men in Black 3,2012,195,m,f,m,113,14351,0.01,0.99,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2NTYxODcwMF5BMl5BanBnXkFtZTcwNDk1NDY0Nw@@._V1_SX300.jpg
+2924,Minority Report,2002,197,m,f,m,2369,12078,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTc1NDI5NzQyNF5BMl5BanBnXkFtZTYwMjc4NTE5._V1_SX300.jpg
+2927,Mirrors,2008,37,m,m,m,4418,10022,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2NTA1ODEyOF5BMl5BanBnXkFtZTcwNjc3MjY3MQ@@._V1_SX300.jpg
+2935,Mission: Impossible II,2000,347,m,m,m,3346,17418,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BODI4Mzk0NDU0NF5BMl5BanBnXkFtZTcwNTczODQwNA@@._V1_SX300.jpg
+2944,Monster's Ball,2001,48,m,m,m,889,2668,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ5Mzk4NjgwMF5BMl5BanBnXkFtZTYwMzgxNzY2._V1_SX300.jpg
+2945,Monte Carlo,2011,25,m,f,m,13256,3772,0.78,0.22,0,0,http://ia.media-imdb.com/images/M/MV5BMjE4NjM3NjI1Nl5BMl5BanBnXkFtZTcwNjA5MzY1NQ@@._V1_SX300.jpg
+2946,Moon,2009,5,m,m,m,262,5110,0.05,0.95,0,0,http://ia.media-imdb.com/images/M/MV5BMTgzODgyNTQwOV5BMl5BanBnXkFtZTcwNzc0NTc0Mg@@._V1_SX300.jpg
+2947,Moonrise Kingdom,2012,49,m,m,m,2347,5970,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_SX300.jpg
+2959,Mud,2012,23,m,m,m,2578,18069,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2MzcyODgyNV5BMl5BanBnXkFtZTcwNTc4MDYwOQ@@._V1_SX300.jpg
+2962,Mulholland Drive,2001,11,m,m,m,8362,5368,0.61,0.39,0,0,http://ia.media-imdb.com/images/M/MV5BMjM1Njg2ODA4OF5BMl5BanBnXkFtZTgwMDM3Mjc1MDE@._V1_SX300.jpg
+2975,My Week with Marilyn,2011,16,m,f,m,9047,14201,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzODYwOTIzOV5BMl5BanBnXkFtZTcwODE2NjAwNw@@._V1_SX300.jpg
+2997,The Next Three Days,2010,23,m,m,m,1921,5079,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMjAzMjk4NjI4M15BMl5BanBnXkFtZTcwNjQ4OTEwNA@@._V1_SX300.jpg
+3009,Nine,2009,22,m,f,m,2563,4795,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5ODA2MzQxMl5BMl5BanBnXkFtZTcwMTI4NTEwMw@@._V1_SX300.jpg
+3014,Ninja Assassin,2009,44,m,f,m,2864,4408,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTcxNDYzMjU1Ml5BMl5BanBnXkFtZTcwMTYzOTM3Mg@@._V1_SX300.jpg
+3019,No Strings Attached,2011,77,f,m,m,6259,8525,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BMTg2MDQ1NTEzNl5BMl5BanBnXkFtZTcwOTgxNTMyNA@@._V1_SX300.jpg
+3026,Oblivion,2013,95,m,m,m,5007,8066,0.38,0.62,0,0,http://ia.media-imdb.com/images/M/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_SX300.jpg
+3029,Ocean's Eleven,2001,281,m,m,m,1046,19972,0.05,0.95,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0Mzg4MzgwN15BMl5BanBnXkFtZTgwNDk0MzkxMDE@._V1_SX300.jpg
+3031,Ocean's Twelve,2004,176,m,m,m,4136,15566,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3NTIyMzczMF5BMl5BanBnXkFtZTYwMjgzNTg2._V1_SX300.jpg
+3040,Only God Forgives,2013,0,m,f,m,3228,9313,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMzE5NzcxMTk5NF5BMl5BanBnXkFtZTcwNjE2MDg2OQ@@._V1_SX300.jpg
+3055,Pandorum,2009,11,m,m,m,2126,16324,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BNDQxNjc5NTMxNl5BMl5BanBnXkFtZTcwNjg2NDE4Mg@@._V1_SX300.jpg
+3059,Papadopoulos & Sons,2012,0,m,f,m,1370,8537,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0NDIxOTQzMl5BMl5BanBnXkFtZTgwNDQyODUwMDE@._V1_SX300.jpg
+3060,ParaNorman,2012,61,m,m,m,3929,10749,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMjA1OTU1NDM3N15BMl5BanBnXkFtZTcwMjYxNTg0Nw@@._V1_SX300.jpg
+3062,Pariah,2011,0,f,f,f,7381,1793,0.8,0.2,0,0,http://ia.media-imdb.com/images/M/MV5BMTM1MTQyNTY3NV5BMl5BanBnXkFtZTcwODk0ODk2Ng@@._V1_SX300.jpg
+3079,The Perks of Being a Wallflower,2012,19,m,f,m,2767,7188,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMzIxOTQyODU1OV5BMl5BanBnXkFtZTcwMDQ4Mjg4Nw@@._V1_SX300.jpg
+3089,Phone Booth,2002,69,m,m,m,1464,14258,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTcxNDQ5MzAyOV5BMl5BanBnXkFtZTYwMjkxMTU3._V1_SX300.jpg
+3092,The Pianist,2002,48,m,m,m,2578,8072,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4OTkyOTA3OF5BMl5BanBnXkFtZTYwMDIxNjk5._V1_SX300.jpg
+3097,Pineapple Express,2008,105,m,m,m,1602,13152,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTY1MTE4NzAwM15BMl5BanBnXkFtZTcwNzg3Mjg2MQ@@._V1_SX300.jpg
+3105,Pitch Black,2000,63,m,m,m,4430,8966,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BMjE4MDY1NzM4OF5BMl5BanBnXkFtZTcwNDU1NDUyMQ@@._V1_SX300.jpg
+3124,Precious,2009,55,m,f,m,17536,114,0.99,0.01,0,0,http://ia.media-imdb.com/images/M/MV5BOTEwODQ2NTYwNV5BMl5BanBnXkFtZTcwMTU1Nzg2Mg@@._V1_SX300.jpg
+3133,Pride & Prejudice,2005,52,f,m,m,13437,5669,0.7,0.3,0,0,http://ia.media-imdb.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_SX300.jpg
+3135,Priest,2011,31,m,m,m,1814,10642,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1MTAwODc3OV5BMl5BanBnXkFtZTcwNzI0MDQ3NA@@._V1_SX300.jpg
+3141,The Producers,2005,26,f,f,m,956,16158,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMjA3NjAyNzg2OF5BMl5BanBnXkFtZTcwOTIyMDUzMQ@@._V1_SX300.jpg
+3162,Queen of the Damned,2002,45,f,f,m,5762,10056,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxNDEyMzEzMV5BMl5BanBnXkFtZTYwMDM1NjA3._V1_SX300.jpg
+3167,Rachel Getting Married,2008,15,f,f,m,10084,5774,0.64,0.36,0,0,http://ia.media-imdb.com/images/M/MV5BMjA0NTY2NzQ1MF5BMl5BanBnXkFtZTcwNjU1NjAyMg@@._V1_SX300.jpg
+3178,The Reader,2008,41,m,m,m,4716,9588,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BMTM0NDQxNjA0N15BMl5BanBnXkFtZTcwNDUwMzcwMg@@._V1_SX300.jpg
+3189,Red Riding Hood,2011,41,m,m,f,9922,8890,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4NjYyMzQ5MV5BMl5BanBnXkFtZTcwNjE5Mjc3NA@@._V1_SX300.jpg
+3194,Remember Me,2010,21,m,f,m,3750,5458,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BOTA4MTg1ODkwNF5BMl5BanBnXkFtZTcwMzE5ODAxMw@@._V1_SX300.jpg
+3204,Resident Evil,2002,59,m,m,m,2264,3545,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTI5NzQ3OTI1NF5BMl5BanBnXkFtZTYwMDgyNTk5._V1_SX300.jpg
+3209,Revolutionary Road,2008,27,m,f,m,8686,10372,0.46,0.54,0,0,http://ia.media-imdb.com/images/M/MV5BMTczNDgzMjczOV5BMl5BanBnXkFtZTcwOTU3MzMwMg@@._V1_SX300.jpg
+3212,Rise of the Guardians,2012,112,m,f,m,931,7742,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTkzMjgwMDg1M15BMl5BanBnXkFtZTcwMTgzNTI1OA@@._V1_SX300.jpg
+3213,Rise of the Planet of the Apes,2011,194,m,m,m,1537,7447,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTQyMjUxNTc0Ml5BMl5BanBnXkFtZTcwMjg1ODExNg@@._V1_SX300.jpg
+3218,The Road,2009,8,m,m,m,911,14436,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTAwNzk4NTU3NDReQTJeQWpwZ15BbWU3MDg3OTEyODI@._V1_SX300.jpg
+3237,The Roommate,2011,40,m,m,m,12294,1839,0.87,0.13,0,0,http://ia.media-imdb.com/images/M/MV5BMjIwMzQwMzMwNF5BMl5BanBnXkFtZTcwNjE5MTUxNA@@._V1_SX300.jpg
+3240,The Ruins,2008,21,m,m,m,10438,14216,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BMTcxNjc1NjkyOF5BMl5BanBnXkFtZTcwMzUwMjA2MQ@@._V1_SX300.jpg
+3244,Rush,2013,28,m,m,m,999,8378,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTQyMDE0MTY0OV5BMl5BanBnXkFtZTcwMjI2OTI0OQ@@._V1_SX300.jpg
+3265,Saving Mr. Banks,2013,89,f,m,m,10476,6893,0.6,0.4,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0MTQ3NzE4Nl5BMl5BanBnXkFtZTcwMzA4NDM5OQ@@._V1_SX300.jpg
+3271,Saw,2004,77,m,m,m,2916,20780,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyNTcxNzYwMV5BMl5BanBnXkFtZTgwMzQzNzM5MjE@._V1_SX300.jpg
+3280,Scott Pilgrim vs. the World,2010,34,m,m,m,6935,13478,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTkwNTczNTMyOF5BMl5BanBnXkFtZTcwNzUxOTUyMw@@._V1_SX300.jpg
+3285,Scream 3,2000,143,m,m,m,7720,7712,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMTgxMzg2NzQ5NV5BMl5BanBnXkFtZTcwNTY0ODQ4NA@@._V1_SX300.jpg
+3294,Serenity,2005,34,m,m,m,8102,20962,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTI0NTY1MzY4NV5BMl5BanBnXkFtZTcwNTczODAzMQ@@._V1_SX300.jpg
+3298,The Sessions,2012,6,m,m,m,4680,6424,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BNzA5OTUxNDEwNF5BMl5BanBnXkFtZTcwMjczMjEzOA@@._V1_SX300.jpg
+3300,Sex and the City,2008,185,m,m,m,25184,5142,0.83,0.17,0,0,http://ia.media-imdb.com/images/M/MV5BMTYyMzYxMjM3OF5BMl5BanBnXkFtZTcwNjg2OTA3MQ@@._V1_SX300.jpg
+3313,Shame,2011,4,m,m,m,1937,4311,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3MzM0OTE5MF5BMl5BanBnXkFtZTcwNzI4MDM5Ng@@._V1_SX300.jpg
+3331,Shrek,2001,411,m,m,m,3288,17246,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTk2NTE1NTE0M15BMl5BanBnXkFtZTgwNjY4NTYxMTE@._V1_SX300.jpg
+3332,Shrek the Third,2007,405,m,m,m,1141,7511,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTMyMjE1Mjc1NF5BMl5BanBnXkFtZTcwMzY0MjEzMw@@._V1_SX300.jpg
+3333,Sideways,2004,100,m,m,m,4958,22344,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTU0Mjg3MzkxOV5BMl5BanBnXkFtZTYwNDU1OTY3._V1_SX300.jpg
+3345,S1m0ne,2002,14,m,m,m,9172,16564,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3MzU3MjQ3OV5BMl5BanBnXkFtZTcwOTU4NzgxMQ@@._V1_SX300.jpg
+3364,Slither,2006,10,m,m,m,4488,4592,0.49,0.51,0,0,http://ia.media-imdb.com/images/M/MV5BMjEyNTE0NDI2OF5BMl5BanBnXkFtZTcwODcwODMzMQ@@._V1_SX300.jpg
+3365,Slumdog Millionaire,2008,170,m,m,m,1242,16392,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1_SX300.jpg
+3378,Snow White and the Huntsman,2012,169,m,f,m,6169,9546,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1NDA0MTk5OV5BMl5BanBnXkFtZTcwMTM4NDMwNw@@._V1_SX300.jpg
+3381,The Social Network,2010,106,m,m,m,1990,18854,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_SX300.jpg
+3394,Source Code,2011,60,m,m,m,6179,10735,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0MTc3MzMzNV5BMl5BanBnXkFtZTcwNDE4MjE0NA@@._V1_SX300.jpg
+3427,Star Wars: Episode III - Revenge of the Sith,2005,515,m,m,m,1688,12209,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg
+3467,Sunshine Cleaning,2008,14,f,m,f,10014,6914,0.59,0.41,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4MzUzMTg4M15BMl5BanBnXkFtZTcwNDY2MjUyMg@@._V1_SX300.jpg
+3468,Super 8,2011,139,m,m,m,728,7773,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTM5NzkxMzQ5MF5BMl5BanBnXkFtZTcwNDYwMTA3NA@@._V1_SX300.jpg
+3469,Superbad,2007,153,m,m,m,882,11502,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0NjIyMjA2OF5BMl5BanBnXkFtZTcwMzIxNDE1MQ@@._V1_SX300.jpg
+3476,Surrogates,2009,44,m,m,m,3215,9551,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMjEzMTU5OTY0Ml5BMl5BanBnXkFtZTcwMDA0NjA3Mg@@._V1_SX300.jpg
+3494,Take Shelter,2011,1,m,m,m,4046,7877,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BNzgzODA5MTU3MF5BMl5BanBnXkFtZTcwODY4MDEwNg@@._V1_SX300.jpg
+3503,Tamara Drewe,2010,0,f,f,m,9568,9021,0.51,0.49,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyOTIyMjI0Nl5BMl5BanBnXkFtZTcwMzcyODE3Mw@@._V1_SX300.jpg
+3509,Ted,2012,239,m,m,m,2415,10277,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_SX300.jpg
+3516,Terminator Salvation,2009,145,m,f,m,1661,2482,0.4,0.6,0,0,http://ia.media-imdb.com/images/M/MV5BODE1MTM1MzA2NF5BMl5BanBnXkFtZTcwODQ5MTA2Mg@@._V1_SX300.jpg
+3536,This Is 40,2012,73,m,m,m,9260,10556,0.47,0.53,0,0,http://ia.media-imdb.com/images/M/MV5BNzQxMDQ1NjA4N15BMl5BanBnXkFtZTcwNTE5MjQ3OA@@._V1_SX300.jpg
+3538,Thor,2011,198,f,f,m,5413,15996,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxMjA5NDMzNV5BMl5BanBnXkFtZTcwOTk2Mjk3NA@@._V1_SX300.jpg
+3563,Tinker Tailor Soldier Spy,2011,26,f,m,m,565,8829,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2OTkwNzMyM15BMl5BanBnXkFtZTcwOTI4ODg2Ng@@._V1_SX300.jpg
+3605,Troy,2004,186,m,m,m,4116,29712,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_SX300.jpg
+3621,Twilight,2008,231,f,m,f,6886,7438,0.48,0.52,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1_SX300.jpg
+3631,The Ugly Truth,2009,103,f,f,m,6033,7968,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMTM2MTM2OTUwNl5BMl5BanBnXkFtZTcwNTgwNTE0Mg@@._V1_SX300.jpg
+3641,Up,2009,339,m,m,m,998,13334,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg
+3643,Up in the Air,2009,97,m,m,m,4787,7195,0.4,0.6,0,0,http://ia.media-imdb.com/images/M/MV5BMTI3MzYxMTA4NF5BMl5BanBnXkFtZTcwMDE4ODg3Mg@@._V1_SX300.jpg
+3649,Valentine's Day,2010,121,f,m,m,3110,5145,0.38,0.62,0,0,http://ia.media-imdb.com/images/M/MV5BMTk3MTIwNDIxNF5BMl5BanBnXkFtZTcwMDMyMzcwMw@@._V1_SX300.jpg
+3650,Valkyrie,2008,100,m,m,m,200,15696,0.01,0.99,0,0,http://ia.media-imdb.com/images/M/MV5BMTg3Njc2ODEyN15BMl5BanBnXkFtZTcwNTAwMzc3NA@@._V1_SX300.jpg
+3667,The Visitor,2007,11,m,m,m,5084,11442,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTIzNTg3NzkzNV5BMl5BanBnXkFtZTcwNzMwMjU2MQ@@._V1_SX300.jpg
+3680,War Horse,2011,87,m,f,m,1331,6950,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMjExNzkxOTYyNl5BMl5BanBnXkFtZTcwODA0MjU4Ng@@._V1_SX300.jpg
+3686,Warrior,2011,15,m,f,m,677,9875,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTk4ODk5MTMyNV5BMl5BanBnXkFtZTcwMDMyNTg0Ng@@._V1_SX300.jpg
+3689,Water for Elephants,2011,64,m,m,m,3196,14429,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTQzMDU3NDEwN15BMl5BanBnXkFtZTcwMTI3MDU0NA@@._V1_SX300.jpg
+3690,The Way Way Back,2010,2,m,m,m,696,12223,0.05,0.95,0,0,http://ia.media-imdb.com/images/M/MV5BMTg5MTc5MTM3Ml5BMl5BanBnXkFtZTcwMDI2NzgwNA@@._V1_SX300.jpg
+3694,What Lies Beneath,2000,250,m,f,m,8754,4668,0.65,0.35,0,0,http://ia.media-imdb.com/images/M/MV5BMzEwMTE4MDk2M15BMl5BanBnXkFtZTcwMjMyMDI5MQ@@._V1_SX300.jpg
+3701,The Whistleblower,2010,1,f,m,f,5586,3166,0.64,0.36,0,0,http://ia.media-imdb.com/images/M/MV5BMTkwNzU4MDk1OF5BMl5BanBnXkFtZTcwMjIyMjg4NQ@@._V1_SX300.jpg
+3717,Wild Hogs,2007,212,m,f,m,1510,18397,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4MTE5MjY5OV5BMl5BanBnXkFtZTcwNDEwMzUzMw@@._V1_SX300.jpg
+3726,Win Win,2011,11,m,f,m,3421,9834,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTczNTgzNjY4OF5BMl5BanBnXkFtZTcwMTcwMjI0NA@@._V1_SX300.jpg
+3737,The Wolf of Wall Street,2013,125,m,m,m,1431,15721,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg
+3746,The Wrestler,2008,31,m,m,m,3392,7132,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMTc5MjYyOTg4MF5BMl5BanBnXkFtZTcwNDc2MzQwMg@@._V1_SX300.jpg
+3752,X-Men,2000,253,m,m,m,850,4175,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BOTU3MzA3ODYyM15BMl5BanBnXkFtZTgwMDgwNzc3NjE@._V1_SX300.jpg
+3759,Yes Man,2008,118,m,m,m,6128,18164,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BNjYyOTkyMzg2OV5BMl5BanBnXkFtZTcwODAxNjk3MQ@@._V1_SX300.jpg
+3765,Youth in Revolt,2009,17,m,f,m,10756,23054,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMjE3NTkxODUwOV5BMl5BanBnXkFtZTcwMjE4NjI5Mg@@._V1_SX300.jpg
+3766,Zero Dark Thirty,2012,104,m,f,f,5064,8152,0.38,0.62,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4OTUyNzcwN15BMl5BanBnXkFtZTcwMTQ1NDE3OA@@._V1_SX300.jpg
+3770,50/50,2011,38,m,f,m,2209,5617,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BNjg3ODQyNTIyN15BMl5BanBnXkFtZTcwMjUzNzM5NQ@@._V1_SX300.jpg
+3776,Thir13en Ghosts,2001,64,m,m,m,2023,4959,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BMTM2NzIzNTg1MV5BMl5BanBnXkFtZTYwNjA0ODc5._V1_SX300.jpg
+3784,28 Days,2000,59,f,f,f,1705,699,0.71,0.29,0,0,http://ia.media-imdb.com/images/M/MV5BMTYwMDA1NjAxMF5BMl5BanBnXkFtZTYwODc3MTU3._V1_SX300.jpg
+3789,3:10 to Yuma,2007,67,m,m,m,145,5699,0.02,0.98,0,0,http://ia.media-imdb.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_SX300.jpg
+3805,Adventureland,2009,18,m,m,m,2414,6619,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMTI1NTYyMjA2N15BMl5BanBnXkFtZTcwNjU1OTA0Mg@@._V1_SX300.jpg
+3816,Alice in Wonderland,2010,368,f,f,m,3515,1883,0.65,0.35,0,0,http://ia.media-imdb.com/images/M/MV5BMTMwNjAxMTc0Nl5BMl5BanBnXkFtZTcwODc3ODk5Mg@@._V1_SX300.jpg
+3850,Animal Kingdom,2010,1,m,m,m,2051,6649,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2NjcwNjE4NV5BMl5BanBnXkFtZTcwNDU2NDg1Mw@@._V1_SX300.jpg
+3862,Armored,2009,18,m,m,m,0,4500,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMTgyOTI4NzAyMF5BMl5BanBnXkFtZTcwOTk3Mjg3Mg@@._V1_SX300.jpg
+3872,Atonement,2007,64,m,m,m,3379,2740,0.55,0.45,0,0,http://ia.media-imdb.com/images/M/MV5BMTM0ODc2Mzg1Nl5BMl5BanBnXkFtZTcwMTg4MDU1MQ@@._V1_SX300.jpg
+3892,Barney's Version,2010,8,m,m,m,3448,7539,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTM4MTUwNDg0OF5BMl5BanBnXkFtZTcwMjUyODYxNA@@._V1_SX300.jpg
+3918,Below,2002,0,m,m,m,1301,7161,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BNjY3MzI2Njk2NF5BMl5BanBnXkFtZTYwNTk5Mzk5._V1_SX300.jpg
+3920,Beowulf,2007,103,m,m,m,1433,4940,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMTUzMjM0MTc3MF5BMl5BanBnXkFtZTcwNzU0ODMyMw@@._V1_SX300.jpg
+3947,Blue Valentine,2010,10,m,m,m,2694,5025,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4MTQ2MzA1Ml5BMl5BanBnXkFtZTcwODE3NTgwNA@@._V1_SX300.jpg
+3951,Boiler Room,2000,27,m,m,m,1465,13596,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTIxNzc3NDA4N15BMl5BanBnXkFtZTYwMzU2OTk2._V1_SX300.jpg
+3952,The Boondock Saints II: All Saints Day,2009,11,m,m,m,2397,7359,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTY4MDMxNzM2M15BMl5BanBnXkFtZTcwNjk5MzU5Mg@@._V1_SX300.jpg
+3959,The Brave One,2007,46,m,m,m,2603,2557,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMTA4OTA4Njk4MDdeQTJeQWpwZ15BbWU3MDc0NDY1MzM@._V1_SX300.jpg
+3966,Bright Star,2009,5,f,f,f,4452,4508,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMTg0NjEwNDgxNF5BMl5BanBnXkFtZTcwMjkyOTM3Mg@@._V1_SX300.jpg
+3970,Brooklyn's Finest,2009,31,m,m,m,1041,6233,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTUyMTI5MTY5MV5BMl5BanBnXkFtZTcwNzAyOTMwMw@@._V1_SX300.jpg
+3972,Brothers,2009,33,m,m,m,3002,5589,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMTkyMTY5MTcxOV5BMl5BanBnXkFtZTcwMTI3MDE3Mg@@._V1_SX300.jpg
+3973,The Bucket List,2007,118,m,m,m,965,10115,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTY2NTUyMjIyNF5BMl5BanBnXkFtZTYwNzYwMDM4._V1_SX300.jpg
+4008,Children of Men,2006,46,m,m,m,2339,5282,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTc2MDU1ODQ0MV5BMl5BanBnXkFtZTcwMjk2NDA2OQ@@._V1_SX300.jpg
+4012,Chocolat,2000,115,f,m,m,3254,3224,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMjA4MDI3NTQwMV5BMl5BanBnXkFtZTcwNjIzNDcyMQ@@._V1_SX300.jpg
+4040,Conviction,2010,7,f,m,m,5231,2166,0.71,0.29,0,0,http://ia.media-imdb.com/images/M/MV5BMjEwNzUzNTk0Ml5BMl5BanBnXkFtZTcwMDE1MTk1Mw@@._V1_SX300.jpg
+4042,Cop Out,2010,49,m,m,m,307,9939,0.03,0.97,0,0,http://ia.media-imdb.com/images/M/MV5BMTk0NzcxMjYwNF5BMl5BanBnXkFtZTcwMTI4MTIxMw@@._V1_SX300.jpg
+4047,Crash,2004,76,m,m,m,2552,8110,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_SX300.jpg
+4049,The Crazies,2010,43,m,m,m,898,2781,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMjAzMDU5OTg0NV5BMl5BanBnXkFtZTcwNDQ4MjcwMw@@._V1_SX300.jpg
+4065,Dallas Buyers Club,2013,29,m,m,m,1138,6225,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTYwMTA4MzgyNF5BMl5BanBnXkFtZTgwMjEyMjE0MDE@._V1_SX300.jpg
+4087,Daybreakers,2009,34,m,m,m,891,3898,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BNzg3NDYyMDU4Nl5BMl5BanBnXkFtZTcwODA5NzA5Mg@@._V1_SX300.jpg
+4105,Despicable Me,2010,277,m,f,m,1368,3576,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SX300.jpg
+4109,The Devil Wears Prada,2006,166,f,m,m,8729,2741,0.76,0.24,0,0,http://ia.media-imdb.com/images/M/MV5BMTMyNjk4Njc3NV5BMl5BanBnXkFtZTcwNDkyMTEzMw@@._V1_SX300.jpg
+4115,Dinner for Schmucks,2010,80,m,m,m,1386,7341,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BOTk5MTYzNTIyMl5BMl5BanBnXkFtZTcwOTM3MTQ2Mw@@._V1_SX300.jpg
+4117,The Diving Bell and the Butterfly,2007,7,m,m,m,2541,4911,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTc3MjkzMDkxN15BMl5BanBnXkFtZTcwODAyMTU1MQ@@._V1_SX300.jpg
+4121,Domino,2005,13,m,m,m,5945,4437,0.57,0.43,0,0,http://ia.media-imdb.com/images/M/MV5BMTkwOTA5Njc4Ml5BMl5BanBnXkFtZTcwNzg0MzEzMQ@@._V1_SX300.jpg
+4137,The Duchess,2008,16,m,f,m,4727,2982,0.61,0.39,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1MTQzMjgzNl5BMl5BanBnXkFtZTcwNTQxMzk3MQ@@._V1_SX300.jpg
+4150,Edge of Darkness,2010,47,m,m,m,701,11243,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTczMDk5MTg5Ml5BMl5BanBnXkFtZTcwOTYyMjE5Mg@@._V1_SX300.jpg
+4157,Pan's Labyrinth,2006,49,m,m,m,1753,2262,0.44,0.56,0,0,http://ia.media-imdb.com/images/M/MV5BMTU3ODg2NjQ5NF5BMl5BanBnXkFtZTcwMDEwODgzMQ@@._V1_SX300.jpg
+4169,Erin Brockovich,2000,203,f,m,m,9126,5659,0.62,0.38,0,0,http://ia.media-imdb.com/images/M/MV5BMjMyMDMzMDg4M15BMl5BanBnXkFtZTgwNDc3ODYxMTE@._V1_SX300.jpg
+4185,The Expendables,2010,113,m,m,m,727,6963,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BNTUwODQyNjM0NF5BMl5BanBnXkFtZTcwNDMwMTU1Mw@@._V1_SX300.jpg
+4199,Far from Heaven,2002,23,m,m,m,6403,3434,0.65,0.35,0,0,http://ia.media-imdb.com/images/M/MV5BMTE5ODI3MTM4OV5BMl5BanBnXkFtZTYwNjE5OTg2._V1_SX300.jpg
+4208,The Fifth Estate,2013,3,m,m,m,1487,8702,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMjY1MTY5NTg3M15BMl5BanBnXkFtZTgwMDQyMjgwMDE@._V1_SX300.jpg
+4220,Flightplan,2005,121,m,m,m,2691,2526,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMTcwMzA4NDAyOF5BMl5BanBnXkFtZTcwOTQ0NjYyMw@@._V1_SX300.jpg
+4221,For Colored Girls,2010,41,m,m,m,10597,1580,0.87,0.13,0,0,http://ia.media-imdb.com/images/M/MV5BMTExMTA5NjkxNjVeQTJeQWpwZ15BbWU3MDg0NDM5OTM@._V1_SX300.jpg
+4251,Fun with Dick and Jane,2005,149,m,m,m,832,1082,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMjE2NzE5MDI4NV5BMl5BanBnXkFtZTcwODYxOTYzMQ@@._V1_SX300.jpg
+4260,Get Him to the Greek,2010,67,m,m,m,1154,11164,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMjIyMzQ0MjExNV5BMl5BanBnXkFtZTcwMzkyMzgxMw@@._V1_SX300.jpg
+4306,Green Zone,2010,38,m,f,m,750,6862,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzMTA1NDMyNV5BMl5BanBnXkFtZTcwMzUwODY5Mg@@._V1_SX300.jpg
+4311,Halloween,2007,73,m,m,m,2875,1827,0.61,0.39,0,0,http://ia.media-imdb.com/images/M/MV5BMTMzOTg4MzcxNF5BMl5BanBnXkFtZTcwMzY5MDE1MQ@@._V1_SX300.jpg
+4339,Harry Potter and the Half-Blood Prince,2009,350,f,m,m,2249,10693,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg
+4341,Hate Crime,2012,0,m,m,m,217,4900,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMTk0NTg0NjE4MV5BMl5BanBnXkFtZTgwNzA2Mzk1MDE@._V1_SX300.jpg
+4352,Her,2013,27,m,f,m,5216,5009,0.51,0.49,0,0,http://ia.media-imdb.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_SX300.jpg
+4361,Hitchcock,2012,6,m,m,m,2378,5300,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BODAwNDI5NjIwN15BMl5BanBnXkFtZTcwNjc4ODc2OA@@._V1_SX300.jpg
+4365,Holes,2003,97,m,m,m,829,6583,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTg0MTU5ODkwM15BMl5BanBnXkFtZTYwMzgxNzY3._V1_SX300.jpg
+4373,Hot Rod,2007,17,f,m,m,1793,10634,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BNjYwNjA3OTY0Nl5BMl5BanBnXkFtZTcwNDMyNDUzMw@@._V1_SX300.jpg
+4379,How Do You Know,2010,33,m,f,m,5179,7217,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BOTQyMzU4OTk1N15BMl5BanBnXkFtZTcwNTE5MTUxNA@@._V1_SX300.jpg
+4392,I Am Legend,2007,323,m,m,m,1383,5654,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4NzMyNDk1OV5BMl5BanBnXkFtZTcwOTEwMzU1MQ@@._V1_SX300.jpg
+4397,Identity,2003,74,m,m,m,1230,3140,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMjE2NzgyNDYzNl5BMl5BanBnXkFtZTYwODM2Nzc2._V1_SX300.jpg
+4399,Idiocracy,2006,0,m,f,m,1668,6829,0.2,0.8,0,0,"http://ia.media-imdb.com/images/M/MV5BMTk4NDYyNTU3Nl5BMl5BanBnXkFtZTcwNjE4NTQ0MQ@@._V1._CR11,6,327,487_SX89_AL_.jpg_V1_SX300.jpg"
+4403,In Good Company,2004,63,m,f,m,1765,7656,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4Nzc4NTc0NV5BMl5BanBnXkFtZTcwMTkyNjcyMQ@@._V1_SX300.jpg
+4404,In Her Shoes,2005,44,f,f,m,8498,1622,0.84,0.16,0,0,http://ia.media-imdb.com/images/M/MV5BMjA1NTc5MTA2NF5BMl5BanBnXkFtZTcwMTk1NTAzMQ@@._V1_SX300.jpg
+4422,The Informant!,2009,38,m,m,m,649,11609,0.05,0.95,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4MDIyMTM3NV5BMl5BanBnXkFtZTcwNDQ2Nzg2Mg@@._V1_SX300.jpg
+4440,It's Kind of a Funny Story,2010,7,f,m,f,1613,7321,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTk0MTAyNjQ2N15BMl5BanBnXkFtZTcwNjYwOTU3Mw@@._V1_SX300.jpg
+4453,Jeepers Creepers II,2003,50,m,m,m,1157,4827,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTIxNDI2NzQyNF5BMl5BanBnXkFtZTYwMTY5MTQ3._V1_SX300.jpg
+4474,Kill Bill (Pt 1+2),2003,101,m,m,m,6797,6710,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX300.jpg
+4477,Kill Your Darlings,2013,1,m,m,m,476,5574,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMjA4MzAxMTE1N15BMl5BanBnXkFtZTgwMDY2OTIxMDE@._V1_SX300.jpg
+4525,Letters to Juliet,2010,58,m,f,m,5078,4128,0.55,0.45,0,0,http://ia.media-imdb.com/images/M/MV5BMjg0OTU0NDYwNF5BMl5BanBnXkFtZTcwNzUwNTMyMw@@._V1_SX300.jpg
+4539,Little Children,2006,7,m,m,m,2891,2962,0.49,0.51,0,0,http://ia.media-imdb.com/images/M/MV5BMTYwNzEwNTI3MV5BMl5BanBnXkFtZTcwODUyODczMQ@@._V1_SX300.jpg
+4540,Little Miss Sunshine,2006,79,m,m,m,2852,5594,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTgzNTgzODU0NV5BMl5BanBnXkFtZTcwMjEyMjMzMQ@@._V1_SX300.jpg
+4549,The Lookout,2007,5,m,m,m,1193,10552,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMjkyMzE5Nzg0OV5BMl5BanBnXkFtZTcwNTM3MzU0MQ@@._V1_SX300.jpg
+4554,The Lorax,2012,233,m,m,m,901,4266,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1MTAwMjk1NF5BMl5BanBnXkFtZTcwMDI5NDc4Ng@@._V1_SX300.jpg
+4575,Made in Dagenham,2010,1,m,m,m,6394,3492,0.65,0.35,0,0,http://ia.media-imdb.com/images/M/MV5BMTgyNzU0NTczMl5BMl5BanBnXkFtZTcwNTMyMjAxNA@@._V1_SX300.jpg
+4596,Maria Full of Grace,2004,9,m,m,m,5364,2635,0.67,0.33,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyMTM0MDA4NV5BMl5BanBnXkFtZTcwNTY0OTUyMQ@@._V1_SX300.jpg
+4605,Mean Girls,2004,120,f,f,m,6490,1415,0.82,0.18,0,0,http://ia.media-imdb.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SX300.jpg
+4608,Memoirs of a Geisha,2005,77,f,m,m,4204,1686,0.71,0.29,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxMzM4NTEzOV5BMl5BanBnXkFtZTcwNDMwNjQzMw@@._V1_SX300.jpg
+4619,Michael Clayton,2007,61,m,m,m,1158,6538,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0NTU5MjI2MV5BMl5BanBnXkFtZTcwMTg5NTQzMw@@._V1_SX300.jpg
+4647,Mother and Child,2009,1,m,f,m,8093,1556,0.84,0.16,0,0,http://ia.media-imdb.com/images/M/MV5BMTg4NTM5MTE0N15BMl5BanBnXkFtZTcwOTM2MTgyMw@@._V1_SX300.jpg
+4648,The Mothman Prophecies,2002,52,m,m,m,2182,7502,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMzg0ODIzMzU2N15BMl5BanBnXkFtZTcwODE3MjgxMQ@@._V1_SX300.jpg
+4661,The Mummy: Tomb of the Dragon Emperor,2008,123,m,m,m,3499,4660,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4NDIzMDY1OV5BMl5BanBnXkFtZTcwNjQxMzk3MQ@@._V1_SX300.jpg
+4684,National Treasure,2004,242,m,m,m,1013,6661,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3NTc4OTYxMF5BMl5BanBnXkFtZTcwMjk5NzUyMw@@._V1_SX300.jpg
+4686,Nebraska,2013,18,m,m,m,2369,6135,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2Mjk2NDkyMl5BMl5BanBnXkFtZTgwNTk0NzcyMDE@._V1_SX300.jpg
+4690,Never Let Me Go,2010,2,m,m,m,5047,1432,0.78,0.22,0,0,http://ia.media-imdb.com/images/M/MV5BMTM3NDQ1MjE2OF5BMl5BanBnXkFtZTcwNDIxNTk2Mw@@._V1_SX300.jpg
+4725,Nowhere Boy,2009,1,f,m,f,2042,2575,0.44,0.56,0,0,http://ia.media-imdb.com/images/M/MV5BMTk0ODYwNzc5OF5BMl5BanBnXkFtZTcwNDI2MDYzMw@@._V1_SX300.jpg
+4727,The Number 23,2007,44,m,m,m,1687,5039,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMjcwNzczNDQ0MV5BMl5BanBnXkFtZTcwMTE0NzA0MQ@@._V1_SX300.jpg
+4730,"O Brother, Where Art Thou?",2000,73,m,m,m,312,8450,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMTI3MTEwMTAzMF5BMl5BanBnXkFtZTYwMTMxNTI5._V1_SX300.jpg
+4787,The Place Beyond the Pines,2012,23,m,m,m,1860,9051,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMjc1OTEwNjU4N15BMl5BanBnXkFtZTcwNzUzNDIwOQ@@._V1_SX300.jpg
+4812,Possession,2002,15,m,m,m,4506,2202,0.67,0.33,0,0,http://ia.media-imdb.com/images/M/MV5BMTk2NTIzNTU2NF5BMl5BanBnXkFtZTYwNTgwMDg5._V1_SX300.jpg
+4815,The Prestige,2006,70,m,m,m,1292,8090,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg
+4829,Public Enemies,2009,112,m,m,m,1132,6857,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMjA3NDI0NzM2MV5BMl5BanBnXkFtZTcwODk5MTk2Mg@@._V1_SX300.jpg
+4844,Rabbit Hole,2010,2,m,f,m,4028,2120,0.66,0.34,0,0,http://ia.media-imdb.com/images/M/MV5BMjEzOTU0NjMxNF5BMl5BanBnXkFtZTcwNzc5MDUxNA@@._V1_SX300.jpg
+4853,Ratatouille,2007,260,m,m,m,1054,7243,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg
+4863,Rent,2005,39,m,m,m,3014,5602,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMjA3NTEwMDkyNV5BMl5BanBnXkFtZTcwNDQ4OTYzMQ@@._V1_SX300.jpg
+4866,Requiem for a Dream,2000,5,m,m,m,3550,4910,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BMTkzODMzODYwOF5BMl5BanBnXkFtZTcwODM2NjA2NQ@@._V1_SX300.jpg
+4871,Return to Me,2000,52,f,m,f,1748,3938,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMjIwNDEzODU3Nl5BMl5BanBnXkFtZTcwMjI0NzU2NA@@._V1_SX300.jpg
+4874,The Ring,2002,193,m,m,m,4150,2198,0.65,0.35,0,0,http://ia.media-imdb.com/images/M/MV5BNDA2NTg2NjE4Ml5BMl5BanBnXkFtZTYwMjYxMDg5._V1_SX300.jpg
+4896,Wild Things: Diamonds in the Rough,2005,30,m,m,m,3890,2886,0.57,0.43,0,0,http://ia.media-imdb.com/images/M/MV5BMTU3NDEwMzI3NV5BMl5BanBnXkFtZTcwMTI3NTgyMQ@@._V1_SX300.jpg
+4899,The Rules of Attraction,2002,9,m,m,m,2591,7308,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTUxOTAyODE2Nl5BMl5BanBnXkFtZTYwMTI3NzE3._V1_SX300.jpg
+4918,Scary Movie 2,2001,109,m,m,m,4097,5751,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BMTM5MTY3MDk5OF5BMl5BanBnXkFtZTcwMjc0ODQ4NA@@._V1_SX300.jpg
+4925,The Secret Life of Walter Mitty,2013,62,m,m,m,1114,6720,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_SX300.jpg
+4928,Secretariat,2010,65,m,m,m,4534,4781,0.49,0.51,0,0,http://ia.media-imdb.com/images/M/MV5BMTgwNDkyMDU3NV5BMl5BanBnXkFtZTcwNjMyNjI4Mw@@._V1_SX300.jpg
+4949,Short Term 12,2013,1,m,m,m,3458,3904,0.47,0.53,0,0,http://ia.media-imdb.com/images/M/MV5BMTEwNjE2OTM4NDZeQTJeQWpwZ15BbWU3MDE2MTE4OTk@._V1_SX300.jpg
+4963,A Single Man,2009,10,m,m,m,1047,4874,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMzU5MTk4MjQ2M15BMl5BanBnXkFtZTcwNDU0MzEwMw@@._V1_SX300.jpg
+4988,Solaris,2002,22,m,m,m,2274,3797,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMTQyNzI3MzMyNF5BMl5BanBnXkFtZTYwNDAyNzk2._V1_SX300.jpg
+4992,The Wedding Date,2005,42,f,f,f,5664,4219,0.57,0.43,0,0,http://ia.media-imdb.com/images/M/MV5BMTI2NzQ0MDYyOF5BMl5BanBnXkFtZTcwMzA4NzcyMQ@@._V1_SX300.jpg
+5001,The Sorcerer's Apprentice,2010,69,m,m,m,1072,6849,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BNDY3NzQ0NjYxM15BMl5BanBnXkFtZTcwMDkzODM2Mw@@._V1_SX300.jpg
+5038,Star Trek: Nemesis,2002,64,m,m,m,950,9305,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMjAxNjY2NDY3NF5BMl5BanBnXkFtZTcwMjA0MTEzMw@@._V1_SX300.jpg
+5066,Stuart Little 2,2002,96,m,m,m,1781,3938,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTYyNDg0Njc2Nl5BMl5BanBnXkFtZTYwMDc3NzQ3._V1_SX300.jpg
+5083,Sweeney Todd: The Demon Barber of Fleet Street,2007,66,m,f,m,3375,5275,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTg3NjUxMzM5NV5BMl5BanBnXkFtZTcwMzQ1NjQzMw@@._V1_SX300.jpg
+5142,The Town,2010,101,m,f,m,2716,9466,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMTcyNzcxODg3Nl5BMl5BanBnXkFtZTcwMTUyNjQ3Mw@@._V1_SX300.jpg
+5145,Toy Story 3,2010,457,m,f,m,2429,7697,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SX300.jpg
+5163,The Twilight Saga: Eclipse,2010,331,f,m,m,957,1411,0.4,0.6,0,0,http://ia.media-imdb.com/images/M/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1_SX300.jpg
+5164,The Twilight Saga: New Moon,2009,344,f,m,m,8778,9276,0.49,0.51,0,0,http://ia.media-imdb.com/images/M/MV5BMTI3MjE3NDIxNF5BMl5BanBnXkFtZTcwODM3NTY5Mg@@._V1_SX300.jpg
+5170,Away We Go,2009,10,m,f,m,5067,6226,0.45,0.55,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxNzE3NjAwMl5BMl5BanBnXkFtZTcwODkxOTI0Mg@@._V1_SX300.jpg
+5183,Vantage Point,2008,87,m,m,m,1300,2599,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BMTg3MjQ5OTY4M15BMl5BanBnXkFtZTcwNjk1MDU1MQ@@._V1_SX300.jpg
+5185,Vicky Cristina Barcelona,2008,28,m,f,m,6533,7090,0.48,0.52,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2NDQ4MTg2MV5BMl5BanBnXkFtZTcwNDUzNjU3MQ@@._V1_SX300.jpg
+5186,The Village,2004,159,m,m,m,2219,1447,0.61,0.39,0,0,http://ia.media-imdb.com/images/M/MV5BMTM1NTEzODQ1NV5BMl5BanBnXkFtZTcwNDUyMDYyMQ@@._V1_SX300.jpg
+5209,We Need to Talk About Kevin,2011,1,f,f,f,3516,3518,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMjE0NDE0MjYxNF5BMl5BanBnXkFtZTcwNjM2NTY5Ng@@._V1_SX300.jpg
+5221,Where the Wild Things Are,2009,89,m,m,m,1431,4332,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BNzQ1NzAwODEwM15BMl5BanBnXkFtZTcwNTE4MjI4Mg@@._V1_SX300.jpg
+5222,Whip It,2009,15,f,f,f,5761,1896,0.75,0.25,0,0,http://ia.media-imdb.com/images/M/MV5BNDM1NzkzMjQ4NF5BMl5BanBnXkFtZTcwMDE3Nzk3Mg@@._V1_SX300.jpg
+5238,Winter's Bone,2010,7,f,f,f,3347,2240,0.6,0.4,0,0,http://ia.media-imdb.com/images/M/MV5BMjA0OTM3MDMxNF5BMl5BanBnXkFtZTcwMDY1MjI0Mw@@._V1_SX300.jpg
+5248,X-Men 2,2003,310,m,m,m,682,3182,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BNDk0NjYxMzIzOF5BMl5BanBnXkFtZTYwMTc1MjU3._V1_SX300.jpg
+5256,The Young Victoria,2009,12,m,f,m,5587,6054,0.48,0.52,0,0,http://ia.media-imdb.com/images/M/MV5BMTM4MjExMDk3NV5BMl5BanBnXkFtZTcwMTU3OTMwMw@@._V1_SX300.jpg
+5300,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",2005,396,m,m,m,1842,2805,0.4,0.6,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0NTUwMTU5OV5BMl5BanBnXkFtZTcwNjAwNzQzMw@@._V1_SX300.jpg
+5315,Girl with a Pearl Earring,2003,16,f,m,m,4362,3916,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4NjU3NjA0N15BMl5BanBnXkFtZTcwNjI4MTQyMQ@@._V1_SX300.jpg
+5368,A Most Violent Year,2014,6,m,m,m,1644,10130,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMjE4OTY4ODg3Ml5BMl5BanBnXkFtZTgwMTI1MTg1MzE@._V1_SX300.jpg
+5373,Amour,2012,7,m,m,m,2294,4183,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMTk1NTc3NDc4MF5BMl5BanBnXkFtZTcwNjYwNDk0OA@@._V1_SX300.jpg
+5376,Another Year,2010,3,m,f,m,8280,5715,0.59,0.41,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5NzY5NTY2NF5BMl5BanBnXkFtZTcwNTg3NzIxNA@@._V1_SX300.jpg
+5378,August: Osage County,2013,40,m,m,m,11625,3380,0.77,0.23,0,0,http://ia.media-imdb.com/images/M/MV5BNzQ5ODE4NTcxNV5BMl5BanBnXkFtZTgwNjkyNDQ0MDE@._V1_SX300.jpg
+5381,Before Midnight,2013,8,m,f,m,7529,7977,0.49,0.51,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5NzgxODE2NF5BMl5BanBnXkFtZTcwNTI1NTI0OQ@@._V1_SX300.jpg
+5383,Belle,2013,11,m,m,f,4586,4228,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BNzg5MjE5NjE4OV5BMl5BanBnXkFtZTgwNTU0ODM0MDE@._V1_SX300.jpg
+5385,Birdman or (The Unexpected Virtue of Ignorance),2014,45,m,f,m,3023,6884,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg
+5386,Boyhood,2014,27,m,f,m,5926,10675,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_SX300.jpg
+5388,Bridge of Spies,2015,74,m,m,m,272,8959,0.03,0.97,0,0,http://ia.media-imdb.com/images/M/MV5BMjIxOTI0MjU5NV5BMl5BanBnXkFtZTgwNzM4OTk4NTE@._V1_SX300.jpg
+5392,Coraline,2009,87,m,m,m,4436,1648,0.73,0.27,0,0,http://ia.media-imdb.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg
+5397,Dear White People,2014,4,m,f,m,4131,7000,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMjMzMjc5MjIzNV5BMl5BanBnXkFtZTgwNTY4OTQ2MjE@._V1_SX300.jpg
+5399,Enough Said,2013,18,f,f,f,5673,2121,0.73,0.27,0,0,http://ia.media-imdb.com/images/M/MV5BMjI2MjIwMDk2Ml5BMl5BanBnXkFtZTcwNTQ1MzQ5OQ@@._V1_SX300.jpg
+5400,Ex Machina,2015,26,m,m,m,1143,6455,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_SX300.jpg
+5401,Far from the Madding Crowd,2015,12,m,f,m,3067,3473,0.47,0.53,0,0,http://ia.media-imdb.com/images/M/MV5BMTQzNjE5Mjk5MV5BMl5BanBnXkFtZTgwMzQ3NDMwNTE@._V1_SX300.jpg
+5404,Frankenweenie,2012,38,m,f,m,1219,2952,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BMTk1MjYzMjY2N15BMl5BanBnXkFtZTgwNzg2NjAwMzE@._V1_SX300.jpg
+5408,Get on Up,2014,32,m,m,m,264,7328,0.03,0.97,0,0,http://ia.media-imdb.com/images/M/MV5BMTY1NjAyMTUzMl5BMl5BanBnXkFtZTgwMTM4NzQ4MTE@._V1_SX300.jpg
+5410,Grandma,2015,7,m,m,m,6909,818,0.89,0.11,0,0,http://ia.media-imdb.com/images/M/MV5BMjExMDE2OTIxM15BMl5BanBnXkFtZTgwMDY5NzAyNjE@._V1_SX300.jpg
+5416,Hyde Park on Hudson,2012,6,m,m,m,3558,3329,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BNjU1MzU3Nzc4OF5BMl5BanBnXkFtZTcwOTk5NDI4Nw@@._V1_SX300.jpg
+5418,I'll See You in My Dreams,2015,7,m,m,m,7170,2446,0.75,0.25,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzMzc5OTkyOV5BMl5BanBnXkFtZTgwNzc3OTMyNTE@._V1_SX300.jpg
+5419,The Imitation Game,2014,97,m,f,m,1836,8798,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BNDkwNTEyMzkzNl5BMl5BanBnXkFtZTgwNTAwNzk3MjE@._V1_SX300.jpg
+5420,Infinitely Polar Bear,2014,1,f,m,f,4583,4361,0.51,0.49,0,0,http://ia.media-imdb.com/images/M/MV5BMjA2NzQ0Njk5MV5BMl5BanBnXkFtZTgwOTQzOTMyNTE@._V1_SX300.jpg
+5423,Into the Woods,2014,136,m,m,m,3652,3535,0.51,0.49,0,0,http://ia.media-imdb.com/images/M/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX300.jpg
+5424,Inside Out,2015,367,m,m,m,4836,2696,0.64,0.36,0,0,http://ia.media-imdb.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg
+5431,Locke,2013,1,m,m,m,827,8226,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1MjE5MzU2M15BMl5BanBnXkFtZTgwNzE4OTMzMTE@._V1_SX300.jpg
+5432,Learning to Drive,2014,3,f,f,f,3064,3208,0.49,0.51,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1ODkwMzMzNl5BMl5BanBnXkFtZTgwOTAzMTMzNTE@._V1_SX300.jpg
+5435,Love Is Strange,2014,2,m,m,m,2296,7766,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5MTkxOTI1N15BMl5BanBnXkFtZTgwNzAwNDA4MTE@._V1_SX300.jpg
+5440,Me and Earl and the Dying Girl,2015,6,m,m,m,2585,7326,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BNTA1NzUzNjY4MV5BMl5BanBnXkFtZTgwNDU0MDI0NTE@._V1_SX300.jpg
+5448,Mr. Turner,2014,4,m,m,m,3117,6134,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMjUzNTg0MzM3NF5BMl5BanBnXkFtZTgwNDg3NTY5MjE@._V1_SX300.jpg
+5456,Pawn Sacrifice,2014,2,m,m,m,752,6724,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTk0MDYxNTE0OV5BMl5BanBnXkFtZTgwODgyNjU3NTE@._V1_SX300.jpg
+5458,Please Give,2010,4,f,m,f,6214,1278,0.83,0.17,0,0,http://ia.media-imdb.com/images/M/MV5BNTczOTAxOTMyM15BMl5BanBnXkFtZTcwMTgyNTIyMw@@._V1_SX300.jpg
+5467,Slow West,2015,0,m,f,m,0,1707,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BNTYxNDA5ODk5NF5BMl5BanBnXkFtZTgwNzMwMzIwNTE@._V1_SX300.jpg
+5468,Smashed,2012,0,f,f,m,5010,3115,0.62,0.38,0,0,http://ia.media-imdb.com/images/M/MV5BMTgyMDMwNDA1Nl5BMl5BanBnXkFtZTcwNTAwNDY0OA@@._V1_SX300.jpg
+5471,Spring Breakers,2012,15,m,m,m,1185,734,0.62,0.38,0,0,http://ia.media-imdb.com/images/M/MV5BNDE3MDQzMDA5OF5BMl5BanBnXkFtZTcwMTUxNTgxOQ@@._V1_SX300.jpg
+5472,St. Vincent,2014,46,m,m,m,1924,5672,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5NzI5OTA4MF5BMl5BanBnXkFtZTgwNjc4NTM3MjE@._V1_SX300.jpg
+5473,Steve Jobs,2015,18,m,m,m,4925,15636,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMjE0NTA2MTEwOV5BMl5BanBnXkFtZTgwNzg4NzU2NjE@._V1_SX300.jpg
+5476,Suffragette,2015,4,f,m,f,3791,2447,0.61,0.39,0,0,http://ia.media-imdb.com/images/M/MV5BMjA2NDYxOTI1MV5BMl5BanBnXkFtZTgwOTgyMjU3NjE@._V1_SX300.jpg
+5477,The American,2010,39,m,f,m,1419,3193,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMjAxMDg1NDcxM15BMl5BanBnXkFtZTcwODc3MDg1Mw@@._V1_SX300.jpg
+5478,Testament of Youth,2014,1,f,f,m,5190,3058,0.63,0.37,0,0,http://ia.media-imdb.com/images/M/MV5BMTAyOTI3OTgwMTdeQTJeQWpwZ15BbWU4MDAwNzM2NDUx._V1_SX300.jpg
+5481,The Boxtrolls,2014,54,f,m,m,1084,4147,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMTQxODA5MDkyNV5BMl5BanBnXkFtZTgwMDMyNjkzMjE@._V1_SX300.jpg
+5482,The Croods,2013,200,m,f,m,2125,5019,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMTcyOTc2OTA1Ml5BMl5BanBnXkFtZTcwOTI1MjkzOQ@@._V1_SX300.jpg
+5485,The End of the Tour,2015,3,m,m,m,304,3117,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTUwODU3NjQxNF5BMl5BanBnXkFtZTgwODE2NTE4NTE@._V1_SX300.jpg
+5489,The Great Gatsby,2013,155,m,m,m,1840,8662,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTkxNTk1ODcxNl5BMl5BanBnXkFtZTcwMDI1OTMzOQ@@._V1_SX300.jpg
+5492,The Invisible Woman,2013,1,f,f,m,2873,1581,0.65,0.35,0,0,http://ia.media-imdb.com/images/M/MV5BMzQxMTI3MDUzOF5BMl5BanBnXkFtZTgwNzc4MzI1MDE@._V1_SX300.jpg
+5496,The Big Short,2015,62,m,m,m,1449,8064,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMjM2MTQ2MzcxOF5BMl5BanBnXkFtZTgwNzE4NTUyNzE@._V1_SX300.jpg
+5501,The Grand Budapest Hotel,2014,62,m,m,m,105,8252,0.01,0.99,0,0,http://ia.media-imdb.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg
+5502,The Theory of Everything,2014,38,m,m,m,1806,4099,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMTAwMTU4MDA3NDNeQTJeQWpwZ15BbWU4MDk4NTMxNTIx._V1_SX300.jpg
+5509,Wadjda,2012,1,f,f,f,6800,1011,0.87,0.13,0,0,http://ia.media-imdb.com/images/M/MV5BMjI4MzMyNzM2Ml5BMl5BanBnXkFtZTgwNDQ5MDgwMDE@._V1_SX300.jpg
+5515,Woman in Gold,2015,34,m,f,m,5047,6685,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMTExMTUxNDQ5MjdeQTJeQWpwZ15BbWU4MDk4NTgxMzQx._V1_SX300.jpg
+5516,Wreck-It Ralph,2012,206,m,m,m,2358,5333,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_SX300.jpg
+5532,The Fast and the Furious,2001,222,m,m,m,699,5416,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMjAwNTQ0Nzc2M15BMl5BanBnXkFtZTcwNTk1MDIwNA@@._V1_SX300.jpg
+5803,AmŠlie,2001,51,m,m,m,3887,3093,0.56,0.44,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzNjkxMTczOF5BMl5BanBnXkFtZTgwODg5NDc2MjE@._V1_SX300.jpg
+5820,A Beautiful Mind,2001,262,m,m,m,1496,6487,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX300.jpg
+5847,City of God,2002,11,m,f,m,771,7610,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg
+5930,Million Dollar Baby,2004,140,m,m,m,2035,8517,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_SX300.jpg
+6000,There Will Be Blood,2007,50,m,m,m,0,8052,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMjA0NjE1ODEyNV5BMl5BanBnXkFtZTcwNDIzMzE5NQ@@._V1_SX300.jpg
+6029,Pixels,2015,81,m,m,m,406,1055,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg
+6030,2 Guns,2013,80,m,m,m,583,9206,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BNTQ5MTgzNDg4OF5BMl5BanBnXkFtZTcwMjAyODEzOQ@@._V1_SX300.jpg
+6037,Arthur Christmas,2011,50,m,f,f,250,3530,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTYyMjMyMzEzMl5BMl5BanBnXkFtZTcwMDg4NTM5Ng@@._V1_SX300.jpg
+6038,Click,2006,181,m,m,m,1575,7856,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMjEyODM5MzY2N15BMl5BanBnXkFtZTcwNjcyMTIzMQ@@._V1_SX300.jpg
+6039,Cloudy with a Chance of Meatballs 2,2013,128,f,m,m,1460,7132,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzNDM0MDI1NF5BMl5BanBnXkFtZTcwNzQ5NzYxOQ@@._V1_SX300.jpg
+6040,Captain Phillips,2013,114,m,m,m,487,6618,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTQzNzExMDg3Ml5BMl5BanBnXkFtZTgwODU1NzEzMDE@._V1_SX300.jpg
+6042,Friends with Benefits,2011,61,m,f,m,4084,3703,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2MzQ0NTk4N15BMl5BanBnXkFtZTcwMDc2NDYzNQ@@._V1_SX300.jpg
+6050,Monster House,2006,97,m,m,m,2086,4218,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BMTI4NDY5MzI3MV5BMl5BanBnXkFtZTcwMTI5OTMzMQ@@._V1_SX300.jpg
+6052,Pompeii,2014,24,f,m,m,1537,5045,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BNDE2MTU3NzYwOF5BMl5BanBnXkFtZTgwOTY4NTk4MDE@._V1_SX300.jpg
+6054,Resident Evil: Retribution,2012,46,m,m,m,2622,2206,0.54,0.46,0,0,http://ia.media-imdb.com/images/M/MV5BMTA2NTkwNjUxNTZeQTJeQWpwZ15BbWU3MDE2OTMxMTg@._V1_SX300.jpg
+6056,Sparkle,2012,26,f,m,m,5326,4048,0.57,0.43,0,0,http://ia.media-imdb.com/images/M/MV5BMTY4MTAzOTU2OF5BMl5BanBnXkFtZTcwOTA1NTI3Nw@@._V1_SX300.jpg
+6058,Salt,2010,130,m,m,m,1802,3929,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMjIyODA2NDg4NV5BMl5BanBnXkFtZTcwMjg4NDAwMw@@._V1_SX300.jpg
+6059,The Smurfs,2011,156,m,f,m,2019,6491,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BOTUzNTczYTMtMzdkOC00ODlkLTk1NDMtYWYxMzQyYzI1YmVjXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg
+6060,The Smurfs 2,2013,75,m,f,m,1858,5441,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BNzVkMDRlYzItOTUyOS00ZmU5LWEyN2EtMWE2YWU4MzBlOTBjXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg
+6063,The Tourist,2010,74,m,m,m,999,3174,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTMyMzc3OTkwMV5BMl5BanBnXkFtZTcwMjc0MTgwNA@@._V1_SX300.jpg
+6066,White House Down,2013,78,m,m,m,1748,7807,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTAyNzQyNTcwNjVeQTJeQWpwZ15BbWU3MDAwOTQ4Nzk@._V1_SX300.jpg
+6092,Interstellar,2014,200,m,m,m,2276,7187,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg
+6095,The Equalizer,2014,108,m,m,m,772,3555,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2MzE2NTk0NF5BMl5BanBnXkFtZTgwOTM3NTk1MjE@._V1_SX300.jpg
+6108,The Mist,2007,32,m,m,m,3560,9211,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2NjQyNDY1Ml5BMl5BanBnXkFtZTcwMTk1MDU1MQ@@._V1_SX300.jpg
+6121,The Expendables 2,2012,92,m,m,m,538,5082,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTQzODkwNDQxNV5BMl5BanBnXkFtZTcwNTQ1ODAxOA@@._V1_SX300.jpg
+6150,No Country for Old Men,2007,93,m,m,m,1215,7105,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg
+6156,Ouija,2014,54,f,m,m,5783,1878,0.75,0.25,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1NzcwMTU5MF5BMl5BanBnXkFtZTgwOTE5MzEyMjE@._V1_SX300.jpg
+6190,Wrong Turn,2003,22,m,m,m,2154,3442,0.38,0.62,0,0,http://ia.media-imdb.com/images/M/MV5BMTQwMTkyMTY4M15BMl5BanBnXkFtZTYwMDc0NDE3._V1_SX300.jpg
+6193,Kill Bill: Vol. 2,2004,92,m,m,m,2530,5283,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMTIwNzQ3MDIxMV5BMl5BanBnXkFtZTcwMDIxMzUyMQ@@._V1_SX300.jpg
+6213,Charlie Bartlett,2007,4,m,f,m,1426,5730,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTUyNTgyNDI2NF5BMl5BanBnXkFtZTcwOTA2NTg1MQ@@._V1_SX300.jpg
+6215,Nick and Norah's Infinite Playlist,2008,38,f,m,m,1526,4129,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BOTY2MjI4ODI4Nl5BMl5BanBnXkFtZTcwNTMyNjM4MQ@@._V1_SX300.jpg
+6270,Fury,2014,91,m,m,m,0,6838,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMjA4MDU0NTUyN15BMl5BanBnXkFtZTgwMzQxMzY4MjE@._V1_SX300.jpg
+6271,Gone Girl,2014,178,f,f,m,6451,4805,0.57,0.43,0,0,http://ia.media-imdb.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg
+6300,Horns,2013,0,m,m,m,1997,8335,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2Nzk5NzIxMF5BMl5BanBnXkFtZTgwNTM2NTc5MjE@._V1_SX300.jpg
+6302,Killing Them Softly,2012,16,m,m,m,0,16153,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BODk3MDg2NDk5M15BMl5BanBnXkFtZTcwMjcxMjMzOA@@._V1_SX300.jpg
+6313,Red Dragon,2002,139,m,m,m,1074,3217,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ4MDgzNjM5MF5BMl5BanBnXkFtZTYwMjUwMzY2._V1_SX300.jpg
+6315,Hannibal Rising,2007,35,m,m,m,737,4024,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTIzMTA0NTM4NF5BMl5BanBnXkFtZTcwNjY3ODM0MQ@@._V1_SX300.jpg
+6331,Pacific Rim,2013,109,m,m,m,2625,7084,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_SX300.jpg
+6360,28 Days Later...,2002,67,m,m,m,1304,3309,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTk3NjEwNDMzMF5BMl5BanBnXkFtZTgwMzgwNDgwNzE@._V1_SX300.jpg
+6401,"Synecdoche, New York",2008,3,m,m,m,6089,5324,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BMjA0MjIyOTI3MF5BMl5BanBnXkFtZTcwODM5NTY5MQ@@._V1_SX300.jpg
+6407,Adaptation.,2002,33,f,m,m,2863,6817,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMjAxNjMwNDQwNF5BMl5BanBnXkFtZTYwNDIzNTc2._V1_SX300.jpg
+6410,Take This Waltz,2011,1,f,f,f,4404,4061,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMjIzOTc1NTExNV5BMl5BanBnXkFtZTcwOTg5MTY2Nw@@._V1_SX300.jpg
+6420,Dredd,2012,14,m,m,m,1838,3298,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BODkyNDQzMzUzOF5BMl5BanBnXkFtZTcwODYyMDEyOA@@._V1_SX300.jpg
+6486,The A-Team,2010,85,m,m,m,529,7190,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4ODc4NTQ1N15BMl5BanBnXkFtZTcwNDUxODUyMw@@._V1_SX300.jpg
+6495,Jack Reacher,2012,87,m,m,m,2908,3057,0.49,0.51,0,0,http://ia.media-imdb.com/images/M/MV5BMTM1NjUxMDI3OV5BMl5BanBnXkFtZTcwNjg1ODM3OA@@._V1_SX300.jpg
+6515,Gosford Park,2001,63,m,m,m,5387,5321,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMTYwNDA3NDY2M15BMl5BanBnXkFtZTYwMDE4NTQ5._V1_SX300.jpg
+6522,End of Watch,2012,44,m,m,m,1156,7372,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMjMxNjU0ODU5Ml5BMl5BanBnXkFtZTcwNjI4MzAyOA@@._V1_SX300.jpg
+6527,Cake,2014,1,m,f,m,5276,946,0.85,0.15,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4NDYzNTcyM15BMl5BanBnXkFtZTgwNjQ5NzQ0MzE@._V1_SX300.jpg
+6529,Lucy,2014,135,m,f,m,3143,2827,0.53,0.47,0,0,http://ia.media-imdb.com/images/M/MV5BODcxMzY3ODY1NF5BMl5BanBnXkFtZTgwNzg1NDY4MTE@._V1_SX300.jpg
+6537,1408,2007,91,m,m,m,284,3039,0.09,0.91,0,0,http://ia.media-imdb.com/images/M/MV5BMTk1MDg0NTU0OV5BMl5BanBnXkFtZTcwMTM1NDk0MQ@@._V1_SX300.jpg
+6552,Dreamcatcher,2003,48,m,m,m,123,4341,0.03,0.97,0,0,http://ia.media-imdb.com/images/M/MV5BMTk1MjQwMTQyMV5BMl5BanBnXkFtZTcwODcxMjEzMw@@._V1_SX300.jpg
+6568,Hannibal,2001,253,f,m,m,2265,5343,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMjA1MDcwNjkwOF5BMl5BanBnXkFtZTgwNjcxNTYxMTE@._V1_SX300.jpg
+6571,The Girl with the Dragon Tattoo,2011,113,m,f,m,3713,8965,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_SX300.jpg
+6605,Art School Confidential,2006,4,m,m,m,1604,5638,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMjA2Nzg0NjQwM15BMl5BanBnXkFtZTcwODgxNDgzMQ@@._V1_SX300.jpg
+6614,Cosmopolis,2012,0,m,m,m,2278,6498,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTY1NjI0MDYyNV5BMl5BanBnXkFtZTcwNDIzMDEyOA@@._V1_SX300.jpg
+6622,The Wolfman,2010,68,m,m,m,1356,7630,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BOTUyODEyMDIyM15BMl5BanBnXkFtZTcwNTYxMzg5Mg@@._V1_SX300.jpg
+6634,The Hundred-Foot Journey,2014,57,m,m,m,2791,3113,0.47,0.53,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3Mjg2MTE4M15BMl5BanBnXkFtZTgwMzcyNDMwMjE@._V1_SX300.jpg
+6649,Prometheus,2012,137,m,m,m,1746,3490,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3NzIyNTA2NV5BMl5BanBnXkFtZTcwNzE2NjI4Nw@@._V1_SX300.jpg
+6672,Hulk,2003,190,m,m,m,545,8096,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTQxNzUxNTE4Nl5BMl5BanBnXkFtZTYwMjcyNTk5._V1_SX300.jpg
+6679,Spider-Man 2,2004,522,m,m,m,2110,6488,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMjE0Njc1NDYzN15BMl5BanBnXkFtZTcwNjAxMzYyMQ@@._V1_SX300.jpg
+6724,The Way of the Gun,2000,9,m,m,m,1878,9754,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0MjAwNTExNV5BMl5BanBnXkFtZTcwNzI4NjEyMQ@@._V1_SX300.jpg
+6747,In Time,2011,41,m,m,m,1216,4560,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMjA3NzI1ODc1MV5BMl5BanBnXkFtZTcwMzI5NjQwNg@@._V1_SX300.jpg
+6752,Team America: World Police,2004,45,m,m,m,575,1073,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMTM2Nzc4NjYxMV5BMl5BanBnXkFtZTcwNTM1MTcyMQ@@._V1_SX300.jpg
+6815,The Life Aquatic with Steve Zissou,2004,33,m,m,m,1821,11486,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_SX300.jpg
+6816,The Royal Tenenbaums,2001,80,m,m,m,1581,6016,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMjA0MjcwNDgzNl5BMl5BanBnXkFtZTgwNzMwODQxMTE@._V1_SX300.jpg
+6822,A Scanner Darkly,2006,7,m,m,m,2171,9556,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTU1ODk2NTkwNF5BMl5BanBnXkFtZTcwNDkwNDI0MQ@@._V1_SX300.jpg
+6827,The Zero Theorem,2013,0,m,m,m,1901,6494,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4NTIxMTE0OF5BMl5BanBnXkFtZTgwNTQ5NTYxMjE@._V1_SX300.jpg
+6832,The Darjeeling Limited,2007,15,m,m,m,1093,6798,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTM0MTQ4MTgwOF5BMl5BanBnXkFtZTcwMDA3MDU1MQ@@._V1_SX300.jpg
+6833,Match Point,2005,31,m,f,m,8158,11630,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BMTMzNzY4MzE5NF5BMl5BanBnXkFtZTcwMzQ1MDMzMQ@@._V1_SX300.jpg
+6845,Taken,2008,175,m,m,m,1812,5337,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTM4NzQ0OTYyOF5BMl5BanBnXkFtZTcwMDkyNjQyMg@@._V1_SX300.jpg
+6854,The Squid and the Whale,2005,9,m,m,m,1675,4021,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BMTg1NTE4NTc3NV5BMl5BanBnXkFtZTgwNDA1NDI1MDE@._V1_SX300.jpg
+6864,Kick-Ass,2010,52,f,m,m,1625,8195,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTMzNzEzMDYxM15BMl5BanBnXkFtZTcwMTc0NTMxMw@@._V1_SX300.jpg
+6867,Inherent Vice,2014,8,m,m,m,4888,10564,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMjI2ODQ2NzUwMl5BMl5BanBnXkFtZTgwNjU3NTE4MjE@._V1_SX300.jpg
+6903,The Lunchbox,2013,4,m,m,m,1951,3311,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMTUwMzc1NjIzMV5BMl5BanBnXkFtZTgwODUyMTIxMTE@._V1_SX300.jpg
+6905,Whiplash,2014,13,m,m,m,497,8395,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTU4OTQ3MDUyMV5BMl5BanBnXkFtZTgwOTA2MjU0MjE@._V1_SX300.jpg
+6907,Wild,2014,40,m,m,m,7105,2736,0.72,0.28,0,0,http://ia.media-imdb.com/images/M/MV5BMTczNzI2MDc1Ml5BMl5BanBnXkFtZTgwOTU5NTYxMjE@._V1_SX300.jpg
+6908,The Judge,2014,50,m,m,m,1261,9648,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTcyNzIxOTIwMV5BMl5BanBnXkFtZTgwMzE0NjQwMjE@._V1_SX300.jpg
+6910,Big Eyes,2014,15,m,m,m,3125,5218,0.37,0.63,0,0,http://ia.media-imdb.com/images/M/MV5BMjA2ODM5MDE3N15BMl5BanBnXkFtZTgwOTIxNjc1MzE@._V1_SX300.jpg
+6911,Still Alice,2014,19,m,f,m,5537,3514,0.61,0.39,0,0,http://ia.media-imdb.com/images/M/MV5BMjIzNzAxNjY1Nl5BMl5BanBnXkFtZTgwMDg4ODQxMzE@._V1_SX300.jpg
+6912,The Babadook,2014,0,f,f,f,4675,1798,0.72,0.28,0,0,http://ia.media-imdb.com/images/M/MV5BMTk0NzMzODc2NF5BMl5BanBnXkFtZTgwOTYzNTM1MzE@._V1_SX300.jpg
+6916,Before Sunset,2004,8,m,f,m,5030,3993,0.56,0.44,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_SX300.jpg
+6918,Exodus: Gods and Kings,2014,69,m,m,m,114,5467,0.02,0.98,0,0,http://ia.media-imdb.com/images/M/MV5BMjI3MDY0NjkxNl5BMl5BanBnXkFtZTgwNTM3NTA0MzE@._V1_SX300.jpg
+6919,Oculus,2013,29,m,m,m,3962,2608,0.6,0.4,0,0,http://ia.media-imdb.com/images/M/MV5BMzE1NzM4MjEyNV5BMl5BanBnXkFtZTgwMjYzMjMzMTE@._V1_SX300.jpg
+6962,Seeking a Friend for the End of the World,2012,7,f,f,f,2790,4154,0.4,0.6,0,0,http://ia.media-imdb.com/images/M/MV5BMTk4MDQ1NzE3N15BMl5BanBnXkFtZTcwMjA0MDkzNw@@._V1_SX300.jpg
+6965,Frost/Nixon,2008,22,m,m,m,492,13136,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMTYxOTI1OTg5MV5BMl5BanBnXkFtZTgwODgwNTcxMTE@._V1_SX300.jpg
+6968,Inside Man,2006,117,m,m,m,1916,10690,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTcxMDE4NTU4OF5BMl5BanBnXkFtZTcwMjg4NjQzMQ@@._V1_SX300.jpg
+7057,Super,2010,0,m,f,m,2231,4267,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTcxMDkxNjI1NF5BMl5BanBnXkFtZTcwMzE5Njc1NA@@._V1_SX300.jpg
+7058,Scooby-Doo,2002,229,m,m,m,2224,6008,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMTg4MzMzMTY0OF5BMl5BanBnXkFtZTYwNzM3MTg2._V1_SX300.jpg
+7093,True Grit,2010,188,m,m,m,3200,4602,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BMjIxNjAzODQ0N15BMl5BanBnXkFtZTcwODY2MjMyNA@@._V1_SX300.jpg
+7104,The Ward,2010,0,m,m,m,2931,1377,0.68,0.32,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3NDE3NzQxNV5BMl5BanBnXkFtZTcwMjYxMzI1NQ@@._V1_SX300.jpg
+7126,Shopgirl,2005,13,m,m,m,3308,3087,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMjE2MTM5NjIyOV5BMl5BanBnXkFtZTcwOTg3NDAzMQ@@._V1_SX300.jpg
+7130,Killer Joe,2011,2,m,m,m,2392,6661,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMjI0MDQyMTU1OF5BMl5BanBnXkFtZTcwODc5Njg3Nw@@._V1_SX300.jpg
+7149,My Bloody Valentine,2009,59,m,m,m,1287,3267,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTY2MTQ1OTcxOF5BMl5BanBnXkFtZTcwMjc2ODUxMg@@._V1_SX300.jpg
+7157,Jennifer's Body,2009,18,f,m,f,7381,2447,0.75,0.25,0,0,http://ia.media-imdb.com/images/M/MV5BMTMxNzYwMjc1Ml5BMl5BanBnXkFtZTcwNDI3MDE3Mg@@._V1_SX300.jpg
+7171,The Ides of March,2011,44,m,m,m,1441,9172,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BNTU4MjkzNTY0OF5BMl5BanBnXkFtZTcwNDI5ODIxNg@@._V1_SX300.jpg
+7174,Friday the 13th,2009,75,m,m,m,1671,2958,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ5ODI5NTMzN15BMl5BanBnXkFtZTcwNzY4MTYxMg@@._V1_SX300.jpg
+7214,The Aviator,2004,144,m,m,m,2608,12159,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTUxMjQ5NzgyOF5BMl5BanBnXkFtZTcwNDg0ODYyMQ@@._V1_SX300.jpg
+7216,Cabin Fever 2: Spring Fever,2009,21,m,m,m,1130,6320,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ0NDcxNTQyOF5BMl5BanBnXkFtZTcwMTQ2MDk5NA@@._V1_SX300.jpg
+7231,Predators,2010,57,m,f,m,561,1971,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5MzYwODgzOV5BMl5BanBnXkFtZTcwMTQwMjUyMw@@._V1_SX300.jpg
+7243,Black Hawk Down,2001,167,m,m,m,0,7647,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMTQxODgzMjYyN15BMl5BanBnXkFtZTgwNDU4NTYxMTE@._V1_SX300.jpg
+7247,The Good Shepherd,2006,79,m,m,m,780,9212,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMTU5MjExMzA1Nl5BMl5BanBnXkFtZTgwMzIxNzQxMTE@._V1_SX300.jpg
+7251,A Perfect Getaway,2009,17,m,m,m,1388,4685,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMjA3NzcxNzAwOV5BMl5BanBnXkFtZTcwNTgyNDU2Mg@@._V1_SX300.jpg
+7252,Riddick,2013,44,m,f,m,523,4431,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5NzYwMzQ4MV5BMl5BanBnXkFtZTcwMjE5MTI1OQ@@._V1_SX300.jpg
+7278,Tower Heist,2011,85,m,m,m,753,6317,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTY1NDQxMTcwOV5BMl5BanBnXkFtZTcwNzMzNTExNg@@._V1_SX300.jpg
+7298,The Spectacular Now,2013,7,m,m,m,3338,7396,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5MTc0NTkzM15BMl5BanBnXkFtZTcwODEwNjE3OQ@@._V1_SX300.jpg
+7302,Tucker and Dale vs. Evil,2010,0,m,m,m,1481,5703,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BODQ5NDQ0MjkwMF5BMl5BanBnXkFtZTcwNDg1OTU4NQ@@._V1_SX300.jpg
+7307,Maps to the Stars,2014,0,m,m,m,4136,3360,0.55,0.45,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3MjQwNzYyNV5BMl5BanBnXkFtZTgwNTY3NDQ5MzE@._V1_SX300.jpg
+7329,Ghost Town,2008,15,m,m,m,2258,9996,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTQyODQ4MzYxN15BMl5BanBnXkFtZTcwOTQ1MDczMw@@._V1_SX300.jpg
+7330,Indiana Jones and the Kingdom of the Crystal Skull,2008,384,m,f,m,1977,8723,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMTIxNDUxNzcyMl5BMl5BanBnXkFtZTcwNTgwOTI3MQ@@._V1_SX300.jpg
+7332,Mortdecai,2015,7,m,f,m,1583,7576,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMjM3NDcxOTM5Ml5BMl5BanBnXkFtZTgwNTEwNzE0MzE@._V1_SX300.jpg
+7344,Saw IV,2007,80,m,m,m,825,4275,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1_SX300.jpg
+7349,The Lazarus Effect,2015,26,m,m,m,2000,3608,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMjM2ODM1OTA0M15BMl5BanBnXkFtZTgwMDMxMDI5MzE@._V1_SX300.jpg
+7358,Philomena,2013,40,m,f,m,5052,3617,0.58,0.42,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5ODgyNzcxMV5BMl5BanBnXkFtZTgwMzkzOTYzMDE@._V1_SX300.jpg
+7361,The Riot Club,2014,0,f,m,f,1124,8333,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMjAxNTA3NjI0NF5BMl5BanBnXkFtZTgwODcyMjQ3MjE@._V1_SX300.jpg
+7364,The Devil's Rejects,2005,22,m,m,m,3513,14289,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMjIwMjM1MjM4NV5BMl5BanBnXkFtZTcwNTgyMzUzMw@@._V1_SX300.jpg
+7378,Four Lions,2010,0,m,m,m,186,9760,0.02,0.98,0,0,http://ia.media-imdb.com/images/M/MV5BMTczNDQxNzI0NF5BMl5BanBnXkFtZTcwNDM0NzEwNA@@._V1_SX300.jpg
+7406,Snowpiercer,2013,4,m,m,m,1438,4921,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_SX300.jpg
+7413,American Sniper,2014,372,m,m,m,1183,2859,0.29,0.71,0,0,http://ia.media-imdb.com/images/M/MV5BMTkxNzI3ODI4Nl5BMl5BanBnXkFtZTgwMjkwMjY4MjE@._V1_SX300.jpg
+7427,Unstoppable,2010,89,m,m,m,2839,5382,0.35,0.65,0,0,http://ia.media-imdb.com/images/M/MV5BMjI4NDQwMDM0N15BMl5BanBnXkFtZTcwMzY1ODMwNA@@._V1_SX300.jpg
+7446,Hellboy,2004,82,m,m,m,806,5472,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3MDM0ODA3M15BMl5BanBnXkFtZTYwNDQyMzc2._V1_SX300.jpg
+7447,Identity Thief,2013,143,m,f,m,2833,5598,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3NzM5MTk2Nl5BMl5BanBnXkFtZTcwMDQ4MjQ3OA@@._V1_SX300.jpg
+7466,Prince of Persia: The Sands of Time,2010,100,m,m,m,1558,6119,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTMwNDg0NzcyMV5BMl5BanBnXkFtZTcwNjg4MjQyMw@@._V1_SX300.jpg
+7475,Vacancy,2007,24,m,f,m,1337,3537,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ3MDk2MDI5N15BMl5BanBnXkFtZTcwMDgyNzUzMw@@._V1_SX300.jpg
+7502,Mystic River,2003,129,m,m,m,1051,9709,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTIzNDUyMjA4MV5BMl5BanBnXkFtZTYwNDc4ODM3._V1_SX300.jpg
+7516,Carrie,2013,37,m,m,m,5541,2766,0.67,0.33,0,0,http://ia.media-imdb.com/images/M/MV5BODg2MDU2MjYxNl5BMl5BanBnXkFtZTcwMDQ5MzU0OQ@@._V1_SX300.jpg
+7545,Run All Night,2015,27,m,m,m,787,6676,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTU2ODI3ODEyOV5BMl5BanBnXkFtZTgwMTM3NTQzNDE@._V1_SX300.jpg
+7554,The Gunman,2015,10,m,m,m,1078,4523,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMjE2MzE5ODY5MF5BMl5BanBnXkFtZTgwNTI0NjM1NDE@._V1_SX300.jpg
+7557,Sleeping Beauty,2011,0,f,f,f,1603,1493,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMjI5OTk3Mjg4MV5BMl5BanBnXkFtZTcwNzQ2NTQxNw@@._V1_SX300.jpg
+7563,The Hurt Locker,2008,19,m,f,f,0,5392,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BNzEwNzQ1NjczM15BMl5BanBnXkFtZTcwNTk3MTE1Mg@@._V1_SX300.jpg
+7597,28 Weeks Later,2007,36,m,m,m,1019,2091,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BMTUxMjc2MTcxNV5BMl5BanBnXkFtZTcwMzgzOTY0MQ@@._V1_SX300.jpg
+7623,Cyrus,2010,8,m,m,m,2547,4186,0.38,0.62,0,0,http://ia.media-imdb.com/images/M/MV5BMjA1MDU4NzUwMF5BMl5BanBnXkFtZTcwOTM4MDgzMw@@._V1_SX300.jpg
+7624,"Jeff, Who Lives at Home",2011,4,m,f,m,1392,4315,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTgyNzQ0MjY5Ml5BMl5BanBnXkFtZTcwNDgyNzkyNw@@._V1_SX300.jpg
+7627,The Other Guys,2010,131,m,m,m,767,9845,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0NDQzNTA2Ml5BMl5BanBnXkFtZTcwNzI2OTQzMw@@._V1_SX300.jpg
+7630,Anchorman: The Legend of Ron Burgundy,2004,117,m,m,m,2206,7864,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ2MzYwMzk5Ml5BMl5BanBnXkFtZTcwOTI4NzUyMw@@._V1_SX300.jpg
+7651,Jumper,2008,97,m,m,m,1356,7489,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMjEwOTkyOTI3M15BMl5BanBnXkFtZTcwNTQxMjU1MQ@@._V1_SX300.jpg
+7657,Sherlock Holmes,2009,242,m,m,m,1200,8622,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX300.jpg
+7659,Noah,2014,107,m,m,m,1341,4737,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BNDE1MTkzNzc0MF5BMl5BanBnXkFtZTgwMjYxNDEyMjE@._V1_SX300.jpg
+7681,Now You See Me,2013,126,m,m,m,1764,7339,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_SX300.jpg
+7682,Push,2009,36,m,m,m,2826,2098,0.57,0.43,0,0,http://ia.media-imdb.com/images/M/MV5BMTM2NjE5NTYzMl5BMl5BanBnXkFtZTcwNzc3OTMyMg@@._V1_SX300.jpg
+7695,The Descent,2005,35,m,m,m,4076,0,1,0,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5NzQ1NTgwNV5BMl5BanBnXkFtZTcwNjUxMzUzMw@@._V1_SX300.jpg
+7696,Doomsday,2008,13,m,m,m,3610,7546,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMTUwODU2NzE2OF5BMl5BanBnXkFtZTcwMTAwMDA2MQ@@._V1_SX300.jpg
+7698,My Big Fat Greek Wedding,2002,360,f,m,m,4632,3304,0.58,0.42,0,0,http://ia.media-imdb.com/images/M/MV5BMTg2MzY0NDM1Ml5BMl5BanBnXkFtZTYwNzUzNDg5._V1_SX300.jpg
+7706,Pain & Gain,2013,53,m,m,m,575,6621,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMTU0NDE5NTU0OV5BMl5BanBnXkFtZTcwMzI1OTMzOQ@@._V1_SX300.jpg
+7709,Selma,2014,55,m,m,f,1363,12101,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BODMxNjAwODA2Ml5BMl5BanBnXkFtZTgwMzc0NjgzMzE@._V1_SX300.jpg
+7716,American Ultra,2015,14,m,m,m,2966,5227,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTcwMTM1NDU1Ml5BMl5BanBnXkFtZTgwNDk5MTgzNjE@._V1_SX300.jpg
+7730,Kingsman: The Secret Service,2014,136,f,m,m,799,11513,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTkxMjgwMDM4Ml5BMl5BanBnXkFtZTgwMTk3NTIwNDE@._V1_SX300.jpg
+7731,The Green Inferno,2013,7,m,m,m,2747,4021,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BMTE0MjgzMjk5MzdeQTJeQWpwZ15BbWU4MDM5OTM1MTYx._V1_SX300.jpg
+7732,The Final Girls,2015,0,m,m,m,5895,1988,0.75,0.25,0,0,http://ia.media-imdb.com/images/M/MV5BMjI4Nzk2NzAzOV5BMl5BanBnXkFtZTgwNjI1NzY4NjE@._V1_SX300.jpg
+7733,Terminator Genisys,2015,92,f,m,m,2204,6386,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg
+7737,You're Next,2011,20,m,m,m,2369,3416,0.41,0.59,0,0,http://ia.media-imdb.com/images/M/MV5BMTQwODAxMTE1NF5BMl5BanBnXkFtZTcwNTQ0MjY3OQ@@._V1_SX300.jpg
+7740,Sicario,2015,48,m,m,m,1438,5456,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5NjM3NTk1M15BMl5BanBnXkFtZTgwMzg1MzU2NjE@._V1_SX300.jpg
+7742,The Rover,2014,1,m,m,m,1053,4603,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMjE4MTc1MzMxN15BMl5BanBnXkFtZTgwMzc4NDA4MTE@._V1_SX300.jpg
+7756,Straight Outta Compton,2015,166,m,m,m,675,9855,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTA5MzkyMzIxNjJeQTJeQWpwZ15BbWU4MDU0MDk0OTUx._V1_SX300.jpg
+7763,Elysium,2013,99,m,f,m,2686,5888,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BNDc2NjU0MTcwNV5BMl5BanBnXkFtZTcwMjg4MDg2OQ@@._V1_SX300.jpg
+7765,People Like Us,2012,13,m,m,m,4515,5351,0.46,0.54,0,0,http://ia.media-imdb.com/images/M/MV5BMTM3MzUyNzg3NF5BMl5BanBnXkFtZTcwNjk3NDA4Nw@@._V1_SX300.jpg
+7766,The Incredible Hulk,2008,163,m,m,m,1752,3730,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SX300.jpg
+7770,300,2006,280,m,m,m,1071,9348,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMjAzNTkzNjcxNl5BMl5BanBnXkFtZTYwNDA4NjE3._V1_SX300.jpg
+7779,Insidious: Chapter 2,2013,89,m,m,m,2624,3585,0.42,0.58,0,0,http://ia.media-imdb.com/images/M/MV5BMTg0OTA5ODIxNF5BMl5BanBnXkFtZTcwNTUzNDg4OQ@@._V1_SX300.jpg
+7780,Hitch,2005,241,m,m,m,3631,6483,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BNzYyNzM2NzM2NF5BMl5BanBnXkFtZTcwNjg5NTQzMw@@._V1_SX300.jpg
+7808,Serendipity,2001,76,m,m,m,4173,4627,0.47,0.53,0,0,http://ia.media-imdb.com/images/M/MV5BMTkzMjEzOTQ3Nl5BMl5BanBnXkFtZTYwMjI1NzU5._V1_SX300.jpg
+7820,Chef,2014,33,m,f,m,1978,7631,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5NTYzNTA1M15BMl5BanBnXkFtZTgwODIwODU1MTE@._V1_SX300.jpg
+7822,The Maze Runner,2014,108,m,m,m,1155,8169,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_SX300.jpg
+7829,Towelhead,2007,0,m,m,m,4579,5120,0.47,0.53,0,0,http://ia.media-imdb.com/images/M/MV5BMTI3MTY3OTM5MF5BMl5BanBnXkFtZTcwOTQ4MTA3MQ@@._V1_SX300.jpg
+7834,22 Jump Street,2014,204,m,m,m,1591,8355,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTcwNzAxMDU1M15BMl5BanBnXkFtZTgwNDE2NTU1MTE@._V1_SX300.jpg
+7836,Southpaw,2015,54,m,m,m,2051,9235,0.18,0.82,0,0,http://ia.media-imdb.com/images/M/MV5BMjI1MTcwODk0MV5BMl5BanBnXkFtZTgwMTgwMDM5NTE@._V1_SX300.jpg
+7849,Gangster Squad,2013,49,m,m,m,991,8474,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTcwMjAyMTUzMl5BMl5BanBnXkFtZTcwODgxNzk1OA@@._V1_SX300.jpg
+7858,Get Hard,2015,93,m,m,m,1064,9330,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTc3OTc1NjM0M15BMl5BanBnXkFtZTgwNjAyMzE1MzE@._V1_SX300.jpg
+7860,Two Night Stand,2014,0,m,m,m,5608,4713,0.54,0.46,0,0,http://ia.media-imdb.com/images/M/MV5BMjMwNDg0NDMwOF5BMl5BanBnXkFtZTgwOTc3MjA0MjE@._V1_SX300.jpg
+7882,Lawless,2012,40,m,m,m,1097,9920,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMjAxNjUyNjUwN15BMl5BanBnXkFtZTcwMDgwOTIyOA@@._V1_SX300.jpg
+7901,Sorority Row,2009,13,m,m,m,6583,1993,0.77,0.23,0,0,http://ia.media-imdb.com/images/M/MV5BMjEyMTQ4ODc4M15BMl5BanBnXkFtZTcwMzI1NjE4Mg@@._V1_SX300.jpg
+7904,Final Destination 3,2006,71,m,m,m,4209,3947,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMTg2MzI0MzczOF5BMl5BanBnXkFtZTcwNzAyODExMw@@._V1_SX300.jpg
+7915,The Counselor,2013,18,m,m,m,656,2596,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTc3ODk0MTY0N15BMl5BanBnXkFtZTgwOTU2MTEzMDE@._V1_SX300.jpg
+7924,Wanderlust,2012,18,m,m,m,3992,8991,0.31,0.69,0,0,http://ia.media-imdb.com/images/M/MV5BMjA5NjIyOTY1Nl5BMl5BanBnXkFtZTcwMDY3NjQ0Nw@@._V1_SX300.jpg
+7930,San Andreas,2015,159,m,m,m,1036,4322,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BNjI4MTgyOTAxOV5BMl5BanBnXkFtZTgwMjQwOTA4NTE@._V1_SX300.jpg
+7935,Blades of Glory,2007,149,m,m,m,1139,8559,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTY3MDMyMTYxMl5BMl5BanBnXkFtZTcwMjk0NzI0MQ@@._V1_SX300.jpg
+7937,Everything Must Go,2010,2,m,m,m,316,6222,0.05,0.95,0,0,http://ia.media-imdb.com/images/M/MV5BMjEwMjI0NjU2NF5BMl5BanBnXkFtZTcwMDk5Mjc4NA@@._V1_SX300.jpg
+7942,Stranger Than Fiction,2006,53,m,f,m,4471,5758,0.44,0.56,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5MjA3MTY2Ml5BMl5BanBnXkFtZTcwNTMzNzYzMw@@._V1_SX300.jpg
+7944,The Lego Movie,2014,274,m,f,m,1631,8573,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1_SX300.jpg
+7973,Seven Psychopaths,2012,16,m,m,m,634,10714,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTgwMzUxMjc0M15BMl5BanBnXkFtZTcwMzQ2MjYyOA@@._V1_SX300.jpg
+7974,Top Five,2014,26,m,m,m,3586,7035,0.34,0.66,0,0,http://ia.media-imdb.com/images/M/MV5BMjIzNTg4ODM3OV5BMl5BanBnXkFtZTgwMTk0MjkxMzE@._V1_SX300.jpg
+7977,Sabotage,2014,11,m,m,m,3136,4623,0.4,0.6,0,0,http://ia.media-imdb.com/images/M/MV5BMTY0NTgxNDY0MV5BMl5BanBnXkFtZTgwMzcwMDYwMTE@._V1_SX300.jpg
+7984,Cloudy with a Chance of Meatballs,2009,145,m,f,m,1495,5253,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMTg0MjAwNDI5MV5BMl5BanBnXkFtZTcwODkyMzg2Mg@@._V1_SX300.jpg
+7986,Minions,2015,346,m,f,m,1828,1800,0.5,0.5,0,0,http://ia.media-imdb.com/images/M/MV5BMTg2MTMyMzU0M15BMl5BanBnXkFtZTgwOTU3ODk4NTE@._V1_SX300.jpg
+7991,"Monsters, Inc.",2001,445,m,f,m,399,10184,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg
+8007,A History of Violence,2005,42,m,m,m,2818,7891,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTczMzIzMTQ1OV5BMl5BanBnXkFtZTYwMDQwNjk2._V1_SX300.jpg
+8019,Calvary,2014,3,m,m,m,4003,4385,0.48,0.52,0,0,http://ia.media-imdb.com/images/M/MV5BMTc3MjQ1MjE2M15BMl5BanBnXkFtZTgwNTMzNjE4MTE@._V1_SX300.jpg
+8021,The Guard,2011,5,m,m,m,698,9025,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMTY2ODkzMDgwM15BMl5BanBnXkFtZTcwMDA1Mjg1OA@@._V1_SX300.jpg
+8029,The Hunger Games,2012,445,f,f,m,3799,4600,0.45,0.55,0,0,http://ia.media-imdb.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg
+8045,Knight and Day,2010,84,m,m,m,4048,5426,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMTM0Mzg0MzI3Ml5BMl5BanBnXkFtZTcwNjIyNzk1Mw@@._V1_SX300.jpg
+8050,Gone in Sixty Seconds,2000,164,m,m,m,1362,8820,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTIwMzExNDEwN15BMl5BanBnXkFtZTYwODMxMzg2._V1_SX300.jpg
+8056,Dope,2015,18,m,f,m,1347,6844,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMjA3MjYyNTk0Nl5BMl5BanBnXkFtZTgwODc1NzQ1NTE@._V1_SX300.jpg
+8057,A Most Wanted Man,2014,18,m,f,m,2938,6029,0.33,0.67,0,0,http://ia.media-imdb.com/images/M/MV5BODY2MTA0MjYzMl5BMl5BanBnXkFtZTgwOTE3NzE4MTE@._V1_SX300.jpg
+8094,Self/less,2015,12,m,m,m,1164,3734,0.24,0.76,0,0,http://ia.media-imdb.com/images/M/MV5BMTU0MTQzNzAxMl5BMl5BanBnXkFtZTgwNjg4MjcxNjE@._V1_SX300.jpg
+8112,The Grey,2011,56,m,m,m,0,6838,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BNDY4MTQwMzc1MV5BMl5BanBnXkFtZTcwNzcwNTM5Ng@@._V1_SX300.jpg
+8151,The Drop,2014,11,m,f,m,1497,6086,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTkyNjMzODUzNV5BMl5BanBnXkFtZTgwNjIxNDI1MTE@._V1_SX300.jpg
+8170,Undertow,2004,0,m,m,m,902,4652,0.16,0.84,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzODgyOTMzMV5BMl5BanBnXkFtZTcwMjU2MTcyMQ@@._V1_SX300.jpg
+8177,Solomon Kane,2009,0,m,m,m,330,5579,0.06,0.94,0,0,http://ia.media-imdb.com/images/M/MV5BMTU5NDMwOTkxMV5BMl5BanBnXkFtZTcwMTg5OTM1OA@@._V1_SX300.jpg
+8192,Cloverfield,2008,96,m,m,m,2205,4740,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMTQ1NzU4NjI5Nl5BMl5BanBnXkFtZTcwNTkyMjc1MQ@@._V1_SX300.jpg
+8194,Apollo 18,2011,19,m,m,m,0,2578,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMTk5MTk3OTk3OV5BMl5BanBnXkFtZTcwMzg4MzgxNg@@._V1_SX300.jpg
+8197,The November Man,2014,26,m,m,m,1581,5404,0.23,0.77,0,0,http://ia.media-imdb.com/images/M/MV5BNTkzMDk5NjUxNV5BMl5BanBnXkFtZTgwMzMwOTMyMjE@._V1_SX300.jpg
+8199,Rock of Ages,2012,42,m,m,m,778,3054,0.2,0.8,0,0,http://ia.media-imdb.com/images/M/MV5BMTg2NDQyODAzNF5BMl5BanBnXkFtZTcwMTg5MDA3Nw@@._V1_SX300.jpg
+8208,Taken 2,2012,153,m,m,m,1908,4134,0.32,0.68,0,0,http://ia.media-imdb.com/images/M/MV5BMTkwNTQ0ODExOV5BMl5BanBnXkFtZTcwNjU3NDQwOA@@._V1_SX300.jpg
+8209,3 Days to Kill,2014,32,f,m,m,4573,5575,0.45,0.55,0,0,http://ia.media-imdb.com/images/M/MV5BMzM0MjE0Nzg1N15BMl5BanBnXkFtZTgwODA4ODE4MDE@._V1_SX300.jpg
+8210,Runner Runner,2013,20,m,m,m,0,9999,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMTU5OTA0MjI4Ml5BMl5BanBnXkFtZTgwMTgxOTQwMDE@._V1_SX300.jpg
+8215,Silent Hill,2006,62,m,m,m,3109,652,0.83,0.17,0,0,http://ia.media-imdb.com/images/M/MV5BMTI4NzQ3NTgxNV5BMl5BanBnXkFtZTcwMTMwOTIzMQ@@._V1_SX300.jpg
+8216,School of Rock,2003,117,m,m,m,1114,2958,0.27,0.73,0,0,http://ia.media-imdb.com/images/M/MV5BMjEwOTMzNjYzMl5BMl5BanBnXkFtZTcwNjczMTQyMQ@@._V1_SX300.jpg
+8232,Love & Other Drugs,2010,35,m,m,m,3202,5063,0.39,0.61,0,0,http://ia.media-imdb.com/images/M/MV5BMTgxOTczODEyMF5BMl5BanBnXkFtZTcwMDc0NDY4Mw@@._V1_SX300.jpg
+8257,The Revenant,2015,147,m,m,m,0,5396,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BMjU4NDExNDM1NF5BMl5BanBnXkFtZTgwMDIyMTgxNzE@._V1_SX300.jpg
+8275,The Fourth Kind,2009,29,m,m,m,4269,3986,0.52,0.48,0,0,http://ia.media-imdb.com/images/M/MV5BMTY2OTM0NDEyM15BMl5BanBnXkFtZTcwNTAzMDY4Mg@@._V1_SX300.jpg
+8277,Cursed,2005,26,m,m,m,2615,3967,0.4,0.6,0,0,http://ia.media-imdb.com/images/M/MV5BMTIyMjcxOTUyMV5BMl5BanBnXkFtZTcwMjcxMjkyMQ@@._V1_SX300.jpg
+8350,Pirates of the Caribbean: The Curse of the Black Pearl,2003,440,m,m,m,1273,8550,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyNDM4MTc2N15BMl5BanBnXkFtZTYwNDk0Mjc3._V1_SX300.jpg
+8351,Pirates of the Caribbean: Dead Man's Chest,2006,561,m,m,m,1253,7827,0.14,0.86,0,0,http://ia.media-imdb.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_SX300.jpg
+8352,Pirates of the Caribbean: At World's End,2007,390,m,m,m,1679,6353,0.21,0.79,0,0,http://ia.media-imdb.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX300.jpg
+8382,Kingdom of Heaven,2005,64,m,m,m,864,6518,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMjE2MTIwNjg0MV5BMl5BanBnXkFtZTcwNjAxODIzMw@@._V1_SX300.jpg
+8405,The Recruit,2003,76,m,m,m,728,5795,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMjE5MDMzOTk3MV5BMl5BanBnXkFtZTYwNTE0NTg2._V1_SX300.jpg
+8406,The Maiden Heist,2009,0,m,m,m,1086,7526,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0MTc0MjE0MF5BMl5BanBnXkFtZTcwMDU1NzI4Mg@@._V1_SX300.jpg
+8410,Brick Mansions,2014,21,m,m,m,728,7842,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BOTI0ODQ2MzY5NF5BMl5BanBnXkFtZTgwNTcxNzQxMTE@._V1_SX300.jpg
+8471,Sinister,2012,52,m,m,m,2246,5325,0.3,0.7,0,0,http://ia.media-imdb.com/images/M/MV5BMjI5MTg1Njg0Ml5BMl5BanBnXkFtZTcwNzg2Mjc4Nw@@._V1_SX300.jpg
+8479,Blue Jasmine,2013,35,m,f,m,2747,884,0.76,0.24,0,0,http://ia.media-imdb.com/images/M/MV5BMTc0ODk5MzEyMV5BMl5BanBnXkFtZTcwMzI0MDY1OQ@@._V1_SX300.jpg
+8500,Captain America: The First Avenger,2011,194,m,f,m,747,5808,0.11,0.89,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_SX300.jpg
+8524,The Adventures of Tintin,2011,85,m,f,m,0,5631,0,1,0,0,http://ia.media-imdb.com/images/M/MV5BNDE5MDExNTQ1OF5BMl5BanBnXkFtZTcwMDIxMTM5Ng@@._V1_SX300.jpg
+8525,Transcendence,2014,24,m,f,m,3040,5333,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTc1MjQ3ODAyOV5BMl5BanBnXkFtZTgwNjI1NDQ0MTE@._V1_SX300.jpg
+8543,21,2008,98,m,m,m,732,9088,0.07,0.93,0,0,http://ia.media-imdb.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg
+8556,Lucky Number Slevin,2006,29,m,f,m,1764,10302,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMzc1OTEwMTk4OF5BMl5BanBnXkFtZTcwMTEzMDQzMQ@@._V1_SX300.jpg
+8564,The Martian,2015,235,m,m,m,2864,7353,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SX300.jpg
+8601,The Illusionist,2006,52,m,f,m,718,6624,0.1,0.9,0,0,http://ia.media-imdb.com/images/M/MV5BMTM1MjQyMDkzN15BMl5BanBnXkFtZTcwNzAyNTQzMQ@@._V1_SX300.jpg
+8605,The Wolverine,2013,142,m,m,m,1237,7204,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BNzg1MDQxMTQ2OF5BMl5BanBnXkFtZTcwMTk3MjAzOQ@@._V1_SX300.jpg
+8612,The Family,2013,39,m,m,m,2329,8161,0.22,0.78,0,0,http://ia.media-imdb.com/images/M/MV5BMjE2MzI0MzkyNV5BMl5BanBnXkFtZTcwMjQ2MDM2OQ@@._V1_SX300.jpg
+8649,Shrek 2,2004,610,m,m,m,890,2574,0.26,0.74,0,0,http://ia.media-imdb.com/images/M/MV5BMTk4MTMwNjI4M15BMl5BanBnXkFtZTcwMjExMzUyMQ@@._V1_SX300.jpg
+8655,Pitch Perfect,2012,71,f,f,m,5170,3591,0.59,0.41,0,0,http://ia.media-imdb.com/images/M/MV5BMTcyMTMzNzE5N15BMl5BanBnXkFtZTcwNzg5NjM5Nw@@._V1_SX300.jpg
+8672,The 40-Year-Old Virgin,2005,147,m,m,m,2624,6634,0.28,0.72,0,0,http://ia.media-imdb.com/images/M/MV5BMTU5MzU2MzY2Nl5BMl5BanBnXkFtZTgwOTM4NzMxMDE@._V1_SX300.jpg
+8743,Blood Diamond,2006,76,m,m,m,1206,5075,0.19,0.81,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SX300.jpg
+8765,Brokeback Mountain,2005,112,f,m,m,411,3011,0.12,0.88,0,0,http://ia.media-imdb.com/images/M/MV5BMTY5NTAzNTc1NF5BMl5BanBnXkFtZTYwNDY4MDc3._V1_SX300.jpg
+8770,The Cabin in the Woods,2012,45,m,m,m,2664,4339,0.38,0.62,0,0,http://ia.media-imdb.com/images/M/MV5BNTUxNzYyMjg2N15BMl5BanBnXkFtZTcwMTExNzExNw@@._V1_SX300.jpg
+8802,The Curious Case of Benjamin Button,2008,153,m,f,m,6542,6402,0.51,0.49,0,0,http://ia.media-imdb.com/images/M/MV5BNjQ0NTY2ODY2M15BMl5BanBnXkFtZTgwMjE4MzkxMDE@._V1_SX300.jpg
+8807,The Dark Knight Rises,2012,489,m,m,m,1537,8682,0.15,0.85,0,0,http://ia.media-imdb.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg
+8850,Forgetting Sarah Marshall,2008,76,m,m,m,3254,5746,0.36,0.64,0,0,http://ia.media-imdb.com/images/M/MV5BMTYzODgzMjAyM15BMl5BanBnXkFtZTcwMTI3NzI2MQ@@._V1_SX300.jpg
+8887,Green Lantern,2011,128,m,m,m,1582,7545,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTMyMTg3OTM5Ml5BMl5BanBnXkFtZTcwNzczMjEyNQ@@._V1_SX300.jpg
+8911,"I, Robot",2004,203,m,m,m,2086,6207,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMTQwNzI5NTQ0OF5BMl5BanBnXkFtZTYwMTI3Mjk2._V1_SX300.jpg
+9015,Moneyball,2011,82,m,m,m,511,13269,0.04,0.96,0,0,http://ia.media-imdb.com/images/M/MV5BMjAxOTU3Mzc1M15BMl5BanBnXkFtZTcwMzk1ODUzNg@@._V1_SX300.jpg
+9017,Monsters University,2013,286,m,m,m,877,5733,0.13,0.87,0,0,http://ia.media-imdb.com/images/M/MV5BMTUyODgwMDU3M15BMl5BanBnXkFtZTcwOTM4MjcxOQ@@._V1_SX300.jpg
+9021,Mr. & Mrs. Smith,2005,252,m,f,m,2104,2734,0.43,0.57,0,0,http://ia.media-imdb.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_SX300.jpg
+9056,The Others,2001,148,m,m,m,6261,854,0.88,0.12,0,0,http://ia.media-imdb.com/images/M/MV5BMTAxMDE4Mzc3ODNeQTJeQWpwZ15BbWU4MDY2Mjg4MDcx._V1_SX300.jpg
+9222,Wedding Crashers,2005,283,m,m,m,3322,16459,0.17,0.83,0,0,http://ia.media-imdb.com/images/M/MV5BMTc4NTUyNzU4MV5BMl5BanBnXkFtZTcwMzcyMTkyMQ@@._V1_SX300.jpg
+9236,World War Z,2013,216,m,m,m,412,4569,0.08,0.92,0,0,http://ia.media-imdb.com/images/M/MV5BMTg0NTgxMjIxOF5BMl5BanBnXkFtZTcwMDM0MDY1OQ@@._V1_SX300.jpg
+9247,Lee Daniels' The Butler,2013,125,m,f,m,2359,6924,0.25,0.75,0,0,http://ia.media-imdb.com/images/M/MV5BMjM2NDY3MjkyMF5BMl5BanBnXkFtZTcwMDM5Nzg5OQ@@._V1_SX300.jpg

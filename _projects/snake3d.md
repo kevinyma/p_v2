@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "SNAKE 3D"
+title:  "Snake3d"
 imgName: "snake1.png"
 imgName2: "snake2.png"
 description: "The classic Nokia game, now with one added dimension."
@@ -23,8 +23,7 @@ A 3D display that actually occupies three dimensions. Woah. How would people res
 
 We explored this question by creating a 3D version of the game Snake. Given people's existing knowledge of the game, we were curious to what would happen when exploring in 3 dimensions.
 
-Construction
-----------
+### Implementation
 
 The physical implementation was done with a <a href="https://docs.particle.io/datasheets/photon-datasheet/">Particle Photon</a> and 256 <a href="https://cdn.sparkfun.com/datasheets/Components/LED/COM-12877.pdf">RGB addressable LEDS</a> connected in a single daisy chain. The game itself was written in node.js.
 

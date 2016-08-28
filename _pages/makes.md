@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /made/
+permalink: /makes/
 class: "projects" 
 ---
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -24,12 +24,13 @@ class: "projects"
   	 <!--  <div class="thumbnail size-{% if project.size%}{{project.size}}{% else %}1-1{% endif %}"> -->
     
   	<div class="resource">
-      {% if project.about %}<a class="link" href="/about/">{% else %}  <a class="link" href="{{ project.url | prepend: site.baseurl }}">{% endif %}
+    
+       {% if project.altlink %}<a class="link" href="{{ project.altlink }}">{% else %}  <a class="link" href="{{ project.url | prepend: site.baseurl }}">{% endif %}
   	
   			<img class="image" src="/img/{{ project.imgName }}" width="100%" onmouseover="this.src='/img/{{ project.imgName2 }}';" onmouseout="this.src='/img/{{ project.imgName }}';">
 
 
-  			<div><span class="title">{{project.title}}</span></div>
+  			<div><span class="title">{{project.title | upcase}}</span></div>
   	 	</a>
   	</div>
 

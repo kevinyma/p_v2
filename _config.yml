@@ -12,6 +12,6 @@ sass:
 collections: 
   projects:
     output: true
-    permalink: /made/:path/
+    permalink: /makes/:path/
 include: ['_pages']
 markdown: kramdown

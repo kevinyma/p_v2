@@ -6,14 +6,18 @@ class: "post"
 contentClass: content
 ---
 
-![Alt me!](/img/me.jpg)
+## Hello! I hope you are well.
 
-I grew up in Beijing. 
+![Alt me!](/img/me.jpeg){:id: .me}
+
+I grew up in the smoggy mess that is Beijing. It is my favorite city. 
+
+I studied HCI at Cornell University. 
+
+My favorite color is yellow. Sorry.
 
 
 [//]: #  Kevin studied HCI at Cornell University. He's interned in the past as a product designer at HTC and IBM. He's into art, tech, and the spaces they collide. <a href="messybin.tumblr.com">Illustration</a> is his side-jam.
-
-[//]: # He enjoys browsing the dairy section to look at the milk and yogurt packaging. He is pretty boring.
 
 [//]: # ***
 
