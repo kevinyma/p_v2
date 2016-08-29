@@ -797,7 +797,8 @@
 		    		return "red";
 		    	});
 		    popupPoster.attr("src", function(){ 
-		    	return d.poster_url
+		    	var url = "posters/" + d.script_id + ".jpg";
+		    	return url;
 		    })
 
 			popupBox.transition()
