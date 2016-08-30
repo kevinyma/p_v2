@@ -11,11 +11,15 @@ layout: default
 
 <div class="prevnext">
  {% if page.next.url %}
+ 	{% if page.next.ignore == "yes" %}
+ 	<a class="prev" href="{{page.next.next.url}}">&laquo; previous: {{page.next.next.title}}</a>
+ 	{% else %}
     <a class="prev" href="{{page.next.url}}">&laquo; previous: {{page.next.title}}</a>
+ 	{% endif %}
  {% endif %}
- {% if page.previous.url %}
+ {% if page.previous.url %}{% if page.previous.ignore != "yes" %}
     <a class="next" href="{{page.previous.url}}">next: {{page.previous.title}} &raquo;</a>
-  {% endif %}
+  {% endif %}{% endif %}
   
 </div>
 </article>

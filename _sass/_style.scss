@@ -120,6 +120,29 @@ $title-line-height: 30px;
     }
 }
 
+.box-page {
+    //shitty hacks, manually overriding everything. traash
+    body {
+        background: #ff8080!important;
+        color: white!important;
+    }
+    background: #ff8080;
+    nav a, a:visited {
+        color: white;
+    }
+    a, a:visited {
+        color: white;
+    }
+
+
+    aside {
+       
+        position: absolute;
+        left: 860px;
+        top: $gap + 100px + 20px;
+    }
+}
+
 .me {
     width: 300px
 }
@@ -171,6 +194,7 @@ nav {
 }
 .prevnext {
     margin-top: 100px;
+    margin-bottom: $gap;
 }
 
 article {
@@ -234,12 +258,22 @@ h3 {
     line-height: 1.6;
 }
 
-a {
-   text-decoration: underline;
+ article {
+         a {
+            text-decoration: underline;
+        }
     }
 
+a {
+        background: none;
+        text-decoration: none;
+        color: $pink;
+    }
+a:visited {
+        color: $pink;
+    }
 a:hover {
-
+    color: black;
 }
 
 .thumbnail {
