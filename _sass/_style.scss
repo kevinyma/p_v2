@@ -27,6 +27,11 @@
     text-shadow: none;
 }
 
+img {
+    white-space:pre;
+
+}
+
 /*
  * A better looking default horizontal rule
  */
@@ -136,10 +141,12 @@ $title-line-height: 30px;
 
 
     aside {
-       
+        width: 350px;
         position: absolute;
         left: 860px;
         top: $gap + 100px + 20px;
+        margin: 0;
+        background: none;
     }
 }
 
@@ -205,6 +212,7 @@ article {
     }
     img {
         width: 100%;
+        white-space:pre;
     }
 }
 
@@ -358,6 +366,7 @@ nav {
 /* ==========================================================================
    aside
    ========================================================================== */
+
 aside {
     h1 {
     color: $blue;
@@ -368,8 +377,13 @@ aside {
     padding: 0;
     color: $blue;
     }
-    width: 250px;
-    margin-left: 20px;
+    position: fixed;
+    top: 150px;
+    margin-left: 570px;
+    width:400px;
+    background: rgba(255,255,0,0.7);
+     white-space: pre-wrap;
+    //margin-left: 630px;
 }
 
 
