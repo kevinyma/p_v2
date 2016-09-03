@@ -27,9 +27,7 @@ var vid = document.getElementById("game");
 vid.muted = true;
 </script>
 
-<aside>
-BOX! was a collaborative effort between 5 engineers and 2 designers. It's final iteration was released on <a href="http://www.kongregate.com/games/Casiogre/box">Kongregate</a> and picked up by <a href="http://jayisgames.com/review/box.php">Jay is games</a>. Read about the process <a href="/makes/box-process/">here</a>.
+<aside>BOX! was a collaborative effort between 5 engineers and 2 designers. It's final iteration was released on <a href="http://www.kongregate.com/games/Casiogre/box">Kongregate</a> and picked up by <a href="http://jayisgames.com/review/box.php">Jay is games</a>. Read about the process <a href="/makes/box-process/">here</a>.
 
-<br><br>
 Yes, there is a mute button. Lower right.
 </aside>

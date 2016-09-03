@@ -146,6 +146,7 @@ $title-line-height: 30px;
         left: 860px;
         top: $gap + 100px + 20px;
         margin: 0;
+        padding: 0;
         background: none;
     }
 }
@@ -377,13 +378,26 @@ aside {
     padding: 0;
     color: $blue;
     }
-    position: fixed;
-    top: 150px;
+    top: 120px;
+    padding: 30px;
+    padding-top: 0;
     margin-left: 570px;
-    width:400px;
+    width: 400px;
     background: rgba(255,255,0,0.7);
-     white-space: pre-wrap;
-    //margin-left: 630px;
+    white-space: pre-wrap;
+     top: 120px;
+
+}
+
+.aside-normal {
+   top: 300px;
+    position: absolute;
+}
+
+.aside-top {
+    top: 120px;
+    position: fixed;
+
 }
 
 
