@@ -6,7 +6,8 @@ class: "post"
 contentClass: content
 ---
 
-## Hello! <br> This is me.
+## My portfolio.<br> Here is a picture of me, <br>below the haiku.
+
 
 ![Alt me!](/img/me.jpeg){:id: .me}
 
