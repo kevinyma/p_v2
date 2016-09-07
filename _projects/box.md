@@ -5,7 +5,7 @@ imgName: "box1.png"
 imgName2: "box2.png"
 imgPath: "box/"
 description: 'BOX! is a fun game.'
-date:   2014-11-14 09:37:43 +0800
+date:   2016-08-06 09:37:43 +0800
 role: level designer
 technologies: Actionscript 3.0
 category: game

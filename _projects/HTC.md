@@ -4,7 +4,7 @@ title:  "HTC"
 imgName: "htc1.png"
 imgName2: "htc2.png"
 description: "Internship at HTC, worked on some cool stuff."
-date:   2016-5-14 12:00:00 +0800
+date:   2016-08-05 12:00:00 +0800
 technologies: Photon, Particle Dev, Node.js
 category: game
 tags: physical computing

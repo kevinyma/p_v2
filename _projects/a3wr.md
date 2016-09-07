@@ -4,7 +4,7 @@ title:  "A3WR"
 imgName: "a3wr1.png"
 imgName2: "a3wr2.png"
 description: "Branding and publicity for a celebration."
-date:   2015-7-14 09:37:43 +0800
+date:   2016-7-14 09:37:43 +0800
 technologies: 
 role: graphic designer
 category: print
