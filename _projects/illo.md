@@ -14,9 +14,7 @@ tags:
 <p><img src="/img/illustrations/house1.jpg" 
 alt="Growing up we moved around a lot. 10 houses in 10 years. I remember little bits and pieces of each one. The one that came with all the gaudy, horrible lamps. The one where I got a bathroom in my own room but the toilet had bad pipes so it always smelled. The one with the little greenhouse. 
 
-But I remember the evening sun flooding into all of them. Harsh blocks of light that would fade to a soft orange glow. I wish my vocabulary was greater so I could write about it more vividly. 
-
-I sincerely do."
+One thing was constant in all the memories: the evening sun. Harsh blocks of light that would fade to a soft orange glow. A reminder of evanescence; a reminder that I had, again, squandered the entire afternoon."
 ></p>
  
 <p><img src='/img/illustrations/house2.jpg'></p>
@@ -34,9 +32,9 @@ alt="They cannot know who I am, inside."
 ></p>
 
 <p><img src="/img/illustrations/apartments.jpg" 
-alt="We like to think of solo objects as inherently beautiful: a windowsill, a tree, a wet mop. What about an object repeated so many times it loses any semblance of individuality? 
+alt="Solo objects are beautiful: a windowsill, a tree, a wet mop. What about an object repeated so many times it loses its individuality? 
 
-I think patterns draw us in because they are stories of the mundane. They speak of everyday life and its routines."
+Patterns draw me in because they tell me stories of the mundane. They speak of everyday life and its routines."
 ></p>
 
 <p><img src="/img/illustrations/engineering.jpg" 
