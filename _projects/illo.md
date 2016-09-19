@@ -14,7 +14,7 @@ tags:
 <p><img src="/img/illustrations/house1.jpg" 
 alt="Growing up we moved around a lot. 10 houses in 10 years. I remember little bits and pieces of each one. The one that came with all the gaudy, horrible lamps. The one where I got a bathroom in my own room but the toilet had bad pipes so it always smelled. The one with the little greenhouse. 
 
-One thing was constant in all the memories: the evening sun. Harsh blocks of light that would fade to a soft orange glow. A reminder of evanescence; a reminder that I had, again, squandered the entire afternoon."
+One thing was always constant: the evening sun. Harsh blocks of light that would fade to a soft orange glow. A reminder of the evanescence of the moment; a reminder that I had, once again, squandered the entire afternoon."
 ></p>
  
 <p><img src='/img/illustrations/house2.jpg'></p>
@@ -32,13 +32,13 @@ alt="They cannot know who I am, inside."
 ></p>
 
 <p><img src="/img/illustrations/apartments.jpg" 
-alt="Solo objects are beautiful: a windowsill, a tree, a wet mop. What about an object repeated so many times it loses its individuality? 
+alt="Solo objects are inherently beautiful: a windowsill, a tree, a wet mop. What about an object repeated so many times it loses its individuality? 
 
-Patterns draw me in because they tell me stories of the mundane. They speak of everyday life and its routines."
+Patterns draw me in because they tell stories of the mundane. They speak of everyday life and its routines."
 ></p>
 
 <p><img src="/img/illustrations/engineering.jpg" 
-alt="The story of one man's plight to reverse engineer dragon DNA to save his dying girlfriend."
+alt="The heart[warming|breaking] story of one man's plight to reverse engineer dragon DNA to save his dying girlfriend."
 ></p>
 
 
