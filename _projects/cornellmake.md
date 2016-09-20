@@ -10,7 +10,7 @@ category: web
 role: UX designer, developer
 tags: web development, interaction design
 collaborators: Justin Selig
-size: 2-1
+size: 1-1
 ignore: "yes"
 ---
 The problem: Cornell University houses a huge number disciplines within its 7 undergraduate colleges. I've met talented, driven folks from every background imaginable. Despite this, I hear this question far too often:

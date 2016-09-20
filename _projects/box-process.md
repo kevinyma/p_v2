@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "making of BOX!"
+title:  "the making of BOX!"
 imgName: "box1.png"
 imgName2: "box2.png"
 imgPath: "box/"

@@ -1,10 +1,10 @@
 ---
 layout: project
-imgName: "ibm1.jpg"
-imgName2: "ibm2.jpg"
+imgName: "fitshare.png"
+imgName2: "fitshare.png"
 title: "FITSHARE"
 description: "Web app prototyping that bridges the gap between real and online shopping."
-date:   1999-4-14 09:37:43 +0800
+date:   2016-8-29 09:37:43 +0800
 technologies: InVision 
 category: web
 role: UX designer

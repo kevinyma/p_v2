@@ -1,6 +1,7 @@
 ---
 layout: project
-title:  "BOX!"
+title:  "BOX! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<a href='/makes/box-process/''>process here</a>)"
+alttitle: "BOX!"
 imgName: "box1.png"
 imgName2: "box2.png"
 imgPath: "box/"

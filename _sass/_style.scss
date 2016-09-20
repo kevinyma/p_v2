@@ -78,11 +78,7 @@ textarea {
     resize: vertical;
 }
 
-html, body {
-    height: 100%;
-    background: yellow;
-    color: #EB005A;
-}
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -108,6 +104,12 @@ $pink: #EB005A;
 $blue: #009dec;
 $title-line-height: 30px;
 
+html, body {
+    height: 100%;
+    background: BlanchedAlmond;
+    color: $pink;
+}
+
 .gender-viz {
     .paper {   
         position: fixed;
@@ -115,7 +117,6 @@ $title-line-height: 30px;
     }
     background: white;
     nav {
-        //background: yellow;
         width: 130px;
         height: 220px;
 

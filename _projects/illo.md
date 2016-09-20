@@ -38,7 +38,7 @@ Patterns draw me in because they tell stories of the mundane. They speak of ever
 ></p>
 
 <p><img src="/img/illustrations/engineering.jpg" 
-alt="The heart[warming|breaking] story of one man's plight to reverse engineer dragon DNA to save his dying girlfriend."
+alt="The heart[warming||breaking] story of one man's plight to reverse engineer dragon DNA to save his dying girlfriend."
 ></p>
 
 

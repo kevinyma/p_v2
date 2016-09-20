@@ -30,7 +30,7 @@ class: "projects"
   			<img class="image" src="/img/{{ project.imgName }}" width="100%" onmouseover="this.src='/img/{{ project.imgName2 }}';" onmouseout="this.src='/img/{{ project.imgName }}';">
 
 
-  			<div><span class="title">{{project.title | upcase}}</span></div>
+  			<div><span class="title">{% if project.alttitle %}{{project.alttitle | upcase}}{% else %}{{project.title | upcase}}{% endif %}</span></div>
   	 	</a>
   	</div>
 
