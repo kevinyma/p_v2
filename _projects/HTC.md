@@ -15,4 +15,4 @@ size: 2-2
 
 ![Alt](/img/htc/scratching.gif)
 
-Product Design Internship at HTC's Magic Labs. I worked on two apps that are now on the Google Play Store: Funfit and Emotar.
+Product Design Internship at HTC. I worked on two apps that are now published on the Google Play Store: Funfit and Emotar.

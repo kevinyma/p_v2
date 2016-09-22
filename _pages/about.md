@@ -17,4 +17,4 @@ I studied HCI at Cornell University.
 
 My favorite color is yellow. Really!
 
-Other interests: physical computing, snowboarding, old-timey radio shows.
+Other interests: physical computing, procedural generation, old-timey radio shows.
