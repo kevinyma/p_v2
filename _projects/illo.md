@@ -14,7 +14,7 @@ tags:
 <p><img src="/img/illustrations/house1.jpg" 
 alt="Growing up we moved around a lot. 10 houses in 10 years. I remember little bits and pieces of each one. The one that came with all the gaudy, horrible lamps. The one where I got a bathroom in my own room but the toilet had bad pipes so it always smelled. The one with the little greenhouse. 
 
-One thing was always constant: the evening sun. Harsh blocks of light that would fade to a soft orange glow. A reminder of the evanescence of the moment; a reminder that I had, once again, squandered the entire afternoon."
+One thing was always constant: the evening sun. Knife cut blocks of light that would fade to a soft orange glow. A harsh reminder of the evanescence of the moment. A gentle reminder that I had, once again, squandered the entire afternoon."
 ></p>
  
 <p><img src='/img/illustrations/house2.jpg'></p>
