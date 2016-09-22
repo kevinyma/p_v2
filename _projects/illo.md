@@ -32,7 +32,7 @@ alt="They cannot know who I am, inside."
 ></p>
 
 <p><img src="/img/illustrations/apartments.jpg" 
-alt="Solo objects are inherently beautiful: a windowsill, a tree, a wet mop. What about an object repeated so many times it loses its individuality? 
+alt="Single instances are inherently beautiful: a windowsill, a tree, a wet mop. What of an instance repeated regularly, indefinitely? 
 
 Patterns draw me in because they tell stories of the mundane. They speak of everyday life and its routines."
 ></p>
