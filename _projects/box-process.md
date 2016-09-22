@@ -17,7 +17,7 @@ ignore: "yes"
 
 ![Alt](/img/box/intro.jpg)
 
-The BOX! team: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, and Will Peck. I was responsible for visual and level design. We used flash game websites as a "deployment circuit" to test prototypes and iterate based on player analytics and user feedback.
+The BOX! team: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, Will Peck and me. We used flash game websites as a "deployment circuit" to test prototypes and iterate based on player analytics and user feedback.
 
 ### The Story
 
