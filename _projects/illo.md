@@ -22,7 +22,7 @@ One thing was always constant: the evening sun. Harsh blocks of light that would
 <!-- <p><img src='/img/illustrations/house3.jpg'></p>
  -->
 <p><img src="/img/illustrations/paint1.png" 
-alt="I didn’t grow up around the advent of personal computing—I was a bit late—but I sure wish I did. There’s something very earnest to me about old computer interfaces. I’m the hugest sucker for vicarious nostalgia. 
+alt="I didn’t grow up around the advent of personal computing—I was a bit (read: 20 years) late. But I sure wish I did. There’s something very earnest to me about old computer interfaces. I’m the hugest sucker for vicarious nostalgia. 
 
 And Mac Paint is the bee’s knees."
 ></p>
