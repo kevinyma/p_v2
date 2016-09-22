@@ -13,7 +13,7 @@ collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li
 size: 0-0
 ---
 
-I've always liked sci-fi because of the way it stretched my imagination as a kid. I'm still a kid. In Ender's Game there's this scene where Ender tries out a space battle simulator:
+I've always liked sci-fi because of the way it stretched my imagination as a kid. Essentially, I'm still a kid. In Ender's Game there's this scene where Ender tries out a space battle simulator:
 
 >The game was a holographic display, and his fighter was represented only by a tiny light. The enemy was
 another light of a different color, and they danced and spun and maneuvered through a cube of space that
@@ -23,7 +23,7 @@ A 3D display that actually occupies three dimensions. Woah.
 
 How would people respond to and explore a three dimensional interface?
 
-We explored this question by creating a 3D arcade. Low res arcade games seemed to be the perfect experience to translate to this new mode of interaction. Given peoples' existing knowledge of these classic games, we were curious to see what would happen with the addition of an extra dimension.
+We explored this question by creating a 3D arcade game player. Low res arcade games seemed to be the perfect fit for the space we wanted to explore. Given peoples' existing knowledge of classic games, we were curious to see how they would behave with the addition of an extra dimension.
 
 ### Implementation
 
@@ -31,13 +31,13 @@ The physical implementation was done with a <a href="https://docs.particle.io/da
 
 ![Alt](/img/snake3d/rhinojig.jpg)
 
-We built a jig that allowed for modular construction.
+A jig that allowed for modular construction.
 
 ![Alt](/img/snake3d/realjig.jpg)
 
 ![Alt](/img/snake3d/soldering.jpg)
 
-8 * 8 * 8 LEDs * 4 solder points per LED = nightmare
+8 LEDs * 8 LEDs * 8 LEDs * 4 solder points per LED = worst nightmare
 
 ![Alt](/img/snake3d/glowing.jpg)
 
@@ -46,8 +46,6 @@ We built a jig that allowed for modular construction.
 We rigged up a (susprisingly!) ergonomic controller with two joysticks on a breadboard.
 
 ![Alt](/img/snake3d/player.jpg)
-
-The project was demoed at the Ithaca Science Center April 2016.
 
 The formal report can be found <a href="https://drive.google.com/file/d/0B0yplDYU2H-pUjBubnFuNzRIN1k/view?usp=sharing">here</a>.
 
