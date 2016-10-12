@@ -57,6 +57,14 @@ li > a {
 /*====================General====================*/
 
 
+.revenue {
+    display: none;
+}
+
+.year-filter {
+    display: none;
+}
+
 body { 
     font-family: "Source Sans Pro";
     margin: 0;
