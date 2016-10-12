@@ -57,7 +57,7 @@ li > a {
 /*====================General====================*/
 
 
-.year-filter {
+#year-filter {
     display: none;
 }
 
