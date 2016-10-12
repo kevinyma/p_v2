@@ -57,10 +57,6 @@ li > a {
 /*====================General====================*/
 
 
-.revenue {
-    display: none;
-}
-
 .year-filter {
     display: none;
 }
@@ -327,7 +323,7 @@ div > h3 {
 }
 
 .description-revenue {
-    width: 500px;
+    width: 250px;
     position: absolute;
     top: 200px;
     left: 10px;
