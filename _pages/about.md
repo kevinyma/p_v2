@@ -6,15 +6,11 @@ class: "post"
 contentClass: content
 ---
 
-## Hi.<br> This is me.
+## Hi!<br>
 
 
 ![Alt me!](/img/me.jpeg){:id: .me}
-
-I grew up in the smoggy mess that is Beijing. It is my favorite city. 
-
-I studied HCI at Cornell University. 
-
-My favorite color is yellow. Really!
-
-Other interests: procedural generation, snowboarding, old-timey radio shows.
+- I grew up in Beijing. It is a mess of a city. I love it.
+- My favorite color is <span class="yellow-highlight">yellow</span>.
+- I studied HCI at Cornell University. 
+- Other interests: procedural generation, snowboarding, old-timey radio shows.
