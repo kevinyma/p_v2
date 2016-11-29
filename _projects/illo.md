@@ -32,7 +32,7 @@ alt="They cannot know who I am, inside."
 ></p>
 
 <p><img src="/img/illustrations/apartments.jpg" 
-alt="Single instances are inherently beautiful: a windowsill, a tree, a wet mop. What of an instance repeated regularly, indefinitely? 
+alt="We find beauty readily available in isolated objects: a windowsill, a tree, a wet mop. What of an object repeated regularly, indefinitely? 
 
 Patterns draw me in because they tell stories of the mundane. They speak of everyday life and its routines."
 ></p>
@@ -41,6 +41,8 @@ Patterns draw me in because they tell stories of the mundane. They speak of ever
 alt="The heart[warming||breaking] story of one man's plight to reverse engineer dragon DNA to save his dying girlfriend."
 ></p>
 
+<p><img src="/img/illustrations/drowning.jpg"
+alt="In natural language processing models, the pseudo word 'UNK' is used to stand in for unknown words. If you are like me and have a hard time coding, your language model will only spit out 'UNK's sometimes. When confronted with my code output, this is how I often feel."></p>
 
 <aside class="aside-normal"></aside>
 
