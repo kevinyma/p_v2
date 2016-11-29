@@ -32,13 +32,13 @@ alt="They cannot know who I am, inside."
 ></p>
 
 <p><img src="/img/illustrations/apartments.jpg" 
-alt="We find beauty readily available in isolated objects: a windowsill, a tree, a wet mop. What of an object repeated regularly, indefinitely? 
+alt="We find beauty readily available in isolated objects: a sunlit windowsill, a dying tree, a wet mop. What of an object repeated regularly, indefinitely? 
 
 Patterns draw me in because they tell stories of the mundane. They speak of everyday life and its routines."
 ></p>
 
 <p><img src="/img/illustrations/engineering.jpg" 
-alt="The heart[warming||breaking] story of one man's plight to reverse engineer dragon DNA to save his dying girlfriend."
+alt="This came from a great idea from middle school or something like that. It's the heartbreaking story of one man's plight to reverse engineer dragon DNA to save his dying girlfriend. Will he save her? Maybe I'll think of an ending someday."
 ></p>
 
 <p><img src="/img/illustrations/drowning.jpg"
