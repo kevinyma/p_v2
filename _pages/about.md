@@ -6,11 +6,11 @@ class: "post"
 contentClass: content
 ---
 
-## Hi!<br>
-
+## Hi!<br> Welcome to my website.
 
 ![Alt me!](/img/me.jpeg){:id: .me}
-- I grew up in Beijing. It is a mess of a city. I love it.
-- My favorite color is <span class="yellow-highlight">yellow</span>.
-- I studied HCI at Cornell University. 
-- Other interests: procedural generation, snowboarding, old-timey radio shows.
+
+- Grew up in Beijing. 
+- Favorite color is <span class="yellow-highlight">yellow</span>.
+- Studied HCI at Cornell University. 
+- Other interests: proc-gen, snowboarding, old-timey radio shows.
