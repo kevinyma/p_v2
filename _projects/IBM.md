@@ -12,4 +12,4 @@ role: developer, solder monkey
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li
 size: 2-2
 ---
-Software Internship at IBM. I worked on 2 projects: an upcoming segment of the IBM Design Guide and a widget for all products across the Cloud Marketplace.
+Software Internship at IBM. I helped build 2 projects: an upcoming segment of the [Design Language Guide](http://www.ibm.com/design/language/IBM) and a widget for all products across the [Cloud Marketplace](https://www.ibm.com/us-en/marketplace).
