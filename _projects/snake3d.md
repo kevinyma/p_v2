@@ -6,7 +6,7 @@ imgName2: "snake2.png"
 description: "The classic Nokia game, now with one added dimension."
 date:   2016-5-14 12:00:00 +0800
 technologies: Photon, Particle Dev, Node.js
-category: game
+category: physical
 tags: physical computing
 role: developer, solder monkey
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li

@@ -8,7 +8,7 @@ layout: default
 <script type="text/paperscript" canvas="myCanvas">
 
 var activeConfig = 1;
-var totalConfigs = 4;
+var totalConfigs = 100;
 
 var nav = 0;
 var numHor;
@@ -32,7 +32,31 @@ function generate(){
         color = blue;
 
     }
-    else if (activeConfig==2){
+    else if (activeConfig>1){
+        thickness = Math.floor((Math.random() * 26))
+        numHor = Math.floor((Math.random() * 20) + 10);
+        numVert = Math.floor((Math.random() * 15) + 5);
+
+        var bracket = Math.floor(Math.random*3)
+
+        if (bracket > 2){
+        var x = Math.floor((Math.random() * 800));
+        var y = Math.floor((Math.random() * 1000));
+        } else if (bracket > 1){
+        var x = Math.floor((Math.random() * 400));
+        var y = Math.floor((Math.random() * 300));
+        } else {
+        var x = Math.floor((Math.random() * 100)+2);
+        var y = Math.floor((Math.random() * 100)+2);
+        }
+
+        to = (x, y);
+        var redRandom = Math.random() 
+        var blueRandom = Math.random()
+        var greenRandom = Math.random() 
+        color = new Color(redRandom, greenRandom, blueRandom, 1);
+    }
+    else if (activeConfig==3){
         thickness = 1;
         numHor = 10;
         numVert = 10;
@@ -46,14 +70,14 @@ function generate(){
         to = (75, 75);
         color = blue;
     }
-    else if (activeConfig==4){
+    else if (activeConfig==5){
         thickness = 1;
         numHor = 20;
         numVert = 10;
         to = (20, 600);
         color = pink;
     }
-    else if (activeConfig==5){
+    else if (activeConfig==6){
         thickness = Math.floor((Math.random() * 30) + 1)
         numHor = Math.floor((Math.random() * 10) + 10);
         numVert = Math.floor((Math.random() * 12) + 5);
@@ -62,20 +86,6 @@ function generate(){
         to = (x, y);
         color = blue;
     }
-
-    // if (activeConfig==1){
-    //     numHor = 20;
-    //     numVert = 10;
-    //     to = [20, 20];
-    //     color = pink;
-
-    // }
-    //unused states
-    // else if (activeConfig==3){
-    //     numHor = 50;
-    //     numVert = 4;
-    //     to = [400, 0];
-    // }
 
 
     count = numHor * numVert;

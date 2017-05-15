@@ -6,7 +6,7 @@ imgName2: "htc2.png"
 description: "Internship at HTC, worked on some cool stuff."
 date:   2016-08-05 12:00:00 +0800
 technologies: Photon, Particle Dev, Node.js
-category: game
+category: product
 tags: physical computing
 role: developer
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li
@@ -16,3 +16,5 @@ size: 2-2
 ![Alt](/img/htc/scratching.gif)
 
 Product Design Internship at HTC. I worked on two apps that are now published on the Google Play Store: Funfit and Emotar.
+
+![Alt](/img/htc/emotar1.png)

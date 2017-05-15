@@ -6,7 +6,7 @@ imgName2: "illustrations2.png"
 description: "Illustrations."
 date:   2016-5-14 12:00:00 +0800
 technologies: 
-category: 
+category: physical
 tags: 
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

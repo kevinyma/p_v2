@@ -6,7 +6,7 @@ imgName2: "ibm2.png"
 description: "Internship at IBM."
 date:   2016-5-14 12:00:00 +0800
 technologies: 
-category: game
+category: product
 tags: physical computing
 role: developer, solder monkey
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li

@@ -102,11 +102,13 @@ $nav-width: 180px;
 $title-size: 2em;
 $pink: #EB005A;
 $blue: #009dec;
+$yellow: #FFFF00;
+$almond: BlanchedAlmond;
 $title-line-height: 30px;
 
 html, body {
     height: 100%;
-    background: BlanchedAlmond;
+    //background: BlanchedAlmond;
     color: $pink;
 }
 
@@ -141,7 +143,7 @@ html, body {
     }
 
 
-    aside {
+     aside {
         width: 350px;
         position: absolute;
         left: 860px;
@@ -167,6 +169,7 @@ html, body {
 .size-1-1 {
     width: $thumbnail-width;
     position: relative;
+
 }
 
 
@@ -226,7 +229,7 @@ article {
 
 .content {
     //font for body stuff here
-
+    margin-top: 30px;
 }
 
 
@@ -294,8 +297,19 @@ a:hover {
         overflow: hidden;
         width: 90%;
         height: 90%;
-        border: 3px dashed #EB005A;
+        border: 2px dashed #EB005A;
     }
+    // .pink-border {
+    //     border: $pink;
+    // }
+
+    // .blue-border {
+    //     border: $blue;
+    //     color: $blue;
+    // }
+    // .yellow-border {
+    //     border: $yellow;
+    // }
     .caption {
         display: none;
     }
@@ -379,16 +393,18 @@ aside {
     padding: 0;
     color: $blue;
     }
+
     top: 120px;
     padding: 30px;
-    padding-top: 0;
     margin-left: 570px;
+    margin-top: 30px;
     width: 400px;
     background: rgba(255,255,0,0.7);
     white-space: pre-wrap;
-     top: 120px;
+    
 
 }
+
 
 .aside-normal {
    top: 300px;

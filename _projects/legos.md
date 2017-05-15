@@ -6,7 +6,7 @@ imgName2: "legos2.png"
 description: "Legos for the Blind."
 date:   2016-5-14 12:00:00 +0800
 technologies: Jekyll
-category: web
+category: product
 tags: web
 role: developer, designer
 collaborators: Matt Shifrin

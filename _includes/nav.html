@@ -7,20 +7,20 @@
     <li><a class="clickable" href="{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}{% endfor %}
     <li><a class="clickable" href="http://messybin.tumblr.com">Blog</a></li>
-<!-- 
+
     <li class="spacer"></li>
     {% if site.email %}
     {% endif %}
-    <li><a href="mailto:{{ site.email }}">Email</a>
+    <li><a class="clickable" href="mailto:{{ site.email }}">Email</a>
     {% if site.github_username %}
-    <li><a href="http://github.com/{{ site.github_username }}">Github</a>
+    <li><a class="clickable" href="http://github.com/{{ site.github_username }}">Github</a>
     </li>
     {% endif %}
     
-    {% if site.twitter_username %}
-    <li><a href="http://twitter.com/{{ site.twitter_username }}">Twitter</a>
+    <!-- {% if site.twitter_username %}
+    <li><a class="clickable" href="http://twitter.com/{{ site.twitter_username }}">Twitter</a>
     </li>
-    {% endif %}
- -->
+    {% endif %} -->
+
   </ul>
 </nav>

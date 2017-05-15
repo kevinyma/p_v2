@@ -8,7 +8,7 @@ description: 'BOX! is a fun game.'
 date:   2014-11-14 09:37:43 +0800
 role: level designer
 technologies: Actionscript 3.0
-category: game
+category: art
 collaborators: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, Will Peck
 size: 2-2
 ignore: "yes"

@@ -1,12 +1,12 @@
 ---
 layout: project
-imgName: "ibm1.jpg"
-imgName2: "ibm2.jpg"
-title: "MAKE"
+imgName: "make1.png"
+imgName2: "make2.png"
+title: "CornellMAKE"
 description: "CornellMake a web application that connects people who want to collaborate."
 date:   2015-10-14 09:37:43 +0800
 technologies: Django
-category: web
+category: product
 role: UX designer, developer
 tags: web development, interaction design
 collaborators: Justin Selig
