@@ -1,8 +1,8 @@
 ---
 layout: project
 title:  "Snake3d"
-imgName: "snake1.png"
-imgName2: "snake2.png"
+imgName: "snakealt1.png"
+imgName2: "snakealt2.png"
 description: "The classic Nokia game, now with one added dimension."
 date:   2016-5-14 12:00:00 +0800
 technologies: Photon, Particle Dev, Node.js

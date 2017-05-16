@@ -2,9 +2,9 @@
 layout: project
 imgName: "about1.png"
 imgName2: "about2.png"
-description: "about me."
-date:   2016-8-28 15:37:43 +0800
-title: "ABOUT ME"
+description: "about"
+date:   2017-4-28 15:37:43 +0800
+title: "ABOUT"
 altlink: "/about/"
 role: dude
 category: print

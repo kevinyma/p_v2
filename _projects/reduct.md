@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Reduct"
+title:  "Reduct: Learning Code through games"
 imgName: "reduct1.png"
 imgName2: "reduct2.png"
 description: "Academic paper."
@@ -25,4 +25,16 @@ The narrative centers around the genderless Starchild, an alien searching for th
 ![Alt](/img/reduct/ship.jpg)
 ![Alt](/img/reduct/planets.jpg)
 
+GAMEPLAY 
 
+Players discover behavior of language constructs through play by evaluating code snippets towards a goal.
+
+Using evaluation rules that are learned over the course of the game, players enact a series of transformations. The goal in each level is to transform the set of expressions on the board to the set of expressions in the goal box.
+
+![Alt](/img/reduct/level1.png)
+
+![Alt](/img/reduct/level2.png)
+
+Reduct was presented at CHI 2017. It was nominated as one of three finalists in the “Games with a Purpose” section of the CHI 2017 Student Game Competition.
+
+The academic report can be viewed [here](http://dl.acm.org/citation.cfm?id=3048415).
