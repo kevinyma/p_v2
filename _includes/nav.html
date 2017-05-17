@@ -11,10 +11,11 @@
     <li class="spacer"></li>
     {% if site.email %}
     {% endif %}
-    <li><a class="clickable" href="mailto:{{ site.email }}">Email</a>
+    <li><a class="clickable" href="/resume.pdf">Resume</a></li>
+    <li><a class="clickable" href="mailto:{{ site.email }}">Email</a></li>
     {% if site.github_username %}
-    <li><a class="clickable" href="http://github.com/{{ site.github_username }}">Github</a>
-    </li>
+    <li><a class="clickable" href="http://github.com/{{ site.github_username }}">Github</a></li>
+     
     {% endif %}
     
     <!-- {% if site.twitter_username %}
