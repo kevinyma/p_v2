@@ -47,5 +47,14 @@ We rigged up a (susprisingly!) ergonomic controller with two joysticks on a brea
 
 ![Alt](/img/snake3d/player.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oSZp3x7AmO0" frameborder="0" allowfullscreen></iframe>
+
+Games:
+- Snake3D
+- Space Invaders3D
+- Frogger3D
+- Pacman3D
+
 The formal report can be found <a href="https://drive.google.com/file/d/0B0yplDYU2H-pUjBubnFuNzRIN1k/view?usp=sharing">here</a>.
+
 
