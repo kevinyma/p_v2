@@ -322,6 +322,7 @@ a:hover {
         left: 50%;
         transform: translateX(-50%) translateY(-25%);
         pointer-events: none;
+        text-align: center;
     }
     a:hover .title{
         background: yellow;

@@ -17,7 +17,9 @@ ignore: "yes"
 
 ![Alt](/img/box/intro.jpg)
 
-The BOX! team: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, Will Peck and me. We used flash game websites as a "deployment circuit" to test prototypes and iterate based on player analytics and user feedback.
+I was the Lead Designer in a 5 person team that built the puzzle game BOX!
+
+We used flash game websites as a "deployment circuit" to test prototypes and iterate based on player analytics and user feedback.
 
 ### The Story
 
