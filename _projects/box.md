@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "BOX!<br>or, <a href='/makes/box-process/''>read about the process</a>"
+title:  "BOX!"
 alttitle: "BOX!"
 imgName: "box1.png"
 imgName2: "box2.png"
@@ -15,6 +15,8 @@ size: 2-2
 css-class: box-page
 ---
 
+<!-- <br>or, <a href='/makes/box-process/''>read about the process</a>
+ -->
 <object type="application/x-shockwave-flash" data="/game/box.swf" id="game"
     width="640" height="480"> 
     <param name="movie" value="/game/box.swf" />
@@ -32,5 +34,4 @@ vid.muted = true;
 
 Read about the process <a href="/makes/box-process/">here</a>.
 
-Yes, there is a mute button. Lower right.
 </aside>

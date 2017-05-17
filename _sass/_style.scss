@@ -98,7 +98,7 @@ $column-width: 280px;
 $thumbnail-width: 25%;
 $thumbnail-height: 25vw;
 $gap: 30px;
-$nav-width: 180px;
+$nav-width: 150px;
 $title-size: 2em;
 $pink: #EB005A;
 $blue: #009dec;
@@ -109,7 +109,7 @@ $title-line-height: 30px;
 html, body {
     height: 100%;
     //background: BlanchedAlmond;
-    color: $pink;
+    color: black;
 }
 
 .gender-viz {
@@ -119,7 +119,7 @@ html, body {
     }
     background: white;
     nav {
-        width: 130px;
+        width: 180px;
         height: 220px;
 
     }
@@ -130,24 +130,23 @@ html, body {
 
 .box-page {
     //shitty hacks, manually overriding everything. traash
-    body {
-        background: #ff8080!important;
-        color: white!important;
-    }
-    background: #ff8080;
-    nav a, a:visited {
-        color: white;
-    }
-    a, a:visited {
-        color: white;
-    }
+    // body {
+    //     background: #ff8080!important;
+    //     color: white!important;
+    // }
+    // background: #ff8080;
+    // nav a, a:visited {
+    //     color: white;
+    // }
+    // a, a:visited {
+    //     color: white;
+    // }
 
 
      aside {
         width: 350px;
         position: absolute;
-        left: 860px;
-        top: $gap + 100px + 20px;
+        left: 875px;
         margin: 0;
         padding: 0;
         background: none;
@@ -155,7 +154,7 @@ html, body {
 }
 
 .me {
-    margin-top: 120px;
+    margin-top: 30px;
     width: 300px;
 }
 
@@ -164,14 +163,6 @@ html, body {
     margin-bottom: 100px;
 }
 
-// @for $i from 0 to 4 {
-//     @for $j from 0 to 4 {
-//         .size-#{$i}-#{$j} {
-//             width: $thumbnail-width*$i;
-//             height: $thumbnail-height*$j;
-//         }
-//     }
-// }
 .size-1-1 {
     width: $thumbnail-width;
     position: relative;
@@ -228,8 +219,8 @@ article {
 }
 
  .projects {
-    margin: 30px $gap 60px $nav-width+$gap;
-    width: 900px;
+    margin: 30px $gap 60px $nav-width+2*$gap;
+    width: 840px;
     position: relative;
     }
 
@@ -242,34 +233,35 @@ article {
 
 .post {
     max-width: 2*$column-width + $gap;
-    margin: 0 0 0 $nav-width+$gap;
+    margin: 0 0 0 $nav-width+2*$gap;
 }
 
 h1 {
     color: $pink;
     margin-top: $gap;
+    padding-bottom: 20px;
     margin-bottom: 20px;
     font-size: $title-size;
     line-height: $title-line-height;
-    font-family: Merriweather;
-    height: 100px;
+    font-weight: 500px;
+    border-bottom: 1px solid $pink;
 }
 
 h2 {
+    color: black;
     margin-top: $gap;
-    line-height: $title-line-height;
+    padding-bottom: 20px;
     margin-bottom: 20px;
-    height: 100px;
-    font-size: 2em;
-    //color: $blue;
-    font-family: 'Merriweather';
+    font-size: $title-size;
+    line-height: $title-line-height;
+    font-weight: 500px;
+    border-bottom: 1px solid black;
 }
 h3 {
     font-size: 1.2em;
     margin-top: 100px;
     line-height: $title-line-height;
     margin-bottom: 20px;
-    font-family: 'Merriweather';
 }
 
 .small {
@@ -286,10 +278,10 @@ h3 {
 a {
         background: none;
         text-decoration: none;
-        color: $pink;
+        color: black;
     }
 a:visited {
-        color: $pink;
+        color: black;
     }
 a:hover {
     color: black;
@@ -301,8 +293,8 @@ a:hover {
 
         position: absolute;
         overflow: hidden;
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         // border: 2px dashed #EB005A;
     }
     // .pink-border {
@@ -405,7 +397,7 @@ aside {
     margin-left: 570px;
     margin-top: 30px;
     width: 400px;
-    background: rgba(255,255,0,0.7);
+    background: rgba(255,255,0,0.5);
     white-space: pre-wrap;
     
 

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Reduct: Learning Code through Games"
+title:  "REDUCT: Learning Code through Games"
 imgName: "reduct1.png"
 imgName2: "reduct2.png"
 description: "Academic paper."
