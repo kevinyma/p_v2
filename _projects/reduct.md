@@ -18,7 +18,7 @@ size: 2-2
 
 ![Alt](/img/reduct/starchild.jpg)
 
-The narrative centers around the genderless Starchild, an alien searching for their home planet. Starchild's ship runs on stardust, obtained by completing levels. This way, Starchild can hop from planet to planet, meeting the residents along the way.
+The narrative centers around the genderless Starchild, an alien searching for their home planet. Starchild's ship runs on stardust, obtained by completing levels. This way, Starchild can hop from planet to planet, helping the residents along the way.
 
 ![Alt](/img/reduct/aliens1.jpg)
 ![Alt](/img/reduct/aliens2.jpg)

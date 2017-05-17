@@ -19,7 +19,9 @@ Product Design Internship at HTC. I worked on two apps that are now published on
 
 ### FUNFIT
 
-This fitness app was largely narrative based - I contributed mostly animation and avatar design. 
+This fitness app was large-part narrative based - I adnimated and designed the characters and the environments.
+
+The story is about monsters who tour the earth. Walking certain distances will bring up landmarks that are in the area.
 
 ![Alt](/img/htc/monsters.jpg)
 
@@ -34,15 +36,20 @@ This fitness app was largely narrative based - I contributed mostly animation an
 
 ### EMOTAR
 
-Emotar is a photography app that takes an image of the user and creates a 3D avatar. The avatar is used for messenging app Stickers. [Sticker culture](http://a16z.com/2016/06/17/stickers/) is [quite](https://www.wsj.com/articles/line-and-wechat-strike-advertising-gold-1466613181) [popular](https://qz.com/156030/line-is-betting-millions-that-virtual-bears-and-bunnies-will-sweep-the-west/) in Asian messenging apps, including Wechat, Line and KakaoTalk. This app was HTC's effort to get in on the sticker craze.
+Emotar is a photography app that generates 3D avatars to be used on stickers. [Sticker culture](http://a16z.com/2016/06/17/stickers/) is [quite](https://www.wsj.com/articles/line-and-wechat-strike-advertising-gold-1466613181) [popular](https://qz.com/156030/line-is-betting-millions-that-virtual-bears-and-bunnies-will-sweep-the-west/) in Asian messenging apps, including Wechat, Line and KakaoTalk. This app was HTC's effort to get in on the sticker craze.
 
-I was lucky to be given the opportunity to self-direct features. I worked on the interaction design up until the product was shipped.
-
-![Alt](/img/htc/wireframe.png)
+I was lucky to be given the opportunity to self-direct features. I worked on the user experience design up until the product was shipped.
 
 Formerly, the product architecture had redundant interations. I simplified the system in terms of interactions for a specific goal, boiling the system down to three main goals:
 
 - Changing the Face
 - Changing the Sticker (sticker shop)
 - Sharing through a messenging app
+
+
+<img src="/img/htc/wireframe.png" class="wireframe">
+
+I worked on the wireframes for 2 cycles of development and created production assets for the released app.
+
+![Alt](/img/htc/final.png)
 

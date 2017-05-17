@@ -16,3 +16,7 @@ I graduated from Cornell University in January 2017 with a degree in Human Compu
 
 I TA'ed Cornell's physical computing class, [INFO4320](http://www.cornell.edu/video/rapid-prototyping-students-demo-inventions-sciencenter), where we built things with code, circuits and a willingness to make mistakes.
 
+
+
+
+<img src="/img/me.jpeg" class="me">
