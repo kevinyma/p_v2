@@ -516,7 +516,7 @@ h3 {
     color: black; 
         position: absolute;           
         text-align: center;           
-        width: 180px;                  
+        width: 210px;                  
         /*height: 270px;      */           
         padding: 2px;             
         font: 10px sans-serif;        
@@ -537,8 +537,7 @@ h3 {
     }
     .dataBox {
         padding-right: 5px;
-        padding-left: 5px;
-        padding-top: 5px;}
+        padding-top: 10px;}
 
     .dataRow{
         display: flex;
@@ -552,7 +551,7 @@ h3 {
         font-weight: 600;
         line-height: 11px;
         margin: 0px;
-        width: 90px;
+        width: 100px;
         text-align: right;
         margin-right: 4px;}
 
@@ -561,16 +560,17 @@ h3 {
         font-weight: 600;
         line-height: 15px;
         margin: 0px;
-        width: 180px;
+        width: 200px;
         text-align: middle;
-        font-family: 'Merriweather';}
+        font-family: 'Merriweather';
+        }
 
     .dataLabel{
         font-size: 9px;
         font-weight: 600;
         line-height: 15px;
         margin: 0px;
-        width: 180px;
+        width: 200px;
         text-align: middle;}
 
     .dataBar {
