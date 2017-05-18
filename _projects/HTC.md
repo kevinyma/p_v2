@@ -42,7 +42,7 @@ I was lucky to be given the opportunity to self-direct features. I worked on int
 
 <img src="/img/htc/wireframe.png" class="wireframe">
 
-I simplified the product architecture based on overarhing goals for the design.
+I simplified the product architecture based on overarching design goals.
 
 I was also responsible for creating production assets for the released app.
 
