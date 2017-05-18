@@ -9,6 +9,7 @@ technologies: Rhino
 category: physical
 tags: architectural design, physical
 collaborators: Vinny Portonovo
+ignore: "yes"
 ---
 
 We start with a found object, the chest armor of a baseball catcher. If we think of the armor as a set of components which rely on one another to deliver functionality, an organizational heirarchy becomes apparent.

@@ -155,7 +155,7 @@ html, body {
 
 .me {
     margin-top: 30px;
-    width: 300px;
+    width: 200px;
 }
 
 .wireframe {
@@ -323,9 +323,11 @@ a:hover {
         transform: translateX(-50%) translateY(-25%);
         pointer-events: none;
         text-align: center;
+        color: black;
     }
     a:hover .title{
         background: yellow;
+        color: black;
     }
 }
 

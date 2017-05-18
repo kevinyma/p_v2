@@ -46,6 +46,7 @@ Formerly, the product architecture had redundant interations. I simplified the s
 - Changing the Sticker (sticker shop)
 - Sharing through a messenging app
 
+Keeping all stakeholders in the loop during the early stages of the design process is crucial.
 
 <img src="/img/htc/wireframe.png" class="wireframe">
 

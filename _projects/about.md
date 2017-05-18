@@ -10,6 +10,7 @@ role: dude
 category: print
 tags: poster
 size: 1-1
+ignore: "yes"
 ---
 
 

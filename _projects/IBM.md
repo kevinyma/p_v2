@@ -4,7 +4,7 @@ title:  "IBM"
 imgName: "ibm1.png"
 imgName2: "ibm2.png"
 description: "Internship at IBM."
-date:   2016-5-14 12:00:00 +0800
+date:   2016-05-15 12:00:00 +0800
 technologies: 
 category: product
 tags: physical computing
