@@ -38,19 +38,13 @@ The story is about monsters who tour the earth. Walking certain distances will b
 
 Emotar is a photography app that generates 3D avatars to be used on stickers. [Sticker culture](http://a16z.com/2016/06/17/stickers/) is [quite](https://www.wsj.com/articles/line-and-wechat-strike-advertising-gold-1466613181) [popular](https://qz.com/156030/line-is-betting-millions-that-virtual-bears-and-bunnies-will-sweep-the-west/) in Asian messenging apps, including Wechat, Line and KakaoTalk. This app was HTC's effort to get in on the sticker craze.
 
-I was lucky to be given the opportunity to self-direct features. I worked on the user experience design up until the product was shipped.
-
-Formerly, the product architecture had redundant interations. I simplified the system in terms of interactions for a specific goal, boiling the system down to three main goals:
-
-- Changing the Face
-- Changing the Sticker (sticker shop)
-- Sharing through a messenging app
-
-Keeping all stakeholders in the loop during the early stages of the design process is crucial.
+I was lucky to be given the opportunity to self-direct features. I worked on interaction design up until the product was shipped.
 
 <img src="/img/htc/wireframe.png" class="wireframe">
 
-I worked on the wireframes for 2 cycles of development and created production assets for the released app.
+I simplified the product architecture based on overarhing goals for the design.
+
+I was also responsible for creating production assets for the released app.
 
 ![Alt](/img/htc/final.png)
 
