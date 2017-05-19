@@ -158,9 +158,18 @@ html, body {
     width: 200px;
 }
 
+.brilliant {
+    box-shadow: 1px 1px 10px #888888;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+
 .wireframe {
     width: 1000px;
     margin-bottom: 100px;
+
 }
 
 .size-1-1 {
@@ -229,7 +238,9 @@ article {
     margin-top: 30px;
 }
 
-
+.misc-post {
+    width: 100%;
+}
 
 .post {
     max-width: 2*$column-width + $gap;

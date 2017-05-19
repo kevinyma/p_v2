@@ -13,5 +13,8 @@ collections:
   projects:
     output: true
     permalink: /makes/:path/
+  misc:
+    output: true
+    permalink: /:path/
 include: ['_pages']
 markdown: kramdown
