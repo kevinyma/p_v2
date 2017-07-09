@@ -9,7 +9,7 @@ class: "post"
 
 {% for post in site.posts %}
 
-	<div class="col-md-2">
+	<div class="col-md-3">
 	<div class="blog-thumb">    
 	  
 

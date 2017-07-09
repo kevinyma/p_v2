@@ -5,13 +5,11 @@ imgName: "threecourts2.png"
 description: "Looking at one of Mies van der Rohe's, never built but supremely interesting."
 date: 2013-4-14 09:37:43 +0800
 technologies: Rhino
-category: physical
+category: blog
 tags: architectural design, physical
 ---
 
-Architectural studies as an extension of my interest in physical space and tangible design. Explorations in designing with line and form ensue.
-
-### House with Three Courts
+A House with Three Courts
 
 Throughout the 30s, German-American architect Mies van der Rohe was preoccupied with a series of court-house designs. These designs had no client. Rather, they were explorations of space for its own sake.
 
@@ -33,8 +31,7 @@ This project looked at one of these designs extensively: the House with Three Co
 
 ![Alt](/img/threecourts/render2.jpg) -->
 
-
-### [BODY]/[ARMOR]
+Body/Armor
 
 We start with a found object, the chest armor of a baseball catcher. If we think of the armor as a set of components which rely on one another to deliver functionality, an organizational heirarchy becomes apparent.
 

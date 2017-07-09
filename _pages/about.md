@@ -16,22 +16,28 @@ Hello, my name is Kevin. I was an intern at IBM Design, and I've recently gradua
 <h2 class="page-title">
 Kevin is a digital product designer.</h2>
 </div>-->
-<div class="col-md-6">
+<div class="col-md-4">
 <p> 
 Hi. My name is Kevin. I'm a maker from Beijing with a passion for art and technology, who has worked with with 
 <a href="http://gizmodo.com/5053464/htcs-magic-labs/">HTC R&D</a> and
 <a href="http://www.ibm.com/design/">IBM</a> in the past.
 </p> 
-<p>I have a degree in HCI from Cornell Unviversity.</p>
+<p>I have a degree in Information Science from Cornell Unviversity. At school I did research for the <a href="http://dsclab.cornell.edu/">Social Cognition Lab</a>, <a href="http://idl.cornell.edu/">Interaction Design Lab</a>, and <a href="https://www.cs.cornell.edu/~francois/">Gumbretiere Lab</a>. I helped teach Cornell's grad-level <a href="http://www.cornell.edu/video/rapid-prototyping-students-demo-inventions-sciencenter">physical computing class</a>.</p>
+</div>
+</div>
+<div class="row">
 
+<div class="col-md-4 col-md-offset-8">
 
+<img src="/img/portrait.jpg">
 
-
+</div>
+</div>
 
 <!-- 
 <p>Site built on Jekyll with a little help from <a href="http://paperjs.org/">paper.js</a> and <a href="http://d3js.org">d3.js</a></p>
  -->
-</div>
+
 <!-- </div>
 <h2 class="page-title">I'm a front-end-developer with a design slant.</h2>
 

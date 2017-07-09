@@ -27,7 +27,7 @@ ignore:
 
 	<div class="col-sm-3 ">BOX!<br><br>
 
-	We built a puzzle platformer game in a 5 person team. I was the lead designer, working across game, level and visual design.<br><br>The final release was played by over 50,000 people.
+	I was lead designer in a 5 person team that build the puzzle platformer game BOX!<br><br>I spearheaded game, level and visual design. The final release of the game was played by over 50,000 people.
 	</div>
 
 	<div class="col-sm-6 col-sm-offset-3"><img src="/img/box/cover2.png"></div>

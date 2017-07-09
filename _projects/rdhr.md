@@ -18,7 +18,7 @@ ignore: "no"
 		Research Division HR
 		</p>
 		<p>
-		I designed and developed a new web presence for the Research Division Human Resources Department.
+		I led design and web development on the new web presence for the Research Division Human Resources Department.
 		</p>
 		<p>
 		I set out to prototype and create a website that would instill confidence in employees that their workplace could provide them the tools necessary to succeed in their jobs.
@@ -58,7 +58,7 @@ ignore: "no"
 
 <div class="contain-x">
 	<div class="row style-guide.png">
-	<div class="col-md-6 col-md-offset-3  m-t-l m-b-xl">
+	<div class="col-md-6 col-md-offset-3 m-t-l m-b-xl">
 		<p> The final design was a combination of earlier, heavy grid-based iterations and more kinetic later designs.
 		</p>
 	</div>

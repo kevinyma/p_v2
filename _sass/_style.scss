@@ -118,6 +118,7 @@ $border-width: 8px;
 
 canvas {
     height: 100%;
+    outline: none;
 }
 
 /* ==========================================================================
@@ -129,6 +130,10 @@ html, body {
     color: black;
    
 
+}
+
+h1 {
+    font-size: $nav-font-size!important;
 }
 
 .content-box {
