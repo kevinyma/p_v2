@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<canvas resize="true" id="myCanvas" style="background:#FFFFFF"></canvas>
+<canvas resize="true" id="myCanvas" style="background:#ea5a41"></canvas>
 
 <script type="text/javascript" src="js/paper-full.js"></script>
 <script type="text/paperscript" canvas="myCanvas">
@@ -10,7 +10,7 @@ layout: default
 var activeConfig = 1;
 var totalConfigs = 100;
 
-var nav = 0;
+var nav = 320;
 var numHor;
 var numVert;
 var from = new Point(0,0);
@@ -24,12 +24,11 @@ generate();
 
 function generate(){
     if (activeConfig==1){
-        thickness = 4;
-        numHor = 20;
-        numVert = 10;
-        to = [20, 20];
-        color = blue;
-
+        thickness = 15;
+        numHor = 13;
+        numVert = 7;
+        to = [30, 30];
+        color = '#6487ae';
     }
     else if (activeConfig>1){
         thickness = Math.floor((Math.random() * 26))

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "BOX!"
+title:  "BOX! The Game"
 alttitle: "BOX!"
 imgName: "box1.png"
 imgName2: "box2.png"
@@ -13,6 +13,7 @@ category: art
 collaborators: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, Will Peck
 size: 2-2
 css-class: box-page
+ignore: "yes"
 ---
 
 <!-- <br>or, <a href='/makes/box-process/''>read about the process</a>

@@ -1,92 +1,105 @@
 ---
 layout: project
-title:  "the making of BOX!"
+title:  "BOX!"
 imgName: "box1.png"
 imgName2: "box2.png"
-imgPath: "box/"
+img: "box.jpg"
 description: 'BOX! is a fun game.'
-date:   2014-11-14 09:37:43 +0800
+date:   2016-08-06 09:37:43 +0800
 role: level designer
 technologies: Actionscript 3.0
 category: art
 collaborators: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, Will Peck
-size: 2-2
-ignore: "yes"
+size: 
+ignore:
 
 ---
 
-![Alt](/img/box/intro.jpg)
+<div class="contain">
 
-I was the Lead Designer in a 5 person team that built the puzzle game BOX!
+<div class="row">
+	<div class="col-sm-9 ">
+		<img src="/img/box/coverimage.png">
+	</div>
+</div>
 
-We used flash game websites as a "deployment circuit" to test prototypes and iterate based on player analytics and user feedback.
+<div class=" row m-t-xl">
 
-### The Story
+	<div class="col-sm-3 ">BOX!<br><br>
 
+	We built a puzzle platformer game in a 5 person team. I was the lead designer, working across game, level and visual design.<br><br>The final release was played by over 50,000 people.
+	</div>
 
-BOX! tells the age-old story of a boy who gets stuck in a floating cube in the sky. Never mind how, it's it's job to get him out.
+	<div class="col-sm-6 col-sm-offset-3"><img src="/img/box/cover2.png"></div>
+</div>
 
-![Alt](/img/box/rotation.jpg)
+<div class=" row m-t-xl">
+	<div class="col-sm-6 col-sm-offset-3"><img src="/img/box/diagram.jpg"></div>
+	<div class="col-sm-3 col-sm-offset-3 m-t-md"><p>The concept: traveling around the edges of the cube presents different orientations. </p></div>
 
-Imagine a 2D shape, traveling across the edges of a cube. When it returns to the face it started on, surprise-it's in a different orientation!
+</div>
+<div class="row m-t-xl">
 
-What began as a humble sketch became the foundation of our game. We were initially drawn to the idea of of mind-twisting puzzle that challenged players' spatial and logical thinking. It turned out to be a very rewarding project to work on and I'm happy with what we've created.
+	<div class="col-sm-9 ">
+		<img src="/img/box/paper.jpg">
+	</div>
+</div>
 
-### The Prototypes
+<div class=" row m-t-md">
 
-Initially, we knew it was necessary to test some of our more non-conventional ideas--especially the spatial re-orientation aspect of our game-to-be. We created a series of paper prototypes that playtesters held in their hands as they asked us questions and gave feedback.
+	<div class="col-sm-3"><p>In both game design and product design, behavioral goals should drive functionality and not the other way around. </p></div>
 
-![Alt](/img/box/paper.jpg)
+</div>
 
-It turned out that players 'got it' when they moved across an edge and the box rotated. The challenge would now be to translate this understanding to a digital prototype. 
+<div class=" row ">
+	<div class="col-sm-3">
+		<p>We translated desired behavioral outcomes to game mechanics, which were quickly tested with paper prototyping.</p>
+	</div>
+	<div class="col-sm-6 col-sm-offset-3 ">
+	</div>
 
-We went with a grid for level design because it allowed for easy subdivision of cube faces. In testing, we found that 14*14 (the player is represented as a 1*1 block) was too large and confusing; a 7*7 grid was much more condusive to player sanity.
-
-![Alt](/img/box/leveldesign.gif)
-
-Thinking about two-dimensional level design in three dimensions is hard! We would revisit our levels time and again, splitting, combining, erasing levels entirely as we learned more about how our players were learning to play the game. 
-
-### The Assets
-
-The next challenge was to create a visual style that complemented the gameplay. At the start, I opted for a pixel art look that I felt would make it easy for the player to distinguish box squares. The look of the game ended up evolving every prototype.
-
-![Alt](/img/box/beforeandafter.png)
-
-The main character was a lot of fun to animate:
-
-
-![Alt](/img/box/walking.gif){:id: .box-gif}![Alt](/img/box/looking.gif){:id: .box-gif}![Alt](/img/box/makingnbreaking.gif){:id: .box-gif}
-
-
-I wanted to give our unnamed protagonist quirky, memorable mannerisms, while keeping his appearance simple.
-
-### The Data
-
-Every prototype, we collected and analyzed player data to gauge where and why players were quitting the game. This allowed us to make changes in the next prototype. Average time per level graph in the first prototype came out like this:
-
-![Alt](/img/box/avgtime.png)
-
-What's immediately clear is that early levels were way too easy, and some levels were near impossible (looking at you, 21). When we started to look at other metrics like player fall-off per level and player actions per level, we began to get a much more complete picture of where users were running into the most pain. 
-
-So how did data help us make design decisions? In the below level, the player is required to build a block to jump on after they fall in the small pit.
-
-![Alt](/img/box/heatmap.png)
-
-Average time spent in the pit however, seemed to indicate players did not know how to build a block.
-
-After trying some other solutions, I designed a series of text bubbles that would appear when a player was confronted with a challenge for the first time, or they took too long completing a challenge.
-
-![Alt](/img/box/nothoughtbubble.png)
-
-![Alt](/img/box/thoughtbubble.png)
-
-When the thought bubbles were introduced, there was less time spent on each level, and a smaller player fall off rate per level. By visualizing and graphing our analytics we could look at similar problems differently. 
-
-BOX! was released on <a href="http://www.kongregate.com/games/Casiogre/box">Kongregate</a> to a fairly warm reception. You can also play it <a href="/makes/box/">here</a>.
+</div>
 
 
+<div class=" row m-t-xl ">
+	<div class="col-sm-12">
+		<img src="/img/box/heatmap.png">
+	</div>
+	<div class="col-sm-3 m-t-md">
+	<p>One of our greatest challenges was having players learn the spatial orientation aspect of the game. <br><br>Data in the form of heatmaps gave us a better understanding of where and why players were getting stuck.</p>
+	</div>
+</div>
 
-![Alt](/img/box/coverimage.png)
+
+<div class=" row m-t-xl">
+	<div class="col-sm-6">
+		<img src="/img/box/nothoughtbubble.png">
+	</div>
+</div>
 
 
+<div class="row">
+	<div class="col-sm-3 m-t-md">
+	<p>AB Testing was necessary for the "onboarding" part of the game, where we taught players the game mechanics.</p>
+	</div>
+</div>
+
+<div class="row m-t-md">
+	<div class="col-sm-3 col-sm-offset-3 ">
+	<p>Test: prompts were introduced when players took too long to make any sort of decision. They ended up increasing player retention by 25% on certain levels.</p>
+	</div>
+	<div class="col-sm-6">
+		<img src="/img/box/thoughtbubble.png">
+	</div>
+</div>
+
+<div class=" row m-t-xl">
+	<div class="col-sm-9"><img src="/img/box/intro.jpg"></div>
+
+</div>
+<div class="row m-t-md">
+	<div class="col-sm-3">BOX! was released on Kongregate and subsequently reviewed by Jay is Games. You can play it here.</div>
+</div>
+
+</div>
 

@@ -92,119 +92,63 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Custom styles
    ========================================================================== */
+
+$thumb-width: 33.333%;
 $column-width: 280px;
-$thumbnail-width: 25%;
-$thumbnail-height: 25vw;
 $gap: 30px;
-$nav-width: 150px;
-$title-size: 2em;
+
 $pink: #EB005A;
 $blue: #009dec;
 $yellow: #FFFF00;
-$almond: BlanchedAlmond;
-$title-line-height: 30px;
+
+$margin-top: 80px;
+$margin-left: 80px;
+$margin-bottom: 80px;
+
+$nav-width: 24%;
+$nav-font-size: 31px;
+$border-width: 8px;
+
+
+/* ==========================================================================
+  HOME PAGE
+   ========================================================================== */
+
+canvas {
+    height: 100%;
+}
+
+/* ==========================================================================
+  General
+   ========================================================================== */
 
 html, body {
     height: 100%;
-    //background: BlanchedAlmond;
     color: black;
-}
-
-.gender-viz {
-    .paper {   
-        position: fixed;
-        height: 270px;
-    }
-    background: white;
-    nav {
-        width: 180px;
-        height: 220px;
-
-    }
-    body {
-        background: white;
-    }
-}
-
-.box-page {
-    //shitty hacks, manually overriding everything. traash
-    // body {
-    //     background: #ff8080!important;
-    //     color: white!important;
-    // }
-    // background: #ff8080;
-    // nav a, a:visited {
-    //     color: white;
-    // }
-    // a, a:visited {
-    //     color: white;
-    // }
-
-
-     aside {
-        width: 350px;
-        position: absolute;
-        left: 875px;
-        margin: 0;
-        padding: 0;
-        background: none;
-    }
-}
-
-.me {
-    margin-top: 30px;
-    width: 200px;
-}
-
-.brilliant {
-    box-shadow: 1px 1px 10px #888888;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 100px;
-}
-
-
-.wireframe {
-    width: 1000px;
-    margin-bottom: 100px;
-
-}
-
-.size-1-1 {
-    width: $thumbnail-width;
-    position: relative;
-
-}
-
-
-
-canvas {
-    width: 100%;
-    height: 100%;
    
+
 }
 
-.canvas-container {
-    height: 100%;
+.content-box {
+    background: white;
+    float: left;
+    position: relative;
     margin-left: $nav-width;
+    width: 100% - $nav-width;
+    
+     p {
+        margin: 0 0 20px 0;
+    }
+    img {
+        width: 100%;
+        white-space:pre;
+    }
 }
-
 
 nav,aside,article {
     float: left;
-}
-
-nav {
-    padding-left: $gap;
-    width: $nav-width;
-    z-index: 1;
-    position: fixed;
-    height: 100%;
-    color: $pink;
-    // keep children clickable but this parent unclickable
-    pointer-events: none;
 }
 
 .clickable {
@@ -215,81 +159,16 @@ nav {
     margin-bottom: $gap;
 }
 
-article {
-    margin: 85px $gap 100px $nav-width+$gap;
-    z-index: 0;
-    p {
-        margin: 0 0 20px 0;
-    }
-    img {
-        width: 100%;
-        white-space:pre;
-    }
-}
-
- .projects {
-    margin: 30px $gap 60px $nav-width+2*$gap;
-    width: 840px;
-    position: relative;
-    }
-
-.content {
-    //font for body stuff here
-    margin-top: 30px;
-}
-
-.misc-post {
-    width: 100%;
-}
-
-.post {
-    max-width: 2*$column-width + $gap;
-    margin: 0 0 0 $nav-width+2*$gap;
-}
-
-h1 {
-    color: $pink;
-    margin-top: $gap;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    font-size: $title-size;
-    line-height: $title-line-height;
-    font-weight: 500px;
-    border-bottom: 1px solid $pink;
-}
-
-h2 {
-    color: black;
-    margin-top: $gap;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    font-size: $title-size;
-    line-height: $title-line-height;
-    font-weight: 500px;
-    border-bottom: 1px solid black;
-}
-h3 {
-    font-size: 1.2em;
-    margin-top: 100px;
-    line-height: $title-line-height;
-    margin-bottom: 20px;
-}
 
 .small {
     font-size: $small-font-size;
     line-height: 1.6;
 }
 
- article {
-         a {
-            text-decoration: underline;
-        }
-    }
-
 a {
-        background: none;
-        text-decoration: none;
-        color: black;
+    background: none;
+    color: black;
+    text-decoration: underline;
     }
 a:visited {
         color: black;
@@ -298,7 +177,145 @@ a:hover {
     color: black;
 }
 
-.thumbnail {
+/* so far, only used for brilliant page */
+.misc-post {
+    width: 100%;
+}
+
+.post {
+
+}
+
+.contain {
+    padding: $margin-top;
+}
+
+.contain-x {
+    padding-left: $margin-top;
+    padding-right: $margin-top;
+}
+
+
+
+.page-title {
+    font-size: $nav-font-size;
+}
+
+.next {
+    float: right;
+}
+
+.m-minus {
+    margin-top: -100px;
+}
+
+.shadow {
+     box-shadow: 2px 2px 10px #888888;
+}
+
+.blog-photo {
+    height: 100%;
+}
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+.nav-box {
+    background: white;
+    position: fixed;
+    width: $nav-width;
+    height: 100%;
+    z-index: 2;
+    border-right: $border-width solid black;
+}
+
+nav {
+    font-weight: 400;
+    font-size: $nav-font-size;
+    top: $margin-top;
+    left: $margin-left;
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    // keep children clickable but this parent unclickable
+    pointer-events: none;
+    ul, li{
+        margin: 0;
+        padding: 0;
+        background: none;
+        list-style: none;
+    }
+    li {
+        height: $nav-font-size + 10px;
+    }
+    a {
+        text-decoration: none!important;
+    }
+
+    a:hover {
+        border-bottom: $border-width solid black;
+        text-decoration: none;
+    }
+}
+
+.nav-box {
+    a {
+        text-decoration: none!important;
+    }
+}
+.space {
+    height: $nav-font-size + 10px;
+}
+
+.site-title {
+    font-size: $nav-font-size + 10px;
+    font-weight: 700;
+    bottom: $margin-bottom + 60px;
+    position: fixed;
+    left: $margin-left;
+    border-top: $border-width solid black;
+    border-bottom: $border-width solid black;
+    padding: 0 5px;
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.nav-bottom-note {
+    position: fixed;
+    left: $margin-left;
+    bottom: $margin-bottom;
+}
+
+.nav-top-note {
+    position: fixed;
+    left: $margin-left;
+    top: $margin-top;
+}
+
+/* ==========================================================================
+  Projects Page
+   ========================================================================== */
+
+
+.projects {
+    width: 100% - $nav-width;
+}
+
+
+.size-1 {
+    width: $thumb-width;
+    position: relative;
+}
+
+.size-2 {
+    width: 20%;
+    position: relative;
+    float: left;
+}
+
+.thumb {
     float: left;
     .resource {
 
@@ -308,17 +325,6 @@ a:hover {
         height: 100%;
         // border: 2px dashed #EB005A;
     }
-    // .pink-border {
-    //     border: $pink;
-    // }
-
-    // .blue-border {
-    //     border: $blue;
-    //     color: $blue;
-    // }
-    // .yellow-border {
-    //     border: $yellow;
-    // }
     .caption {
         display: none;
     }
@@ -343,53 +349,12 @@ a:hover {
 }
 
 
-.thumbnail:after {
+.thumb:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 
 }
-
-.next {
-    float: right;
-}
-
-.box-gif {
-    height: 40px;
-    width: auto;
-    margin-left: 23%;
-}
-
-
-
-/* ==========================================================================
-   Nav
-   ========================================================================== */
-nav { 
-    ul, li{
-        color: $pink;
-        margin: 0;
-        padding: 0;
-        background: none;
-        list-style: none;
-
-    }
-    li.spacer {
-        margin-top: 10px;
-    }
-    a {
-        background: none;
-        text-decoration: none;
-        color: $pink;
-    }
-    a:visited {
-        color: $pink;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-}
-
 
 /* ==========================================================================
    aside
@@ -405,28 +370,74 @@ aside {
     padding: 0;
     color: $blue;
     }
-
     top: 120px;
     padding: 30px;
-    margin-left: 570px;
+    margin-left: 500px;
     margin-top: 30px;
     width: 400px;
-    background: rgba(255,255,0,0.5);
+    // background: rgba(255,255,0,0.5);
     white-space: pre-wrap;
-    
-
 }
 
-
 .aside-normal {
-   top: 300px;
+   top: 200px;
     position: absolute;
 }
 
 .aside-top {
     top: 120px;
     position: fixed;
+}
 
+/* ==========================================================================
+   Page specific
+   ========================================================================== */
+
+.gender-viz {
+    .paper {   
+        position: fixed;
+        height: 270px;
+    }
+    background: white;
+    nav {
+        width: 180px;
+        height: 220px;
+
+    }
+    body {
+        background: white;
+    }
+}
+
+.box-page {
+     aside {
+        width: 350px;
+        position: absolute;
+        left: 875px;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+}
+
+.box-gif {
+    height: 40px;
+    width: auto;
+    margin-left: 23%;
+}
+
+
+.brilliant {
+    box-shadow: 1px 1px 10px #888888;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+/*Wireframe on HTC page*/
+.wireframe {
+    width: 1000px;
+    margin-bottom: 100px;
 }
 
 
@@ -542,7 +553,8 @@ aside {
 
     a,
     a:visited {
-        text-decoration: underline;
+        
+
     }
 
     a[href]:after {

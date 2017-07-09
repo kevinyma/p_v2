@@ -3,6 +3,7 @@ layout: project
 title:  "IBM"
 imgName: "ibm1.png"
 imgName2: "ibm2.png"
+img: "ibm.jpg"
 description: "Internship at IBM."
 date:   2016-05-15 12:00:00 +0800
 technologies: 
@@ -12,4 +13,21 @@ role: developer, solder monkey
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li
 size: 2-2
 ---
-Software Internship at IBM. I helped build 2 projects: an upcoming segment of the [Design Language Guide](http://www.ibm.com/design/language/IBM) and a widget for all products across the [Cloud Marketplace](https://www.ibm.com/us-en/marketplace).
+<div class="contain">
+
+	<div class="row">
+
+	<div class="col-sm-8">
+		<img src="/img/ibm/ibm.png" class="">
+		<img src="/img/ibm/ibm2.png" class="m-t-md">
+		<img src="/img/ibm/ibm-notes.jpg" class="m-t-md">
+		<img src="/img/ibm/ibm-notes-2.jpg" class="m-t-md">
+	</div>
+	<div class="col-sm-3 col-sm-offset-1">
+	In 2015, I had the opportunity to intern at IBM Design. I helped build 2 projects: an upcoming segment of the <a href="http://www.ibm.com/design/language/IBM">Design Language Guide</a> and a widget for all products across the Cloud Marketplace.<br><br>
+	The work is currently under NDA.
+	</div>
+
+	</div>
+
+</div>

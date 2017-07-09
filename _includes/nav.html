@@ -1,27 +1,21 @@
+<div class="nav-box">
+
+<h1 class="site-title">
+    <a class="clickable " href="{{ site.baseurl }}/">kevin<br>ma</a>
+</h1>
+
 <nav>
-  <h1>
-    <a class="clickable site-title" href="{{ site.baseurl }}/">Kevin Ma</a>
-  </h1>
   <ul>
     {% for page in site.pages %}{% if page.title %}
     <li><a class="clickable" href="{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}{% endfor %}
-    <li><a class="clickable" href="http://messybin.tumblr.com">Blog</a></li>
-
-    <li class="spacer"></li>
-    {% if site.email %}
-    {% endif %}
-    <li><a class="clickable" href="/resume.pdf">Resume</a></li>
-    <li><a class="clickable" href="mailto:{{ site.email }}">Email</a></li>
-    {% if site.github_username %}
-    <li><a class="clickable" href="http://github.com/{{ site.github_username }}">Github</a></li>
-     
-    {% endif %}
-    
-    <!-- {% if site.twitter_username %}
-    <li><a class="clickable" href="http://twitter.com/{{ site.twitter_username }}">Twitter</a>
-    </li>
-    {% endif %} -->
-
+    <li class="spacer">
+    <li><a class="clickable" href="http://messybin.tumblr.com">sketches</a></li>
   </ul>
 </nav>
+
+<div class="nav-bottom-note">
+    <a class="clickable" href="/resume.pdf">resume</a>
+</div>
+
+</div>

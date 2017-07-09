@@ -1,25 +1,10 @@
 ---
 layout: default
 ---
-<article class="{{ page.class }}">
-    
-    {% if page.title == "About" %}<h2>{{ page.title }}</h2>{% endif %}
-    <div class="{% if page.contentClass %}{{ page.contentClass }}{% endif %}">
-    {{ content }}
+
+<div class="content-box">
+	<div class="{{ page.class }}">
+	    {{ content }}
 	</div>
-</article>
+</div>
 
-
-
-
-
-
-{% if page.contentClass %}
-<!-- <aside>
- <h1>Very Fun Facts</h1>
-	<ul>
-		<li>There are no fun facts about me!! </li>
-		<li></li>
-	</ul>
-</aside> -->
-{% endif %}
