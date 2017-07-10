@@ -15,15 +15,16 @@ size: 1-1
 ignore: 
 ---
 <div class="contain">
-	<div class="row">
-		<div class="col-sm-6 m-b-md">
-		Lego for the Blind
-		<br><br>
-		Matthew Shifrin is a high school student who in 2016, created a system of instructions that allowed Lego to be built by the blind and visually impaired. I was contacted by Matthew to create a web presence for his project.
-		</div>
-	</div>
 
 	<iframe width="700" height="419" src="https://www.youtube.com/embed/hVy5E2DZkKM" frameborder="0" allowfullscreen></iframe>
+
+	<div class="row">
+		<div class="col-sm-3 m-t-md">
+		Lego for the Blind
+		<br><br>
+		Matthew Shifrin is a high school student who in 2016, created a system of instructions that allowed Lego to be built by the blind and visually impaired. I built a web application to share the project. The project recieved press attention from a number of science and media outlets.
+		</div>
+	</div>
 
 	<div class="row">
 	<div class="col-sm-6 m-t-xl">

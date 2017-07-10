@@ -57,8 +57,8 @@ ignore: "no"
 <img src="/img/hr/wireframe2.png">
 
 <div class="contain-x">
-	<div class="row style-guide.png">
-	<div class="col-md-6 col-md-offset-3 m-t-l m-b-xl">
+	<div class="row m-t-xl">
+	<div class="col-md-6 col-md-offset-3 m-b-xl">
 		<p> The final design was a combination of earlier, heavy grid-based iterations and more kinetic later designs.
 		</p>
 	</div>
