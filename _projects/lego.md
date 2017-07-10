@@ -19,15 +19,29 @@ ignore:
 	<iframe width="700" height="419" src="https://www.youtube.com/embed/hVy5E2DZkKM" frameborder="0" allowfullscreen></iframe>
 
 	<div class="row">
-		<div class="col-sm-3 m-t-md">
+		<div class="col-sm-6 m-t-lg">
+		<p>
 		Lego for the Blind
-		<br><br>
-		Matthew Shifrin is a high school student who in 2016, created a system of instructions that allowed Lego to be built by the blind and visually impaired. I built a web application to share the project. The project recieved press attention from a number of science and media outlets.
+		</p>
+		<p>
+		Matthew Shifrin is a high school student who created a system of instructions that allowed Lego to be built by the blind and visually impaired. 
+		</p>
+		<p>I found out about Matthew's work from a blog post that he wrote. Inspired by his vision, I contacted him to build a web application to share the project. Working with Matthew on accessibility, I designed and coded, and added illustrations to the final web site.</p> 
+		<p>
+		Later on, Lego for the Blind recieved considerable press attention from a number of science and media outlets.
+		 View the site at 
+		<a href="http://www.legofortheblind.com">legofortheblind.com</a>.</p>
 		</div>
 	</div>
 
-	<div class="row">
-	<div class="col-sm-6 m-t-xl">
-	The challenge was to create a site that could be used as easily by blind people as by sighted people. The process involved research into best practices for accessibility.
+	<div class="row m-b-xl m-t-xl">
+	<img src="/img/lego/lego-mock.jpg">
+	<div class="col-sm-6 m-t-lg">
+	<p>
+	Designing for Accesibility
+	</p>
+	<p>
+	Designing for complete visual impairment requires considerable attention to semantic layout of the code. The site was designed for, and fully tested by users employing screen-readers, who experience and navigate the site through audio.
+	</p>
 	</div>
 </div>

@@ -17,15 +17,19 @@ size: 2-2
 
 	<div class="row">
 
-	<div class="col-sm-8">
+	<div class="col-sm-9">
 		<img src="/img/ibm/ibm.png" class="">
-		<img src="/img/ibm/ibm2.png" class="m-t-md">
+<!-- 		<img src="/img/ibm/ibm2.png" class="m-t-md">
 		<img src="/img/ibm/ibm-notes.jpg" class="m-t-md">
-		<img src="/img/ibm/ibm-notes-2.jpg" class="m-t-md">
+		<img src="/img/ibm/ibm-notes-2.jpg" class="m-t-md"> -->
 	</div>
-	<div class="col-sm-3 col-sm-offset-1">
-	In 2015, I had the opportunity to intern at IBM Design. I helped build 2 projects: an upcoming segment of the <a href="http://www.ibm.com/design/language/IBM">Design Language Guide</a> and a widget for all products across the Cloud Marketplace.<br><br>
-	The work is currently under NDA.
+	<div class="col-sm-6 m-t-lg">
+	<p>
+	IBM Design
+	</p>
+	<p>
+	In 2015, I had the opportunity to intern at IBM Design. I helped build 2 projects: an upcoming segment of the <a href="http://www.ibm.com/design/language/IBM">Design Language Guide</a> and a widget for all products across the Cloud Marketplace.
+	</p>
 	</div>
 
 	</div>
