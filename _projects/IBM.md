@@ -25,10 +25,10 @@ size: 2-2
 	</div>
 	<div class="col-sm-6 m-t-lg">
 	<p>
-	IBM Design
+	IBM
 	</p>
 	<p>
-	In 2015, I had the opportunity to intern at IBM Design. I helped build 2 projects: an upcoming segment of the <a href="http://www.ibm.com/design/language/IBM">Design Language Guide</a> and a widget for all products across the Cloud Marketplace.
+	In Fall 2015, I had the opportunity to work as a Software intern at IBM. I helped build 2 projects: an upcoming segment of the <a href="http://www.ibm.com/design/language/IBM">Design Language Guide</a> and a widget for all products across the Cloud Marketplace.
 	</p>
 	</div>
 

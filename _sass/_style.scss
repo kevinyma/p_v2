@@ -133,7 +133,7 @@ html, body {
 }
 
 h1 {
-    font-size: $nav-font-size!important;
+ //   font-size: $nav-font-size!important;
 }
 
 .content-box {
@@ -276,7 +276,7 @@ nav {
 .site-title {
     font-size: $nav-font-size + 10px;
     font-weight: 700;
-    bottom: $margin-bottom + 60px;
+    bottom: $margin-bottom;
     position: fixed;
     left: $margin-left;
     border-top: $border-width solid black;

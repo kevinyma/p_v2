@@ -22,7 +22,7 @@ Hi. My name is Kevin. I'm a maker from Beijing with a passion for art and techno
 <a href="http://gizmodo.com/5053464/htcs-magic-labs/">HTC R&D</a> and
 <a href="http://www.ibm.com/design/">IBM</a> in the past.
 </p> 
-<p>I have a degree in Information Science from Cornell Unviversity. At school I did research for the <a href="http://dsclab.cornell.edu/">Social Cognition Lab</a>, <a href="http://idl.cornell.edu/">Interaction Design Lab</a>, and <a href="https://www.cs.cornell.edu/~francois/">Gumbretiere Lab</a>. I helped teach Cornell's grad-level <a href="http://www.cornell.edu/video/rapid-prototyping-students-demo-inventions-sciencenter">physical computing class</a>.</p>
+<p>I have a degree in Information Science from Cornell Unviversity. At school I did research for the <a href="http://dsclab.cornell.edu/">Social Cognition Lab</a>, <a href="http://idl.cornell.edu/">Interaction Design Lab</a>, and <a href="https://www.cs.cornell.edu/~francois/">Gumbretiere Lab</a>. I also helped teach Cornell's grad-level <a href="http://www.cornell.edu/video/rapid-prototyping-students-demo-inventions-sciencenter">physical computing class</a>.</p>
 </div>
 </div>
 <div class="row">

@@ -24,11 +24,14 @@ ignore:
 		Lego for the Blind
 		</p>
 		<p>
-		Matthew Shifrin is a high school student who created a system of instructions that allowed Lego to be built by the blind and visually impaired. 
+		In 2016, Matthew Shifrin, a blind high school student, created a system of instructions that allowed Lego to be built by the blind and visually impaired. 
 		</p>
-		<p>I found out about Matthew's work from a blog post that he wrote. Inspired by his vision, I contacted him to build a web application to share the project. Working with Matthew on accessibility, I designed and coded, and added illustrations to the final web site.</p> 
+		<p>I found out about Matthew's project from a blog post that he shared on Facebook.</p>
 		<p>
-		Later on, Lego for the Blind recieved considerable press attention from a number of science and media outlets.
+		Intrigued, I contacted Matthew to discuss bringing the project to a wider audience. I worked with Matthew to design and code a website that would do that.</p> 
+		<p>
+		Lego for the Blind recieved considerable press attention from a number media outlets, including AOL News, Popular Science, and Nerdist.</p>
+		<p> 
 		 View the site at 
 		<a href="http://www.legofortheblind.com">legofortheblind.com</a>.</p>
 		</div>
