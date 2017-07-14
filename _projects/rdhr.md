@@ -12,34 +12,58 @@ ignore: "no"
 
 
 <div class="contain-x">
-<div class="row m-t-xl">
-	<div class="col-md-6 col-md-offset-3">
-		<p>
-		Research Division HR
-		</p>
-		<p>
-		I led design and web development on the new web presence for the Research Division Human Resources Department.
-		</p>
-		<p>
-		I set out to prototype and create a website that would instill confidence in employees that their workplace could provide them the tools necessary to succeed in their jobs.
-		</p>
-		<p>
-		</p>The project began with separate phases of interviews with separate groups of candidate users - employees, managers, and HR administrators. We gathered extensive lists of HR-related work tasks that users performed on a routine basis.
-	</div>
-</div>
 
-<div class="row m-t-xl m-b-xl">
-	<div class="col-md-6 col-md-offset-3">
-		<img src="/img/hr/process.jpg">
+	<div class="row m-t-xl">
+		<div class="col-sm-6 col-sm-offset-3">
+			<p>
+			Research Division HR
+			</p>
+			<p>
+			I led design and web development on the new web presence for the Research Division Human Resources Department.
+			</p>
+			<p>
+			I set out to prototype and create a website that provided employees the tools and resources necessary to succeed in their jobs.
+			</p>
+			
+		</div>
 	</div>
-	<div class="col-md-6 col-md-offset-3 m-t-xl">
+
+	<div class="row m-t-xl">
+		<div class="col-sm-6 ">
+			<img src="/img/hr/old-site.png">
+		</div>
+		<div class="col-sm-4 col-sm-offset-2"><p>The old site is outdated and it shows. Weekly, few people access it. Routine and unique questions about HR procedure are normally answered through email. 
+			</p>
+		</div>
+	</div>
+	<div class="row m-t-xl">
+		<div class="col-sm-6 ">
+			<img src="/img/hr/research.jpg">
+		</div>
+		<div class="col-sm-4 col-sm-offset-2"><p>The process began with a user interview stage. We interviewed separate groups of candidate users - employees, managers, and HR administrators. I gathered extensive lists of HR-related work tasks that users performed on a routine basis, and the frustrations and pain points inherent in the process.
+			</p></div>
+	</div>
+	<div class="row m-t-xl">
+		<div class="col-sm-6 ">
+			<img src="/img/hr/process.jpg">
+		</div>
+		<div class="col-sm-4 col-md-offset-2">
 		<p>
-		As we organized our qualitative interview data, a dichotomy in use-cases became apparent. Some cases were extremely specific eg. looking for a specific document or how to start a certain process. Others were general, pertaining to an entire user demographic eg. timelines for newly hired employees.
-		</p><p>
-		The information architecture we decided on organizes information by both <b>Task Category</b> and <b>User Demographic</b>. Both navigation structures can be accessed on any page.
+		As the HR employees and I organized our qualitative interview data, a dichotomy in use-cases became apparent. Some cases were extremely specific eg. looking for a specific document or how to start a certain process. Others were general, pertaining to an entire user demographic eg. timelines for newly hired employees.
 		</p>
+		</div>
 	</div>
-</div>
+
+
+	<div class="row m-t-xl m-b-xl">
+		<div class="col-md-6 col-md-offset-3">
+			<p>
+			The information architecture organizes the site through the dimensions of <b>Task Category</b> and <b>User Demographic</b>. Both navigation structures can be accessed on any page.
+			</p>
+		</div>
+	</div>
+
+
 </div>
 
 
@@ -65,8 +89,20 @@ ignore: "no"
 	<div class="col-md-10 col-md-offset-1">
 		<img src="/img/hr/home-mock.png" class="shadow">
 	</div>
-		
-	<div class="col-md-6 col-md-offset-3 m-t-xl">
+
+	<div class="col-md-6 col-md-offset-3 m-t-xl m-b-xl">
+		<p> Task categories have their own set of quick-links, subnavigation and search.
+		</p>
+	</div>
+</div>
+</div>
+
+<img src="/img/hr/pages.png">
+
+
+<div class="contain-x">
+	<div class="row m-t-xl">	
+	<div class="col-md-6 col-md-offset-3">
 		<p>
 		Visual Design
 		</p>
@@ -74,9 +110,13 @@ ignore: "no"
 		I created a visual style guide in accordance with existing Cornell branding guidelines to create a consistent look and feel across the site, as well as for the future maintenance of the site.
 		</p>
 	</div>
-	<div class="col-md-12 m-t-xl">
+	<div class="col-md-12 m-t-xl m-b-xl">
 		<img src="/img/hr/style-guide.png">
 	</div>
+	<div class="col-md-6 col-md-offset-3 m-b-xl">
+		
+		</div>
+
 	
 </div>
 

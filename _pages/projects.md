@@ -45,9 +45,9 @@ class: "post"
  -->
 
 <div class="thumb size-1">    
-    <div class="resource p-md">
+    <div class="resource">
       {% if project.altlink %}<a class="link" href="{{ project.altlink }}">{% else %}  <a class="link" href="{{ project.url | prepend: site.baseurl }}">{% endif %}
-      <img class="image" src="/img/sickthumbs/{{ project.img }}" >
+      <img class="thumbnail-image" src="/img/sickthumbs/{{ project.img }}" >
      <!--  <span class="title">{% if project.alttitle %}{{project.alttitle | upcase}}{% else %}{{project.title | upcase}}{% endif %}</span> -->
       </a>
     </div>

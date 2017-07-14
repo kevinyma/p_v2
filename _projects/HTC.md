@@ -19,9 +19,13 @@ ignore:
 
 <div class="row">
 	<div class="col-md-6 col-md-offset-3 m-t-xl m-b-xl">
-	Emotar is a sticker creator that puts 3D avatars on top of cartoon animations. <a href="http://a16z.com/2016/06/17/stickers/">Sticker culture</a> is <a href="https://www.wsj.com/articles/line-and-wechat-strike-advertising-gold-1466613181">deeply</a> <a href="https://qz.com/156030/line-is-betting-millions-that-virtual-bears-and-bunnies-will-sweep-the-west/">entrenched</a> in a number of messenging apps, including Wechat, Line and KakaoTalk. Emotar makes personalized stickers part of the conversation.
-	<br><br>
+	<p>HTC</p>
+	<p>
+	Emotar is a sticker creator that puts 3D avatars on top of cartoon animations. <a href="http://a16z.com/2016/06/17/stickers/">Sticker culture</a> is <a href="https://www.wsj.com/articles/line-and-wechat-strike-advertising-gold-1466613181">deeply</a> <a href="https://qz.com/156030/line-is-betting-millions-that-virtual-bears-and-bunnies-will-sweep-the-west/">entrenched</a> in a number of messenging apps, including Wechat, Line and KakaoTalk. Emotar adds personalized stickers to the conversation.
+	</p>
+	<p>
 	I worked on Emotar as a Product Designer Intern at HTC Research & Development. Our goals were to revise the creation process, and to make sharing an essential feature of the app. 
+	</p>
 	</div>
 
 	<div class="col-md-6 col-md-offset-3 m-b-xl">

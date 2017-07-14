@@ -104,6 +104,7 @@ $blue: #009dec;
 $yellow: #FFFF00;
 
 $margin-top: 80px;
+$margin-top-small: 40px;
 $margin-left: 80px;
 $margin-bottom: 80px;
 
@@ -303,6 +304,9 @@ nav {
   Projects Page
    ========================================================================== */
 
+.thumbnail-image {
+
+}
 
 .projects {
     width: 100% - $nav-width;
@@ -443,6 +447,49 @@ aside {
 .wireframe {
     width: 1000px;
     margin-bottom: 100px;
+}
+
+/* ==========================================================================
+   Responsive responsive
+   ========================================================================== */
+
+@media (max-width: 992px) {
+    nav {
+        left: $margin-top-small;
+        top: $margin-top-small;
+    }
+    .site-title {
+        bottom: $margin-top-small;
+        left: $margin-top-small;
+    }
+
+
+    .contain {
+        padding: $margin-top-small;
+    }
+
+    .contain-x {
+        padding-left: $margin-top-small;
+        padding-right: $margin-top-small;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-box {
+        display: none;
+    }
+    .content-box {
+         margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) { 
+
+    .size-1 {
+        width: 50%;
+    }
+
 }
 
 
