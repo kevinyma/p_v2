@@ -7,7 +7,7 @@ img: "htc.jpg"
 description: "Internship at HTC, worked on some cool stuff."
 date:  2016-08-07 09:37:43 +0800
 technologies: Photon, Particle Dev, Node.js
-category: product
+category: Internship
 tags: physical computing
 role: developer
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li

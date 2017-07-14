@@ -5,7 +5,7 @@ img: "rdhr.jpg"
 description: 
 date:   2017/1/1
 technologies: 
-category:
+category: Interaction Design
 ignore: "no"
 ---
 <img src="/img/hr/hr-splash.jpg">

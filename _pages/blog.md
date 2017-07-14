@@ -12,19 +12,18 @@ class: "post"
 	<div class="col-md-3">
 	<div class="blog-thumb">    
 	  
-
-
 	      <a class="link" href="{{ post.url | prepend: site.baseurl }}">
 
-
 	  		<img class="image" class="blog-photo" src="/img/blog/{{ post.imgName }}">
-
-
 
 	  	 	</a>
 
 
 	 
+	  	 </div>
+	  	 <div class="caption">
+	  	 	<p class="project-title">{{post.title}}</p>
+	  	 	<p class="project-category">{{post.date | date: "%Y-%m-%d"}}</p>
 	  	 </div>
 	</div>
 	<!-- <div class="col-md-3 col-md-offset-1">

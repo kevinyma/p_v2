@@ -7,7 +7,7 @@ img: "raceandempathy.jpg"
 description: ""
 date:   2016-6-10 09:37:43 +0800
 technologies: Javascript
-category: product 
+category: Interaction Design
 tags: product
 ignore:
 collaborators: 

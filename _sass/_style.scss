@@ -103,14 +103,13 @@ $pink: #EB005A;
 $blue: #009dec;
 $yellow: #FFFF00;
 
-$margin-top: 80px;
-$margin-top-small: 40px;
-$margin-left: 80px;
-$margin-bottom: 80px;
+$margin-top: 60px;
+$margin-top-small: 30px;
 
-$nav-width: 24%;
+
+$nav-width: 25%;
 $nav-font-size: 31px;
-$border-width: 8px;
+$border-width: 6px;
 
 
 /* ==========================================================================
@@ -133,8 +132,8 @@ html, body {
 
 }
 
-h1 {
- //   font-size: $nav-font-size!important;
+h2 {
+    font-size: $nav-font-size!important;
 }
 
 .content-box {
@@ -240,7 +239,7 @@ nav {
     font-weight: 400;
     font-size: $nav-font-size;
     top: $margin-top;
-    left: $margin-left;
+    left: $margin-top;
     z-index: 1;
     position: fixed;
     height: 100%;
@@ -275,14 +274,14 @@ nav {
 }
 
 .site-title {
-    font-size: $nav-font-size + 10px;
+    //font-size: $nav-font-size;
     font-weight: 700;
-    bottom: $margin-bottom;
+    bottom: $margin-top;
     position: fixed;
-    left: $margin-left;
+    left: $margin-top;
     border-top: $border-width solid black;
     border-bottom: $border-width solid black;
-    padding: 0 5px;
+    padding: 0 3px;
     a:hover {
         text-decoration: none;
     }
@@ -290,13 +289,13 @@ nav {
 
 .nav-bottom-note {
     position: fixed;
-    left: $margin-left;
-    bottom: $margin-bottom;
+    left: $margin-top;
+    bottom: $margin-top;
 }
 
 .nav-top-note {
     position: fixed;
-    left: $margin-left;
+    left: $margin-top;
     top: $margin-top;
 }
 
@@ -356,6 +355,40 @@ nav {
         color: black;
     }
 }
+
+.caption {
+    
+    height: 80px;
+    p {
+        margin: 0;
+    }
+    .project-title {
+        font-weight: 500;
+        margin-top: 2px;
+    }
+    .project-category {
+        font-size: 12px;
+    }
+}
+
+
+.link .color-bar {
+    height: 8px;
+    opacity: 0;
+    background-color: #ea5a41;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.3s;
+}
+
+.link:hover {
+    .color-bar {
+        opacity: 1;
+    }
+}
+
 
 
 .thumb:after {

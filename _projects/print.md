@@ -7,8 +7,8 @@ img: "capsu.jpg"
 description: "Branding and publicity for a celebration."
 date:   2016-7-14 09:37:43 +0800
 technologies: 
-role: graphic designer
-category: graphic design
+role: 
+category: Graphic Design
 tags: poster
 size: 3-2
 ---

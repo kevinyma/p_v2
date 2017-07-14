@@ -36,25 +36,30 @@ class: "post"
 </div>
  -->
 
-
-<!--  <div class="row"> -->
+<div class="contain">
+ <div class="row">
 {% for project in site.projects reversed%}
 {% if project.title%}{% if project.ignore != "yes" %}
 
 <!-- col-md-4 col-sm-6 col-xs-12 m-b-md
  -->
 
-<div class="thumb size-1">    
-    <div class="resource">
-      {% if project.altlink %}<a class="link" href="{{ project.altlink }}">{% else %}  <a class="link" href="{{ project.url | prepend: site.baseurl }}">{% endif %}
-      <img class="thumbnail-image" src="/img/sickthumbs/{{ project.img }}" >
-     <!--  <span class="title">{% if project.alttitle %}{{project.alttitle | upcase}}{% else %}{{project.title | upcase}}{% endif %}</span> -->
-      </a>
+<div class="col-sm-4 col-xs-6"> 
+  {% if project.altlink %}<a class="link" href="{{ project.altlink }}">{% else %}  <a class="link" href="{{ project.url | prepend: site.baseurl }}">{% endif %}   
+  <div class="resource">
+      <img class="thumbnail-image" src="/img/sickthumbs/{{ project.img }}">
     </div>
-  <div class="caption"><p class="small">{{project.description}}</p></div>
+  <div class="color-bar"></div>
+     </a>
+  <div class="caption">
+    <p class="project-title">{{project.title}}</p>
+    <p class="project-category">{{project.category}}</p>
+  </div>
 </div>
 {% endif %}{% endif %}
 {% endfor %}
+</div>
+</div>
 
 <!-- </div> -->
 

@@ -7,7 +7,7 @@ img: "lego.jpg"
 description: "Legos for the Blind."
 date:   2016-5-14 12:00:00 +0800
 technologies: Jekyll
-category: product
+category: Interaction Design
 tags: web
 role: developer, designer
 collaborators: Matt Shifrin
