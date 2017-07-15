@@ -83,7 +83,34 @@ ignore:
 	</div>
 
 </div>
-<div class="col-md-6 col-md-offset-3 ">
+<div class="row m-b-lg">
+<div class="col-sm-6">As a side project, I animated a sticker pack to be shipped with the next release of the app.</div>
+</div>
+<div class="row m-b-xl">
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_01.gif">	
+	</div>
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_02.gif">	
+	</div>
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_03.gif">	
+	</div>
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_04.gif">	
+	</div>
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_05.gif">	
+	</div>
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_06.gif">	
+	</div>
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_09.gif">	
+	</div>
+	<div class="col-sm-3">
+		<img src="/img/htc/stickers/stickers_10.gif">	
+	</div>
 	
 </div>
 </div>

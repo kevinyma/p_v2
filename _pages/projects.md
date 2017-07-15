@@ -49,7 +49,7 @@ class: "post"
   <div class="resource">
       <img class="thumbnail-image" src="/img/sickthumbs/{{ project.img }}">
     </div>
-  <div class="color-bar"></div>
+  <div class="color-bar red-bar"></div>
      </a>
   <div class="caption">
     <p class="project-title">{{project.title}}</p>

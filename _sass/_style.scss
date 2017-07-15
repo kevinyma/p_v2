@@ -372,10 +372,17 @@ nav {
 }
 
 
+.red-bar {
+    background-color: #ea5a41;
+}
+
+.blue-bar {
+    background-color: #6487ae;
+}
+
 .link .color-bar {
     height: 8px;
     opacity: 0;
-    background-color: #ea5a41;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
