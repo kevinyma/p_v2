@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Time and Place"
+title:  "Time and Space"
 imgName: "illustrations1.png"
 imgName2: "illustrations2.png"
 img: "illo.jpg"

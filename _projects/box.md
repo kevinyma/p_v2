@@ -25,9 +25,9 @@ ignore:
 
 <div class=" row m-t-xl">
 
-	<div class="col-sm-3 ">BOX!<br><br>
-
-	I was lead designer in a 5 person team that build the puzzle platformer game BOX!
+	<div class="col-sm-3 ">
+		<p><b>BOX!</b></p>
+		<p>I was lead designer in a 5 person team that build the puzzle platformer game BOX!</p>
 	</div>
 
 	<div class="col-sm-6 col-sm-offset-3"><img src="/img/box/cover2.png"></div>

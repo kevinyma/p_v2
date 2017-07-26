@@ -8,7 +8,7 @@ altlink: ../viz
 description: "We looked at IMDB's top films over the past 15 years, breaking them down by the gendered-ness of their spoken dialogue."
 date:   2016-08-05 12:01:00 +0800 
 technologies: D3.js, jQuery, Beautiful Soup
-category: Data Visualization, Web
+category: Data Visualization, Web Development
 tags: 
 role: developer, visual designer
 collaborators: Hannah Ajmani, Kimberly Brown
