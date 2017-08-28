@@ -18,11 +18,14 @@ Kevin is a digital product designer.</h2>
 </div>-->
 <div class="col-md-4">
 <p> 
-Hi. My name is Kevin. I'm a maker from Beijing with a passion for art and technology, and I've worked with 
-<a href="http://gizmodo.com/5053464/htcs-magic-labs/">HTC R&D</a> and
-<a href="http://www.ibm.com/design/">IBM</a> in the past.
-</p> 
-<p>I have a degree in Information Science from Cornell University. At school I did research for the <a href="http://dsclab.cornell.edu/">Social Cognition Lab</a>, <a href="http://idl.cornell.edu/">Interaction Design Lab</a>, and <a href="https://www.cs.cornell.edu/~francois/">Gumbretiere Lab</a>. I also helped teach Cornell's grad-level <a href="http://www.cornell.edu/video/rapid-prototyping-students-demo-inventions-sciencenter">physical computing class</a>.</p>
+Hi! My name is Kevin. 
+</p>
+<p>I'm a maker from Beijing with a passion for art and technology.</p> 
+
+<!-- <p>I have a degree in Information Science from Cornell University. At school I did research for the <a href="http://idl.cornell.edu/">Interaction Design Lab</a>, and <a href="https://www.cs.cornell.edu/~francois/">Guimbretiere Lab</a>. --> 
+<p>
+
+At school I helped teach a <a href="http://www.cornell.edu/video/rapid-prototyping-students-demo-inventions-sciencenter">class</a> where we built everything from spray paint machines to napkin folding machines.</p>
 </div>
 </div>
 <div class="row">

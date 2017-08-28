@@ -19,31 +19,41 @@ ignore:
 
 <div class="contain-x">
 <div class="row">
-	<div class="col-sm-3"><b>Client:</b> HTC</div>
-	<div class="col-sm-3"><b>Timeframe:</b> 3 months</div>
-	<div class="col-sm-3"><b>Role:</b> UX Design Intern</div>
-	<div class="col-sm-3"></div>
 
 
-	<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 m-t-xl m-b-xl">
-	<p><b>HTC</b></p>
+	<div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 m-t-xl m-b-xl">
+	<p><b>What is Emotar?</b></p>
 	<p>
 
-	Emotar is a mobile app by HTC Research & Development, that aims to help users create personalized stickers for IM apps. </p>
+	Emotar is a mobile app by HTC Research & Development, that aims to help users create personalized stickers for IM apps.  </p>
 
-<p>Over the past decade, sticker packs have become <a href="http://a16z.com/2016/06/17/stickers/">integral</a> <a href="https://www.wsj.com/articles/line-and-wechat-strike-advertising-gold-1466613181">part</a> of  <a href="https://qz.com/156030/line-is-betting-millions-that-virtual-bears-and-bunnies-will-sweep-the-west/">messaging culture</a>, particularly in Asian messaging apps such as Wechat, Line and KakaoTalk. </p>
+<p>Over the past decade, sticker packs have become <a href="http://a16z.com/2016/06/17/stickers/">integral</a> <a href="https://www.wsj.com/articles/line-and-wechat-strike-advertising-gold-1466613181">part</a> of  <a href="https://qz.com/156030/line-is-betting-millions-that-virtual-bears-and-bunnies-will-sweep-the-west/">messaging culture</a>, as well as a large segment of messaging app revenue, particularly in Asian messaging apps such as Wechat, Line and KakaoTalk. </p>
 
-<p>Emotar takes selfies as input and creates 3D avatars with cartoon animations. </p>
+<p>Emotar uses selfies as input to create stickers with the users' faces </p>
 
-<p>I worked on a redesign of the core mechanics of Emotar as a Product Designer Intern.</p>
+<p><b>Background and my role</b></p>
+
+<p>I worked on Emotar as the sole designer. I collaborated closely with our PM, Derrick, and 2 developers to redesign and ship the app over the course of 1 month.</p>
+
+<p>Our biggest constraint was time — with limited technical resources, I had to iterate quickly to get the designs over to the developers!</p>
 
 	
 	</div>
 
-	<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 m-b-xl">
+	<div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 m-b-xl">
 	<p>
-		<b>The Problem</b>
-		</p>
+		<b>A People Problem</b>
+	</p>
+	<p>
+		At the onset of the project, our team asked ourselves: why do people use stickers? There are the obvious reasons — convenience and humor.</p>
+<p>Then there are more subtle motivations. </p>
+<p>Stickers are used to communicate subtext. An “angry” sticker doesn’t necessarily mean (and is rarely if ever used when) the user is angry. Rather, it conveys minor annoyance, or feigned annoyance for comedic effect. Like their static friends emojis, stickers allow for nuanced sub-communication to be added to the message.</p>
+<p>
+Emotar’s goal is to help users communicate that subtlety with a personal touch. Sending a sticker with one’s own face is a reminder of the relationship between the sender and receiver. It’s saying: “this little guy crying on the floor, this is me”.</p>
+<p>
+The former iteration of Emotar has features that heavily emphasize random exploration. This is achieved through
+	</p>
+
 
 		<p><blockquote>Design an flexible experience for users that allows for quick creation and sharing.</blockquote></p>
 		
@@ -109,40 +119,4 @@ ignore:
 </div>
 
 <div class="row m-t-xl m-b-lg">
-<div class="col-sm-6 col-sm-offset-3">
-<p><b>Sticker Pack</b></p>
-<p>As a side project, I animated a sticker pack to be shipped with the next release of the app.</p>
-
-</div>
-</div>
-<div class="row m-b-xl">
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_01.gif">	
-	</div>
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_02.gif">	
-	</div>
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_03.gif">	
-	</div>
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_04.gif">	
-	</div>
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_05.gif">	
-	</div>
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_06.gif">	
-	</div>
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_09.gif">	
-	</div>
-	<div class="col-sm-3">
-		<img src="/img/htc/stickers/stickers_10.gif">	
-	</div>
-	
-</div>
-</div>
-
-
 

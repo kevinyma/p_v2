@@ -19,26 +19,49 @@ size: 3-2
 		<br><br>
 		A series of print design for events and campaigns.
 		</div>
-		</div>
-		<div class="row">
-<div class="col-sm-8  m-t-xl">
-			<img src="/img/a3wr/context.jpg">
-		</div>
-
-		<div class="col-sm-8 col-sm-offset-4 m-t-xl">
+	</div>
+		<div class="row m-t-xl">
+			<div class="col-sm-8">
+				<img src="/img/a3wr/context.jpg">
+			</div>
+			<div class="col-sm-3 col-sm-offset-1">
+			A3WR
+			<br>
+			Print, Web
+			<br>
+			2016
+			</div>	
+			<div class="col-sm-8 m-t-xl">
 			<img src="/img/a3wr/a3wrbook.jpg">
 		</div>
-	</div>
+		</div>
+
+		
+
 
 	<div class="row m-t-xl">
 		<div class="col-sm-8 ">
 			<img src="/img/a3wr/asianight.jpg">
-		</div>		
-	</div	>
+		</div>	
+		<div class="col-sm-3 col-sm-offset-1">
+			Asia Night
+			<br>
+			Print, Web
+			<br>
+			2016
+			</div>	
+	</div>
 
 	<div class="row m-t-xl">
 		<div class="col-sm-8">
 			<img src="/img/a3wr/speednetworking.jpg">
 		</div>
+		<div class="col-sm-3 col-sm-offset-1">
+			RLSN
+			<br>
+			Print
+			<br>
+			2015
+			</div>
 	</div>
 </div>

@@ -31,9 +31,7 @@ ignore:
 		Intrigued, I contacted Matthew to discuss bringing the project to a wider audience. I worked with Matthew to design and code a website that would do that.</p> 
 		<p>
 		Lego for the Blind recieved considerable press attention from a number media outlets, including AOL News, Popular Science, and Nerdist.</p>
-		<p> 
-		 View the site at 
-		<a href="http://www.legofortheblind.com">legofortheblind.com</a>.</p>
+		
 		</div>
 	</div>
 

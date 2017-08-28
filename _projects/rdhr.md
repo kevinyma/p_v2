@@ -28,14 +28,7 @@ ignore: "no"
 		</div>
 	</div>
 
-	<div class="row m-t-xl">
-		<div class="col-sm-6 ">
-			<img src="/img/hr/old-site.png">
-		</div>
-		<div class="col-sm-4 col-sm-offset-2"><p>The old site is outdated and it shows. Weekly, few people access it. Routine and unique questions about HR procedure are normally answered through email. 
-			</p>
-		</div>
-	</div>
+
 	<div class="row m-t-xl">
 		<div class="col-sm-6 ">
 			<img src="/img/hr/research.jpg">
