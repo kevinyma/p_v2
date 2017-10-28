@@ -18,12 +18,12 @@ Following a systematic dissection of the object, these armor components (padding
 
 In the final stage of the project, the abstraction was situated on a physical site, as the armor would have been placed on a human body.
 
-![Alt text goes HERE!](/img/bodyarmor/first-drawing.jpg)
+![]({{site.baseurl}}{{site.baseurl}}/img/bodyarmor/first-drawing.jpg)
 
-![](/img/bodyarmor/armor.jpg)
+![]({{site.baseurl}}{{site.baseurl}}/img/bodyarmor/armor.jpg)
 
-![Alt](/img/bodyarmor/axons.jpg)
+![]({{site.baseurl}}{{site.baseurl}}/img/bodyarmor/axons.jpg)
 
-![Alt](/img/bodyarmor/shell.jpg)
+![]({{site.baseurl}}{{site.baseurl}}/img/bodyarmor/shell.jpg)
 
-![Alt](/img/bodyarmor/finalarmor.jpg)
+![]({{site.baseurl}}{{site.baseurl}}/img/bodyarmor/finalarmor.jpg)

@@ -18,10 +18,10 @@ size: 2-2
 	<div class="row">
 
 	<div class="col-sm-9">
-		<img src="/img/ibm/ibm.png" class="">
-<!-- 		<img src="/img/ibm/ibm2.png" class="m-t-md">
-		<img src="/img/ibm/ibm-notes.jpg" class="m-t-md">
-		<img src="/img/ibm/ibm-notes-2.jpg" class="m-t-md"> -->
+		<img src="{{site.baseurl}}/img/ibm/ibm.png" class="">
+<!-- 		<img src="{{site.baseurl}}/img/ibm/ibm2.png" class="m-t-md">
+		<img src="{{site.baseurl}}/img/ibm/ibm-notes.jpg" class="m-t-md">
+		<img src="{{site.baseurl}}/img/ibm/ibm-notes-2.jpg" class="m-t-md"> -->
 	</div>
 	<div class="col-sm-6 m-t-lg">
 	<p>

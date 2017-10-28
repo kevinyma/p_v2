@@ -15,21 +15,21 @@ Throughout the 30s, German-American architect Mies van der Rohe was preoccupied 
 
 This project looked at one of these designs extensively: the House with Three Courts. It examined the underlying systems which govern the design, extrapolating and tranforming these systems through a series of iterative models.
 
-![Alt](/img/threecourts/linedrawings.jpg)
+![Alt]({{site.baseurl}}/img/threecourts/linedrawings.jpg)
 
-![Alt](/img/threecourts/grid.jpg)
+![Alt]({{site.baseurl}}/img/threecourts/grid.jpg)
 
-![Alt](/img/threecourts/1.jpg)
+![Alt]({{site.baseurl}}/img/threecourts/1.jpg)
 
-![Alt](/img/threecourts/2.jpg)
+![Alt]({{site.baseurl}}/img/threecourts/2.jpg)
 
-![Alt](/img/threecourts/3.jpg)
+![Alt]({{site.baseurl}}/img/threecourts/3.jpg)
 
-![Alt](/img/threecourts/4.jpg)
+![Alt]({{site.baseurl}}/img/threecourts/4.jpg)
 
-<!-- ![Alt](/img/threecourts/render1.jpg)
+<!-- ![Alt]({{site.baseurl}}/img/threecourts/render1.jpg)
 
-![Alt](/img/threecourts/render2.jpg) -->
+![Alt]({{site.baseurl}}/img/threecourts/render2.jpg) -->
 
 
 

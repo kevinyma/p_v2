@@ -15,7 +15,7 @@ ignore: "yes"
 ---
 The problem: Cornell University houses a huge number disciplines within its 7 undergraduate colleges. I've met talented, driven folks from every background imaginable. Despite this, I hear this question far too often:
 
-![Alt](/img/cornellmake/sketch.jpg)
+![Alt]({{site.baseurl}}/img/cornellmake/sketch.jpg)
 
 I think there's both a structural and a social dimension to this issue. Because of the focused nature of many programs, interdisciplinary collaboration has never reached its full potential. I began to wonder if a tool could help students working on exciting projects find each other and work together. 
 
@@ -30,7 +30,7 @@ Another was the intentionality of the project. People hoping to work on academic
 
 I began thinking of how a system could address these frustrations:
 
-![Alt](/img/cornellmake/productarchitecture.jpg)
+![Alt]({{site.baseurl}}/img/cornellmake/productarchitecture.jpg)
 
 Design Decisions
 ---------
@@ -39,13 +39,13 @@ Design Decisions
 * Team profiles, as well as individual profiles can be accessed through search as well as through their corresponding projects.
 * Unpublised projects must be approved by admin before they are submitted
 
-![Alt](/img/cornellmake/screen1.jpg)
+![Alt]({{site.baseurl}}/img/cornellmake/screen1.jpg)
 
-![Alt](/img/cornellmake/screen2.jpg)
+![Alt]({{site.baseurl}}/img/cornellmake/screen2.jpg)
 
-![Alt](/img/cornellmake/screen3.jpg)
+![Alt]({{site.baseurl}}/img/cornellmake/screen3.jpg)
 
-![Alt](/img/cornellmake/screen4.jpg)
+![Alt]({{site.baseurl}}/img/cornellmake/screen4.jpg)
 
 
 

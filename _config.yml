@@ -2,14 +2,15 @@
 title: Kevin Ma
 email: kym5@cornell.edu
 description: Kevin is a product designer and web developer.
-baseurl: "" 
+url: "kevinyma.com"
+baseurl: "/p_v2"
 twitter_username: messybin
 github_username:  kevinyma
 email: kym5@cornell.edu
 
 sass:
   sass_dir: _sass
-collections: 
+collections:
   projects:
     output: true
     permalink: /makes/:path/
@@ -18,3 +19,4 @@ collections:
     permalink: /:path/
 include: ['_pages']
 markdown: kramdown
+port: 4005

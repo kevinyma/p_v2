@@ -15,7 +15,7 @@ collaborators: Hannah Ajmani, Kimberly Brown
 size: 2-1
 ---
 
-<a href="/viz/">![Alt](/img/gender/viz.jpg)</a>
+<a href="/viz/">![Alt]({{site.baseurl}}/img/gender/viz.jpg)</a>
 
 Hollywood is pretty much known for rampant sexism and racism in its movies. Without data however, it's all rhetoric. We wanted to get an objective picture of what the gender gap really looked like.
 

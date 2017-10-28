@@ -22,7 +22,7 @@ size: 3-2
 	</div>
 		<div class="row m-t-xl">
 			<div class="col-sm-8">
-				<img src="/img/a3wr/context.jpg">
+				<img src="{{site.baseurl}}/img/a3wr/context.jpg">
 			</div>
 			<div class="col-sm-3 col-sm-offset-1">
 			A3WR
@@ -32,7 +32,7 @@ size: 3-2
 			2016
 			</div>	
 			<div class="col-sm-8 m-t-xl">
-			<img src="/img/a3wr/a3wrbook.jpg">
+			<img src="{{site.baseurl}}/img/a3wr/a3wrbook.jpg">
 		</div>
 		</div>
 
@@ -41,7 +41,7 @@ size: 3-2
 
 	<div class="row m-t-xl">
 		<div class="col-sm-8 ">
-			<img src="/img/a3wr/asianight.jpg">
+			<img src="{{site.baseurl}}/img/a3wr/asianight.jpg">
 		</div>	
 		<div class="col-sm-3 col-sm-offset-1">
 			Asia Night
@@ -54,7 +54,7 @@ size: 3-2
 
 	<div class="row m-t-xl">
 		<div class="col-sm-8">
-			<img src="/img/a3wr/speednetworking.jpg">
+			<img src="{{site.baseurl}}/img/a3wr/speednetworking.jpg">
 		</div>
 		<div class="col-sm-3 col-sm-offset-1">
 			RLSN

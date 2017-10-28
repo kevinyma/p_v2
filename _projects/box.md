@@ -10,7 +10,7 @@ role: level designer
 technologies: Actionscript 3.0
 category: Game Design
 collaborators: Jeremy Cytryn, Renchu Song, Natalie Diebold, Sam Chen, Will Peck
-size: 
+size:
 ignore:
 
 ---
@@ -19,7 +19,7 @@ ignore:
 
 <div class="row">
 	<div class="col-sm-9 ">
-		<img src="/img/box/coverimage.png">
+		<img src="{{site.baseurl}}/img/box/coverimage.png">
 	</div>
 </div>
 
@@ -30,11 +30,11 @@ ignore:
 		<p>I was lead designer in a 5 person team that build the puzzle platformer game BOX!</p>
 	</div>
 
-	<div class="col-sm-6 col-sm-offset-3"><img src="/img/box/cover2.png"></div>
+	<div class="col-sm-6 col-sm-offset-3"><img src="{{site.baseurl}}/img/box/cover2.png"></div>
 </div>
 
 <div class=" row m-t-xl">
-	<div class="col-sm-6 col-sm-offset-3"><img src="/img/box/diagram.jpg"></div>
+	<div class="col-sm-6 col-sm-offset-3"><img src="{{site.baseurl}}/img/box/diagram.jpg"></div>
 	<div class="col-sm-3 col-sm-offset-3 m-t-md"><p>Let's start from the beginning: imagine an object "traversing" the sides of a cube. It'll end up in a different orientation. </p></div>
 
 </div>
@@ -42,7 +42,7 @@ ignore:
 <div class="row m-t-xl">
 
 	<div class="col-sm-9 ">
-		<img src="/img/box/leveldesign.gif">
+		<img src="{{site.baseurl}}/img/box/leveldesign.gif">
 	</div>
 </div>
 <div class="row m-t-md">
@@ -53,7 +53,7 @@ ignore:
 
 <div class="row m-t-xl">
 	<div class="col-sm-9 ">
-		<img src="/img/box/paper.jpg">
+		<img src="{{site.baseurl}}/img/box/paper.jpg">
 	</div>
 </div>
 
@@ -66,7 +66,7 @@ ignore:
 
 <div class=" row m-t-xl ">
 	<div class="col-sm-12">
-		<img src="/img/box/heatmap.png">
+		<img src="{{site.baseurl}}/img/box/heatmap.png">
 	</div>
 	<div class="col-sm-6 m-t-md">
 	<p>One of our greatest challenges was having players learn the spatial orientation aspect of the game. </p>
@@ -77,7 +77,7 @@ ignore:
 
 <div class=" row m-t-xl">
 	<div class="col-sm-6">
-		<img src="/img/box/nothoughtbubble.png">
+		<img src="{{site.baseurl}}/img/box/nothoughtbubble.png">
 	</div>
 </div>
 
@@ -93,12 +93,12 @@ ignore:
 	<p>Test: prompts were introduced when players took too long to make any sort of decision. They ended up increasing player retention by 25% on certain levels.</p>
 	</div>
 	<div class="col-sm-6">
-		<img src="/img/box/thoughtbubble.png">
+		<img src="{{site.baseurl}}/img/box/thoughtbubble.png">
 	</div>
 </div>
 
 <div class=" row m-t-xl">
-	<div class="col-sm-9"><img src="/img/box/intro.jpg"></div>
+	<div class="col-sm-9"><img src="{{site.baseurl}}/img/box/intro.jpg"></div>
 
 </div>
 <div class="row m-t-md">
@@ -106,4 +106,3 @@ ignore:
 </div>
 
 </div>
-

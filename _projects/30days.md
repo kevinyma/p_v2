@@ -39,7 +39,7 @@ Inspired by the classic space invader fractual, originally done by . Each invade
 ##### Starfield
 Dot position generated with Perlin noise.
 
-<!-- ![Alt](/img/30days/starfield.gif) -->
+<!-- ![Alt]({{site.baseurl}}/img/30days/starfield.gif) -->
 
 ##### Boids 
 This one is straight out of Daniel Shiffman's book.

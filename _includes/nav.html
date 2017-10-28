@@ -7,13 +7,13 @@
 <nav>
   <ul>
     {% for page in site.pages %}{% if page.title %}
-    <li><a class="clickable" href="{{ page.url }}">{{ page.title }}</a></li>
+    <li><a class="clickable" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}{% endfor %}
     <li class="spacer">
     <li><a class="clickable" href="http://messybin.tumblr.com">sketches</a></li>
   </ul>
 </nav>
-<!-- 
+<!--
 <div class="nav-bottom-note">
     <a class="clickable" href="/resume.pdf">resume</a>
 </div>

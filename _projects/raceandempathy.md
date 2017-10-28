@@ -20,14 +20,14 @@ collaborators:
 	</div>
 
 	<div class="col-sm-6 col-sm-offset-3">
-		<img src="/img/raceandempathy/physicalspace.png">
+		<img src="{{site.baseurl}}/img/raceandempathy/physicalspace.png">
 	</div>
 </div>
 
 <div class="row m-t-xl ">
 
 
-	<div class="col-sm-8 "><img src="/img/raceandempathy/map2.jpg"></div>
+	<div class="col-sm-8 "><img src="{{site.baseurl}}/img/raceandempathy/map2.jpg"></div>
 	
 	<div class="col-sm-3 col-sm-offset-1">
 
@@ -37,7 +37,7 @@ collaborators:
 
 <div class="row m-t-xl ">
 	<div class="col-sm-12">
-		<img src="/img/raceandempathy/map3.jpg">
+		<img src="{{site.baseurl}}/img/raceandempathy/map3.jpg">
 	</div>
 	<div class="col-sm-3 m-t-md">
 		I wanted to make it clear to users that their recordings could be deleted at any moment.
@@ -51,7 +51,7 @@ collaborators:
 	</div>
 
 	<div class="col-sm-6">
-		<img src="/img/raceandempathy/screenshot2.jpg">
+		<img src="{{site.baseurl}}/img/raceandempathy/screenshot2.jpg">
 	</div>
 </div>
 
@@ -61,7 +61,7 @@ collaborators:
 	</div>
 
 	<div class="col-sm-6">
-		<img src="/img/raceandempathy/animation1.gif">
+		<img src="{{site.baseurl}}/img/raceandempathy/animation1.gif">
 	</div>
 </div>
 
@@ -70,7 +70,7 @@ collaborators:
 	</div>
 
 	<div class="col-sm-6 col-sm-offset-3">
-		<img src="/img/raceandempathy/animation2.gif">
+		<img src="{{site.baseurl}}/img/raceandempathy/animation2.gif">
 	</div>
 </div>
 
@@ -83,7 +83,7 @@ A feature for standalone stories was added after a user expressed the sentiments
 <div class="row m-t">
 
 	<div class="col-sm-12">
-		<img src="/img/raceandempathy/screenshot.jpg">
+		<img src="{{site.baseurl}}/img/raceandempathy/screenshot.jpg">
 		</div>
 	<div class="col-sm-6 m-t-xl">
 
@@ -95,11 +95,11 @@ A feature for standalone stories was added after a user expressed the sentiments
 </div>
 
 <!-- 
-![Alt](/img/raceandempathy/archive.jpg)
+![Alt]({{site.baseurl}}/img/raceandempathy/archive.jpg)
 
 What happens next will be the interesting part. I'm thinking of how instead of a traditional grid gallery, we see something like a graph and nodes, presenting content and interactions. Something like:
 
-![Alt](/img/raceandempathy/graph.jpg)
+![Alt]({{site.baseurl}}/img/raceandempathy/graph.jpg)
 
 The real reward of this project was being able to listen to the responses. Some of the responses were enthusiastic, others contentious, others raw and emotional. Some were joyful, others full of grief. All told——a testament to the emotive power of shared experience.
  -->

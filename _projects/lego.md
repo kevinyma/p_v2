@@ -36,7 +36,7 @@ ignore:
 	</div>
 
 	<div class="row m-b-xl m-t-xl">
-	<img src="/img/lego/lego-mock.jpg">
+	<img src="{{site.baseurl}}/img/lego/lego-mock.jpg">
 	<div class="col-sm-6 m-t-lg">
 	<p>
 	Designing for Accesibility

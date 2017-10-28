@@ -8,7 +8,7 @@ technologies:
 category: Interaction Design, Web Development
 ignore: "no"
 ---
-<img src="/img/hr/hr-splash.jpg">
+<img src="{{site.baseurl}}/img/hr/hr-splash.jpg">
 
 
 <div class="contain-x">
@@ -31,14 +31,14 @@ ignore: "no"
 
 	<div class="row m-t-xl">
 		<div class="col-sm-6 ">
-			<img src="/img/hr/research.jpg">
+			<img src="{{site.baseurl}}/img/hr/research.jpg">
 		</div>
 		<div class="col-sm-4 col-sm-offset-2"><p>The process began with a user interview stage. We interviewed separate groups of candidate users - employees, managers, and HR administrators. I gathered extensive lists of HR-related work tasks that users performed on a routine basis, and the frustrations and pain points inherent in the process.
 			</p></div>
 	</div>
 	<div class="row m-t-xl">
 		<div class="col-sm-6 ">
-			<img src="/img/hr/process.jpg">
+			<img src="{{site.baseurl}}/img/hr/process.jpg">
 		</div>
 		<div class="col-sm-4 col-md-offset-2">
 		<p>
@@ -60,7 +60,7 @@ ignore: "no"
 </div>
 
 
-<img src="/img/hr/wireframe.png">
+<img src="{{site.baseurl}}/img/hr/wireframe.png">
 
 
 <div class="contain-x">
@@ -71,7 +71,7 @@ ignore: "no"
 	</div>
 </div>
 
-<img src="/img/hr/wireframe2.png">
+<img src="{{site.baseurl}}/img/hr/wireframe2.png">
 
 <div class="contain-x">
 	<div class="row m-t-xl">
@@ -80,7 +80,7 @@ ignore: "no"
 		</p>
 	</div>
 	<div class="col-md-10 col-md-offset-1">
-		<img src="/img/hr/home-mock.png" class="shadow">
+		<img src="{{site.baseurl}}/img/hr/home-mock.png" class="shadow">
 	</div>
 
 	<div class="col-md-6 col-md-offset-3 m-t-xl m-b-xl">
@@ -90,7 +90,7 @@ ignore: "no"
 </div>
 </div>
 
-<img src="/img/hr/pages.png">
+<img src="{{site.baseurl}}/img/hr/pages.png">
 
 
 <div class="contain-x">
@@ -104,7 +104,7 @@ ignore: "no"
 		</p>
 	</div>
 	<div class="col-md-12 m-t-xl m-b-xl">
-		<img src="/img/hr/style-guide.png">
+		<img src="{{site.baseurl}}/img/hr/style-guide.png">
 	</div>
 	<div class="col-md-6 col-md-offset-3 m-b-xl">
 		

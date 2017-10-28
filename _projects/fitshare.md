@@ -21,31 +21,31 @@ Research
 
 The project began with interviewing a target audience about their online shopping practices
 
-![Alt](/img/fitshare/waad.jpg)
+![Alt]({{site.baseurl}}/img/fitshare/waad.jpg)
 
 We categorized our data into user goals and pain points. We determined that our product's design goals would be to reduce uncertainty about the physical nature of the product, and allow users to solicit instant, trusted feedback on their choices.
 
-![Alt](/img/fitshare/designmodel.jpg)
+![Alt]({{site.baseurl}}/img/fitshare/designmodel.jpg)
 
 Candidate personas were established based upon the contextual information gathered from our real users of online shopping systems; candidate personas with similar goals were then merged, to create a primary and secondary persona.
 
-![Alt](/img/fitshare/persona.png)
+![Alt]({{site.baseurl}}/img/fitshare/persona.png)
 
 What components would a system that responded to our problems be comprised of? Through a series of storyboards, an early direction emerged: out system could be comprised of a set of lists that would drive interactions between different users.
 
-![Alt](/img/fitshare/storyboard.jpg)
+![Alt]({{site.baseurl}}/img/fitshare/storyboard.jpg)
 
 We thought of what interactions would occur between the lists themselves as we moved into wireframing. A low-fidelity prototype can be viewed <a href="http://invis.io/KF1JX1G7B">here</a>.
 
-![Alt](/img/fitshare/paperprototype.jpg)
+![Alt]({{site.baseurl}}/img/fitshare/paperprototype.jpg)
 
 In the final phase, we designed a medium fidelity interface, and asked testers to think aloud as they performed a set list of tasks using our interface. The key issues that came up in these tasks were iterated upon, and worked into a final design.
 
-![Alt](/img/fitshare/final1.jpg)
+![Alt]({{site.baseurl}}/img/fitshare/final1.jpg)
 
-![Alt](/img/fitshare/final2.jpg)
+![Alt]({{site.baseurl}}/img/fitshare/final2.jpg)
 
-![Alt](/img/fitshare/final3.jpg)
+![Alt]({{site.baseurl}}/img/fitshare/final3.jpg)
 
 
 

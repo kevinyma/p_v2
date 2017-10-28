@@ -12,10 +12,10 @@ tags: physical computing
 role: developer
 collaborators: <a href="https://github.com/octref">Pine Wu</a> and Linna Li
 size: 2-2
-ignore: 
+ignore:
 ---
 
-<img src="/img/htc/splash.jpg">
+<img src="{{site.baseurl}}/img/htc/splash.jpg">
 
 <div class="contain-x">
 <div class="row">
@@ -37,7 +37,7 @@ ignore:
 
 <p>Our biggest constraint was time — with limited technical resources, I had to iterate quickly to get the designs over to the developers!</p>
 
-	
+
 	</div>
 
 	<div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 m-b-xl">
@@ -56,7 +56,7 @@ The former iteration of Emotar has features that heavily emphasize random explor
 
 
 		<p><blockquote>Design an flexible experience for users that allows for quick creation and sharing.</blockquote></p>
-		
+
 
 		<p class="m-t-xl">
 		<b>Design Goals</b>
@@ -65,13 +65,13 @@ The former iteration of Emotar has features that heavily emphasize random explor
 		<li>Address existing pain points in the sticker creation flow</li>
 		<li>Revise the home page to encourage </li>
 		<li>Promote branded sharing by making sharing to social networks integral to the experience</li>
-		
+
 </ul>
 	</div>
 </div>
 </div>
 
-<img src="/img/htc/wireframes.png">
+<img src="{{site.baseurl}}/img/htc/wireframes.png">
 
 <div class="row m-t-xl m-b-xl">
 	<div class="col-sm-6 col-sm-offset-3 ">
@@ -82,7 +82,7 @@ The former iteration of Emotar has features that heavily emphasize random explor
 	</div>
 </div>
 
-<img src="/img/htc/beforeafter.jpg">
+<img src="{{site.baseurl}}/img/htc/beforeafter.jpg">
 
 <div class="row m-t-xl">
 	<div class="col-sm-6 col-sm-offset-3 ">
@@ -95,7 +95,7 @@ The former iteration of Emotar has features that heavily emphasize random explor
 <div class="contain">
 <div class="row m-t-xl">
 <div class="col-sm-4 col-sm-offset-4">
-		<video loop width="100%" height="600" name="Video Name" src="/img/htc/selection-animation-compressed.mp4" autoplay="autoplay"></video>
+		<video loop width="100%" height="600" name="Video Name" src="{{site.baseurl}}/img/htc/selection-animation-compressed.mp4" autoplay="autoplay"></video>
 	</div>
 
 	<div class="col-sm-6 col-sm-offset-3 m-t-xl">
@@ -104,11 +104,11 @@ The former iteration of Emotar has features that heavily emphasize random explor
 	The idea is that stickers can be created on-the-fly from components, rather than an arduous linear process. Behaviorally, this is intended to encourage creation and experimentation.
 	</p>
 	</div>
-	
+
 </div>
 <div class="row m-t-xl m-b-xl">
 	<div class="col-sm-4 col-sm-offset-4">
-		<video loop width="100%" height="600" name="Video Name" src="/img/htc/sharing-animation-compressed.mp4" autoplay="autoplay"></video>
+		<video loop width="100%" height="600" name="Video Name" src="{{site.baseurl}}/img/htc/sharing-animation-compressed.mp4" autoplay="autoplay"></video>
 	</div>
 	<div class="col-sm-6 col-sm-offset-3 m-t-xl">
 	<p><b>Promote Branded Sharing</b></p>
@@ -119,4 +119,3 @@ The former iteration of Emotar has features that heavily emphasize random explor
 </div>
 
 <div class="row m-t-xl m-b-lg">
-
